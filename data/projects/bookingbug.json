@@ -1,6 +1,21 @@
 {
   "id": "bookingbug",
+  "href": "projects/bookingbug",
   "title": "BookingBug(now jrni)",
+  "duration": "Mar 2016 – Mar 2019",
+  "description": [""],
+  "technologies": [
+    "HTML5",
+    "CSS",
+    "SCSS",
+    "Responsive Design",
+    "JS",
+    "Node.js",
+    "AngularJS",
+    "Serverless",
+    "Aws lambda"
+  ],
+  "illustration": "/images/undraw_booking_33fn.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

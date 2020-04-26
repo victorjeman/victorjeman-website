@@ -3,7 +3,7 @@ import path from 'path';
 
 import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
 
-export default function MixWithTheMasters({ project }) {
+export default function EgnlishAttack({ project }) {
   return (
     <section className="c-projects">
       <h2>{project.title}</h2>
@@ -16,7 +16,7 @@ export default function MixWithTheMasters({ project }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data/projects/mixwiththemasters.json');
+  const filePath = path.join(process.cwd(), 'data/projects/englishattack.json');
   const project = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   return {

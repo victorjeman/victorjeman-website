@@ -1,16 +1,19 @@
 import fs from 'fs';
 import path from 'path';
 
-import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
+import { ProjectDescription } from '../../components/ProjectDescription/ProjectDescription';
+import { ProjectTestimonials } from '../../components/ProjectTestimonials/ProjectTestimonials';
 
 export default function Assist({ project }) {
   return (
-    <section className="c-projects">
-      <h2>{project.title}</h2>
+    <section className="c-project">
+      <h1>{project.title}</h1>
 
-      {project.testimonials.map((testimonial, index) => (
-        <ProjectTestimonial key={index} {...testimonial} />
-      ))}
+      <ProjectDescription description={project.description1} />
+
+      <ProjectDescription description={project.description2} />
+
+      <ProjectTestimonials testimonials={project.testimonials} />
     </section>
   );
 }

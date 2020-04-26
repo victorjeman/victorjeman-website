@@ -1,6 +1,21 @@
 {
   "id": "contentiq",
+  "href": "projects/contentiq",
   "title": "Content IQ",
+  "duration": "Mar 2019 – Present",
+  "technologies": [
+    "HTML5",
+    "CSS",
+    "SCSS",
+    "Responsive Design",
+    "JS",
+    "React",
+    "Next.js",
+    "Serverless",
+    "Aws lambda",
+    "Node.js"
+  ],
+  "illustration": "/images/undraw_online_posts_h475.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

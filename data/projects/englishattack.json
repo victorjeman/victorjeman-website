@@ -1,6 +1,10 @@
 {
   "id": "englishattack",
+  "href": "projects/englishattack",
   "title": "English Attack",
+  "duration": "Jan 2015 - Mar 2016",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
+  "illustration": "/images/undraw_youtube_tutorial_2gn3.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

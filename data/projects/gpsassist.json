@@ -1,6 +1,10 @@
 {
   "id": "gpsassist",
+  "href": "projects/gpsassist",
   "title": "GPS ASSIST",
+  "duration": "Aug 2014 – Oct 2014",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "AngularJS", "Python"],
+  "illustration": "/images/undraw_map_1r69.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

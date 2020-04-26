@@ -5,6 +5,7 @@ import { MEDIA } from '../../common/settings/media.settings';
 export default css`
   .c-project-testimonial {
     margin-bottom: 70px;
+    background-color: #ddd;
   }
 
   .c-project-testimonial__illustration {
@@ -18,20 +19,11 @@ export default css`
   }
 
   @media ${MEDIA.MOBILE} {
-    .c-project-testimonial {
-      background-color: orange;
-    }
   }
 
   @media ${MEDIA.TABLET} {
-    .c-project-testimonial {
-      background-color: red;
-    }
   }
 
   @media ${MEDIA.DESKTOP} {
-    .c-project-testimonial {
-      background-color: blue;
-    }
   }
 `;

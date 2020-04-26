@@ -6,6 +6,7 @@ import { ProjectThumbnail } from '../../components/ProjectThumbnail/ProjectThumb
 export default function Projects({ projectThumbnails }) {
   return (
     <section className="c-projects">
+      <h2>Testimonials</h2>
       {projectThumbnails.map((thumbnail, index) => (
         <ProjectThumbnail key={index} {...thumbnail} />
       ))}
@@ -23,7 +24,10 @@ export async function getStaticProps() {
     return JSON.parse(fileContent);
   });
 
-  const projectThumbnails = projects.map((project) => ({ title: project.title }));
+  const projectThumbnails = projects.map((project) => ({
+    title: project.title,
+    href: project.href,
+  }));
 
   return {
     props: {

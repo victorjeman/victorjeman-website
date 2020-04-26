@@ -1,6 +1,10 @@
 {
   "id": "mixwiththemasters",
+  "href": "projects/mixwiththemasters",
   "title": "Mix With The Masters",
+  "duration": "Mar 2015 - May 2015",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
+  "illustration": "/images/undraw_compose_music_ovo2.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

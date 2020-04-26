@@ -1,6 +1,18 @@
 {
   "id": "assist",
+  "href": "projects/assist",
   "title": "ASSIST Software",
+  "description1": [
+    "This is a dynamic and complex web site, which requires frequent updates and a menu structure with a continuously expanding number of levels.",
+    "Multiple landing pages with editable content have been designed and implemented for the company's main areas of expertise."
+  ],
+  "description2": [
+    "This project was my first impact with the CMS Drupal. It was a quite nice experience taking in consideration that our team had a senior php developer.",
+    "I've worked mainly on the front end implementation using Sass and other cool stuff."
+  ],
+  "duration": "Jan 2015 – Mar 2015",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
+  "illustration": "/images/undraw_content_vbqo.svg",
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",
