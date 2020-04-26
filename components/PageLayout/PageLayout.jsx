@@ -3,12 +3,12 @@ import { PageNavigation } from '../PageNavigation/PageNavigation';
 import { PageFooter } from '../PageFooter/PageFooter';
 
 export const PageLayout = ({ children }) => (
-  <section className="c-page-layout">
+  <React.Fragment>
     <PageHeader />
     <PageNavigation />
 
     {children}
 
     <PageFooter />
-  </section>
+  </React.Fragment>
 );

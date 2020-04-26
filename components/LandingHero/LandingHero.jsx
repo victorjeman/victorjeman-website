@@ -1,1 +1,1 @@
-export const LandingHero = () => <section className="c-page-navigation">Landing Hero!</section>;
+export const LandingHero = () => <section className="c-page-landing-hero">Landing Hero!</section>;
