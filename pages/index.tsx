@@ -1,3 +1,4 @@
+import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
@@ -5,7 +6,11 @@ import { PageLayout } from '../components/PageLayout/PageLayout';
 import { LandingHero } from '../components/LandingHero/LandingHero';
 import { LandingProject } from '../components/LandingProject/LandingProject';
 
-export default function Home({ landingProjects }) {
+interface Props {
+  landingProjects: Array<any>;
+}
+
+export default function Home({ landingProjects }: Props) {
   return (
     <PageLayout>
       <LandingHero />
@@ -36,7 +41,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      landingProjects,
+      landingProjects: landingProjects,
     },
   };
 }

@@ -1,6 +1,15 @@
+import * as React from 'react';
+
 import LandingProjectStyle from './LandingProject.style';
 
-export const LandingProject = ({ illustration, title, duration, href }) => (
+interface Props {
+  illustration: string;
+  title: string;
+  duration: string;
+  href: string;
+}
+
+export const LandingProject: React.FC<Props> = ({ illustration, title, duration, href }) => (
   <section className="c-landing-project">
     <img className="c-landing-project__ilustration" src={illustration} alt="" />
     <h2 className="c-landing-project__title">{title}</h2>

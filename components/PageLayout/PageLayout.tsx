@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 import { PageHeader } from '../PageHeader/PageHeader';
 import { PageNavigation } from '../PageNavigation/PageNavigation';
 import { PageFooter } from '../PageFooter/PageFooter';
