@@ -1,0 +1,36 @@
+{
+  "id": "assist",
+  "href": "projects/assist",
+  "title": "ASSIST Software",
+  "description1": [
+    "This is a dynamic and complex web site, which requires frequent updates and a menu structure with a continuously expanding number of levels.",
+    "Multiple landing pages with editable content have been designed and implemented for the company's main areas of expertise."
+  ],
+  "description2": [
+    "This project was my first impact with the CMS Drupal. It was a quite nice experience taking in consideration that our team had a senior php developer.",
+    "I've worked mainly on the front end implementation using Sass and other cool stuff."
+  ],
+  "duration": "Jan 2015 – Mar 2015",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
+  "illustration": "/images/undraw_content_vbqo.svg",
+  "testimonials": [
+    {
+      "illustration": "/testimonials/3259.jpg",
+      "alt": "alt",
+      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
+      "author": "Author Name"
+    },
+    {
+      "illustration": "/testimonials/52666.jpg",
+      "alt": "alt",
+      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
+      "author": "Author Name"
+    },
+    {
+      "illustration": "/testimonials/52671.jpg",
+      "alt": "alt",
+      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
+      "author": "Author Name"
+    }
+  ]
+}
