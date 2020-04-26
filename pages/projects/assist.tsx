@@ -1,12 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 
+import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectDescription } from '../../components/ProjectDescription/ProjectDescription';
 import { ProjectTestimonials } from '../../components/ProjectTestimonials/ProjectTestimonials';
 
 export default function Assist({ project }) {
   return (
-    <section className="c-project">
+    <PageLayout>
       <h1>{project.title}</h1>
 
       <ProjectDescription description={project.description1} />
@@ -14,7 +15,7 @@ export default function Assist({ project }) {
       <ProjectDescription description={project.description2} />
 
       <ProjectTestimonials testimonials={project.testimonials} />
-    </section>
+    </PageLayout>
   );
 }
 

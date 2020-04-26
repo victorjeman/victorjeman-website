@@ -1,18 +1,19 @@
 import fs from 'fs';
 import path from 'path';
 
+import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
 
 export default function Bookingbug({ project }) {
   return (
-    <section className="c-projects">
+    <PageLayout>
       <h1>{project.title}</h1>
 
       <h2>Testimonials</h2>
       {project.testimonials.map((testimonial, index) => (
         <ProjectTestimonial key={index} {...testimonial} />
       ))}
-    </section>
+    </PageLayout>
   );
 }
 

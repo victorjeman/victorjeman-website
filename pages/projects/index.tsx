@@ -1,16 +1,17 @@
 import fs from 'fs';
 import path from 'path';
 
+import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectThumbnail } from '../../components/ProjectThumbnail/ProjectThumbnail';
 
 export default function Projects({ projectThumbnails }) {
   return (
-    <section className="c-projects">
+    <PageLayout>
       <h2>Testimonials</h2>
       {projectThumbnails.map((thumbnail, index) => (
         <ProjectThumbnail key={index} {...thumbnail} />
       ))}
-    </section>
+    </PageLayout>
   );
 }
 

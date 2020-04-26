@@ -1,17 +1,18 @@
 import fs from 'fs';
 import path from 'path';
 
+import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
 
 export default function MixWithTheMasters({ project }) {
   return (
-    <section className="c-projects">
+    <PageLayout>
       <h2>{project.title}</h2>
 
       {project.testimonials.map((testimonial, index) => (
         <ProjectTestimonial key={index} {...testimonial} />
       ))}
-    </section>
+    </PageLayout>
   );
 }
 

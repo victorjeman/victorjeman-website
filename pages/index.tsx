@@ -4,6 +4,7 @@ import path from 'path';
 
 import { PageLayout } from '../components/PageLayout/PageLayout';
 import { LandingHero } from '../components/LandingHero/LandingHero';
+import { LandingQuote } from '../components/LandingQuote/LandingQuote';
 import { LandingProject } from '../components/LandingProject/LandingProject';
 
 interface Props {
@@ -13,7 +14,8 @@ interface Props {
 export default function Home({ landingProjects }: Props) {
   return (
     <PageLayout>
-      <LandingHero />
+      <LandingHero illustration={''} />
+      <LandingQuote quote={'My quote'} author={'Author Name'} />
 
       {landingProjects.map((project, index) => (
         <LandingProject key={index} {...project} />

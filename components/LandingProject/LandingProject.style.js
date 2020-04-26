@@ -4,7 +4,7 @@ import { MEDIA } from '../../common/settings/media.settings';
 
 export default css`
   .c-landing-project {
-    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 25px 15px;
     background-color: #ddd;
   }
