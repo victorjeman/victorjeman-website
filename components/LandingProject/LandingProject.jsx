@@ -1,5 +1,3 @@
-import React from 'React';
-
 export const LandingProject = ({ image, title, duration }) => (
   <section className="c-landing-project">
     <img className="c-landing-project__ilustration" src="" alt="" />
