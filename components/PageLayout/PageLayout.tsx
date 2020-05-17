@@ -5,7 +5,7 @@ import { PageNavigation } from '../PageNavigation/PageNavigation';
 import { PageFooter } from '../PageFooter/PageFooter';
 import PageLayoutStyle from './PageLayout.style';
 
-export const PageLayout = ({ children }) => (
+export const PageLayout: React.FC = ({ children }) => (
   <React.Fragment>
     <PageHeader />
 

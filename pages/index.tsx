@@ -7,14 +7,13 @@ import { LandingHero } from '../components/LandingHero/LandingHero';
 import { LandingQuote } from '../components/LandingQuote/LandingQuote';
 import { LandingProject } from '../components/LandingProject/LandingProject';
 
-interface Props {
-  landingProjects: Array<any>;
-}
+import { IHome } from '../types';
 
-export default function Home({ landingProjects }: Props) {
+export default function Home({ landingProjects }: IHome) {
   return (
     <PageLayout>
       <LandingHero illustration={''} />
+
       <LandingQuote quote={'My quote'} author={'Author Name'} />
 
       {landingProjects.map((project, index) => (

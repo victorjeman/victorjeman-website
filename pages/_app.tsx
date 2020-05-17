@@ -1,7 +1,14 @@
+import * as React from 'react';
 import '../public/css/normalize.css';
+import '../public/scss/index.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+interface Props {
+  Component: React.ComponentType<{}>;
+  pageProps: React.PropsWithChildren<Props>;
 }
 
-export default MyApp;
+const App: React.FC<Props> = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
+};
+
+export default App;

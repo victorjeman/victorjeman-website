@@ -1,15 +1,20 @@
 import fs from 'fs';
 import path from 'path';
+import * as React from 'react';
 
 import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectThumbnail } from '../../components/ProjectThumbnail/ProjectThumbnail';
 
-export default function Projects({ projectThumbnails }) {
+import { IProjects } from '../../types';
+
+export default function Projects({ projectThumbnails }: IProjects) {
   return (
     <PageLayout>
       <h2>Testimonials</h2>
       {projectThumbnails.map((thumbnail, index) => (
-        <ProjectThumbnail key={index} {...thumbnail} />
+        <React.Fragment key={index}>
+          <ProjectThumbnail {...thumbnail} />
+        </React.Fragment>
       ))}
     </PageLayout>
   );
