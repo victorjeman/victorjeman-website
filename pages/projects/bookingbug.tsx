@@ -3,8 +3,13 @@ import path from 'path';
 
 import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
+import { IProject } from '../../types';
 
-export default function Bookingbug({ project }) {
+interface Props {
+  project: IProject;
+}
+
+export default function Bookingbug({ project }: Props) {
   return (
     <PageLayout>
       <h1>{project.title}</h1>

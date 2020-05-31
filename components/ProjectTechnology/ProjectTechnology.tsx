@@ -1,6 +1,6 @@
 import * as React from 'react';
 interface Props {
-  description: string;
+  technology: string;
 }
 
 export const ProjectTechnology: React.FC<Props> = ({ technology }) => (

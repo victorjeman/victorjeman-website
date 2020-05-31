@@ -11,7 +11,8 @@ export interface IProject {
   href: number;
   title: string;
   duration: string;
-  description: string[];
+  description1: string[];
+  description2: string[];
   technologies: string[];
   illustration: string;
   testimonials: [

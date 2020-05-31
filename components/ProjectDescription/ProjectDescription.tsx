@@ -1,7 +1,6 @@
 import * as React from 'react';
-
 interface Props {
-  description: [];
+  description: string[];
 }
 
 export const ProjectDescription: React.FC<Props> = ({ description }) => (

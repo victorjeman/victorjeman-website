@@ -1,6 +1,15 @@
+import * as React from 'react';
+
 import ProjectTestimonialStyle from './ProjectTestimonial.style';
 
-export const ProjectTestimonial = ({ illustration, alt, text, author }) => (
+interface Props {
+  illustration: string;
+  alt: string;
+  text: string;
+  author: string;
+}
+
+export const ProjectTestimonial: React.FC<Props> = ({ illustration, alt, text, author }) => (
   <article className="c-project-testimonial">
     <img className="c-project-testimonial__illustration" src={illustration} alt={alt} />
     <p className="c-project-testimonial__author">{author}</p>

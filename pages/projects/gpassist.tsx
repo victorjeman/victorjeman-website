@@ -3,8 +3,13 @@ import path from 'path';
 
 import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
+import { IProject } from '../../types';
 
-export default function GpsAssist({ project }) {
+interface Props {
+  project: IProject;
+}
+
+export default function GpsAssist({ project }: Props) {
   return (
     <PageLayout>
       <h2>{project.title}</h2>

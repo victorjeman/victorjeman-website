@@ -4,8 +4,13 @@ import path from 'path';
 import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectDescription } from '../../components/ProjectDescription/ProjectDescription';
 import { ProjectTestimonials } from '../../components/ProjectTestimonials/ProjectTestimonials';
+import { IProject } from '../../types';
 
-export default function Assist({ project }) {
+interface Props {
+  project: IProject;
+}
+
+export default function Assist({ project }: Props) {
   return (
     <PageLayout>
       <h1>{project.title}</h1>
