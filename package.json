@@ -13,6 +13,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
     "@types/node": "^13.13.2",
     "@types/react": "^16.9.34",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
