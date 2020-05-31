@@ -12,9 +12,17 @@ interface Props {
 export const LandingProject: React.FC<Props> = ({ illustration, title, duration, href, divider }) => (
   <section className="c-landing-project" style={{ backgroundImage: `url("/images/shape-dividers/${divider}.svg")` }}>
     <div className="c-landing-project__container [ c-container ]">
-      <img className="c-landing-project__ilustration" src={illustration} alt="" />
       <h2 className="c-landing-project__title">{title}</h2>
-      <p className="c-landing-project__duration">{duration}</p>
+
+      <p className="c-landing-project__label">Timeline: {duration}</p>
+
+      <p className="c-landing-project__label">Role: Team Lead</p>
+
+      <div className="c-landing-project__illustration-wrapper">
+        <img className="c-landing-project__illustration" src={illustration} alt="" />
+      </div>
+
+      {/* TODO: Convert this into a separate component */}
       <a className="c-landing-project__see-more" href={href}>
         See more
       </a>
