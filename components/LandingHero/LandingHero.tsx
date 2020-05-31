@@ -11,9 +11,9 @@ export const LandingHero: React.FC<Props> = ({ illustration }) => (
     <div className="c-landing-hero__container  [ c-container ]">
       <div className="c-landing-hero__left">
         <h1 className="c-landing-hero__title">
-          <span className="c-landing-hero__title-line">Hi There,</span>
-          <span className="c-landing-hero__title-line">I'm JEMAN ...</span>
-          <span className="c-landing-hero__title-line">Victor JEMAN</span>
+          <span className="c-landing-hero__title-line c-landing-hero__title-line--1">Hi There,</span>
+          <span className="c-landing-hero__title-line c-landing-hero__title-line--2">I'm JEMAN ...</span>
+          <span className="c-landing-hero__title-line c-landing-hero__title-line--3">Victor JEMAN</span>
         </h1>
 
         <p className="c-landing-hero__description">

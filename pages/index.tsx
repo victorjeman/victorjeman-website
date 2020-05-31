@@ -38,6 +38,7 @@ export async function getStaticProps() {
     illustration: project.illustration,
     duration: project.duration,
     href: project.href,
+    divider: project.divider,
   }));
 
   return {

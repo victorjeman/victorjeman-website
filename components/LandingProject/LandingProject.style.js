@@ -5,12 +5,14 @@ import { MEDIA } from '../../common/settings/media.settings';
 export default css`
   .c-landing-project {
     margin-bottom: 20px;
-    padding: 25px 15px;
-    background-color: #ddd;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 
   .c-landing-project__ilustration {
     max-width: 350px;
+    width: 100%;
   }
 
   .c-landing-project__title {

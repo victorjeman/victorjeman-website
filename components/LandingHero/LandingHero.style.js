@@ -5,10 +5,6 @@ import { FONT } from '../../common/settings/font.settings';
 
 export default css`
   .c-landing-hero {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #ebecf0;
-    min-height: calc(100vh - 94px); // navigation height
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +27,6 @@ export default css`
 
   .c-landing-hero__title {
     font-family: ${FONT.BEBAS_NEUE};
-    font-size: 52px;
-    line-height: 65px;
     margin: 0;
   }
 
@@ -42,24 +36,23 @@ export default css`
 
   .c-landing-hero__description {
     font-family: ${FONT.WORK_SANS};
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 300;
   }
 
   .c-landing-hero__illustration {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
   }
 
   @media ${MEDIA.MOBILE} {
     .c-landing-hero {
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
     .c-landing-hero__container {
+      box-shadow: 5px 5px 10px #a6abbd, -5px -5px 10px #fafbff;
     }
 
     .c-landing-hero__left {
@@ -69,12 +62,29 @@ export default css`
     }
 
     .c-landing-hero__title {
+      font-size: 30px;
     }
 
     .c-landing-hero__title-line {
     }
 
+    .c-landing-hero__title-line--1 {
+      font-size: 40px;
+    }
+
+    .c-landing-hero__title-line--2 {
+      padding-left: 45px;
+    }
+
+    .c-landing-hero__title-line--3 {
+      padding-left: 100px;
+    }
+
     .c-landing-hero__description {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 1.3;
+      font-weight: 300;
     }
 
     .c-landing-hero__illustration {
@@ -86,6 +96,8 @@ export default css`
     .c-landing-hero {
       padding-right: 30px;
       padding-left: 30px;
+      min-height: calc(100vh - 94px); // navigation height
+      background-color: #ebecf0;
     }
 
     .c-landing-hero__container {
@@ -99,12 +111,17 @@ export default css`
     }
 
     .c-landing-hero__title {
+      font-size: 52px;
+      line-height: 65px;
     }
 
     .c-landing-hero__title-line {
     }
 
     .c-landing-hero__description {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
     }
 
     .c-landing-hero__illustration {
