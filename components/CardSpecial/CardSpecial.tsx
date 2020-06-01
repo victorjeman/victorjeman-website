@@ -10,10 +10,7 @@ interface Props {
 
 export const CardSpecial: React.FC<Props> = ({ children, type }: Props) => (
   <article className={`c-card-special c-card-special--${type}`}>
-    <div className={`c-card-special__container c-card-special__container--${type}`}>
-      {' '}
-      {children}{' '}
-    </div>
+    <div className={`c-card-special__container c-card-special__container--${type}`}>{children}</div>
     <style jsx>{CardSpecialStyle}</style>
   </article>
 );
