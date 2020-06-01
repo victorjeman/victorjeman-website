@@ -1,20 +1,31 @@
 import css from 'styled-jsx/css';
 
+import { COLOR } from '../../common/settings/color.settings';
+
 export default css`
-  .c-menuicon {
+  .c-menu-icon {
     display: block;
-    cursor: pointer;
-    color: #000;
-    transform: rotate(0deg);
-    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 24px;
+    height: 27px;
+    position: relative;
   }
 
-  .c-menuicon__bar {
-    transform-origin: 50% 50%;
-    transition: transform 0.25s ease-in-out;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 3;
-    stroke-linecap: round;
+  .c-menu-icon__line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: ${COLOR.BLACK};
+  }
+
+  .c-menu-icon__line--1 {
+    top: 5px;
+  }
+
+  .c-menu-icon__line--2 {
+    top: 14px;
+  }
+
+  .c-menu-icon__line--3 {
+    top: 23px;
   }
 `;

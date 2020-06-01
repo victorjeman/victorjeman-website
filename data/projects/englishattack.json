@@ -4,6 +4,10 @@
   "href": "projects/englishattack",
   "title": "English Attack",
   "duration": "Jan 2015 - Mar 2016",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/englishattack.svg",
   "testimonials": [

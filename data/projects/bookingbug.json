@@ -4,7 +4,10 @@
   "href": "projects/bookingbug",
   "title": "BookingBug(now jrni)",
   "duration": "Mar 2016 – Mar 2019",
-  "description": [""],
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "technologies": [
     "HTML5",
     "CSS",

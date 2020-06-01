@@ -7,10 +7,21 @@ interface Props {
   duration: string;
   href: string;
   divider: string;
+  description: string[];
 }
 
-export const LandingProject: React.FC<Props> = ({ illustration, title, duration, href, divider }) => (
-  <section className="c-landing-project" style={{ backgroundImage: `url("/images/shape-dividers/${divider}.svg")` }}>
+export const LandingProject: React.FC<Props> = ({
+  illustration,
+  title,
+  duration,
+  href,
+  divider,
+  description,
+}: Props) => (
+  <section
+    className="c-landing-project"
+    style={{ backgroundImage: `url("/images/shape-dividers/${divider}.svg")` }}
+  >
     <div className="c-landing-project__container [ c-container ]">
       <h2 className="c-landing-project__title">{title}</h2>
 
@@ -20,6 +31,12 @@ export const LandingProject: React.FC<Props> = ({ illustration, title, duration,
 
       <div className="c-landing-project__illustration-wrapper">
         <img className="c-landing-project__illustration" src={illustration} alt="" />
+      </div>
+
+      <div className="c-landing-project__description">
+        {description.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
       </div>
 
       {/* TODO: Convert this into a separate component */}

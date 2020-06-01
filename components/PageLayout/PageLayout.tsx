@@ -1,20 +1,38 @@
 import * as React from 'react';
+import { useRouter } from 'next/router';
 
 import { PageHeader } from '../PageHeader/PageHeader';
 import { PageNavigation } from '../PageNavigation/PageNavigation';
 import { PageFooter } from '../PageFooter/PageFooter';
+import { LandingHero } from '../../components/LandingHero/LandingHero';
+import { LandingHeroGradient } from '../../components/LandingHeroGradient/LandingHeroGradient';
 import PageLayoutStyle from './PageLayout.style';
 
-export const PageLayout: React.FC = ({ children }) => (
-  <React.Fragment>
-    <PageHeader />
+interface Props {
+  children: React.ReactNode;
+}
 
-    <PageNavigation />
+export const PageLayout: React.FC<Props> = ({ children }: Props) => {
+  const router = useRouter();
 
-    {children}
+  return (
+    <React.Fragment>
+      <PageHeader />
 
-    <PageFooter />
+      {router.pathname === '/' && (
+        <LandingHeroGradient>
+          <PageNavigation />
+          <LandingHero />
+        </LandingHeroGradient>
+      )}
 
-    <style jsx>{PageLayoutStyle}</style>
-  </React.Fragment>
-);
+      {router.pathname !== '/' && <PageNavigation />}
+
+      {children}
+
+      <PageFooter />
+
+      <style jsx>{PageLayoutStyle}</style>
+    </React.Fragment>
+  );
+};

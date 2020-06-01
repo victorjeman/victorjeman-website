@@ -4,6 +4,10 @@
   "href": "projects/mixwiththemasters",
   "title": "Mix With The Masters",
   "duration": "Mar 2015 - May 2015",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/undraw_compose_music_ovo2.svg",
   "testimonials": [

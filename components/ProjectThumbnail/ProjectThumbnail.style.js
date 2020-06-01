@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import css from 'styled-jsx/css';
 
 import { MEDIA } from '../../common/settings/media.settings';

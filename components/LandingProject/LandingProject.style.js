@@ -47,6 +47,10 @@ export default css`
     margin-left: auto;
   }
 
+  .c-landing-project__description {
+    font-family: ${FONT.INTER};
+  }
+
   .c-landing-project__see-more {
     background: #ffc25d;
     box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
@@ -91,6 +95,12 @@ export default css`
 
     .c-landing-project__illustration {
       max-width: 90%;
+    }
+
+    .c-landing-project__description {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 1.4;
     }
 
     .c-landing-project__see-more {

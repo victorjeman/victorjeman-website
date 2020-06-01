@@ -4,6 +4,10 @@
   "href": "projects/contentiq",
   "title": "Content IQ",
   "duration": "Mar 2019 – Present",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "technologies": [
     "HTML5",
     "CSS",

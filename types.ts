@@ -1,9 +1,15 @@
-export interface IHome {
-  landingProjects: Array<any>;
+export interface IProjectThumbnail {
+  title: string;
+  href: string;
 }
 
-export interface IProjects {
-  projectThumbnails: Array<any>;
+export interface ILandingProject {
+  title: string;
+  illustration: string;
+  duration: string;
+  href: string;
+  divider: string;
+  description: string[];
 }
 
 export interface IProject {
@@ -11,8 +17,7 @@ export interface IProject {
   href: number;
   title: string;
   duration: string;
-  description1: string[];
-  description2: string[];
+  description: string[];
   technologies: string[];
   illustration: string;
   testimonials: [
@@ -28,4 +33,11 @@ export interface IProject {
 export interface IProjectThumbnail {
   title: string;
   href: string;
+}
+
+export enum CardSpecialType {
+  small = 'small',
+  medium = 'medium',
+  large = 'large',
+  xlarge = 'xlarge',
 }

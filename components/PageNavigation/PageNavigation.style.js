@@ -42,6 +42,8 @@ export default css`
 
     .c-page-navigation__container {
       align-items: flex-start;
+      padding-top: 15px;
+      padding-bottom: 5px;
     }
 
     .c-page-navigation__logo {
@@ -49,19 +51,21 @@ export default css`
     }
 
     .c-page-navigation__toggle {
-      z-index: 2;
+      z-index: 10;
     }
 
     .c-page-navigation__menu {
       visibility: hidden;
       pointer-events: none;
       position: absolute;
+      z-index: 9;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
       background-color: red;
-      background: linear-gradient(150.86deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%), #ebecf0;
+      background: linear-gradient(150.86deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+        #ebecf0;
       background-blend-mode: soft-light, normal;
       flex-direction: column;
       align-items: center;

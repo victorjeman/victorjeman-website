@@ -3,11 +3,9 @@
   "divider": "divider7",
   "href": "projects/assist",
   "title": "ASSIST Software",
-  "description1": [
+  "description": [
     "This is a dynamic and complex web site, which requires frequent updates and a menu structure with a continuously expanding number of levels.",
-    "Multiple landing pages with editable content have been designed and implemented for the company's main areas of expertise."
-  ],
-  "description2": [
+    "Multiple landing pages with editable content have been designed and implemented for the company's main areas of expertise.",
     "This project was my first impact with the CMS Drupal. It was a quite nice experience taking in consideration that our team had a senior php developer.",
     "I've worked mainly on the front end implementation using Sass and other cool stuff."
   ],

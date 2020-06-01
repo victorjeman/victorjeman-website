@@ -4,10 +4,13 @@ import * as React from 'react';
 
 import { PageLayout } from '../../components/PageLayout/PageLayout';
 import { ProjectThumbnail } from '../../components/ProjectThumbnail/ProjectThumbnail';
+import { IProjectThumbnail } from '../../types';
 
-import { IProjects } from '../../types';
+interface Props {
+  projectThumbnails: IProjectThumbnail[];
+}
 
-export default function Projects({ projectThumbnails }: IProjects) {
+export default function Projects({ projectThumbnails }: Props): React.ReactNode {
   return (
     <PageLayout>
       <h2>Testimonials</h2>
@@ -20,7 +23,7 @@ export default function Projects({ projectThumbnails }: IProjects) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: Props }> {
   const projectDirectory = path.join(process.cwd(), 'data/projects');
   const filenames = fs.readdirSync(projectDirectory);
 

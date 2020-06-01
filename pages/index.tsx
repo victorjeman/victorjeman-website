@@ -2,20 +2,17 @@ import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
-import { PageLayout } from '../components/PageLayout/PageLayout';
-import { LandingHero } from '../components/LandingHero/LandingHero';
-import { LandingQuote } from '../components/LandingQuote/LandingQuote';
-import { LandingProject } from '../components/LandingProject/LandingProject';
+import { PageLayout } from '@components/PageLayout/PageLayout';
+import { LandingProject } from '@components/LandingProject/LandingProject';
+import { ILandingProject } from '@types';
 
-import { IHome } from '../types';
+interface Props {
+  landingProjects: ILandingProject[];
+}
 
-export default function Home({ landingProjects }: IHome) {
+export default function Home({ landingProjects }: Props): React.ReactNode {
   return (
     <PageLayout>
-      <LandingHero illustration={''} />
-
-      <LandingQuote quote={'My quote'} author={'Author Name'} />
-
       {landingProjects.map((project, index) => (
         <LandingProject key={index} {...project} />
       ))}
@@ -23,7 +20,7 @@ export default function Home({ landingProjects }: IHome) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: Props }> {
   const projectDirectory = path.join(process.cwd(), 'data/projects');
   const filenames = fs.readdirSync(projectDirectory);
 
@@ -39,6 +36,7 @@ export async function getStaticProps() {
     duration: project.duration,
     href: project.href,
     divider: project.divider,
+    description: project.description,
   }));
 
   return {
