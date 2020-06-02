@@ -16,11 +16,11 @@ export default css`
   }
 
   .c-card-special__container--medium {
-    border: 15px solid #000;
+    border: 9px solid #000;
   }
 
   .c-card-special__container--large {
-    border: 10px solid #000;
+    border: 13px solid #000;
   }
 
   .c-card-special:after {
@@ -44,7 +44,7 @@ export default css`
   }
 
   .c-card-special--large:after {
-    top: 20px;
-    left: 20px;
+    top: 18px;
+    left: 18px;
   }
 `;

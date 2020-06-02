@@ -24,11 +24,8 @@ export default css`
     display: flex;
   }
 
-  .c-page-navigation__menu-item {
-  }
-
   .c-page-navigation__menu-link {
-    padding: 5px 10px;
+    padding: 5px 0;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
@@ -36,7 +33,7 @@ export default css`
     color: ${COLOR.GABLE_GREEN};
   }
 
-  @media ${MEDIA.MOBILE} {
+  @media ${MEDIA.SMALL_ONLY} {
     .c-page-navigation {
     }
 
@@ -86,73 +83,12 @@ export default css`
     }
   }
 
-  @media ${MEDIA.TABLET_DESKTOP} {
-    .c-page-navigation {
-    }
-
-    .c-page-navigation__container {
-    }
-
-    .c-page-navigation__logo {
-    }
-
-    .c-page-navigation__toggle {
-      display: none;
-    }
-
-    .c-page-navigation__menu {
-    }
-
+  @media ${MEDIA.MEDIUM_UP} {
     .c-page-navigation__menu-item {
-    }
-
-    .c-page-navigation__menu-link {
+      margin-left: 15px;
     }
   }
 
-  @media ${MEDIA.TABLET} {
-    .c-page-navigation {
-    }
-
-    .c-page-navigation__container {
-    }
-
-    .c-page-navigation__logo {
-    }
-
-    .c-page-navigation__toggle {
-    }
-
-    .c-page-navigation__menu {
-    }
-
-    .c-page-navigation__menu-item {
-    }
-
-    .c-page-navigation__menu-link {
-    }
-  }
-
-  @media ${MEDIA.DESKTOP} {
-    .c-page-navigation {
-    }
-
-    .c-page-navigation__container {
-    }
-
-    .c-page-navigation__logo {
-    }
-
-    .c-page-navigation__toggle {
-    }
-
-    .c-page-navigation__menu {
-    }
-
-    .c-page-navigation__menu-item {
-    }
-
-    .c-page-navigation__menu-link {
-    }
+  @media ${MEDIA.LARGE_UP} {
   }
 `;

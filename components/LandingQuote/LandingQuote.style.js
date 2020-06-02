@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import css from 'styled-jsx/css';
 
 import { MEDIA } from '../../common/settings/media.settings';
@@ -8,12 +9,12 @@ export default css`
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  @media ${MEDIA.MOBILE} {
+  @media ${MEDIA.SMALL_ONLY} {
   }
 
-  @media ${MEDIA.TABLET} {
+  @media ${MEDIA.MEIUM_ONLY} {
   }
 
-  @media ${MEDIA.DESKTOP} {
+  @media ${MEDIA.LARGE_UP} {
   }
 `;

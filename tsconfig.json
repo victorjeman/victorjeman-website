@@ -4,6 +4,7 @@
     "paths": {
       "@services/*": ["common/services/*"],
       "@settings/*": ["common/settings/*"],
+      "@styles/*": ["common/styles/*"],
       "@components/*": ["components/*"],
       "@data/*": ["data/*"],
       "@images/*": ["public/images/*"],

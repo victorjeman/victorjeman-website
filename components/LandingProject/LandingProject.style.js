@@ -68,7 +68,7 @@ export default css`
     text-decoration: none;
   }
 
-  @media ${MEDIA.MOBILE} {
+  @media ${MEDIA.SMALL_ONLY} {
     .c-landing-project {
     }
 
@@ -108,7 +108,7 @@ export default css`
     }
   }
 
-  @media ${MEDIA.TABLET_DESKTOP} {
+  @media ${MEDIA.MEIUM_ONLY_DESKTOP} {
     .c-landing-project {
     }
 
@@ -134,7 +134,7 @@ export default css`
     }
   }
 
-  @media ${MEDIA.TABLET} {
+  @media ${MEDIA.MEIUM_ONLY} {
     .c-landing-project {
     }
 
@@ -160,7 +160,7 @@ export default css`
     }
   }
 
-  @media ${MEDIA.DESKTOP} {
+  @media ${MEDIA.LARGE_UP} {
     .c-landing-project {
     }
 
