@@ -10,6 +10,7 @@
       "@images/*": ["public/images/*"],
       "@types": ["types"]
     },
+    "typeRoots": ["@types", "./node_modules/@types"],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -25,5 +26,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./typings-custom/**/*.ts"]
 }
