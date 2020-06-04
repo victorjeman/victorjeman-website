@@ -13,7 +13,8 @@ export default css`
   }
 
   .c-landing-project__title {
-    font-family: ${FONT.MERRIWEATHER};
+    font-family: ${FONT.BEBAS_NEUE};
+    letter-spacing: 1px;
     color: #112129;
   }
 
@@ -108,81 +109,50 @@ export default css`
     }
   }
 
-  @media ${MEDIA.MEIUM_ONLY_DESKTOP} {
+  @media ${MEDIA.MEDIUM_UP} {
     .c-landing-project {
+      padding-top: 100px;
+      padding-bottom: 25%;
     }
 
     .c-landing-project__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .c-landing-project__container--reverse {
+      flex-direction: row-reverse;
+    }
+
+    .c-landing-project__column--1 {
+      width: 50%;
+    }
+
+    .c-landing-project__column--2 {
+      width: 35%;
+    }
+
+    .c-landing-project__label {
+      display: inline-block;
+      margin-right: 20px;
     }
 
     .c-landing-project__title {
+      font-size: 50px;
     }
 
-    .c-landing-project__duration {
-    }
-
-    .c-landing-project__role {
-    }
-
-    .c-landing-project__illustration-wrapper {
-    }
-
-    .c-landing-project__illustration {
+    .c-landing-project__description {
+      font-size: 18px;
+      line-height: 1.65;
+      font-weight: 300;
     }
 
     .c-landing-project__see-more {
-    }
-  }
-
-  @media ${MEDIA.MEIUM_ONLY} {
-    .c-landing-project {
-    }
-
-    .c-landing-project__container {
-    }
-
-    .c-landing-project__title {
-    }
-
-    .c-landing-project__duration {
-    }
-
-    .c-landing-project__role {
-    }
-
-    .c-landing-project__illustration-wrapper {
-    }
-
-    .c-landing-project__illustration {
-    }
-
-    .c-landing-project__see-more {
+      margin-top: 70px;
     }
   }
 
   @media ${MEDIA.LARGE_UP} {
-    .c-landing-project {
-    }
-
-    .c-landing-project__container {
-    }
-
-    .c-landing-project__title {
-    }
-
-    .c-landing-project__duration {
-    }
-
-    .c-landing-project__role {
-    }
-
-    .c-landing-project__illustration-wrapper {
-    }
-
-    .c-landing-project__illustration {
-    }
-
-    .c-landing-project__see-more {
-    }
   }
 `;

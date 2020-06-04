@@ -10,4 +10,9 @@ export default css.global`
     margin: 0;
     list-style: none;
   }
+
+  *:focus {
+    outline: 3px dotted #175375;
+    outline-offset: 3px;
+  }
 `;

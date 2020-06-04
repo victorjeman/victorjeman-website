@@ -5,6 +5,11 @@ import { FONT } from '@settings/font.settings';
 import { COLOR } from '@settings/color.settings';
 
 export default css`
+  .c-landing-hero {
+    position: relative;
+    z-index: 2; // to make sure the svg doesn't get on top of the content
+  }
+
   .c-landing-hero__title {
     font-family: ${FONT.MERRIWEATHER};
     margin: 0;
@@ -32,7 +37,6 @@ export default css`
   .c-landing-hero__description {
     font-family: ${FONT.WORK_SANS};
     font-weight: 300;
-    background-color: #e0e5ec;
   }
 
   .c-landing-hero__illustration {
@@ -141,13 +145,11 @@ export default css`
       margin-top: 15px;
       font-size: 20px;
       line-height: 33px;
-      padding: 15px 20px;
     }
 
     .c-landing-hero__explore {
-      max-width: 60%;
       margin-top: 40px;
-      // margin: 60px auto 0 auto;
+      max-width: 50%;
     }
 
     .c-landing-hero__illustration-wrapper {

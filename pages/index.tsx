@@ -4,6 +4,7 @@ import path from 'path';
 
 import { PageLayout } from '@components/common/PageLayout';
 import { LandingProject } from '@components/landing/LandingProject';
+import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro';
 import { ILandingProject } from '@types';
 
 interface Props {
@@ -13,8 +14,9 @@ interface Props {
 export default function Home({ landingProjects }: Props): React.ReactNode {
   return (
     <PageLayout>
+      <LandingProjectsIntro />
       {landingProjects.map((project, index) => (
-        <LandingProject key={index} {...project} />
+        <LandingProject key={index} index={index} {...project} />
       ))}
     </PageLayout>
   );

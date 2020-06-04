@@ -25,7 +25,7 @@ export default css`
     display: block;
     position: relative;
     padding: 12px 15px;
-    border: 4px solid ${COLOR.BLACK};
+    border: 3px solid ${COLOR.BLACK};
   }
 
   .c-button-explore:before,
@@ -37,16 +37,23 @@ export default css`
     background-color: ${COLOR.SUNGLO};
     width: 35%;
     height: 70%;
+    transition: all 0.2s ease-out;
   }
 
   .c-button-explore:before {
-    right: -5px;
-    bottom: -5px;
+    right: -4px;
+    bottom: -4px;
   }
 
   .c-button-explore:after {
-    left: -5px;
-    top: -5px;
+    left: -4px;
+    top: -4px;
+  }
+
+  .c-button-explore:hover:before,
+  .c-button-explore:hover:after {
+    height: calc(100% + 8px);
+    width: calc(100% + 8px);
   }
 
   @media ${MEDIA.SMALL_ONLY} {

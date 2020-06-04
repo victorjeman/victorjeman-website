@@ -5,9 +5,6 @@ import { FONT } from '@settings/font.settings';
 import { COLOR } from '@settings/color.settings';
 
 export default css`
-  .c-page-navigation {
-  }
-
   .c-page-navigation__container {
     display: flex;
     justify-content: space-between;
@@ -34,9 +31,6 @@ export default css`
   }
 
   @media ${MEDIA.SMALL_ONLY} {
-    .c-page-navigation {
-    }
-
     .c-page-navigation__container {
       align-items: flex-start;
       padding-top: 15px;
