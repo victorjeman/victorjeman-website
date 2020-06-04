@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-import { PageLayout } from '../../components/PageLayout/PageLayout';
-import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
-import { IProject } from '../../types';
+import { PageLayout } from '@components/common/PageLayout';
+import { ProjectTestimonial } from '@components/project/ProjectTestimonial';
+import { IProject } from '@types';
 
 interface Props {
   project: IProject;

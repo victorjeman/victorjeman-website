@@ -2,9 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import * as React from 'react';
 
-import { PageLayout } from '../../components/PageLayout/PageLayout';
-import { ProjectThumbnail } from '../../components/ProjectThumbnail/ProjectThumbnail';
-import { IProjectThumbnail } from '../../types';
+import { PageLayout } from '@components/common/PageLayout';
+import { ProjectThumbnail } from '@components/project/ProjectThumbnail';
+import { IProjectThumbnail } from '@types';
 
 interface Props {
   projectThumbnails: IProjectThumbnail[];

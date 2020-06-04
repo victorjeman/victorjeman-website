@@ -2,9 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import * as React from 'react';
 
-import { PageLayout } from '@components/PageLayout/PageLayout';
-import { ProjectDescription } from '@components/ProjectDescription/ProjectDescription';
-import { ProjectTestimonials } from '@components/ProjectTestimonials/ProjectTestimonials';
+import { PageLayout } from '@components/common/PageLayout';
+import { ProjectDescription } from '@components/project/ProjectDescription';
+import { ProjectTestimonials } from '@components/project/ProjectTestimonials';
 import { IProject } from '@types';
 
 interface Props {

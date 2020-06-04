@@ -41,3 +41,10 @@ export enum CardSpecialType {
   large = 'large',
   xlarge = 'xlarge',
 }
+
+export enum ISizeModifier {
+  small = 'small',
+  medium = 'medium',
+  large = 'large',
+  xlarge = 'xlarge',
+}

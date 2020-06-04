@@ -3,4 +3,5 @@ export const COLOR = {
   SUNGLO: '#DE7376',
   WHITE: '#FFFFFF',
   BLACK: '#000000',
+  CARNATION: '#FA6866',
 };

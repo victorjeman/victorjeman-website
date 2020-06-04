@@ -2,8 +2,8 @@ import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
-import { PageLayout } from '@components/PageLayout/PageLayout';
-import { LandingProject } from '@components/LandingProject/LandingProject';
+import { PageLayout } from '@components/common/PageLayout';
+import { LandingProject } from '@components/landing/LandingProject';
 import { ILandingProject } from '@types';
 
 interface Props {
