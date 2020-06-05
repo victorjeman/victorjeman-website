@@ -1,5 +1,12 @@
 import * as React from 'react';
+
 import LandingProjectStyle from './LandingProject.style';
+
+import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service';
+
+import { ButtonExplore } from '@components/common/ButtonExplore';
+
+import { ISizeModifier } from '@types';
 
 interface Props {
   illustration: string;
@@ -9,6 +16,7 @@ interface Props {
   divider: string;
   description: string[];
   index: number;
+  isLast: boolean;
 }
 
 export const LandingProject: React.FC<Props> = ({
@@ -19,9 +27,10 @@ export const LandingProject: React.FC<Props> = ({
   divider,
   description,
   index,
+  isLast,
 }: Props) => (
   <section
-    className="c-landing-project"
+    className={`c-landing-project [ js-landing-project--${index} ]`}
     style={{
       backgroundImage: `url("/images/shape-dividers/${divider}.svg")`,
     }}
@@ -56,11 +65,23 @@ export const LandingProject: React.FC<Props> = ({
       </div>
     </div>
 
-    <div className="c-landing-project__container [ c-container ]">
-      {/* TODO: Convert this into a separate component */}
-      <a className="c-landing-project__see-more" href={href}>
+    <div className="c-landing-project__buttons [ c-container ]">
+      <a className="c-landing-project__investigate" href={href}>
         Investigate
       </a>
+
+      {!isLast && (
+        <div className="c-landing-project__explore-further">
+          <ButtonExplore
+            modifier={ISizeModifier.medium}
+            handleClick={() => {
+              scrollIntoView({ selector: `.js-landing-project--${index + 1}` });
+            }}
+          >
+            Keep exploring
+          </ButtonExplore>
+        </div>
+      )}
     </div>
 
     <style jsx>{LandingProjectStyle}</style>

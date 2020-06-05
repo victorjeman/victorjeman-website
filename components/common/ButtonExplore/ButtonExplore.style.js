@@ -8,7 +8,6 @@ export default css`
   .c-button-explore {
     background-color: transparent;
     border: 0;
-    min-width: 200px;
     width: 100%;
     padding: 0;
     font-family: ${FONT.BEBAS_NEUE};

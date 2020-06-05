@@ -18,7 +18,7 @@ export const PageNavigation: React.FC = () => {
           <LogoFullSvg />
         </div>
 
-        <div className="c-page-navigation__toggle" onClick={onClickHandler}>
+        <div className="c-page-navigation__toggle [ u-show-small-only ]" onClick={onClickHandler}>
           <MenuIcon />
         </div>
 

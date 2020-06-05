@@ -5,10 +5,12 @@ import { COLOR } from '@settings/color.settings';
 export default css`
   .c-card-special {
     position: relative;
+    display: inline-block;
   }
 
   .c-card-special__container {
     position: relative;
+    display: inline-block;
     z-index: 3;
     background-color: #fff;
   }
@@ -22,7 +24,7 @@ export default css`
   }
 
   .c-card-special__container--large {
-    border: 12px solid #000;
+    border: 9px solid #000;
   }
 
   .c-card-special:after {
@@ -46,7 +48,7 @@ export default css`
   }
 
   .c-card-special--large:after {
-    top: 18px;
-    left: 18px;
+    top: 13px;
+    left: 13px;
   }
 `;

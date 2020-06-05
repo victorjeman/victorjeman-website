@@ -38,9 +38,6 @@ export default css`
     left: 10px;
   }
 
-  .c-landing-project__illustration-wrapper {
-  }
-
   .c-landing-project__illustration {
     width: 100%;
     display: block;
@@ -52,13 +49,11 @@ export default css`
     font-family: ${FONT.INTER};
   }
 
-  .c-landing-project__see-more {
+  .c-landing-project__investigate {
     background: #ffc25d;
     box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
     border-radius: 30px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     width: 260px;
     padding: 18px 15px;
     text-align: center;
@@ -101,10 +96,10 @@ export default css`
     .c-landing-project__description {
       margin-top: 30px;
       font-size: 16px;
-      line-height: 1.4;
+      line-height: 1.6;
     }
 
-    .c-landing-project__see-more {
+    .c-landing-project__buttons {
       margin-top: 60px;
     }
   }
@@ -140,16 +135,30 @@ export default css`
 
     .c-landing-project__title {
       font-size: 50px;
+      margin-bottom: 10px;
     }
 
     .c-landing-project__description {
       font-size: 18px;
-      line-height: 1.65;
+      line-height: 1.7;
       font-weight: 300;
+      margin-top: 40px;
     }
 
-    .c-landing-project__see-more {
+    .c-landing-project__buttons {
       margin-top: 70px;
+      max-width: 600px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .c-landing-project__investigate {
+      width: 55%;
+    }
+
+    .c-landing-project__explore-further {
+      width: 35%;
     }
   }
 

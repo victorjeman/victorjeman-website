@@ -48,7 +48,7 @@ export default css`
     .c-page-navigation__menu {
       visibility: hidden;
       pointer-events: none;
-      position: absolute;
+      position: fixed;
       z-index: 9;
       top: 0;
       right: 0;

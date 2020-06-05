@@ -15,8 +15,16 @@ export default function Home({ landingProjects }: Props): React.ReactNode {
   return (
     <PageLayout>
       <LandingProjectsIntro />
+
+      <div className="[ js-first-project ]">{}</div>
+
       {landingProjects.map((project, index) => (
-        <LandingProject key={index} index={index} {...project} />
+        <LandingProject
+          key={index}
+          index={index}
+          isLast={index === landingProjects.length - 1}
+          {...project}
+        />
       ))}
     </PageLayout>
   );
