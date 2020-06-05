@@ -66,9 +66,6 @@ export default css`
 
   @media ${MEDIA.SMALL_ONLY} {
     .c-landing-project {
-    }
-
-    .c-landing-project__container {
       padding-top: 10%;
       padding-bottom: 35%;
     }

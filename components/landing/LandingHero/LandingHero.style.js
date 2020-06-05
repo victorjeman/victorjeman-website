@@ -62,13 +62,16 @@ export default css`
 
     .c-landing-hero__illustration-wrapper {
       padding: 10px 30px 40px 30px;
-      margin-right: auto;
-      margin-left: auto;
+      margin: 15px auto 0 auto;
     }
 
     .c-landing-hero__illustration {
       margin: 20px auto;
       width: 80%;
+    }
+
+    .c-landing-hero__explore {
+      margin-top: 40px;
     }
   }
 
