@@ -46,7 +46,8 @@ export default css`
   }
 
   .c-landing-project__description {
-    font-family: ${FONT.INTER};
+    font-family: ${FONT.WORK_SANS};
+    font-weight: 300;
   }
 
   .c-landing-project__investigate {
@@ -92,12 +93,23 @@ export default css`
 
     .c-landing-project__description {
       margin-top: 30px;
-      font-size: 16px;
-      line-height: 1.6;
+      font-size: 17px;
+      line-height: 1.7;
     }
 
     .c-landing-project__buttons {
-      margin-top: 60px;
+      margin-top: 20px;
+    }
+
+    .c-landing-project__investigate {
+      margin-bottom: 25px;
+    }
+
+    .c-landing-project__investigate,
+    .c-landing-project__explore-further {
+      max-width: 250px;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 

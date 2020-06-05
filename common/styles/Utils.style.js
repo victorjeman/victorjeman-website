@@ -9,7 +9,7 @@ export default css.global`
 
   .u-show-small-only,
   .u-show-medium-up {
-    display: none;
+    display: none !important;
   }
 
   @media ${MEDIA.SMALL_ONLY} {

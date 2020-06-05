@@ -55,9 +55,8 @@ export default css`
 
     .c-landing-hero__description {
       margin-top: 0;
-      font-size: 20px;
-      line-height: 1.4;
-      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.5;
     }
 
     .c-landing-hero__illustration-wrapper {
@@ -89,6 +88,12 @@ export default css`
 
     .c-landing-hero__title {
       line-height: 1.5;
+    }
+
+    .c-landing-hero__description {
+      margin-top: 15px;
+      font-size: 20px;
+      line-height: 1.6;
     }
 
     .c-landing-hero__title-line--2 {
@@ -142,12 +147,6 @@ export default css`
 
     .c-landing-hero__info {
       width: 45%;
-    }
-
-    .c-landing-hero__description {
-      margin-top: 15px;
-      font-size: 20px;
-      line-height: 33px;
     }
 
     .c-landing-hero__explore {

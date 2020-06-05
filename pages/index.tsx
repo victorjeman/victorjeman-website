@@ -19,12 +19,7 @@ export default function Home({ landingProjects }: Props): React.ReactNode {
       <div className="[ js-first-project ]">{}</div>
 
       {landingProjects.map((project, index) => (
-        <LandingProject
-          key={index}
-          index={index}
-          isLast={index === landingProjects.length - 1}
-          {...project}
-        />
+        <LandingProject key={index} {...project} />
       ))}
     </PageLayout>
   );
@@ -40,8 +35,13 @@ export async function getStaticProps(): Promise<{ props: Props }> {
     return JSON.parse(fileContent);
   });
 
-  const landingProjects = projects.map((project) => ({
+  const projectsSorted = projects.sort((a, b) => a.order - b.order);
+
+  const landingProjects: ILandingProject[] = projectsSorted.map((project, index) => ({
+    index,
+    isLast: index === projectsSorted.length - 1,
     title: project.title,
+    role: project.role,
     illustration: project.illustration,
     duration: project.duration,
     href: project.href,

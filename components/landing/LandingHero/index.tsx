@@ -35,7 +35,7 @@ export const LandingHero: React.FC = () => (
           <CardSpecial type={CardSpecialType.medium}>
             <img
               className="c-landing-hero__illustration"
-              src="/images/me/cat1.gif"
+              src="/images/me/me2.png"
               alt="Victor JEMAN"
             />
           </CardSpecial>
@@ -66,7 +66,7 @@ export const LandingHero: React.FC = () => (
           <img
             className="c-landing-hero__illustration"
             src="/images/me/me2.png"
-            alt="Victor's cat"
+            alt="Victor JEMAN"
           />
         </CardSpecial>
       </div>

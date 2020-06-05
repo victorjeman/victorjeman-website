@@ -12,8 +12,12 @@ import { CardSpecialType, ISizeModifier } from '@types';
 export const LandingProjectsIntro: React.FC = () => (
   <section className="c-landing-projects-intro">
     <div className="c-landing-projects-intro__container [ c-container ] [ js-landing-projects-intro ]">
+      <h2 className="c-landing-projects-intro__title [ u-show-small-only ]">It's over 9000 ... </h2>
+
       <CardSpecial type={CardSpecialType.large}>
-        <h2 className="c-landing-projects-intro__title">It's over 9000 ... </h2>
+        <h2 className="c-landing-projects-intro__title [ u-show-medium-up ]">
+          It's over 9000 ...{' '}
+        </h2>
 
         <img
           className="c-landing-projects-intro__illustration"

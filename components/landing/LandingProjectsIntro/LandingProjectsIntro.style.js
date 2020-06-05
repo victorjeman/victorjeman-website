@@ -17,23 +17,13 @@ export default css`
   }
 
   .c-landing-projects-intro__title {
-    text-align: right;
     font-family: ${FONT.BEBAS_NEUE};
     letter-spacing: 1px;
-    font-size: 50px;
-    margin: 0;
-    background-color: #ddd;
-    display: inline-block;
-    padding: 10px 20px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
   }
 
   .c-landing-projects-intro__illustration {
-    max-width: 700px;
     width: 100%;
-    margin: 15px;
+    display: block;
   }
 
   .c-landing-projects-intro__description {
@@ -46,9 +36,35 @@ export default css`
   }
 
   @media ${MEDIA.SMALL_ONLY} {
+    .c-landing-projects-intro__title {
+      font-size: 35px;
+    }
+
+    .c-landing-projects-intro__description {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
   }
 
   @media ${MEDIA.MEDIUM_UP} {
+    .c-landing-projects-intro__title {
+      text-align: right;
+      margin: 0;
+      background-color: #ddd;
+      display: inline-block;
+      padding: 10px 20px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+
+    .c-landing-projects-intro__illustration {
+      max-width: 700px;
+      margin: 15px;
+    }
+
     .c-landing-projects-intro__explore {
       margin: 60px auto 0 auto;
       max-width: 300px;

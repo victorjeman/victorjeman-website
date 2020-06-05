@@ -1,15 +1,17 @@
 {
   "id": "gpsassist",
+  "order": 5,
   "divider": "divider5",
   "href": "projects/gpsassist",
   "title": "GPS ASSIST",
+  "role": "Front-End Developer",
   "duration": "Aug 2014 – Oct 2014",
+  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "AngularJS", "Python"],
+  "illustration": "/images/undraw_map_1r69.svg",
   "description": [
     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
   ],
-  "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "AngularJS", "Python"],
-  "illustration": "/images/undraw_map_1r69.svg",
   "testimonials": [
     {
       "illustration": "/images/project-thumbnails/gpsassist.svg",

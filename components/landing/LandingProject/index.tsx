@@ -6,29 +6,19 @@ import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service'
 
 import { ButtonExplore } from '@components/common/ButtonExplore';
 
-import { ISizeModifier } from '@types';
+import { ISizeModifier, ILandingProject } from '@types';
 
-interface Props {
-  illustration: string;
-  title: string;
-  duration: string;
-  href: string;
-  divider: string;
-  description: string[];
-  index: number;
-  isLast: boolean;
-}
-
-export const LandingProject: React.FC<Props> = ({
+export const LandingProject: React.FC<ILandingProject> = ({
   illustration,
   title,
+  role,
   duration,
   href,
   divider,
   description,
   index,
   isLast,
-}: Props) => (
+}: ILandingProject) => (
   <section
     className={`c-landing-project [ js-landing-project--${index} ]`}
     style={{
@@ -45,7 +35,7 @@ export const LandingProject: React.FC<Props> = ({
 
         <p className="c-landing-project__label">{duration}</p>
 
-        <p className="c-landing-project__label">Role: Team Lead</p>
+        <p className="c-landing-project__label">Role: {role}</p>
 
         <div className="c-landing-project__illustration-wrapper [ u-show-small-only ]">
           <img className="c-landing-project__illustration" src={illustration} alt={title} />
