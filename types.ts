@@ -1,3 +1,22 @@
+export enum ISizeModifier {
+  small = 'small',
+  medium = 'medium',
+  large = 'large',
+  xlarge = 'xlarge',
+}
+
+export interface ITestimonial {
+  authorName: string;
+  authorJob: string;
+  authorCompany: string;
+  authorLinkedin: string;
+  content: string[];
+}
+
+export interface ITestimonials {
+  testimonials: ITestimonial[];
+}
+
 export interface IProjectThumbnail {
   title: string;
   href: string;
@@ -31,23 +50,4 @@ export interface IProject {
       author: string;
     },
   ];
-}
-
-export interface IProjectThumbnail {
-  title: string;
-  href: string;
-}
-
-export enum CardSpecialType {
-  small = 'small',
-  medium = 'medium',
-  large = 'large',
-  xlarge = 'xlarge',
-}
-
-export enum ISizeModifier {
-  small = 'small',
-  medium = 'medium',
-  large = 'large',
-  xlarge = 'xlarge',
 }

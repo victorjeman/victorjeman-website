@@ -12,9 +12,6 @@ export default css`
     text-align: center;
     background-color: #f3f4f3;
   }
-  CardSpecialType .c-landing-projects-intro {
-    display: flex;
-  }
 
   .c-landing-projects-intro__title {
     font-family: ${FONT.BEBAS_NEUE};

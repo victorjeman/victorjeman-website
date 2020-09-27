@@ -2,10 +2,11 @@ import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
-import { PageLayout } from '@components/common/PageLayout';
-import { LandingProject } from '@components/landing/LandingProject';
-import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro';
 import { ILandingProject } from '@types';
+
+import { LandingProject } from '@components/landing/LandingProject/LandingProject';
+import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro/LandingProjectsIntro';
+import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
 interface Props {
   landingProjects: ILandingProject[];

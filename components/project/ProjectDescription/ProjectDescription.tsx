@@ -3,7 +3,7 @@ interface Props {
   description: string[];
 }
 
-export const ProjectDescription: React.FC<Props> = ({ description }) => (
+export const ProjectDescription: React.FC<Props> = ({ description }: Props): JSX.Element => (
   <section className="c-project__description1">
     {description.map((description, index) => (
       <p key={index}>{description}</p>

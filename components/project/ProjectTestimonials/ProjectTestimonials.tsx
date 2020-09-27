@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ProjectTestimonial } from '../ProjectTestimonial';
+import { ProjectTestimonial } from '../ProjectTestimonial/ProjectTestimonial';
 
 interface Props {
   testimonials: [
@@ -13,7 +13,7 @@ interface Props {
   ];
 }
 
-export const ProjectTestimonials: React.FC<Props> = ({ testimonials }) => (
+export const ProjectTestimonials: React.FC<Props> = ({ testimonials }: Props): JSX.Element => (
   <section className="c-project-testimonials">
     <div className="c-project-testimonials__container">
       <h2 className="c-project-testimonials__title">Testimonials</h2>

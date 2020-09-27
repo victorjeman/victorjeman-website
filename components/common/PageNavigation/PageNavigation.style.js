@@ -12,6 +12,8 @@ export default css`
   }
 
   .c-page-navigation__logo {
+    position: relative;
+    top: 15px;
   }
 
   .c-page-navigation__toggle {

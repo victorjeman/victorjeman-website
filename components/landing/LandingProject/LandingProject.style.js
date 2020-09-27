@@ -156,7 +156,6 @@ export default css`
 
     .c-landing-project__buttons {
       margin-top: 70px;
-      max-width: 600px;
       display: flex;
       justify-content: space-between;
       align-items: center;

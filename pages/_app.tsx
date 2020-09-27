@@ -1,9 +1,9 @@
 import * as React from 'react';
-import '../public/css/normalize.css';
+import 'modern-css-reset';
+
 import '../public/scss/index.scss';
 import Fonts from '@styles/Fonts.style';
 import Elements from '@styles/Elements.style';
-import ContainerStyle from '@styles/Container.style';
 import Utils from '@styles/Utils.style';
 
 interface Props {
@@ -20,9 +20,6 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
       </style>
       <style jsx global>
         {Elements}
-      </style>
-      <style jsx global>
-        {ContainerStyle}
       </style>
       <style jsx global>
         {Utils}

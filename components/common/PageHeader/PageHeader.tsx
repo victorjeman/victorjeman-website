@@ -1,6 +1,8 @@
+import * as React from 'react';
+
 import Head from 'next/head';
 
-export const PageHeader = () => (
+export const PageHeader = (): JSX.Element => (
   <Head>
     <title>Page title</title>
     <meta charSet="UTF-8" />

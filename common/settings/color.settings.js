@@ -4,4 +4,5 @@ export const COLOR = {
   WHITE: '#FFFFFF',
   BLACK: '#000000',
   CARNATION: '#FA6866',
+  ANTIQUE_BRONZE: '#634307',
 };
