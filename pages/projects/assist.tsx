@@ -1,31 +1,21 @@
-import fs from 'fs';
-import path from 'path';
+import * as React from 'react';
 
-import { PageLayout } from '../../components/PageLayout/PageLayout';
-import { ProjectDescription } from '../../components/ProjectDescription/ProjectDescription';
-import { ProjectTestimonials } from '../../components/ProjectTestimonials/ProjectTestimonials';
+import { IProject } from '@types';
+import { ReadService } from '@services/Read/Read.service';
+import { Project } from '@components/common/Project/Project';
 
-export default function Assist({ project }) {
-  return (
-    <PageLayout>
-      <h1>{project.title}</h1>
-
-      <ProjectDescription description={project.description1} />
-
-      <ProjectDescription description={project.description2} />
-
-      <ProjectTestimonials testimonials={project.testimonials} />
-    </PageLayout>
-  );
+interface Props {
+  project: IProject;
 }
 
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data/projects/assist.json');
-  const project = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+export default function Assist({ project }: Props): JSX.Element {
+  return <Project {...project} />;
+}
 
+export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
-      project,
+      project: ReadService.readFile({ dataPath: 'data/projects/assist.json' }),
     },
   };
 }

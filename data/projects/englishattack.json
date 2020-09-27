@@ -1,10 +1,17 @@
 {
   "id": "englishattack",
+  "order": 4,
+  "divider": "divider4",
   "href": "projects/englishattack",
   "title": "English Attack",
+  "role": "Front-End Developer",
   "duration": "Jan 2015 - Mar 2016",
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
-  "illustration": "/images/undraw_youtube_tutorial_2gn3.svg",
+  "illustration": "/images/project-thumbnails/englishattack.svg",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

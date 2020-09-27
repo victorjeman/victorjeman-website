@@ -1,0 +1,8 @@
+export const COLOR = {
+  GABLE_GREEN: '#112129',
+  SUNGLO: '#DE7376',
+  WHITE: '#FFFFFF',
+  BLACK: '#000000',
+  CARNATION: '#FA6866',
+  ANTIQUE_BRONZE: '#634307',
+};

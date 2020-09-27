@@ -1,28 +1,21 @@
-import fs from 'fs';
-import path from 'path';
+import * as React from 'react';
 
-import { PageLayout } from '../../components/PageLayout/PageLayout';
-import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
+import { IProject } from '@types';
+import { ReadService } from '@services/Read/Read.service';
+import { Project } from '@components/common/Project/Project';
 
-export default function ContentIq({ project }) {
-  return (
-    <PageLayout>
-      <h2>{project.title}</h2>
-
-      {project.testimonials.map((testimonial, index) => (
-        <ProjectTestimonial key={index} {...testimonial} />
-      ))}
-    </PageLayout>
-  );
+interface Props {
+  project: IProject;
 }
 
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data/projects/contentiq.json');
-  const project = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+export default function Contentiq({ project }: Props): JSX.Element {
+  return <Project {...project} />;
+}
 
+export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
-      project,
+      project: ReadService.readFile({ dataPath: 'data/projects/contentiq.json' }),
     },
   };
 }

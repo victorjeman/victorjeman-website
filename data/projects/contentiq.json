@@ -1,7 +1,10 @@
 {
   "id": "contentiq",
+  "order": 3,
+  "divider": "divider3",
   "href": "projects/contentiq",
   "title": "Content IQ",
+  "role": "Kind of Full-Stack Developer / Team Lead",
   "duration": "Mar 2019 – Present",
   "technologies": [
     "HTML5",
@@ -15,7 +18,11 @@
     "Aws lambda",
     "Node.js"
   ],
-  "illustration": "/images/undraw_online_posts_h475.svg",
+  "illustration": "/images/project-thumbnails/contentiq.svg",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

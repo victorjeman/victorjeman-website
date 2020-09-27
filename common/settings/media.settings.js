@@ -1,12 +1,22 @@
 const BREAKPOINTS = {
-  MOBILE: 640,
-  TABLET: 1024,
+  SMALL: 768,
+  MEDIUM: 1112,
+  LARGE: 1440,
+  XLARGE: 1680,
 };
 
 export const MEDIA = {
-  MOBILE: `screen and (max-width: ${BREAKPOINTS.MOBILE}px)`,
-  TABLET: `screen and (min-width: ${BREAKPOINTS.MOBILE + 1}px) and (max-width: ${
-    BREAKPOINTS.TABLET
+  SMALL_ONLY: `screen and (max-width: ${BREAKPOINTS.SMALL}px)`,
+  MEDIUM_ONLY: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px) and (max-width: ${
+    BREAKPOINTS.MEDIUM
   }px)`,
-  DESKTOP: `screen and (min-width: ${BREAKPOINTS.TABLET + 1}px)`,
+  LARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px) and (max-width: ${
+    BREAKPOINTS.LARGE
+  }px)`,
+  XLARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}px) and (max-width: ${
+    BREAKPOINTS.XLARGE
+  }px)`,
+  MEDIUM_UP: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px)`,
+  LARGE_UP: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px)`,
+  XLARGE_UP: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}px)`,
 };

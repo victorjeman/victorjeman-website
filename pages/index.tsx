@@ -2,20 +2,22 @@ import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
-import { PageLayout } from '../components/PageLayout/PageLayout';
-import { LandingHero } from '../components/LandingHero/LandingHero';
-import { LandingQuote } from '../components/LandingQuote/LandingQuote';
-import { LandingProject } from '../components/LandingProject/LandingProject';
+import { ILandingProject } from '@types';
+
+import { LandingProject } from '@components/landing/LandingProject/LandingProject';
+import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro/LandingProjectsIntro';
+import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
 interface Props {
-  landingProjects: Array<any>;
+  landingProjects: ILandingProject[];
 }
 
-export default function Home({ landingProjects }: Props) {
+export default function Home({ landingProjects }: Props): React.ReactNode {
   return (
     <PageLayout>
-      <LandingHero illustration={''} />
-      <LandingQuote quote={'My quote'} author={'Author Name'} />
+      <LandingProjectsIntro />
+
+      <div className="[ js-first-project ]">{}</div>
 
       {landingProjects.map((project, index) => (
         <LandingProject key={index} {...project} />
@@ -24,7 +26,7 @@ export default function Home({ landingProjects }: Props) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: Props }> {
   const projectDirectory = path.join(process.cwd(), 'data/projects');
   const filenames = fs.readdirSync(projectDirectory);
 
@@ -34,11 +36,18 @@ export async function getStaticProps() {
     return JSON.parse(fileContent);
   });
 
-  const landingProjects = projects.map((project) => ({
+  const projectsSorted = projects.sort((a, b) => a.order - b.order);
+
+  const landingProjects: ILandingProject[] = projectsSorted.map((project, index) => ({
+    index,
+    isLast: index === projectsSorted.length - 1,
     title: project.title,
+    role: project.role,
     illustration: project.illustration,
     duration: project.duration,
     href: project.href,
+    divider: project.divider,
+    description: project.description,
   }));
 
   return {

@@ -1,9 +1,11 @@
 {
   "id": "bookingbug",
+  "order": 2,
+  "divider": "divider2",
   "href": "projects/bookingbug",
   "title": "BookingBug(now jrni)",
+  "role": "Front-End Developer / Team Lead",
   "duration": "Mar 2016 – Mar 2019",
-  "description": [""],
   "technologies": [
     "HTML5",
     "CSS",
@@ -15,7 +17,11 @@
     "Serverless",
     "Aws lambda"
   ],
-  "illustration": "/images/undraw_booking_33fn.svg",
+  "illustration": "/images/project-thumbnails/bookingbug.svg",
+  "description": [
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+  ],
   "testimonials": [
     {
       "illustration": "/testimonials/3259.jpg",

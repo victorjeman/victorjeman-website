@@ -1,29 +1,21 @@
-import fs from 'fs';
-import path from 'path';
+import * as React from 'react';
 
-import { PageLayout } from '../../components/PageLayout/PageLayout';
-import { ProjectTestimonial } from '../../components/ProjectTestimonial/ProjectTestimonial';
+import { IProject } from '@types';
+import { ReadService } from '@services/Read/Read.service';
+import { Project } from '@components/common/Project/Project';
 
-export default function Bookingbug({ project }) {
-  return (
-    <PageLayout>
-      <h1>{project.title}</h1>
-
-      <h2>Testimonials</h2>
-      {project.testimonials.map((testimonial, index) => (
-        <ProjectTestimonial key={index} {...testimonial} />
-      ))}
-    </PageLayout>
-  );
+interface Props {
+  project: IProject;
 }
 
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'data/projects/bookingbug.json');
-  const project = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+export default function BookingBug({ project }: Props): JSX.Element {
+  return <Project {...project} />;
+}
 
+export async function getStaticProps(): Promise<{ props: Props }> {
   return {
     props: {
-      project,
+      project: ReadService.readFile({ dataPath: 'data/projects/bookingbug.json' }),
     },
   };
 }
