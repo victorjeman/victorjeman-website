@@ -6,6 +6,7 @@
   "title": "GPS ASSIST",
   "role": "Front-End Developer",
   "duration": "Aug 2014 – Oct 2014",
+  "investigate": false,
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "AngularJS", "Python"],
   "illustration": "/images/undraw_map_1r69.svg",
   "description": [

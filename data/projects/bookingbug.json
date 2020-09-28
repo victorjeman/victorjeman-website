@@ -6,6 +6,7 @@
   "title": "BookingBug(now jrni)",
   "role": "Front-End Developer / Team Lead",
   "duration": "Mar 2016 – Mar 2019",
+  "investigate": false,
   "technologies": [
     "HTML5",
     "CSS",
@@ -15,12 +16,12 @@
     "Node.js",
     "AngularJS",
     "Serverless",
-    "Aws lambda"
+    "AWS Lambda"
   ],
   "illustration": "/images/project-thumbnails/bookingbug.svg",
   "description": [
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
+    "A remarkable project that motivated me to learn so many technical and soft skills. Our client was from the UK, and the collaboration was very fruitful. They had different development teams there, and we learned and grew together. I had the pleasure of being a team lead for a group of seven developers and one QA. It was a poetic combination, we worked together as a family, and we learned many great things.",
+    "I was responsible for guiding and helping my colleagues so that we could achieve together the set objectives. I've learned a lot about patience and the importance of being understanding."
   ],
   "testimonials": [
     {

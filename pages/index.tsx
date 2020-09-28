@@ -38,17 +38,34 @@ export async function getStaticProps(): Promise<{ props: Props }> {
 
   const projectsSorted = projects.sort((a, b) => a.order - b.order);
 
-  const landingProjects: ILandingProject[] = projectsSorted.map((project, index) => ({
-    index,
-    isLast: index === projectsSorted.length - 1,
-    title: project.title,
-    role: project.role,
-    illustration: project.illustration,
-    duration: project.duration,
-    href: project.href,
-    divider: project.divider,
-    description: project.description,
-  }));
+  const landingProjects: ILandingProject[] = projectsSorted.map(
+    (
+      {
+        title,
+        role,
+        illustration,
+        duration,
+        href,
+        divider,
+        description,
+        investigate,
+        technologies,
+      }: ILandingProject,
+      index,
+    ) => ({
+      index,
+      isLast: index === projectsSorted.length - 1,
+      title,
+      role,
+      illustration,
+      duration,
+      href,
+      divider,
+      description,
+      investigate,
+      technologies,
+    }),
+  );
 
   return {
     props: {

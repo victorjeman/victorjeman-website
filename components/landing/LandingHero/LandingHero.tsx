@@ -53,7 +53,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
             <a href="https://assist-software.net/assist-culture" target="_blank" rel="noreferrer">
               <strong>ASSIST Software</strong>
             </a>
-            , a nice and caring working place.
+            , a friendly and caring working place.
             <br />
             <br />
             <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder ruined it

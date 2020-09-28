@@ -32,15 +32,16 @@ export const LandingProjectsIntro: React.FC = (): JSX.Element => (
 
         <div className="c-landing-projects-intro__description">
           <p className="c-landing-projects-intro__text">
-            At my core, I'm a front-end developer. I've started as a freelance by stitching together
-            static websites initially, then I got a job and started working with all kinds of fancy
+            At my core, I'm a <strong>front-end developer</strong>. I've started{' '}
+            {new Date().getFullYear() - 2012} years ago as a freelancer by stitching together static
+            websites, then I got a full time job and started working with all kinds of fancy
             libraries and frameworks.
           </p>
 
           <p className="c-landing-projects-intro__text">
-            I can't say that I know any of them at the master level, though the ones that are living
-            inside the <strong>clouds</strong> are my main ones at the moment. It so happens that my
-            current project needs me to know them.
+            I can't say that I know any of them at the master level, though the ones in the{' '}
+            <strong>clouds</strong> are in my focus at the moment. It so happens that my current
+            project needs me to know them a little bit.
           </p>
 
           <p className="c-landing-projects-intro__text">

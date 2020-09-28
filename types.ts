@@ -27,11 +27,13 @@ export interface ILandingProject {
   isLast: boolean;
   title: string;
   role: string;
+  investigate: boolean;
   illustration: string;
   duration: string;
   href: string;
   divider: string;
   description: string[];
+  technologies: string[];
 }
 
 export interface IProject {

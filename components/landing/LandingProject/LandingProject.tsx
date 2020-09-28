@@ -19,19 +19,19 @@ export const LandingProject: React.FC<ILandingProject> = ({
   description,
   index,
   isLast,
+  investigate,
+  technologies,
 }: ILandingProject): JSX.Element => (
   <section
-    className={`c-landing-project [ js-landing-project--${index} ]`}
+    className={`c-landing-project  ${
+      index % 2 === 0 ? 'c-landing-project--reverse' : ''
+    } [ js-landing-project--${index} ]`}
     style={{
       backgroundImage: `url("/images/shape-dividers/${divider}.svg")`,
     }}
   >
     <Container>
-      <div
-        className={`c-landing-project__container ${
-          index % 2 === 0 ? 'c-landing-project__container--reverse' : ''
-        }`}
-      >
+      <div className="c-landing-project__container">
         <div className="c-landing-project__column c-landing-project__column--1">
           <h2 className="c-landing-project__title">{title}</h2>
 
@@ -58,14 +58,17 @@ export const LandingProject: React.FC<ILandingProject> = ({
           </div>
         </div>
       </div>
-    </Container>
 
-    <Container>
+      <h3 className="c-landing-project__played-with">played with</h3>
+      <ul className="c-landing-project__technologies">
+        {technologies.map((technology, index) => (
+          <li className="c-landing-project__technology" key={`technology-${index}`}>
+            {technology}
+          </li>
+        ))}
+      </ul>
+
       <div className="c-landing-project__buttons">
-        <a className="c-landing-project__investigate" href={href} target="_blank" rel="noreferrer">
-          Investigate
-        </a>
-
         {!isLast && (
           <div className="c-landing-project__explore-further">
             <ButtonExplore
@@ -77,6 +80,17 @@ export const LandingProject: React.FC<ILandingProject> = ({
               Keep going
             </ButtonExplore>
           </div>
+        )}
+
+        {investigate && (
+          <a
+            className="c-landing-project__investigate"
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Investigate
+          </a>
         )}
       </div>
     </Container>

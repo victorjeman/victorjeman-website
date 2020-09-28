@@ -55,6 +55,30 @@ export default css`
     margin-bottom: 15px;
   }
 
+  .c-landing-project__played-with {
+    font-family: ${FONT.MERRIWEATHER};
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .c-landing-project__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c-landing-project__technology {
+    font-family: ${FONT.INTER};
+    border-radius: 4px;
+    padding: 6px 20px;
+    background-color: #3f3d56;
+    margin: 4px;
+    color: #fff;
+  }
+
   .c-landing-project__investigate {
     background: #ffc25d;
     box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
@@ -130,7 +154,7 @@ export default css`
       align-items: center;
     }
 
-    .c-landing-project__container--reverse {
+    .c-landing-project--reverse .c-landing-project__container {
       flex-direction: row-reverse;
     }
 

@@ -6,6 +6,7 @@
   "title": "ASSIST Software",
   "role": "Front-End Developer",
   "duration": "Jan 2015 – Mar 2015",
+  "investigate": true,
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/assist.svg",
   "description": [
