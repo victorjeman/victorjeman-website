@@ -31,28 +31,35 @@ export const LandingProjectsIntro: React.FC = (): JSX.Element => (
         </CardSpecial>
 
         <div className="c-landing-projects-intro__description">
-          <p>
-            At my core, I'm a front-end developer. I've started by stitching together static
-            websites in the beginning. Then I got a job and started working with all kinds of fancy
+          <p className="c-landing-projects-intro__text">
+            At my core, I'm a front-end developer. I've started as a freelance by stitching together
+            static websites initially, then I got a job and started working with all kinds of fancy
             libraries and frameworks.
           </p>
 
-          <p>
+          <p className="c-landing-projects-intro__text">
             I can't say that I know any of them at the master level, though the ones that are living
             inside the <strong>clouds</strong> are my main ones at the moment. It so happens that my
             current project needs me to know them.
           </p>
 
-          <p>
-            I'm flexible when it comes to technical requirements. I'm able to switch my trajectory
-            if the project needs something new and I have the capacity to learn it.
+          <p className="c-landing-projects-intro__text">
+            At the moment I could say I’m still working with static websites, though the
+            technologies and the whole process behind them are different and extraordinary. It's
+            interesting though how some things stay classy and powerful through time.
           </p>
 
-          <p>
+          <p className="c-landing-projects-intro__text">
+            I'm quite flexible when it comes to technical requirements and not only. I can easily
+            switch my trajectory if the situation requires it, and it's beneficial for the project.
+          </p>
+
+          <p className="c-landing-projects-intro__text">
             For a project, I've even done automated tests with webdriver.io and created a container
-            for those tests after learning about docker in ~ 3 days. <br />
-            <br /> <strong>P.S.</strong> Initially the docker setup was quite shitty but it's
-            working alright now.
+            for those tests after learning about docker in ~ 3 days.
+            <br />
+            <br /> <strong>P.S.</strong> Initially, the docker setup was somewhat embarrassing to
+            look at, but it's working alright now.
           </p>
         </div>
 

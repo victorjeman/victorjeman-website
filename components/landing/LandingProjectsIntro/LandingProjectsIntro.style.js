@@ -32,6 +32,10 @@ export default css`
     text-align: left;
   }
 
+  .c-landing-projects-intro__text {
+    margin-bottom: 20px;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
     .c-landing-projects-intro__title {
       font-size: 35px;

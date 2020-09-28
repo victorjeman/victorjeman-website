@@ -45,7 +45,9 @@ export const LandingProject: React.FC<ILandingProject> = ({
 
           <div className="c-landing-project__description">
             {description.map((item, index) => (
-              <p key={index}>{item}</p>
+              <p className="c-landing-project__text" key={index}>
+                {item}
+              </p>
             ))}
           </div>
         </div>
@@ -60,7 +62,7 @@ export const LandingProject: React.FC<ILandingProject> = ({
 
     <Container>
       <div className="c-landing-project__buttons">
-        <a className="c-landing-project__investigate" href={href}>
+        <a className="c-landing-project__investigate" href={href} target="_blank" rel="noreferrer">
           Investigate
         </a>
 

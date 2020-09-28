@@ -24,6 +24,7 @@ export default css`
     padding: 12px 15px;
     position: relative;
     background-color: #fff;
+    margin-bottom: 15px;
   }
 
   .c-landing-project__label:after {
@@ -48,6 +49,10 @@ export default css`
   .c-landing-project__description {
     font-family: ${FONT.WORK_SANS};
     font-weight: 300;
+  }
+
+  .c-landing-project__text {
+    margin-bottom: 15px;
   }
 
   .c-landing-project__investigate {
