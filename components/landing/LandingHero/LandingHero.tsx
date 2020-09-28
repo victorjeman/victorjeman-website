@@ -48,10 +48,16 @@ export const LandingHero: React.FC = (): JSX.Element => (
 
           <p className="c-landing-hero__description">
             I do a little bit of web development, I'm decent at it, some glue here, some duct tape
-            there and you have a webpage. I also love sharing my knowledge, I'm not particularly
-            good at it, but it gives me a warm feeling when doing it. <br />
-            <br /> <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder
-            ruined it for me.
+            there, and you have a webpage. I also love sharing my knowledge, I'm not particularly
+            good at it, but it gives me a warm feeling when doing it. At the moment, I'm working at{' '}
+            <a href="https://assist-software.net/assist-culture" target="_blank" rel="noreferrer">
+              <strong>ASSIST Software</strong>
+            </a>
+            , a friendly and caring working place.
+            <br />
+            <br />
+            <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder ruined it
+            for me.
           </p>
 
           <div className="c-landing-hero__explore">

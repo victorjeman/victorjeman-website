@@ -2,36 +2,16 @@
   "id": "assist",
   "order": 1,
   "divider": "divider7",
-  "href": "projects/assist",
+  "href": "https://assist-software.net/",
   "title": "ASSIST Software",
   "role": "Front-End Developer",
   "duration": "Jan 2015 – Mar 2015",
+  "investigate": true,
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/assist.svg",
   "description": [
-    "This is a dynamic and complex web site, which requires frequent updates and a menu structure with a continuously expanding number of levels.",
-    "Multiple landing pages with editable content have been designed and implemented for the company's main areas of expertise.",
-    "This project was my first impact with the CMS Drupal. It was a quite nice experience taking in consideration that our team had a senior php developer.",
-    "I've worked mainly on the front end implementation using Sass and other cool stuff."
-  ],
-  "testimonials": [
-    {
-      "illustration": "/testimonials/3259.jpg",
-      "alt": "alt",
-      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52666.jpg",
-      "alt": "alt",
-      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52671.jpg",
-      "alt": "alt",
-      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
-      "author": "Author Name"
-    }
+    "This project is not my latest, nor it’s the first, but it’s among the most loved ones. It aged well with time, it’s classy, simple, straight to the point, and it brings back lovely memories. I got to work on the company’s website, I think, because I had more free time then, but I love to believe the company chose specifically me for this vital mission.",
+    "It was fun working on it, I was the only front-end dev on the team, and I had the freedom to experiment with all kinds of weird things and techniques. Around that time, I’ve started using Scss more often, and I was fascinated by it, though with the passing of years, I kind of learned to love the simplicity of CSS, especially for small or medium projects. ",
+    "I’m proud of this one. Hopefully, I will get the chance to help with the next version to make it even better."
   ]
 }

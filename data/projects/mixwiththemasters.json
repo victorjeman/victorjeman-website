@@ -6,6 +6,7 @@
   "title": "Mix With The Masters",
   "role": "Front-End Developer",
   "duration": "Mar 2015 - May 2015",
+  "investigate": true,
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/undraw_compose_music_ovo2.svg",
   "description": [

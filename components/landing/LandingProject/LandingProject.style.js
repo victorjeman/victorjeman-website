@@ -24,6 +24,7 @@ export default css`
     padding: 12px 15px;
     position: relative;
     background-color: #fff;
+    margin-bottom: 15px;
   }
 
   .c-landing-project__label:after {
@@ -48,6 +49,34 @@ export default css`
   .c-landing-project__description {
     font-family: ${FONT.WORK_SANS};
     font-weight: 300;
+  }
+
+  .c-landing-project__text {
+    margin-bottom: 15px;
+  }
+
+  .c-landing-project__played-with {
+    font-family: ${FONT.MERRIWEATHER};
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .c-landing-project__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c-landing-project__technology {
+    font-family: ${FONT.INTER};
+    border-radius: 4px;
+    padding: 6px 20px;
+    background-color: #3f3d56;
+    margin: 4px;
+    color: #fff;
   }
 
   .c-landing-project__investigate {
@@ -125,7 +154,7 @@ export default css`
       align-items: center;
     }
 
-    .c-landing-project__container--reverse {
+    .c-landing-project--reverse .c-landing-project__container {
       flex-direction: row-reverse;
     }
 

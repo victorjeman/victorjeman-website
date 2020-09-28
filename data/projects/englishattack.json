@@ -6,6 +6,7 @@
   "title": "English Attack",
   "role": "Front-End Developer",
   "duration": "Jan 2015 - Mar 2016",
+  "investigate": true,
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/englishattack.svg",
   "description": [
