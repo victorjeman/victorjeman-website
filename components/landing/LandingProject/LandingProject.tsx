@@ -75,16 +75,11 @@ export const LandingProject: React.FC<ILandingProject> = ({
         </a>
       )}
 
-      <ArrowDown className="c-landing-project__arrow-down" />
+      <div className="c-landing-project__arrow-down">
+        <ArrowDown />
+      </div>
     </Container>
 
     <style jsx>{style}</style>
-    <style jsx global>{`
-      .c-landing-project__arrow-down {
-        transform: rotate(45deg);
-        margin: 90px auto 0 auto;
-        display: block;
-      }
-    `}</style>
   </section>
 );

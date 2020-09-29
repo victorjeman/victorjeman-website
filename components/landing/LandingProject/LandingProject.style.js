@@ -95,6 +95,12 @@ export default css`
     text-decoration: none;
   }
 
+  .c-landing-project__arrow-down {
+    transform: rotate(45deg);
+    margin: 90px auto 0 auto;
+    display: block;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
     .c-landing-project {
       padding-top: 10%;
