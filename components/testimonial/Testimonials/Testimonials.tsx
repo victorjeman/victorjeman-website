@@ -8,10 +8,10 @@ import style from './Testimonials.style';
 export const Testimonials: React.FC<ITestimonials> = ({
   testimonials,
 }: ITestimonials): JSX.Element => (
-  <React.Fragment>
+  <div className="c-testimonials">
     {testimonials.map((testimonial, index) => (
       <Testimonial {...testimonial} key={`testimonial-${index}`} />
     ))}
     <style jsx>{style}</style>
-  </React.Fragment>
+  </div>
 );
