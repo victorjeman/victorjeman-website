@@ -1,0 +1,25 @@
+{
+  "id": "others",
+  "order": 6,
+  "divider": "divider6",
+  "href": "",
+  "title": "Explorer",
+  "role": "Learner",
+  "duration": "2012 - Present",
+  "investigate": true,
+  "technologies": [
+    "soft skills",
+    "management",
+    "collaboration",
+    "listening",
+    "understanding",
+    "caring",
+    "hoping"
+  ],
+  "illustration": "/images/project-thumbnails/others.jpg",
+  "description": [
+    "I’ve also worked on some smaller projects when the primary task would allow me. I enjoy doing some management work, though I don’t see myself doing this full time. I love coding; it’s too much fun, enabling me to experiment and feel free every day.",
+    "I’ve tried to be a helping colleague and a good friend to those who are willing to accept my quirks.",
+    "I want to believe I'm an optimist, though my thoughts are sometimes killing me because they are so noisy and all over the place. But, my work solves that as well to some extent, so I'm quite happy overall."
+  ]
+}

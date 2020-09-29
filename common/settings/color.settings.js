@@ -5,4 +5,5 @@ export const COLOR = {
   BLACK: '#000000',
   CARNATION: '#FA6866',
   ANTIQUE_BRONZE: '#634307',
+  GUN_POWDER: '#3F3D56',
 };

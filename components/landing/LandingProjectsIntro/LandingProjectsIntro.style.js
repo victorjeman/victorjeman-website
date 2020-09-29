@@ -21,6 +21,7 @@ export default css`
   .c-landing-projects-intro__illustration {
     width: 100%;
     display: block;
+    height: auto;
   }
 
   .c-landing-projects-intro__description {
@@ -47,23 +48,27 @@ export default css`
       font-size: 18px;
       line-height: 1.5;
     }
+
+    .c-landing-projects-intro__illustration {
+      border: 5px ${COLOR.WHITE} solid;
+    }
   }
 
   @media ${MEDIA.MEDIUM_UP} {
     .c-landing-projects-intro__title {
+      font-size: 35px;
       text-align: right;
       margin: 0;
       background-color: #ddd;
       display: inline-block;
-      padding: 10px 20px;
+      padding: 15px 25px;
       position: absolute;
       top: 15px;
       right: 15px;
     }
 
     .c-landing-projects-intro__illustration {
-      max-width: 700px;
-      margin: 15px;
+      border: 15px ${COLOR.WHITE} solid;
     }
 
     .c-landing-projects-intro__explore {

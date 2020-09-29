@@ -16,6 +16,10 @@ export default css`
     position: relative;
     z-index: 10;
     cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
   }
 
   .c-button-explore__text {

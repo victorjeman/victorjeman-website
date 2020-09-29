@@ -35,8 +35,8 @@ export default css`
     background-color: #fa6866;
     width: 100%;
     height: 100%;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
   }
 
   .c-landing-project__illustration {
@@ -58,8 +58,6 @@ export default css`
   .c-landing-project__played-with {
     font-family: ${FONT.MERRIWEATHER};
     font-size: 26px;
-    margin-top: 40px;
-    margin-bottom: 15px;
     text-align: center;
   }
 
@@ -84,7 +82,10 @@ export default css`
     box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
     border-radius: 30px;
     display: block;
-    width: 260px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
     padding: 18px 15px;
     text-align: center;
     font-family: ${FONT.BEBAS_NEUE};
@@ -116,29 +117,24 @@ export default css`
       margin-top: 40px;
     }
 
-    .c-landing-project__illustration {
-      max-width: 90%;
-    }
-
     .c-landing-project__description {
       margin-top: 30px;
       font-size: 17px;
       line-height: 1.7;
     }
 
-    .c-landing-project__buttons {
-      margin-top: 20px;
+    .c-landing-project__technology {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+
+    .c-landing-project__played-with {
+      margin-top: 60px;
+      margin-bottom: 15px;
     }
 
     .c-landing-project__investigate {
-      margin-bottom: 25px;
-    }
-
-    .c-landing-project__investigate,
-    .c-landing-project__explore-further {
-      max-width: 250px;
-      margin-right: auto;
-      margin-left: auto;
+      margin-top: 30px;
     }
   }
 
@@ -159,7 +155,7 @@ export default css`
     }
 
     .c-landing-project__column--1 {
-      width: 50%;
+      width: 58%;
     }
 
     .c-landing-project__column--2 {
@@ -183,19 +179,13 @@ export default css`
       margin-top: 40px;
     }
 
-    .c-landing-project__buttons {
-      margin-top: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .c-landing-project__played-with {
+      margin-top: 50px;
+      margin-bottom: 20px;
     }
 
     .c-landing-project__investigate {
-      width: 55%;
-    }
-
-    .c-landing-project__explore-further {
-      width: 35%;
+      margin-top: 60px;
     }
   }
 

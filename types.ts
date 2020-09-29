@@ -24,7 +24,6 @@ export interface IProjectThumbnail {
 
 export interface ILandingProject {
   index: number;
-  isLast: boolean;
   title: string;
   role: string;
   investigate: boolean;

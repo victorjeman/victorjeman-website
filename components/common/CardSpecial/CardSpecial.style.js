@@ -1,17 +1,16 @@
 import css from 'styled-jsx/css';
 
 import { COLOR } from '@settings/color.settings';
+import { MEDIA } from '@settings/media.settings';
 
 export default css`
   .c-card-special {
     position: relative;
-    display: inline-block;
   }
 
   .c-card-special__container {
     position: relative;
-    display: inline-block;
-    z-index: 3;
+    z-index: 2;
     background-color: #fff;
   }
 
@@ -38,17 +37,24 @@ export default css`
   }
 
   .c-card-special--small:after {
-    top: 7px;
-    left: 7px;
+    top: 6px;
+    left: 6px;
   }
 
   .c-card-special--medium:after {
-    top: 10px;
-    left: 10px;
+    top: 9px;
+    left: 9px;
   }
 
   .c-card-special--large:after {
-    top: 13px;
-    left: 13px;
+    top: 12px;
+    left: 12px;
+  }
+
+  @media ${MEDIA.SMALL_ONLY} {
+    .c-card-special:after {
+      top: 5px !important;
+      left: 5px !important;
+    }
   }
 `;

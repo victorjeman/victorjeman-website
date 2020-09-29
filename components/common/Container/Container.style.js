@@ -11,4 +11,20 @@ export default css`
     padding-right: 15px;
     padding-left: 15px;
   }
+
+  .c-container--small {
+    max-width: 600px;
+  }
+
+  .c-container--medium {
+    max-width: 800px;
+  }
+
+  .c-container--large {
+    max-width: 1000px;
+  }
+
+  .c-container--xlarge {
+    max-width: 1200px;
+  }
 `;

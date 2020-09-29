@@ -8,6 +8,8 @@ import { LandingProject } from '@components/landing/LandingProject/LandingProjec
 import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro/LandingProjectsIntro';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
+const TreasureMap = require('../public/images/random/treasure-map.svg') as string;
+
 interface Props {
   landingProjects: ILandingProject[];
 }
@@ -22,6 +24,24 @@ export default function Home({ landingProjects }: Props): React.ReactNode {
       {landingProjects.map((project, index) => (
         <LandingProject key={index} {...project} />
       ))}
+
+      <section className="c-landing-why">
+        <div className="c-landing-why__icon">
+          <TreasureMap />
+        </div>
+
+        <h2>Why?</h2>
+      </section>
+
+      <style jsx>
+        {`
+          .c-landing-why__icon {
+            width: 50px;
+            display: block;
+            margin: auto;
+          }
+        `}
+      </style>
     </PageLayout>
   );
 }

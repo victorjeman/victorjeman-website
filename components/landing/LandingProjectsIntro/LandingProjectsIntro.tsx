@@ -12,7 +12,7 @@ import style from './LandingProjectsIntro.style';
 
 export const LandingProjectsIntro: React.FC = (): JSX.Element => (
   <section className="c-landing-projects-intro">
-    <Container>
+    <Container type={ISizeModifier.medium}>
       <div className="c-landing-projects-intro__container [ js-landing-projects-intro ]">
         <h2 className="c-landing-projects-intro__title [ u-show-small-only ]">
           It's over 9000 ...{' '}
@@ -51,13 +51,16 @@ export const LandingProjectsIntro: React.FC = (): JSX.Element => (
           </p>
 
           <p className="c-landing-projects-intro__text">
-            I'm quite flexible when it comes to technical requirements and not only. I can easily
-            switch my trajectory if the situation requires it, and it's beneficial for the project.
+            I'm flexible when it comes to technical requirements and not only. I can easily switch
+            my trajectory if the situation requires it, and it's beneficial for the project. I will
+            learn something even if it's not directly required. I will do it anyway if I feel it
+            will help the project.
           </p>
 
           <p className="c-landing-projects-intro__text">
             For a project, I've even done automated tests with webdriver.io and created a container
-            for those tests after learning about docker in ~ 3 days.
+            for those tests after learning the basics in a couple of days. I had to? Not really, but
+            it was nice that I can help.
             <br />
             <br /> <strong>P.S.</strong> Initially, the docker setup was somewhat embarrassing to
             look at, but it's working alright now.

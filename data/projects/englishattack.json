@@ -2,7 +2,7 @@
   "id": "englishattack",
   "order": 4,
   "divider": "divider4",
-  "href": "projects/englishattack",
+  "href": "https://english-attack.com",
   "title": "English Attack",
   "role": "Front-End Developer",
   "duration": "Jan 2015 - Mar 2016",
@@ -10,27 +10,6 @@
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/englishattack.svg",
   "description": [
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
-  ],
-  "testimonials": [
-    {
-      "illustration": "/testimonials/3259.jpg",
-      "alt": "alt",
-      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52666.jpg",
-      "alt": "alt",
-      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52671.jpg",
-      "alt": "alt",
-      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
-      "author": "Author Name"
-    }
+    "EnglishAttack is an exciting project; it helps people to learn the English language using an interactive approach. It’s an ongoing project that never stops growing and evolving. I’ve joined the project for roughly three months when the client wanted to do a design revamp for the whole website. I’ve helped with the front-end structure and some, hopefully, useful ideas. Once the front-end base was in place, my colleagues continued the work without me, and I’ve moved to my next adventure. "
   ]
 }

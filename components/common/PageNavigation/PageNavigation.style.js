@@ -11,14 +11,6 @@ export default css`
     align-items: center;
   }
 
-  .c-page-navigation__logo {
-    position: relative;
-    top: 15px;
-  }
-
-  .c-page-navigation__toggle {
-  }
-
   .c-page-navigation__menu {
     display: flex;
   }
@@ -82,6 +74,11 @@ export default css`
   @media ${MEDIA.MEDIUM_UP} {
     .c-page-navigation__menu-item {
       margin-left: 15px;
+    }
+
+    .c-page-navigation__logo {
+      position: relative;
+      top: 15px;
     }
   }
 

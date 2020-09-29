@@ -2,7 +2,7 @@
   "id": "bookingbug",
   "order": 3,
   "divider": "divider2",
-  "href": "projects/bookingbug",
+  "href": "",
   "title": "BookingBug(now jrni)",
   "role": "Front-End Developer / Team Lead",
   "duration": "Mar 2016 – Mar 2019",
@@ -20,27 +20,8 @@
   ],
   "illustration": "/images/project-thumbnails/bookingbug.svg",
   "description": [
-    "A remarkable project that motivated me to learn so many technical and soft skills. Our client was from the UK, and the collaboration was very fruitful. They had different development teams there, and we learned and grew together. I had the pleasure of being a team lead for a group of seven developers and one QA. It was a poetic combination, we worked together as a family, and we learned many great things.",
-    "I was responsible for guiding and helping my colleagues so that we could achieve together the set objectives. I've learned a lot about patience and the importance of being understanding."
-  ],
-  "testimonials": [
-    {
-      "illustration": "/testimonials/3259.jpg",
-      "alt": "alt",
-      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52666.jpg",
-      "alt": "alt",
-      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52671.jpg",
-      "alt": "alt",
-      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
-      "author": "Author Name"
-    }
+    "A remarkable project that motivated me to learn so many technical and soft skills. Our client was from the UK, and the collaboration was very fruitful. They had different development teams there, and we learned and grew together. I had the pleasure of being a team lead for a group of seven developers and one QA from ASSIST. It was a poetic combination, we worked together as a family, and we learned many great things.",
+    "I was responsible for guiding and helping my colleagues so that we could achieve together the set objectives. I've learned a lot about patience and the importance of being understanding.",
+    "We were responsabile for building custom journeys for differnt clients. If you are curious to find more about the company you can check their website <a href=\"https://www.jrni.com\" target=\"_blank\" rel=\"noreferrer\"><strong>jrni</strong></a>."
   ]
 }
