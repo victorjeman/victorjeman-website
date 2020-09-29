@@ -99,6 +99,7 @@ export default css`
     transform: rotate(45deg);
     margin: 90px auto 0 auto;
     display: block;
+    width: 50px;
   }
 
   @media ${MEDIA.SMALL_ONLY} {
