@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const Container: React.FC<Props> = ({ children, type }: Props) => (
-  <div className={`c-container c-container--${type}`}>
+  <div className={`c-container ${type ? `c-container--${type}` : ''}`}>
     {children}
     <style jsx>{style}</style>
   </div>

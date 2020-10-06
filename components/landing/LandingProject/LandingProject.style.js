@@ -9,9 +9,6 @@ export default css`
     background-position: bottom;
   }
 
-  .c-landing-project__container {
-  }
-
   .c-landing-project__title {
     font-family: ${FONT.BEBAS_NEUE};
     letter-spacing: 1px;
@@ -69,7 +66,8 @@ export default css`
   }
 
   .c-landing-project__technology {
-    font-family: ${FONT.INTER};
+    font-family: ${FONT.WORK_SANS};
+    font-weight: 400;
     border-radius: 4px;
     padding: 6px 20px;
     background-color: #3f3d56;
@@ -145,10 +143,15 @@ export default css`
     }
   }
 
+  @media ${MEDIA.MEDIUM_ONLY} {
+    .c-landing-project {
+      padding-bottom: 25%;
+    }
+  }
+
   @media ${MEDIA.MEDIUM_UP} {
     .c-landing-project {
       padding-top: 100px;
-      padding-bottom: 25%;
     }
 
     .c-landing-project__container {
@@ -197,5 +200,14 @@ export default css`
   }
 
   @media ${MEDIA.LARGE_UP} {
+    .c-landing-project {
+      padding-bottom: 15%;
+    }
+  }
+
+  @media ${MEDIA.XLARGE_UP} {
+    .c-landing-project {
+      padding-bottom: 12%;
+    }
   }
 `;

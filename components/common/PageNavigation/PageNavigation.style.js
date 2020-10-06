@@ -18,7 +18,7 @@ export default css`
   .c-page-navigation__menu-link {
     padding: 5px 0;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: ${FONT.WORK_SANS};
     color: ${COLOR.GABLE_GREEN};

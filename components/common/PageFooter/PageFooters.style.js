@@ -9,8 +9,8 @@ export default css`
     text-align: center;
     border-top: 1px solid #d9d9d9;
     padding: 15px;
-    font-family: ${FONT.INTER};
-    font-weight: bold;
+    font-family: ${FONT.WORK_SANS};
+    font-weight: 400;
   }
 
   .c-page-footer__container {

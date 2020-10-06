@@ -13,11 +13,11 @@ export default css`
   }
 
   .c-container--small {
-    max-width: 600px;
+    max-width: 750px;
   }
 
   .c-container--medium {
-    max-width: 800px;
+    max-width: 850px;
   }
 
   .c-container--large {
