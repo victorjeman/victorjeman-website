@@ -1,15 +1,15 @@
 import * as React from 'react';
 import matter from 'gray-matter';
 
-import { IPost } from '@types';
+import { IHomework } from '@types';
 
 import { ReadService } from '@services/Read/Read.service';
 
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
-import { Post } from '@components/post/Post/Post';
+import { Homework } from '@components/homework/Homework/Homework';
 
 interface Props1 {
-  post: IPost;
+  homework: IHomework;
 }
 
 interface Props2 {
@@ -23,29 +23,29 @@ interface Props3 {
   fallback: boolean;
 }
 
-export default function PostPage({ post }: Props1): React.ReactNode {
+export default function HomeworkPage({ homework }: Props1): React.ReactNode {
   return (
     <PageLayout>
-      <Post post={post} />
+      <Homework homework={homework} />
     </PageLayout>
   );
 }
 
 export async function getStaticProps({ params }: Props2): Promise<{ props: Props1 }> {
-  const post = matter(ReadService.readFile({ dataPath: `data/posts/${params.slug}.md` }));
-  delete post.orig;
+  const homework = matter(ReadService.readFile({ dataPath: `data/homeworks/${params.slug}.md` }));
+  delete homework.orig;
 
   return {
-    props: { post },
+    props: { homework },
   };
 }
 
 export async function getStaticPaths(): Promise<Props3> {
-  const posts = ReadService.readFiles({ dataPath: 'data/posts' });
+  const homework = ReadService.readFiles({ dataPath: 'data/homeworks' });
 
-  const paths = posts.map((post: IPost) => ({
+  const paths = homework.map((homework: IHomework) => ({
     params: {
-      slug: `${matter(post).data.slug}`,
+      slug: `${matter(homework).data.slug}`,
     },
   }));
 

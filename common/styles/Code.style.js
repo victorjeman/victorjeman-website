@@ -1,11 +1,23 @@
 import css from 'styled-jsx/css';
 
 export default css.global`
+  code {
+    background-color: #f6f8fa;
+    display: block;
+    padding: 1rem;
+    overflow: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 95%;
+    line-height: 1.45;
+  }
+
   /* Base16 Atelier Plateau Dark - Theme */
   /* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
   /* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
 
   /* Atelier-Plateau Comment */
+
   .hljs-comment,
   .hljs-quote {
     color: #7e7777;

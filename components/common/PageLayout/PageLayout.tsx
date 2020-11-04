@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useRouter } from 'next/router';
 
 import { PageFooter } from '@components/common/PageFooter/PageFooter';
 import { PageHeader } from '@components/common/PageHeader/PageHeader';
@@ -12,8 +11,6 @@ interface Props {
 }
 
 export const PageLayout: React.FC<Props> = ({ children }: Props): JSX.Element => {
-  const router = useRouter();
-
   return (
     <React.Fragment>
       <PageHeader />

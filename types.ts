@@ -50,3 +50,14 @@ export interface IPost {
 export interface IPosts {
   posts: IPost[];
 }
+
+export interface IHomeworkData {
+  title?: string;
+  slug?: string;
+}
+export interface IHomework {
+  data: IHomeworkData;
+  content: string;
+  isEmpty?: boolean;
+  excerpt?: string;
+}
