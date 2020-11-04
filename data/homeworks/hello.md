@@ -1,6 +1,7 @@
 ---
 title: Web Scraper
 level: 3
+slug: hello
 ---
 
 **ASSIST Software**

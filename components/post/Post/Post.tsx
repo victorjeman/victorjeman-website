@@ -8,7 +8,6 @@ import { PostHero } from '@components/post/PostHero/PostHero';
 
 interface Props {
   post: IPost;
-  data: IPostData;
 }
 
 export const Post = ({ post }: Props): JSX.Element => (
