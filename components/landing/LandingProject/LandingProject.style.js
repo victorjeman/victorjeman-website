@@ -9,9 +9,6 @@ export default css`
     background-position: bottom;
   }
 
-  .c-landing-project__container {
-  }
-
   .c-landing-project__title {
     font-family: ${FONT.BEBAS_NEUE};
     letter-spacing: 1px;
@@ -35,8 +32,8 @@ export default css`
     background-color: #fa6866;
     width: 100%;
     height: 100%;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
   }
 
   .c-landing-project__illustration {
@@ -58,8 +55,6 @@ export default css`
   .c-landing-project__played-with {
     font-family: ${FONT.MERRIWEATHER};
     font-size: 26px;
-    margin-top: 40px;
-    margin-bottom: 15px;
     text-align: center;
   }
 
@@ -71,7 +66,8 @@ export default css`
   }
 
   .c-landing-project__technology {
-    font-family: ${FONT.INTER};
+    font-family: ${FONT.WORK_SANS};
+    font-weight: 400;
     border-radius: 4px;
     padding: 6px 20px;
     background-color: #3f3d56;
@@ -84,7 +80,10 @@ export default css`
     box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
     border-radius: 30px;
     display: block;
-    width: 260px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
     padding: 18px 15px;
     text-align: center;
     font-family: ${FONT.BEBAS_NEUE};
@@ -92,6 +91,13 @@ export default css`
     letter-spacing: 1px;
     color: #000;
     text-decoration: none;
+  }
+
+  .c-landing-project__arrow-down {
+    transform: rotate(45deg);
+    margin: 90px auto 0 auto;
+    display: block;
+    width: 85px;
   }
 
   @media ${MEDIA.SMALL_ONLY} {
@@ -116,36 +122,36 @@ export default css`
       margin-top: 40px;
     }
 
-    .c-landing-project__illustration {
-      max-width: 90%;
-    }
-
     .c-landing-project__description {
       margin-top: 30px;
       font-size: 17px;
       line-height: 1.7;
     }
 
-    .c-landing-project__buttons {
-      margin-top: 20px;
+    .c-landing-project__technology {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+
+    .c-landing-project__played-with {
+      margin-top: 60px;
+      margin-bottom: 15px;
     }
 
     .c-landing-project__investigate {
-      margin-bottom: 25px;
+      margin-top: 30px;
     }
+  }
 
-    .c-landing-project__investigate,
-    .c-landing-project__explore-further {
-      max-width: 250px;
-      margin-right: auto;
-      margin-left: auto;
+  @media ${MEDIA.MEDIUM_ONLY} {
+    .c-landing-project {
+      padding-bottom: 25%;
     }
   }
 
   @media ${MEDIA.MEDIUM_UP} {
     .c-landing-project {
       padding-top: 100px;
-      padding-bottom: 25%;
     }
 
     .c-landing-project__container {
@@ -159,7 +165,7 @@ export default css`
     }
 
     .c-landing-project__column--1 {
-      width: 50%;
+      width: 58%;
     }
 
     .c-landing-project__column--2 {
@@ -183,22 +189,25 @@ export default css`
       margin-top: 40px;
     }
 
-    .c-landing-project__buttons {
-      margin-top: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .c-landing-project__played-with {
+      margin-top: 50px;
+      margin-bottom: 20px;
     }
 
     .c-landing-project__investigate {
-      width: 55%;
-    }
-
-    .c-landing-project__explore-further {
-      width: 35%;
+      margin-top: 60px;
     }
   }
 
   @media ${MEDIA.LARGE_UP} {
+    .c-landing-project {
+      padding-bottom: 15%;
+    }
+  }
+
+  @media ${MEDIA.XLARGE_UP} {
+    .c-landing-project {
+      padding-bottom: 12%;
+    }
   }
 `;

@@ -51,6 +51,8 @@ export default css`
     .c-landing-hero__title {
       font-size: 26px;
       line-height: 1.5;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
 
     .c-landing-hero__description {
@@ -105,6 +107,10 @@ export default css`
       width: 100%;
       margin: 20px;
     }
+
+    .c-landing-hero__explore {
+      margin-top: 40px;
+    }
   }
 
   @media ${MEDIA.MEDIUM_ONLY} {
@@ -150,7 +156,6 @@ export default css`
     }
 
     .c-landing-hero__explore {
-      margin-top: 40px;
       max-width: 50%;
     }
 

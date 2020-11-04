@@ -14,7 +14,7 @@ import style from './LandingHero.style';
 export const LandingHero: React.FC = (): JSX.Element => (
   <section className="c-landing-hero">
     <Container>
-      <div className="c-landing-hero__container here-i-am">
+      <div className="c-landing-hero__container">
         <div className="c-landing-hero__info">
           <h1 className="c-landing-hero__title">
             <span className="c-landing-hero__title-line c-landing-hero__title-line--1">
@@ -40,7 +40,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
             <CardSpecial type={ISizeModifier.medium}>
               <img
                 className="c-landing-hero__illustration"
-                src="/images/me/me2.png"
+                src="/images/me/me1.png"
                 alt="Victor JEMAN"
               />
             </CardSpecial>
@@ -76,7 +76,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
           <CardSpecial type={ISizeModifier.medium}>
             <img
               className="c-landing-hero__illustration"
-              src="/images/me/me2.png"
+              src="/images/me/me1.png"
               alt="Victor JEMAN"
             />
           </CardSpecial>

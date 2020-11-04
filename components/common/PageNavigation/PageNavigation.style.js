@@ -11,14 +11,6 @@ export default css`
     align-items: center;
   }
 
-  .c-page-navigation__logo {
-    position: relative;
-    top: 15px;
-  }
-
-  .c-page-navigation__toggle {
-  }
-
   .c-page-navigation__menu {
     display: flex;
   }
@@ -26,7 +18,7 @@ export default css`
   .c-page-navigation__menu-link {
     padding: 5px 0;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: ${FONT.WORK_SANS};
     color: ${COLOR.GABLE_GREEN};
@@ -82,6 +74,11 @@ export default css`
   @media ${MEDIA.MEDIUM_UP} {
     .c-page-navigation__menu-item {
       margin-left: 15px;
+    }
+
+    .c-page-navigation__logo {
+      position: relative;
+      top: 15px;
     }
   }
 

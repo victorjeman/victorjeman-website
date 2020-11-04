@@ -1,9 +1,5 @@
 import * as React from 'react';
 
-import { MEDIA } from '@settings/media.settings';
-import { FONT } from '@settings/font.settings';
-import { COLOR } from '@settings/color.settings';
-
 import { ITestimonials } from '@types';
 
 import { ReadService } from '@services/Read/Read.service';

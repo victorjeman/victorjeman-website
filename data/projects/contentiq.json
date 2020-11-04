@@ -2,9 +2,9 @@
   "id": "contentiq",
   "order": 2,
   "divider": "divider3",
-  "href": "projects/contentiq",
+  "href": "",
   "title": "Content IQ",
-  "role": "Kind of Front-End Full-Stack Developer / Team Lead",
+  "role": "Full-Stack Front-End Developer / Team Lead",
   "duration": "Mar 2019 – Present",
   "investigate": false,
   "technologies": [
@@ -23,25 +23,5 @@
     "This project is quite big. It’s composed of multiple sub-projects that are working together through a complex REST API. At the moment, 20 people from ASSIST form five different teams(QA, DevOps, and three development teams) that work tirelessly to make this project a success.  These teams are collaborating with people from the US and Israel.",
     "I have the pleasure of being the team leader for such a sub-project, and I have to tell you that the fun never stops. Sometimes I would gladly renounce such “fun,” but to be honest, I love it most of the time. And you have to love your work if you don’t want to go insane. The project is complex, and it requires constant tight collaboration with different teams, which sometimes is a challenge, but it’s all worth it at the end of the day.",
     "The project brings me joy and pushes me to overcome my limits. Plus, I interact with fantastic people with different views about life, and I’m learning a lot from them. "
-  ],
-  "testimonials": [
-    {
-      "illustration": "/testimonials/3259.jpg",
-      "alt": "alt",
-      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52666.jpg",
-      "alt": "alt",
-      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52671.jpg",
-      "alt": "alt",
-      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
-      "author": "Author Name"
-    }
   ]
 }

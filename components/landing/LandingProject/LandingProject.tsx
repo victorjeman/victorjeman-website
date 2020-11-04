@@ -1,12 +1,10 @@
 import * as React from 'react';
 
-import { ISizeModifier, ILandingProject } from '@types';
+import { ILandingProject } from '@types';
 
-import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service';
-
-import { ButtonExplore } from '@components/common/ButtonExplore/ButtonExplore';
 import { Container } from '@components/common/Container/Container';
 
+const ArrowDown = require('../../../public/images/random/arrow-down-2.svg') as string;
 import style from './LandingProject.style';
 
 export const LandingProject: React.FC<ILandingProject> = ({
@@ -18,7 +16,6 @@ export const LandingProject: React.FC<ILandingProject> = ({
   divider,
   description,
   index,
-  isLast,
   investigate,
   technologies,
 }: ILandingProject): JSX.Element => (
@@ -37,7 +34,7 @@ export const LandingProject: React.FC<ILandingProject> = ({
 
           <p className="c-landing-project__label">{duration}</p>
 
-          <p className="c-landing-project__label">Role: {role}</p>
+          <p className="c-landing-project__label">{role}</p>
 
           <div className="c-landing-project__illustration-wrapper [ u-show-small-only ]">
             <img className="c-landing-project__illustration" src={illustration} alt={title} />
@@ -45,9 +42,13 @@ export const LandingProject: React.FC<ILandingProject> = ({
 
           <div className="c-landing-project__description">
             {description.map((item, index) => (
-              <p className="c-landing-project__text" key={index}>
-                {item}
-              </p>
+              <p
+                className="c-landing-project__text"
+                key={index}
+                dangerouslySetInnerHTML={{
+                  __html: `${item}`,
+                }}
+              ></p>
             ))}
           </div>
         </div>
@@ -68,30 +69,14 @@ export const LandingProject: React.FC<ILandingProject> = ({
         ))}
       </ul>
 
-      <div className="c-landing-project__buttons">
-        {!isLast && (
-          <div className="c-landing-project__explore-further">
-            <ButtonExplore
-              modifier={ISizeModifier.medium}
-              handleClick={() => {
-                scrollIntoView({ selector: `.js-landing-project--${index + 1}` });
-              }}
-            >
-              Keep going
-            </ButtonExplore>
-          </div>
-        )}
+      {investigate && (
+        <a className="c-landing-project__investigate" href={href} target="_blank" rel="noreferrer">
+          Investigate
+        </a>
+      )}
 
-        {investigate && (
-          <a
-            className="c-landing-project__investigate"
-            href={href}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Investigate
-          </a>
-        )}
+      <div className="c-landing-project__arrow-down">
+        <ArrowDown />
       </div>
     </Container>
 

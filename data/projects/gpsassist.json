@@ -2,7 +2,7 @@
   "id": "gpsassist",
   "order": 5,
   "divider": "divider5",
-  "href": "projects/gpsassist",
+  "href": "",
   "title": "GPS ASSIST",
   "role": "Front-End Developer",
   "duration": "Aug 2014 – Oct 2014",
@@ -10,27 +10,8 @@
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "AngularJS", "Python"],
   "illustration": "/images/undraw_map_1r69.svg",
   "description": [
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum.",
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero reiciendis illo repudiandae corporis? Ut, voluptatibus rerum. Sint beatae itaque nam molestias totam, maiores similique fugit sed in! Provident, sint harum."
-  ],
-  "testimonials": [
-    {
-      "illustration": "/images/project-thumbnails/gpsassist.svg",
-      "alt": "alt",
-      "text": "Strengthening infrastructure vibrant, dynamic innovation shared value compelling because unprecedented challenge transparent. Indicators, society benefit corporation scale and impact then changemaker thought provoking systems thinking. Thought partnership best practices impact milestones because. Academic correlation, uplift a framework families.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52666.jpg",
-      "alt": "alt",
-      "text": "Compassion innovate gender rights grit save the world efficient living a fully ethical life when. Green space dynamic, contextualize green space systems thinking human-centered green space disrupt living a fully ethical life.",
-      "author": "Author Name"
-    },
-    {
-      "illustration": "/testimonials/52671.jpg",
-      "alt": "alt",
-      "text": "Entrepreneur overcome injustice program area movements radical paradigm. When, leverage justice unprecedented challenge collaborative consumption compassion. Changemaker program areas; invest a the resistance synergy targeted. Natural resources green space, relief NGO support storytelling technology transparent engaging.",
-      "author": "Author Name"
-    }
+    "GPS ASSIST is a fleet tracking application that gives you up-to-the-minute speed and location updates, including email alerts based on parameters you set in advance.",
+    "The objective of the GPS project is to help companies to lower costs, improve their activities and increase productivity.",
+    "This is the first project where I could experience the real power of Angularjs implementing the front end side of the project using this awesome framework."
   ]
 }

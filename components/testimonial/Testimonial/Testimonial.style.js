@@ -16,39 +16,38 @@ export default css`
 
   .c-testimonial__author-name {
     font-family: ${FONT.BEBAS_NEUE};
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1;
-    color: ${COLOR.ANTIQUE_BRONZE};
+    margin-bottom: 10px;
+    color: ${COLOR.GUN_POWDER};
   }
 
   .c-testimonial__author-info {
     font-family: ${FONT.WORK_SANS};
-    color: ${COLOR.ANTIQUE_BRONZE};
-    font-size: 20px;
-  }
-
-  .c-testimonial__author-job,
-  .c-testimonial__author-company {
-    font-family: ${FONT.BEBAS_NEUE};
+    color: ${COLOR.GUN_POWDER};
+    font-size: 18px;
   }
 
   .c-testimonial__author-linkedin {
-    font-family: ${FONT.WORK_SANS};
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .c-testimonial__text {
     font-family: ${FONT.WORK_SANS};
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6;
     margin-bottom: 15px;
   }
 
+  .c-testimonial__text:last-of-type {
+    margin-bottom: 0;
+  }
+
   .c-testimonial__text--first {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
   @media ${MEDIA.SMALL_ONLY} {

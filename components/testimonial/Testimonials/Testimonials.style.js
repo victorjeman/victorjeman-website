@@ -1,16 +1,12 @@
 import css from 'styled-jsx/css';
 
 import { MEDIA } from '@settings/media.settings';
-import { FONT } from '@settings/font.settings';
-import { COLOR } from '@settings/color.settings';
 
 export default css`
-  @media ${MEDIA.SMALL_ONLY} {
-  }
-
-  @media ${MEDIA.MEDIUM_UP} {
-  }
-
-  @media ${MEDIA.LARGE_UP} {
+  .c-testimonials {
+    position: relative;
+    background-image: url('images/shape-dividers/divider7.svg');
+    background-repeat: no-repeat;
+    background-position: top;
   }
 `;

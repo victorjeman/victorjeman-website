@@ -24,7 +24,6 @@ export interface IProjectThumbnail {
 
 export interface ILandingProject {
   index: number;
-  isLast: boolean;
   title: string;
   role: string;
   investigate: boolean;
@@ -36,20 +35,29 @@ export interface ILandingProject {
   technologies: string[];
 }
 
-export interface IProject {
-  id: number;
-  href: number;
-  title: string;
-  duration: string;
-  description: string[];
-  technologies: string[];
-  illustration: string;
-  testimonials: [
-    {
-      illustration: string;
-      alt: string;
-      text: string;
-      author: string;
-    },
-  ];
+export interface IPostData {
+  title?: string;
+  slug?: string;
+}
+
+export interface IPost {
+  data: IPostData;
+  content: string;
+  isEmpty?: boolean;
+  excerpt?: string;
+}
+
+export interface IPosts {
+  posts: IPost[];
+}
+
+export interface IHomeworkData {
+  title?: string;
+  slug?: string;
+}
+export interface IHomework {
+  data: IHomeworkData;
+  content: string;
+  isEmpty?: boolean;
+  excerpt?: string;
 }
