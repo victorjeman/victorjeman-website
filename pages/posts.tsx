@@ -24,7 +24,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
 }
 
 export async function getStaticProps(): Promise<{ props: IPosts }> {
-  const posts = ReadService.readFiles({ dataPath: 'data/posts' });
+  const posts = ReadService.readFiles({ dataPath: 'data/posts/content' });
 
   return {
     props: {

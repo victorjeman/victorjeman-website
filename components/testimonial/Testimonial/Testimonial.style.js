@@ -6,7 +6,7 @@ import { COLOR } from '@settings/color.settings';
 
 export default css`
   .c-testimonial {
-    margin: 20px auto 40px auto;
+    margin: 2rem auto 5rem auto;
     background-color: red;
   }
 
