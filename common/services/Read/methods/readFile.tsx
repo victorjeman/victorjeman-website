@@ -8,6 +8,8 @@ interface IParams {
 }
 
 export const readFile = ({ dataPath }: IParams): any => {
+  console.log('dataPath: ', dataPath);
+
   const filePath = path.join(process.cwd(), dataPath);
   const fileContent = fs.readFileSync(filePath, 'utf8');
 

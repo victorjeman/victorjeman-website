@@ -61,3 +61,30 @@ export interface IHomework {
   isEmpty?: boolean;
   excerpt?: string;
 }
+
+export interface IHomeworks {
+  homeworks: IHomework[];
+}
+
+export interface IMeta {
+  title: string;
+  description: string;
+  url: string;
+  type: string;
+  article: {
+    publishedTime: string;
+    modifiedTime: string;
+    expirationTime: string;
+    section: string;
+    authors: string[];
+    tags: string[];
+  };
+  images: [
+    {
+      url: string;
+      width: number;
+      height: number;
+      alt: string;
+    },
+  ];
+}

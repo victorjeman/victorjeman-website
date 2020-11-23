@@ -44,15 +44,15 @@ export const PageNavigation: React.FC = () => {
 
             <li className="c-page-navigation__menu-item">
               <a className="c-page-navigation__menu-link" href="/posts">
-                Thoughts
+                Blog
               </a>
             </li>
-            {/*
+
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/testimonials">
-                V 1.0
+              <a className="c-page-navigation__menu-link" href="/homeworks">
+                Homework
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </Container>
