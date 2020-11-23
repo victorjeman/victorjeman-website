@@ -39,12 +39,6 @@ export const PageNavigation: React.FC = () => {
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/testimonials">
-                Recommendations
-              </a>
-            </li>
-
-            <li className="c-page-navigation__menu-item">
               <a className="c-page-navigation__menu-link" href="/posts">
                 Blog
               </a>
@@ -53,6 +47,12 @@ export const PageNavigation: React.FC = () => {
             <li className="c-page-navigation__menu-item">
               <a className="c-page-navigation__menu-link" href="/homework">
                 Homework
+              </a>
+            </li>
+
+            <li className="c-page-navigation__menu-item">
+              <a className="c-page-navigation__menu-link" href="/testimonials">
+                Recommendations
               </a>
             </li>
           </ul>
