@@ -1,4 +1,5 @@
 import * as React from 'react';
+import TagManager from 'react-gtm-module';
 import 'modern-css-reset';
 
 import '../public/scss/index.scss';
@@ -11,7 +12,15 @@ interface Props {
   pageProps: React.PropsWithChildren<Props>;
 }
 
+const tagManagerArgs = {
+  gtmId: 'GTM-P9QQFBC',
+};
+
 const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
+  React.useEffect(() => {
+    TagManager.initialize(tagManagerArgs);
+  }, []);
+
   return (
     <React.Fragment>
       <Component {...pageProps} />
