@@ -6,6 +6,8 @@ import style from './PageNavigation.style';
 import { MenuIcon } from '@components/common/MenuIcon/MenuIcon';
 import { Container } from '@components/common/Container/Container';
 
+import { CustomLink } from '@components/common/CustomLink/CustomLink';
+
 export const PageNavigation: React.FC = () => {
   const [open, setOpen] = React.useState(false);
 
@@ -33,27 +35,27 @@ export const PageNavigation: React.FC = () => {
             } `}
           >
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/">
-                Hello
-              </a>
+              <CustomLink href="/">
+                <a className="c-page-navigation__menu-link">Hello</a>
+              </CustomLink>
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/posts">
-                Blog
-              </a>
+              <CustomLink href="/posts">
+                <a className="c-page-navigation__menu-link">Blog</a>
+              </CustomLink>
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/homework">
-                Homework
-              </a>
+              <CustomLink href="/homework">
+                <a className="c-page-navigation__menu-link">Homework</a>
+              </CustomLink>
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/testimonials">
-                Recommendations
-              </a>
+              <CustomLink href="/testimonials">
+                <a className="c-page-navigation__menu-link">Recommendations</a>
+              </CustomLink>
             </li>
           </ul>
         </div>

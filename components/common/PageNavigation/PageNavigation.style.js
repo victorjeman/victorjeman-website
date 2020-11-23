@@ -37,7 +37,7 @@ export default css`
     display: none;
   }
 
-  .c-page-navigation__menu-link--active:after,
+  .c-page-navigation__menu-link.selected:after,
   .c-page-navigation__menu-link:hover:after {
     display: block;
   }
