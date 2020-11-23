@@ -2,7 +2,11 @@ import * as React from 'react';
 
 import Head from 'next/head';
 
-export const PageHeader = ({ title }): JSX.Element => {
+interface Props {
+  title: string;
+}
+
+export const PageHeader = ({ title }: Props): JSX.Element => {
   return (
     <Head>
       <title>{title}</title>

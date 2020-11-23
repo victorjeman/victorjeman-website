@@ -4,14 +4,16 @@ import { useRouter } from 'next/router';
 
 interface Props {
   href: string;
-  children: React.ReactNode;
+  children: JSX.Element;
 }
 
-export const CustomLink: React.FC<Props> = ({ href, children }: Props): React.ReactElement<any> => {
+export const CustomLink: React.FC<Props> = ({ href, children }: Props) => {
   const router = useRouter();
+
   const { props } = children;
 
-  let className = props ? props.className : '';
+  let className = props.className || '';
+
   if (router.pathname === href) {
     className = `${className} selected`;
   }
