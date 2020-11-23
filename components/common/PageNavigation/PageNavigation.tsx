@@ -18,7 +18,9 @@ export const PageNavigation: React.FC = () => {
       <Container>
         <div className="c-page-navigation__container">
           <div className="c-page-navigation__logo">
-            <LogoFullSvg />
+            <a href="/">
+              <LogoFullSvg />
+            </a>
           </div>
 
           <div className="c-page-navigation__toggle [ u-show-small-only ]" onClick={onClickHandler}>
