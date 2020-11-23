@@ -67,8 +67,8 @@ export default css`
     }
 
     .c-landing-hero__illustration {
-      margin: 20px auto;
-      width: 80%;
+      margin: 5% auto;
+      width: 90%;
     }
 
     .c-landing-hero__explore {
