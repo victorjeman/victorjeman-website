@@ -16,7 +16,7 @@ interface Props {
 
 export default function Home({ landingProjects }: Props): React.ReactNode {
   return (
-    <PageLayout>
+    <PageLayout title={'Victor JEMAN'}>
       <LandingHero />
 
       <LandingProjectsIntro />

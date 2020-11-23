@@ -9,7 +9,7 @@ import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
   return (
-    <PageLayout>
+    <PageLayout title="Blog">
       {posts.map((post, index) => {
         const { title, slug } = matter(post).data;
         return (

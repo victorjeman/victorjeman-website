@@ -8,12 +8,14 @@ import style from './PageLayout.style';
 
 interface Props {
   children: React.ReactNode;
+  title: string;
 }
 
-export const PageLayout: React.FC<Props> = ({ children }: Props): JSX.Element => {
+export const PageLayout: React.FC<Props> = ({ children, title }: Props): JSX.Element => {
   return (
     <React.Fragment>
-      <PageHeader />
+      <PageHeader title={title} />
+
       <PageNavigation />
 
       <main>{children}</main>

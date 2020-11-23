@@ -7,9 +7,9 @@ import { ReadService } from '@services/Read/Read.service';
 
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
-export default function HomeworksPage({ homeworks }: IHomeworks): React.ReactNode {
+export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode {
   return (
-    <PageLayout>
+    <PageLayout title="Homework">
       {homeworks.map((homework, index) => {
         const { title, slug } = matter(homework).data;
         return (
@@ -24,7 +24,7 @@ export default function HomeworksPage({ homeworks }: IHomeworks): React.ReactNod
 }
 
 export async function getStaticProps(): Promise<{ props: IHomeworks }> {
-  const homeworks = ReadService.readFiles({ dataPath: 'data/homeworks' });
+  const homeworks = ReadService.readFiles({ dataPath: 'data/homework' });
 
   return {
     props: {

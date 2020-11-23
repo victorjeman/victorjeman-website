@@ -2,10 +2,10 @@ import * as React from 'react';
 
 import Head from 'next/head';
 
-export const PageHeader = (): JSX.Element => {
+export const PageHeader = ({ title }): JSX.Element => {
   return (
     <Head>
-      <title>Page title</title>
+      <title>{title}</title>
 
       <link
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"

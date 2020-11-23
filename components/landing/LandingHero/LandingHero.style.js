@@ -160,7 +160,7 @@ export default css`
     }
 
     .c-landing-hero__illustration-wrapper {
-      width: 35%;
+      width: 40%;
     }
   }
 `;

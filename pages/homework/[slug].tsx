@@ -25,14 +25,14 @@ interface Props3 {
 
 export default function HomeworkPage({ homework }: Props1): React.ReactNode {
   return (
-    <PageLayout>
+    <PageLayout title={homework.data.title || ''}>
       <Homework homework={homework} />
     </PageLayout>
   );
 }
 
 export async function getStaticProps({ params }: Props2): Promise<{ props: Props1 }> {
-  const homework = matter(ReadService.readFile({ dataPath: `data/homeworks/${params.slug}.md` }));
+  const homework = matter(ReadService.readFile({ dataPath: `data/homework/${params.slug}.md` }));
   delete homework.orig;
 
   return {
@@ -41,7 +41,7 @@ export async function getStaticProps({ params }: Props2): Promise<{ props: Props
 }
 
 export async function getStaticPaths(): Promise<Props3> {
-  const homework = ReadService.readFiles({ dataPath: 'data/homeworks' });
+  const homework = ReadService.readFiles({ dataPath: 'data/homework' });
 
   const paths = homework.map((homework: IHomework) => ({
     params: {

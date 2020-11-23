@@ -10,7 +10,7 @@ import { TestimonialsIntro } from '@components/testimonial/TestimonialsIntro/Tes
 
 export default function TestimonialsPage({ testimonials }: ITestimonials): React.ReactNode {
   return (
-    <PageLayout>
+    <PageLayout title="Recommendations">
       <section className="c-page-testimonials">
         <TestimonialsIntro />
         <Testimonials testimonials={testimonials} />
