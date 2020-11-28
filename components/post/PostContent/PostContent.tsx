@@ -1,4 +1,5 @@
 import * as React from 'react';
+import readingTime from 'reading-time';
 
 import { ISizeModifier } from '@types';
 
@@ -12,10 +13,15 @@ interface Props {
 }
 
 export const PostContent = ({ content }: Props): JSX.Element => {
+  const reading = readingTime(content);
+
   return (
     <section className="c-post-content">
       <Container type={ISizeModifier.small}>
+        <p className="c-post-content__reading-time">{reading.text}</p>
+
         <Markdown content={content} />
+
         <style jsx global>
           {style}
         </style>

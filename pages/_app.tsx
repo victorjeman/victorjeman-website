@@ -12,11 +12,11 @@ interface Props {
   pageProps: React.PropsWithChildren<Props>;
 }
 
-const tagManagerArgs = {
-  gtmId: 'GTM-P9QQFBC',
-};
-
 const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
+  const tagManagerArgs = {
+    gtmId: 'GTM-P9QQFBC',
+  };
+
   React.useEffect(() => {
     TagManager.initialize(tagManagerArgs);
   }, []);

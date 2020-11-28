@@ -11,6 +11,10 @@ export default css`
     padding: 15px;
     font-family: ${FONT.WORK_SANS};
     font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 
   .c-page-footer__container {

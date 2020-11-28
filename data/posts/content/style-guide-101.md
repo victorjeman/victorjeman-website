@@ -1,6 +1,7 @@
 ---
 slug: style-guide-101
 title: 'A CSS Guideline Tutorial : BEM with Sass'
+thumbnail: 'https://via.placeholder.com/600x300.png?text=A+CSS+Guideline+Tutorial+:+BEM+with+Sass'
 ---
 
 ## Introduction

@@ -22,7 +22,9 @@ export const PageLayout: React.FC<Props> = ({ children, title }: Props): JSX.Ele
 
       <PageFooter />
 
-      <style jsx>{style}</style>
+      <style jsx global>
+        {style}
+      </style>
     </React.Fragment>
   );
 };
