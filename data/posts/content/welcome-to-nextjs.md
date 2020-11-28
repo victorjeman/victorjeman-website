@@ -1,7 +1,7 @@
 ---
 slug: welcome-to-nextjs
 title: 'Welcome to Next.js blog!'
-thumbnail: 'https://via.placeholder.com/600x300.png?text=Welcome+to+Next.js+blog!'
+thumbnail: 'https://content.techgig.com/thumb/msid-75320007,width-860,resizemode-4/Python-is-the-most-preferred-programming-language.jpg?216831'
 ---
 
 **Hello world**, this is my first Next.js blog post and it is written in markdown.

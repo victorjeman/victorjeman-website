@@ -9,7 +9,7 @@ export default css`
     background: ${COLOR.WHITE};
     border-radius: 1.2rem;
     margin-bottom: 2rem;
-    box-shadow: -10px -10px 20px #f7f7f7, 10px 10px 20px #f1f1f1;
+    box-shadow: -5px -5px 10px #f7f7f7, 5px 5px 10px #f1f1f1;
     color: ${COLOR.BLACK};
     text-decoration: none;
     display: block;
@@ -17,8 +17,9 @@ export default css`
   }
 
   .c-post-thumbnail__thumbnail {
-    width: 100%;
-    height: auto;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
   }
 
   .c-post-thumbnail__title {
