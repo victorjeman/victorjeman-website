@@ -1,24 +1,46 @@
 import * as React from 'react';
 import matter from 'gray-matter';
 
-import { IHomeworks } from '@types';
+import { IHomeworks, ISizeModifier } from '@types';
+
+import { MEDIA } from '@settings/media.settings';
 
 import { ReadService } from '@services/Read/Read.service';
 
+import { Container } from '@components/common/Container/Container';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
+import { HomeworkThumbnail } from '@components/homework/HomeworkThumbnail/HomeworkThumbnail';
 
 export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode {
   return (
     <PageLayout title="Homework">
-      {homeworks.map((homework, index) => {
-        const { title, slug } = matter(homework).data;
-        return (
-          <article key={`homework-${index}`}>
-            <h2>{title}</h2>
-            <a href={`/homework/${slug}`}>Read</a>
-          </article>
-        );
-      })}
+      <section className="c-homeworks">
+        <Container type={ISizeModifier.xlarge}>
+          {homeworks.map((homework, index) => {
+            const { title, slug, thumbnail, summary } = matter(homework).data;
+
+            return (
+              <HomeworkThumbnail
+                key={`homework-thumbnail-${index}`}
+                title={title}
+                slug={slug}
+                thumbnail={thumbnail}
+                summary={summary}
+              />
+            );
+          })}
+        </Container>
+      </section>
+
+      <style jsx>
+        {`
+          .c-homeworks {
+            margin-top: 1rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+          }
+        `}
+      </style>
     </PageLayout>
   );
 }

@@ -88,3 +88,17 @@ export interface IMeta {
     },
   ];
 }
+
+export interface IPostThumbnail {
+  thumbnail: string;
+  title: string;
+  slug: string;
+  reading: { text: string };
+}
+
+export interface IHomeworkThumbnail {
+  thumbnail: string;
+  title: string;
+  slug: string;
+  summary: string;
+}

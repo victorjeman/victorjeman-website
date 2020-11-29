@@ -1,7 +1,9 @@
 ---
 title: Web Scraper
-slug: hello
+slug: web-scrapper
+thumbnail: 'https://cdn-media-1.freecodecamp.org/images/0*ngXgBNNdx6iiWP8q.png'
 level: 3
+summary: Build a Web Scraper that will extract the testimonials from a website and display them on a different page with a custom UI.
 ---
 
 **ASSIST Software**

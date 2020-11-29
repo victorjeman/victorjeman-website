@@ -2,19 +2,11 @@ import * as React from 'react';
 
 import style from './PostThumbnail.style';
 
-import { ISizeModifier } from '@types';
+import { ISizeModifier, IPostThumbnail } from '@types';
 
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
-import { url } from 'inspector';
 
-interface Props {
-  thumbnail: string;
-  title: string;
-  slug: string;
-  reading: { text: string };
-}
-
-export const PostThumbnail = ({ thumbnail, title, slug, reading }: Props): JSX.Element => (
+export const PostThumbnail = ({ thumbnail, title, slug, reading }: IPostThumbnail): JSX.Element => (
   <a href={`/post/${slug}`} className="c-post-thumbnail">
     <CardSpecial type={ISizeModifier.small}>
       <div

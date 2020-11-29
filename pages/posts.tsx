@@ -8,9 +8,9 @@ import { MEDIA } from '@settings/media.settings';
 
 import { ReadService } from '@services/Read/Read.service';
 
+import { Container } from '@components/common/Container/Container';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
-import { Container } from '@components/common/Container/Container';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
   return (
