@@ -12,7 +12,7 @@ export const HomeworkThumbnail = ({
   slug,
   summary,
 }: IHomeworkThumbnail): JSX.Element => (
-  <a href={`/homework/${slug}`} className="c-homework-thumbnail">
+  <a href={`/lab/${slug}`} className="c-homework-thumbnail">
     <CardSpecial type={ISizeModifier.small}>
       <div
         className="c-homework-thumbnail__thumbnail"

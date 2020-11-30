@@ -7,7 +7,7 @@ import { ISizeModifier, IPostThumbnail } from '@types';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 
 export const PostThumbnail = ({ thumbnail, title, slug, reading }: IPostThumbnail): JSX.Element => (
-  <a href={`/post/${slug}`} className="c-post-thumbnail">
+  <a href={`/story/${slug}`} className="c-post-thumbnail">
     <CardSpecial type={ISizeModifier.small}>
       <div
         className="c-post-thumbnail__thumbnail"
