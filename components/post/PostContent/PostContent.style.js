@@ -4,6 +4,15 @@ import { FONT } from '@settings/font.settings';
 import { COLOR } from '@settings/color.settings';
 
 export default css.global`
+  h1:after {
+    content: '';
+    display: block;
+    height: 0.4rem;
+    width: 5rem;
+    margin: 0.6rem auto 0 auto;
+    background-color: #de7376;
+  }
+
   h2 {
     font-size: 1.8rem;
     line-height: 1.8;
@@ -45,26 +54,58 @@ export default css.global`
     margin-bottom: 0;
   }
 
-  .c-post-content__link {
-    background: #ffc25d;
-    box-shadow: 0px 5px 20px rgba(255, 194, 93, 0.3);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    margin: 2.5rem auto;
-    padding: 1rem 0.8rem;
-    text-align: center;
+  .c-post-content-anchor {
+    background-color: transparent;
+    border: 0;
+    min-width: 300px;
+    padding: 0;
     font-family: ${FONT.BEBAS_NEUE};
-    font-size: 1.2rem;
-    line-height: 0.9;
+    font-size: 20px;
     letter-spacing: 1px;
-    color: ${COLOR.BLACK};
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
     text-decoration: none;
+    color: inherit;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
-  .c-post-content__link:hover {
-    background-color: #eea52c;
+  .c-post-content-anchor__text {
+    z-index: 2;
+    background-color: ${COLOR.WHITE};
+    display: block;
+    position: relative;
+    padding: 12px 15px;
+    border: 3px solid ${COLOR.BLACK};
+  }
+
+  .c-post-content-anchor:before,
+  .c-post-content-anchor:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: ${COLOR.SUNGLO};
+    width: 35%;
+    height: 70%;
+    transition: all 0.2s ease-out;
+  }
+
+  .c-post-content-anchor:before {
+    right: -4px;
+    bottom: -4px;
+  }
+
+  .c-post-content-anchor:after {
+    left: -4px;
+    top: -4px;
+  }
+
+  .c-post-content-anchor:hover:before,
+  .c-post-content-anchor:hover:after {
+    height: calc(100% + 8px);
+    width: calc(100% + 8px);
   }
 `;
