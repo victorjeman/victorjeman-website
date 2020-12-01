@@ -11,7 +11,7 @@ interface Props {
 }
 
 export const Post = ({ post }: Props): JSX.Element => (
-  <Container type={ISizeModifier.large}>
+  <Container type={ISizeModifier.small}>
     <PostHero data={post.data} />
     <PostContent content={post.content} />
   </Container>

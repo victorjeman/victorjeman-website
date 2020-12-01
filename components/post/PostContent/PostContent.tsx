@@ -1,9 +1,6 @@
 import * as React from 'react';
 import readingTime from 'reading-time';
 
-import { ISizeModifier } from '@types';
-
-import { Container } from '@components/common/Container/Container';
 import { Markdown } from '@components/common/Markdown/Markdown';
 
 import style from './PostContent.style';
@@ -17,15 +14,13 @@ export const PostContent = ({ content }: Props): JSX.Element => {
 
   return (
     <section className="c-post-content">
-      <Container type={ISizeModifier.small}>
-        <p className="c-post-content__reading-time">{reading.text}</p>
+      <p className="c-post-content__reading-time">{reading.text}</p>
 
-        <Markdown content={content} />
+      <Markdown content={content} />
 
-        <style jsx global>
-          {style}
-        </style>
-      </Container>
+      <style jsx global>
+        {style}
+      </style>
     </section>
   );
 };

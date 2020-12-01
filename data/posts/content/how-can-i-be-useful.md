@@ -6,7 +6,7 @@ thumbnail: 'https://cdn-media-1.freecodecamp.org/images/0*ngXgBNNdx6iiWP8q.png'
 
 Welcome to a “hello world” type of post, hate it, love it, do what you feel, do what makes you happy.
 
-I’m Jeman, Victor Jeman. I was born in Moldova (practically mother Russia) and raised by Romania’s wolves. I’ve moved to Romania when I was 15; it was a fun process. My superpowers are laziness and daydreaming. I’m writing this while drinking a glass of wine called “Castel Huniade,” you should try it.
+I’m Jeman, Victor Jeman. I was born in Moldova (practically mother Russia) and raised by Romania’s wolves. I’ve moved to Romania when I was 15; it was a fun process. My superpowers are laziness and **daydreaming**. I’m writing this while drinking a glass of wine called “Castel Huniade,” you should try it.
 
 By writing this article, I’m actively fighting one of my superpowers, yes, **laziness**. Being lazy is good in small doses; I hear smart people are usually lazy, so that goes well for me. Still, when laziness it’s crawling all over you, it’s a sign that you should move your ass and do something, something creative if possible. This website is my “**something creative**” thing.
 

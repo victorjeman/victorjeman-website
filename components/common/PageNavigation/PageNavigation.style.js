@@ -50,11 +50,11 @@ export default css`
     }
 
     .c-page-navigation__logo {
-      z-index: 2;
+      z-index: 100;
     }
 
     .c-page-navigation__toggle {
-      z-index: 10;
+      z-index: 101;
     }
 
     .c-page-navigation__toggle:hover {
@@ -65,7 +65,7 @@ export default css`
       visibility: hidden;
       pointer-events: none;
       position: fixed;
-      z-index: 9;
+      z-index: 99;
       top: 0;
       right: 0;
       bottom: 0;

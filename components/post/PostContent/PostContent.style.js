@@ -2,6 +2,7 @@ import css from 'styled-jsx/css';
 
 import { FONT } from '@settings/font.settings';
 import { COLOR } from '@settings/color.settings';
+import { MEDIA } from '@settings/media.settings';
 
 export default css.global`
   h1:after {
@@ -25,25 +26,22 @@ export default css.global`
     margin-top: 30px;
     color: rgba(41, 41, 41, 1);
     font-family: ${FONT.IBM_PLEX};
+    font-weight: 300;
   }
 
   .c-post-content p {
-    font-size: 1.2rem;
-    line-height: 1.85;
-    font-weight: 300;
     margin-bottom: 2.3rem;
   }
 
   .c-post-content blockquote {
     background-color: #f7f7f7;
     padding: 1.5rem 2rem;
-    border-radius: 0.8rem;
-    margin-bottom: 2rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-left: 7px solid #de7376;
+    margin-top: 2.5rem color;
+    margin-bottom: 2.5rem;
     font-family: ${FONT.TITILLIUM_WEB};
-  }
-
-  .c-post-content blockquote p {
-    font-size: 1.3rem;
   }
 
   .c-post-content strong {
@@ -69,7 +67,8 @@ export default css.global`
     text-decoration: none;
     color: inherit;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .c-post-content-anchor__text {
@@ -107,5 +106,33 @@ export default css.global`
   .c-post-content-anchor:hover:after {
     height: calc(100% + 8px);
     width: calc(100% + 8px);
+  }
+
+  @media ${MEDIA.SMALL_ONLY} {
+    .c-post-content {
+      font-size: 1.1rem;
+      line-height: 1.75;
+    }
+
+    .c-post-content blockquote {
+      padding: 1rem 1.2rem;
+    }
+
+    .c-post-content blockquote p {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media ${MEDIA.MEDIUM_UP} {
+    .c-post-content {
+      font-size: 1.2rem;
+      line-height: 1.85;
+    }
+
+    .c-post-content blockquote p {
+      font-size: 1.3rem;
+      line-height: 1.3;
+    }
   }
 `;
