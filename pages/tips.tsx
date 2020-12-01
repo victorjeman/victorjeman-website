@@ -14,21 +14,21 @@ import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
   return (
-    <PageLayout title="Blog">
-      <section className="c-posts">
+    <PageLayout title="Tips and Tricks">
+      <section className="c-tips">
         <Container type={ISizeModifier.xlarge}>
-          <div className="c-posts__container">
+          <div className="c-tips__container">
             {posts.map((post, index) => {
               const { title, slug, thumbnail } = matter(post).data;
               const reading = readingTime(matter(post).content);
 
               return (
                 <PostThumbnail
-                  key={`post-${index}`}
+                  key={`tip-${index}`}
                   thumbnail={thumbnail}
                   title={title}
                   slug={slug}
-                  type="stories"
+                  type="tips"
                   reading={reading}
                 />
               );
@@ -39,14 +39,14 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
 
       <style jsx>
         {`
-          .c-posts {
+          .c-tips {
             margin-top: 1rem;
             padding-top: 2rem;
             padding-bottom: 2rem;
           }
 
           @media ${MEDIA.MEDIUM_UP} {
-            .c-posts__container {
+            .c-tips__container {
               display: flex;
               justify-content: space-around;
             }
@@ -58,7 +58,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
 }
 
 export async function getStaticProps(): Promise<{ props: IPosts }> {
-  const posts = ReadService.readFiles({ dataPath: 'data/posts/content' });
+  const posts = ReadService.readFiles({ dataPath: 'data/tips/content' });
 
   return {
     props: {
