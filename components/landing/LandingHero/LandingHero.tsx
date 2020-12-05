@@ -5,7 +5,7 @@ import { ISizeModifier } from '@types';
 
 import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service';
 
-import { ButtonExplore } from '@components/common/ButtonExplore/ButtonExplore';
+import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
 
@@ -61,7 +61,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
           </p>
 
           <div className="c-landing-hero__explore">
-            <ButtonExplore
+            <Explore
               modifier={ISizeModifier.medium}
               type="button"
               handleClick={() => {
@@ -69,7 +69,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
               }}
             >
               See my power level
-            </ButtonExplore>
+            </Explore>
           </div>
         </div>
 

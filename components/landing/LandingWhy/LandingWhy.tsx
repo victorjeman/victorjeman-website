@@ -3,6 +3,7 @@ import * as React from 'react';
 import { ISizeModifier } from '@types';
 
 import { Container } from '@components/common/Container/Container';
+import { ReadingLinks } from '@components/common/ReadingLinks/ReadingLinks';
 
 const TreasureMap = require('../../../public/images/random/treasure-map.svg') as string;
 import style from './LandingWhy.style';
@@ -23,6 +24,8 @@ export const LandingWhy = (): JSX.Element => (
         find something interesting in there.
       </p>
     </Container>
+
+    <ReadingLinks />
     <style jsx>{style}</style>
   </section>
 );

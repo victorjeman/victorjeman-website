@@ -1,6 +1,6 @@
 ---
 slug: how-can-i-be-useful
-title: 'Ahoy, you beautiful bastard!'
+title: 'Ahoy, you beautiful reader!'
 thumbnail: 'https://cdn-media-1.freecodecamp.org/images/0*ngXgBNNdx6iiWP8q.png'
 ---
 

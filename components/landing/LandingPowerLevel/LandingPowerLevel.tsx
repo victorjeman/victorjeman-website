@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { ISizeModifier } from '@types';
 
-import { ButtonExplore } from '@components/common/ButtonExplore/ButtonExplore';
+import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
 
@@ -62,9 +62,9 @@ export const LandingPowerLevel: React.FC = (): JSX.Element => (
         </div>
 
         <div className="c-landing-power-level__explore">
-          <ButtonExplore modifier={ISizeModifier.medium} type="anchor" href="/projects">
+          <Explore modifier={ISizeModifier.medium} type="anchor" href="/projects">
             Peek at some of my projects
-          </ButtonExplore>
+          </Explore>
         </div>
       </div>
     </Container>

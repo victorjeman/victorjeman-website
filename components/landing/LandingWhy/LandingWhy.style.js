@@ -5,7 +5,7 @@ import { FONT } from '@settings/font.settings';
 
 export default css`
   .c-landing-why {
-    padding-top: 1.2rem;
+    padding-top: 5rem;
     padding-bottom: 10%;
   }
 

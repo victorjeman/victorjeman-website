@@ -4,8 +4,11 @@ import path from 'path';
 
 import { IProject } from '@types';
 
-import { Project } from '@components/project/Project/Project';
+import { FONT } from 'common/settings/font.settings';
+
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
+import { ReadingLinks } from '@components/common/ReadingLinks/ReadingLinks';
+import { Project } from '@components/project/Project/Project';
 
 interface Props {
   projects: IProject[];
@@ -14,11 +17,33 @@ interface Props {
 export default function Projects({ projects }: Props): React.ReactNode {
   return (
     <PageLayout title={'My projects'}>
-      <div className="[ js-first-project ]">{''}</div>
+      <div className="c-projects">
+        <div className="[ js-first-project ]">{''}</div>
 
-      {projects.map((project, index) => (
-        <Project key={index} {...project} />
-      ))}
+        {projects.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+
+        <h3 className="c-projects-continue">Continue the exploration</h3>
+
+        <ReadingLinks />
+      </div>
+
+      <style jsx>
+        {`
+          .c-projects {
+            padding-bottom: 6rem;
+          }
+
+          .c-projects-continue {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+            font-family: ${FONT.MERRIWEATHER};
+          }
+        `}
+      </style>
     </PageLayout>
   );
 }

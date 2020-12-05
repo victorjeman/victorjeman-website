@@ -2,17 +2,17 @@ import * as React from 'react';
 
 import { ISizeModifier } from '@types';
 
-import style from './ButtonExplore.style';
+import style from './Explore.style';
 
 interface Props {
   children: React.ReactNode;
-  modifier: ISizeModifier;
+  modifier?: ISizeModifier;
   handleClick?: () => void;
   href?: string;
   type: 'button' | 'anchor';
 }
 
-export const ButtonExplore: React.FC<Props> = ({
+export const Explore: React.FC<Props> = ({
   children,
   modifier,
   type,
