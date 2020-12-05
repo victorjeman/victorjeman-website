@@ -5,7 +5,7 @@ import { FONT } from '@settings/font.settings';
 import { COLOR } from '@settings/color.settings';
 
 export default css`
-  .c-button-explore {
+  .c-explore {
     background-color: transparent;
     border: 0;
     width: 100%;
@@ -22,7 +22,7 @@ export default css`
     text-align: center;
   }
 
-  .c-button-explore__text {
+  .c-explore__text {
     z-index: 2;
     background-color: ${COLOR.WHITE};
     display: block;
@@ -31,8 +31,8 @@ export default css`
     border: 3px solid ${COLOR.BLACK};
   }
 
-  .c-button-explore:before,
-  .c-button-explore:after {
+  .c-explore:before,
+  .c-explore:after {
     content: '';
     display: block;
     position: absolute;
@@ -43,18 +43,18 @@ export default css`
     transition: all 0.2s ease-out;
   }
 
-  .c-button-explore:before {
+  .c-explore:before {
     right: -4px;
     bottom: -4px;
   }
 
-  .c-button-explore:after {
+  .c-explore:after {
     left: -4px;
     top: -4px;
   }
 
-  .c-button-explore:hover:before,
-  .c-button-explore:hover:after {
+  .c-explore:hover:before,
+  .c-explore:hover:after {
     height: calc(100% + 8px);
     width: calc(100% + 8px);
   }

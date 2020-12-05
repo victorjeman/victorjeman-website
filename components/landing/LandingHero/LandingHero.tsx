@@ -18,7 +18,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
         <div className="c-landing-hero__info">
           <h1 className="c-landing-hero__title">
             <span className="c-landing-hero__title-line c-landing-hero__title-line--1">
-              Salut, I&#39;m
+              Hello, I&#39;m
               <span className="c-landing-hero__title-name">Victor</span>
             </span>
 
@@ -63,6 +63,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
           <div className="c-landing-hero__explore">
             <ButtonExplore
               modifier={ISizeModifier.medium}
+              type="button"
               handleClick={() => {
                 scrollIntoView({ selector: '.js-landing-projects-intro' });
               }}

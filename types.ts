@@ -22,7 +22,7 @@ export interface IProjectThumbnail {
   href: string;
 }
 
-export interface ILandingProject {
+export interface IProject {
   index: number;
   title: string;
   role: string;

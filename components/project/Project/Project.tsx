@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { ILandingProject } from '@types';
+import { IProject } from '@types';
 
 import { Container } from '@components/common/Container/Container';
 
 const ArrowDown = require('../../../public/images/random/arrow-down-2.svg') as string;
-import style from './LandingProject.style';
+import style from './Project.style';
 
-export const LandingProject: React.FC<ILandingProject> = ({
+export const Project: React.FC<IProject> = ({
   illustration,
   title,
   role,
@@ -18,7 +18,7 @@ export const LandingProject: React.FC<ILandingProject> = ({
   index,
   investigate,
   technologies,
-}: ILandingProject): JSX.Element => (
+}: IProject): JSX.Element => (
   <section
     className={`c-landing-project  ${
       index % 2 === 0 ? 'c-landing-project--reverse' : ''

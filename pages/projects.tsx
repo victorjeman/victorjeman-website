@@ -2,22 +2,22 @@ import * as React from 'react';
 import fs from 'fs';
 import path from 'path';
 
-import { ILandingProject } from '@types';
+import { IProject } from '@types';
 
-import { LandingProject } from '@components/landing/LandingProject/LandingProject';
+import { Project } from '@components/project/Project/Project';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
 interface Props {
-  landingProjects: ILandingProject[];
+  projects: IProject[];
 }
 
-export default function Projects({ landingProjects }: Props): React.ReactNode {
+export default function Projects({ projects }: Props): React.ReactNode {
   return (
     <PageLayout title={'My projects'}>
       <div className="[ js-first-project ]">{''}</div>
 
-      {landingProjects.map((project, index) => (
-        <LandingProject key={index} {...project} />
+      {projects.map((project, index) => (
+        <Project key={index} {...project} />
       ))}
     </PageLayout>
   );
@@ -27,31 +27,16 @@ export async function getStaticProps(): Promise<{ props: Props }> {
   const projectDirectory = path.join(process.cwd(), 'data/projects');
   const filenames = fs.readdirSync(projectDirectory);
 
-  const projects = filenames.map((filename) => {
+  const read = (filename: string) => {
     const filePath = path.join(projectDirectory, filename);
     const fileContent = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(fileContent);
-  });
+  };
 
-  const projectsSorted = projects.sort((a, b) => a.order - b.order);
+  const sort = (a: { order: number }, b: { order: number }) => a.order - b.order;
 
-  const landingProjects: ILandingProject[] = projectsSorted.map(
-    (
-      {
-        title,
-        role,
-        illustration,
-        duration,
-        href,
-        divider,
-        description,
-        investigate,
-        technologies,
-      }: ILandingProject,
-      index,
-    ) => ({
-      index,
-      isLast: index === projectsSorted.length - 1,
+  const createProjects = (
+    {
       title,
       role,
       illustration,
@@ -61,12 +46,26 @@ export async function getStaticProps(): Promise<{ props: Props }> {
       description,
       investigate,
       technologies,
-    }),
-  );
+    }: IProject,
+    index: number,
+  ) => ({
+    index,
+    title,
+    role,
+    illustration,
+    duration,
+    href,
+    divider,
+    description,
+    investigate,
+    technologies,
+  });
+
+  const projects: IProject[] = filenames.map(read).sort(sort).map(createProjects);
 
   return {
     props: {
-      landingProjects: landingProjects,
+      projects: projects,
     },
   };
 }
