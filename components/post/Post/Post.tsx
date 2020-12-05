@@ -23,7 +23,7 @@ export const Post = ({ post }: Props): JSX.Element => (
     </FacebookShareButton>
 
     <Container type={ISizeModifier.small}>
-      <PostHero data={post.data} />
+      <PostHero post={post} />
       <PostContent content={post.content} />
     </Container>
   </section>

@@ -38,6 +38,8 @@ export interface IProject {
 export interface IPostData {
   title?: string;
   slug?: string;
+  published?: string;
+  updated?: string;
 }
 
 export interface IPost {

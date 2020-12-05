@@ -1,16 +1,32 @@
 import * as React from 'react';
+import readingTime from 'reading-time';
 
-import { IPostData } from '@types';
+import { IPost } from '@types';
 
 import style from './PostHero.style';
 
 interface Props {
-  data: IPostData;
+  post: IPost;
 }
 
-export const PostHero = ({ data }: Props): JSX.Element => (
-  <h1 className="c-post-hero__title">
-    {data.title}
-    <style jsx>{style}</style>
-  </h1>
-);
+export const PostHero = ({ post }: Props): JSX.Element => {
+  const { content, data } = post;
+  const { published, updated, title } = data;
+  const reading = readingTime(content).text;
+
+  return (
+    <div className="c-post-hero">
+      <h1 className="c-post-hero__title">{title}</h1>
+
+      <div className="c-post-hero__info">
+        <p className="c-post-hero__info-item">{published}</p>
+
+        {updated && <p className="c-post-hero__info-item">(updated: {updated})</p>}
+
+        <p className="c-post-hero__info-item">{reading}</p>
+      </div>
+
+      <style jsx>{style}</style>
+    </div>
+  );
+};

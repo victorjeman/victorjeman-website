@@ -2,6 +2,9 @@
 slug: how-can-i-be-useful
 title: 'Ahoy, you beautiful reader!'
 thumbnail: 'https://cdn-media-1.freecodecamp.org/images/0*ngXgBNNdx6iiWP8q.png'
+published: December 5, 2020
+updated:
+tags: []
 ---
 
 Welcome to a “hello world” type of post, hate it, love it, do what you feel, do what makes you happy.
