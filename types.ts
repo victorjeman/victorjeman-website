@@ -93,7 +93,7 @@ export interface IPostThumbnail {
   thumbnail: string;
   title: string;
   slug: string;
-  type: 'stories' | 'tips';
+  type: 'blog' | 'tips';
   reading: { text: string };
 }
 

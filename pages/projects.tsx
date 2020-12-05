@@ -4,23 +4,21 @@ import path from 'path';
 
 import { ILandingProject } from '@types';
 
-import { LandingHero } from '@components/landing/LandingHero/LandingHero';
-import { LandingProjectsIntro } from '@components/landing/LandingProjectsIntro/LandingProjectsIntro';
-import { LandingWhy } from '@components/landing/LandingWhy/LandingWhy';
+import { LandingProject } from '@components/landing/LandingProject/LandingProject';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 
 interface Props {
   landingProjects: ILandingProject[];
 }
 
-export default function Home({ landingProjects }: Props): React.ReactNode {
+export default function Projects({ landingProjects }: Props): React.ReactNode {
   return (
-    <PageLayout title={'Victor JEMAN'}>
-      <LandingHero />
+    <PageLayout title={'My projects'}>
+      <div className="[ js-first-project ]">{''}</div>
 
-      <LandingProjectsIntro />
-
-      <LandingWhy />
+      {landingProjects.map((project, index) => (
+        <LandingProject key={index} {...project} />
+      ))}
     </PageLayout>
   );
 }

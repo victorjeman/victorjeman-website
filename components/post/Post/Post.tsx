@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-import { ISizeModifier, IPost, IPostData } from '@types';
+import { FacebookShareButton, FacebookIcon } from 'react-share';
+
+import { ISizeModifier, IPost } from '@types';
 
 import { Container } from '@components/common/Container/Container';
 import { PostContent } from '@components/post/PostContent/PostContent';
@@ -11,8 +13,18 @@ interface Props {
 }
 
 export const Post = ({ post }: Props): JSX.Element => (
-  <Container type={ISizeModifier.small}>
-    <PostHero data={post.data} />
-    <PostContent content={post.content} />
-  </Container>
+  <section>
+    <FacebookShareButton
+      url={`https://victorjeman.com/blog/${post.data.slug}`}
+      quote={post.data.title}
+      className="Demo__some-network__share-button"
+    >
+      <FacebookIcon size={32} round />
+    </FacebookShareButton>
+
+    <Container type={ISizeModifier.small}>
+      <PostHero data={post.data} />
+      <PostContent content={post.content} />
+    </Container>
+  </section>
 );

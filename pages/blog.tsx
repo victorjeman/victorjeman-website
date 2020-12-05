@@ -28,7 +28,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
                   thumbnail={thumbnail}
                   title={title}
                   slug={slug}
-                  type="stories"
+                  type="blog"
                   reading={reading}
                 />
               );
