@@ -8,68 +8,36 @@ summary: Build a quiz application that will allow you to add multiple quizzes fr
 
 ## Overview
 
-Build a Web Scraper which could tell us how many testimonials the **[ASSIST](https://assist-software.net)** website has and sort them by countries. Your web scraper should have a basic but clean and efficient UI that would display nicely all the required information.
+Build a simple quiz app that will allow us to answer different questions. We should have an API that will serve us the questions and possible answers. Split the application into two, an admin and a user interface. In the admin interface, we need a single form to add multiple questions and possible answers. An admin can also see all the questions and all the correct answers. The user will be able to answers all the questions that an admin has added. We don’t need to focus on authentication; this means we will have a single admin and a single user; it’s a demo app, after all. Although we don’t have an authentication process, the user’s maximum score should be saved in local storage and displayed even after a page refresh.
 
-## Assignment
+## Requirements
 
-1. Implement a web scraper using **node.js**.
-2. Make use of any **npm** library in order to build a more robust app.
-3. Don’t use a dedicated web scraper library.
-4. Use the scraper to **extract the HTML** from [https://assist-software.net/testimonials](https://assist-software.net/testimonials).
-5. From the **first testimonials** page, extract all testimonials.
-6. Sort testimonials by** country**.
-7. If an **author** belongs to multiple countries, display him/her under each country.
-8. Show the **number** of testimonials for each country.
-9. For each testimonial show the **picture** and the **name** of the **author**.
-10. Implement a good UI that presents the information in a **clean** and **efficient** way.
-11. Upload your solution to **[Github](https://github.com/)**.
-12. **EXTRA POINTS:** Split the functionality into multiple files.
-13. **EXTRA POINTS:** Sort the testimonials from **all pages**(4 pages), not only the first page.
-14. **EXTRA POINTS:** Write unit tests for your functionality.
+### Landing page
 
-## Tips
+<img src="/images/labs/quiz/quiz2.jpg" alt="Quizzes page"/>
 
-1. You can see here a basic UI example for this assignment \
-   **NOTE:** **Don’t use this UI, create a more compact one.**
+- Implement the landing page UI.
+- The page should have two buttons. One button will redirect you to the admin dashboard, where you have to log in to use the application. The second button will redirect you to the public quiz page, where a user can take a quiz.
 
-![alt_text](images/image1.png 'image_tooltip')
+### Admin login page
 
-2. You may need a basic node server to serve the above dashboard once you sorted the information.
-3. Learn more about [web scraping](https://en.wikipedia.org/wiki/Web_scraping).
+<img src="/images/labs/quiz/quiz3.jpg" alt="Quizzes page"/>
 
-## How can I review my code
+- Implement the login page for admins.
+- Make sure to validate the inputs on the client.
+- You can use Google Sign-in or try to implement this feature from scratch.
+- Add a button that would show you the password in plain text.
 
-Take a look at this **Code Review Checklist** before you hand your application for review
+### Admin navigation
 
-**General rules**
+<img src="/images/labs/quiz/quiz3.jpg" alt="Quizzes page"/>
 
-- The code works
-- The code is easy to understand
-- Follows coding conventions
-- Names are simple and if possible short
-- Names are spelled correctly
-- There are no usages of “magic numbers”
-- All variables are in the smallest scope possible
-- There is no commented out code
-- No code can be replaced with library functions
-- Required logs are present
-- Frivolous logs are absent
-- Debugging code is absent
-- Code is not repeated or duplicated
-- No complex/long boolean expressions
-- No empty blocks of code
-- Catch clauses are fine-grained and catch specific exceptions
-- Loops have a set length and correct termination conditions
-- Blocks of code inside loops are as small as possible
-- Design patterns if used are correctly applied
-- Make use of the latest ECMAScript specifications
-- The functionality is split into multiple files that are easy to test
-- The unit tests are present if there is a benefit from them
+- The logo will still be there.
+- Implement a dropdown menu …
 
-**Homework specific rules**
+### Admin quizzes page
 
-- The UI is using the space efficiently
-- No dedicated web scraper library was used
-- Testimonials are sorted by country
-- The amount of testimonials is displayed for each country
-- Testimonials from all pages were used to finish the homework
+<img src="/images/labs/quiz/quiz4.jpg" alt="Quizzes page"/>
+
+- If there are no quizzes, display a placeholder quiz that would be a call to action.
+- Display a “Create Quiz” button that would redirect the user to the quiz creation page.

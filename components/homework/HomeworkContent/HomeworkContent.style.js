@@ -1,7 +1,6 @@
 import css from 'styled-jsx/css';
 
 import { FONT } from '@settings/font.settings';
-import { COLOR } from '@settings/color.settings';
 
 export default css.global`
   .c-homework-content {
@@ -18,12 +17,27 @@ export default css.global`
   }
 
   .c-homework-content h2 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     line-height: 1.8;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-bottom: 1.2rem;
     font-family: ${FONT.TITILLIUM_WEB};
     font-weight: 600;
+  }
+
+  .c-homework-content h3 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    font-family: ${FONT.TITILLIUM_WEB};
+    font-weight: 600;
+  }
+
+  .c-homework-content img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .c-homework-content li {
