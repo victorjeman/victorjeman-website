@@ -10,15 +10,15 @@ export default css.global`
     display: block;
     height: 0.4rem;
     width: 5rem;
-    margin: 0.6rem auto 0 auto;
+    margin: 0.4em auto 0 auto;
     background-color: #de7376;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     line-height: 1.8;
-    margin-top: 3rem;
-    margin-bottom: 1.2rem;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
     font-weight: 500;
   }
 
@@ -30,12 +30,13 @@ export default css.global`
   }
 
   .c-post-content p {
-    margin-bottom: 2.3rem;
+    margin-bottom: 2em;
+    font-size: 1em;
   }
 
   .c-post-content blockquote {
     background-color: #f7f7f7;
-    padding: 1.5rem 2rem;
+    padding: 1.2em 1.8em;
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     border-left: 7px solid #de7376;
@@ -110,28 +111,28 @@ export default css.global`
 
   @media ${MEDIA.SMALL_ONLY} {
     .c-post-content {
-      font-size: 1.1rem;
+      font-size: 1.1em;
       line-height: 1.75;
     }
 
     .c-post-content blockquote {
-      padding: 1rem 1.2rem;
+      padding: 1em 1.2em;
     }
 
     .c-post-content blockquote p {
-      font-size: 1.2rem;
+      font-size: 1.2em;
       line-height: 1.2;
     }
   }
 
   @media ${MEDIA.MEDIUM_UP} {
     .c-post-content {
-      font-size: 1.2rem;
+      font-size: 1.2em;
       line-height: 1.85;
     }
 
     .c-post-content blockquote p {
-      font-size: 1.3rem;
+      font-size: 1.1em;
       line-height: 1.3;
     }
   }

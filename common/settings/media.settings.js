@@ -1,24 +1,24 @@
 const BREAKPOINTS = {
-  SMALL: 768,
-  MEDIUM: 1112,
-  LARGE: 1440,
-  XLARGE: 1680,
+  SMALL: 48,
+  MEDIUM: 70,
+  LARGE: 90,
+  XLARGE: 105,
 };
 
 export const MEDIA = {
-  SMALL_ONLY: `screen and (max-width: ${BREAKPOINTS.SMALL}px)`,
-  MEDIUM_ONLY: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px) and (max-width: ${
+  SMALL_ONLY: `screen and (max-width: ${BREAKPOINTS.SMALL}em)`,
+  MEDIUM_ONLY: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}em) and (max-width: ${
     BREAKPOINTS.MEDIUM
-  }px)`,
+  }em)`,
 
-  LARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px) and (max-width: ${
+  LARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}em) and (max-width: ${
     BREAKPOINTS.LARGE
-  }px)`,
-  XLARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}px) and (max-width: ${
+  }em)`,
+  XLARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}em) and (max-width: ${
     BREAKPOINTS.XLARGE
-  }px)`,
-  MEDIUM_DOWN: `screen and (max-width: ${BREAKPOINTS.MEDIUM}px)`,
-  MEDIUM_UP: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px)`,
-  LARGE_UP: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px)`,
-  XLARGE_UP: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}px)`,
+  }em)`,
+  MEDIUM_DOWN: `screen and (max-width: ${BREAKPOINTS.MEDIUM}em)`,
+  MEDIUM_UP: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}em)`,
+  LARGE_UP: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}em)`,
+  XLARGE_UP: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}em)`,
 };
