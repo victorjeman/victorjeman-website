@@ -105,3 +105,8 @@ export interface IHomeworkThumbnail {
   slug: string;
   summary: string;
 }
+
+export interface ISocials {
+  shareUrl: string;
+  title: string;
+}

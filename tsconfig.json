@@ -10,6 +10,7 @@
       "@data/*": ["data/*"],
       "@posts": ["data/posts/*"],
       "@images/*": ["public/images/*"],
+      "@hooks/*": ["hooks/*"],
       "@types": ["types"]
     },
     "typeRoots": ["@types", "./node_modules/@types"],

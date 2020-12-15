@@ -1,63 +1,43 @@
 import * as React from 'react';
-
-import {
-  LinkedinShareButton,
-  FacebookShareButton,
-  TwitterShareButton,
-  WhatsappShareButton,
-  LinkedinIcon,
-  FacebookIcon,
-  TwitterIcon,
-  WhatsappIcon,
-} from 'react-share';
+import Sticky from 'react-sticky-el';
+import { useMediaQuery } from '@react-hook/media-query';
 
 import { ISizeModifier, IPost } from '@types';
-
-import style from './Post.style';
+import { MEDIA } from 'common/settings/media.settings';
+import { useWindowSize } from '@hooks/useWindowSize';
 
 import { Container } from '@components/common/Container/Container';
 import { PostContent } from '@components/post/PostContent/PostContent';
 import { PostHero } from '@components/post/PostHero/PostHero';
+import { Socials } from '@components/common/Socials/Socials';
+import { ClientOnly } from '@components/common/ClientOnly/ClientOnly';
 
-interface Props {
-  post: IPost;
-}
+import style from './Post.style';
 
-export const Post = ({ post }: Props): JSX.Element => {
-  const title = post.data.title;
+export const Post = ({ post }: { post: IPost }): JSX.Element => {
+  const title = post.data.title || '';
   const shareUrl = `https://victorjeman.com/blog/${post.data.slug}`;
+  const isMediumDown = useMediaQuery(MEDIA.MEDIUM_DOWN);
+  useWindowSize();
 
   return (
     <Container type={ISizeModifier.small}>
       <PostHero post={post} />
 
-      <div className="c-post-share">
-        <div className="c-post-share__item">
-          <LinkedinShareButton url={shareUrl}>
-            <LinkedinIcon size={42} />
-          </LinkedinShareButton>
-        </div>
-
-        <div className="c-post-share__item">
-          <FacebookShareButton url={shareUrl} quote={post.data.title}>
-            <FacebookIcon size={42} />
-          </FacebookShareButton>
-        </div>
-
-        <div className="c-post-share__item">
-          <TwitterShareButton url={shareUrl} title={title}>
-            <TwitterIcon size={42} />
-          </TwitterShareButton>
-        </div>
-
-        <div className="c-post-share__item">
-          <WhatsappShareButton url={shareUrl} title={title} separator=":: ">
-            <WhatsappIcon size={42} />
-          </WhatsappShareButton>
-        </div>
-      </div>
+      {isMediumDown ? (
+        <ClientOnly>
+          <Socials title={title} shareUrl={shareUrl} />
+        </ClientOnly>
+      ) : (
+        <ClientOnly>
+          <Sticky>
+            <Socials title={title} shareUrl={shareUrl} />
+          </Sticky>
+        </ClientOnly>
+      )}
 
       <PostContent content={post.content} />
+
       <style jsx>{style}</style>
     </Container>
   );
