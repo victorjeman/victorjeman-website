@@ -10,6 +10,7 @@ export default css`
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
+    position: relative;
   }
 
   .c-container--small {

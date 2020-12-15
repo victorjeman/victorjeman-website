@@ -10,6 +10,7 @@ export const MEDIA = {
   MEDIUM_ONLY: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px) and (max-width: ${
     BREAKPOINTS.MEDIUM
   }px)`,
+  SMALL_AND_MEDIUM_ONLY: `screen and (max-width: ${BREAKPOINTS.MEDIUM}px)`,
   LARGE_ONLY: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px) and (max-width: ${
     BREAKPOINTS.LARGE
   }px)`,
