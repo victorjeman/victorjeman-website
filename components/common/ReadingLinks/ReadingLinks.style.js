@@ -17,11 +17,13 @@ export default css`
   @media ${MEDIA.MEDIUM_UP} {
     .c-reading-links {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
     }
     .c-reading-links__item {
       width: 30%;
+      margin-right: 1.8rem;
+      margin-left: 1.8rem;
     }
   }
 `;

@@ -17,11 +17,11 @@ export const ReadingLinks = (): JSX.Element => {
           </Explore>
         </li>
 
-        <li className="c-reading-links__item">
+        {/* <li className="c-reading-links__item">
           <Explore type="anchor" href="/tips">
             Tips
           </Explore>
-        </li>
+        </li> */}
 
         <li className="c-reading-links__item">
           <Explore type="anchor" href="/labs">
