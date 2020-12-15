@@ -19,7 +19,6 @@ export const Explore: React.FC<Props> = ({
   href,
   handleClick,
 }: Props): JSX.Element => {
-  console.log('type: ', type);
   return (
     <React.Fragment>
       {type === 'button' ? (
