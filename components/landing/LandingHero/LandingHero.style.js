@@ -109,7 +109,7 @@ export default css`
     }
 
     .c-landing-hero__explore {
-      margin-top: 40px;
+      margin-top: 4rem;
     }
   }
 
@@ -160,7 +160,7 @@ export default css`
     }
 
     .c-landing-hero__illustration-wrapper {
-      width: 40%;
+      width: 43%;
     }
   }
 `;

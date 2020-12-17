@@ -24,9 +24,11 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
   return (
     <React.Fragment>
       <Component {...pageProps} />
+
       <style jsx global>
         {Elements}
       </style>
+
       <style jsx global>
         {Utils}
       </style>
