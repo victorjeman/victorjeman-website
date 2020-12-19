@@ -8,6 +8,7 @@ export default css`
   .c-landing-hero {
     position: relative;
     z-index: 2; // to make sure the svg doesn't get on top of the content
+    min-height: 100vh;
   }
 
   .c-landing-hero__title {
@@ -100,6 +101,10 @@ export default css`
 
     .c-landing-hero__title-line--2 {
       margin-top: 60px;
+    }
+
+    .c-landing-hero__illustration-wrapper {
+      width: 45%;
     }
 
     .c-landing-hero__illustration {

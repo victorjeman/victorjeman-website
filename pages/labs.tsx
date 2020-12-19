@@ -3,18 +3,22 @@ import matter from 'gray-matter';
 
 import { IHomeworks, ISizeModifier } from '@types';
 
-import { MEDIA } from '@settings/media.settings';
-
 import { ReadService } from '@services/Read/Read.service';
 
 import { Container } from '@components/common/Container/Container';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 import { HomeworkThumbnail } from '@components/homework/HomeworkThumbnail/HomeworkThumbnail';
+import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode {
+  const pageTitle = `Labs`;
+  const pageDescription = `Test your might. Labs a challenging way to increase your web development skills.`;
+
   return (
-    <PageLayout title="Homework">
+    <PageLayout title="Labs">
       <section className="c-homeworks">
+        <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
+
         <Container type={ISizeModifier.xlarge}>
           {homeworks.map((homework, index) => {
             const { title, slug, thumbnail, summary } = matter(homework).data;
@@ -35,8 +39,6 @@ export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode
       <style jsx>
         {`
           .c-homeworks {
-            margin-top: 1rem;
-            padding-top: 2rem;
             padding-bottom: 2rem;
           }
         `}

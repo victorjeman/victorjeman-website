@@ -11,11 +11,17 @@ import { ReadService } from '@services/Read/Read.service';
 import { Container } from '@components/common/Container/Container';
 import { PageLayout } from '@components/common/PageLayout/PageLayout';
 import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
+import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
+  const pageTitle = `Blog`;
+  const pageDescription = `Interesting thoughts that will help you in your development career.`;
+
   return (
     <PageLayout title="Blog">
       <section className="c-posts">
+        <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
+
         <Container type={ISizeModifier.xlarge}>
           <div className="c-posts__container">
             {posts.map((post, index) => {
@@ -40,8 +46,6 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
       <style jsx>
         {`
           .c-posts {
-            margin-top: 1rem;
-            padding-top: 2rem;
             padding-bottom: 2rem;
           }
 

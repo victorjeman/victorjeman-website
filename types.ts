@@ -110,3 +110,8 @@ export interface ISocials {
   shareUrl: string;
   title: string;
 }
+
+export interface IPageIntro {
+  pageTitle: string;
+  pageDescription: string;
+}
