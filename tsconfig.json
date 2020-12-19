@@ -28,6 +28,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./typings-custom/**/*.ts"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./typings-custom/**/*.ts"],
+  "exclude": ["node_modules", "./components/common/Markdown/Markdown.tsx"]
 }

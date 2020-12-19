@@ -14,14 +14,18 @@ Build a simple quiz app that will allow us to answer different questions. We sho
 
 ### Landing page
 
-<img src="/images/labs/quiz/quiz2.jpg" alt="Quizzes page"/>
+```Image
+/images/labs/quiz/quiz1.jpg | Quizzes page | 720 | 300
+```
 
 - Implement the landing page UI.
 - The page should have two buttons. One button will redirect you to the admin dashboard, where you have to log in to use the application. The second button will redirect you to the public quiz page, where a user can take a quiz.
 
 ### Admin login page
 
-<img src="/images/labs/quiz/quiz3.jpg" alt="Quizzes page"/>
+```Image
+/images/labs/quiz/quiz2.jpg | Quizzes page | 720 | 300
+```
 
 - Implement the login page for admins.
 - Make sure to validate the inputs on the client.
@@ -30,14 +34,18 @@ Build a simple quiz app that will allow us to answer different questions. We sho
 
 ### Admin navigation
 
-<img src="/images/labs/quiz/quiz3.jpg" alt="Quizzes page"/>
+```Image
+/images/labs/quiz/quiz3.jpg | Quizzes page | 650 | 540
+```
 
 - The logo will still be there.
 - Implement a dropdown menu …
 
 ### Admin quizzes page
 
-<img src="/images/labs/quiz/quiz4.jpg" alt="Quizzes page"/>
+```Image
+/images/labs/quiz/quiz4.jpg | Quizzes page | 640 | 550
+```
 
 - If there are no quizzes, display a placeholder quiz that would be a call to action.
 - Display a “Create Quiz” button that would redirect the user to the quiz creation page.

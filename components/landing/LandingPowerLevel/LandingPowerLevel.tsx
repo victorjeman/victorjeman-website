@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'next/image';
 
 import { ISizeModifier } from '@types';
 
@@ -17,11 +18,15 @@ export const LandingPowerLevel: React.FC = (): JSX.Element => (
         <CardSpecial type={ISizeModifier.large}>
           <h2 className="c-landing-power-level__title [ u-show-medium-up ]">It's over 9000 ... </h2>
 
-          <img
-            className="c-landing-power-level__illustration"
-            src="/images/random/skills.jpeg"
-            alt="My skills"
-          />
+          <div className="c-landing-power-level__illustration">
+            <Image
+              className="c-landing-hero__illustration"
+              src="/images/random/skills.jpg"
+              alt="Victor's skills"
+              width={1024}
+              height={768}
+            />
+          </div>
         </CardSpecial>
 
         <div className="c-landing-power-level__description">

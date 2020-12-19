@@ -6,10 +6,13 @@ import { MEDIA } from '@settings/media.settings';
 export default css`
   .c-card-special {
     position: relative;
+    display: flex;
   }
 
   .c-card-special__container {
     position: relative;
+    width: 100%;
+    display: inline-block;
     z-index: 2;
     background-color: #fff;
   }
