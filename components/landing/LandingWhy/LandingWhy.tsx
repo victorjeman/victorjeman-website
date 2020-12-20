@@ -11,21 +11,32 @@ import style from './LandingWhy.style';
 export const LandingWhy = (): JSX.Element => (
   <section className="c-landing-why">
     <Container type={ISizeModifier.small}>
-      <div className="c-landing-why__icon">
+      {/* <div className="c-landing-why__icon">
         <TreasureMap />
-      </div>
+      </div> */}
 
-      <h2 className="c-landing-why__title">Why?</h2>
+      <h2 className="c-landing-why__title">What's the point?</h2>
 
       <p className="c-landing-why__text">
-        I want to move to the next level, but I don’t know yet what that means. I believe I could
-        share some of my ideas with you, and this website will help me. I will start by exploring my
-        brain and see what helpful thoughts we can extract from it. Check it out; maybe you will
-        find something interesting in there.
+        <strong className="c-landing-why__subtitle">Why?</strong>
+        <br />I believe that everyone deserves a chance to <strong>improve</strong>.
+      </p>
+
+      <p className="c-landing-why__text">
+        <strong className="c-landing-why__subtitle">How?</strong>
+        <br /> Interesting ideas must be shared and enjoyed <strong>together</strong>.
+      </p>
+
+      <p className="c-landing-why__text">
+        <strong className="c-landing-why__subtitle">What?</strong> <br />
+        Articles about web development that will make your brain
+        <strong> happy</strong>. Homework that will put your <strong>skill</strong> to the test.
+        Check them out; you will find something <strong>interesting</strong> in there.
       </p>
     </Container>
 
     <ReadingLinks />
+
     <style jsx>{style}</style>
   </section>
 );
