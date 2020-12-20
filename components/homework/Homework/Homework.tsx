@@ -29,9 +29,9 @@ export const Homework = ({ homework }: Props): JSX.Element => (
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSe7XKgsgIOJJ0tIRctzgcsDO9zNuK9Oi7_8mTprL995MgYHfw/viewform?embedded=true"
         height="1631"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
+        frameBorder={0}
+        marginHeight={0}
+        marginWidth={0}
       >
         Loading…
       </iframe>
@@ -58,7 +58,7 @@ export const Homework = ({ homework }: Props): JSX.Element => (
           display: block;
           height: 8px;
           width: 120px;
-          background-color: #de7376;
+          background-color: #fa6866;
         }
 
         .c-labs-feedback__intro {
