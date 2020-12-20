@@ -67,7 +67,7 @@ export default css`
 
   @media ${MEDIA.LARGE_UP} {
     .c-post-hero__title {
-      font-size: 3rem;
+      font-size: 3.2rem;
     }
   }
 `;

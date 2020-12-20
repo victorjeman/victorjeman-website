@@ -4,7 +4,7 @@ import { FONT } from '@settings/font.settings';
 
 export default css`
   .c-homework-hero__title {
-    font-family: ${FONT.BEBAS_NEUE};
+    font-family: ${FONT.MERRIWEATHER};
     font-size: 4rem;
     letter-spacing: 2px;
     text-align: center;

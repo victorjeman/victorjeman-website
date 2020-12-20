@@ -29,7 +29,7 @@ export default css`
     display: block;
     position: absolute;
     z-index: -1;
-    background-color: #fa6866;
+    background-color: #de7376;
     width: 100%;
     height: 100%;
     top: 8px;

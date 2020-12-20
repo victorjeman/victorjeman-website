@@ -11,9 +11,10 @@ export default css.global`
   }
 
   .c-homework-content p {
-    font-size: 1.1rem;
-    line-height: 1.66;
+    font-size: 1.2rem;
+    line-height: 1.85;
     margin-bottom: 1.5rem;
+    font-weight: 300;
   }
 
   .c-homework-content h2 {
@@ -21,17 +22,22 @@ export default css.global`
     line-height: 1.8;
     margin-top: 2.5rem;
     margin-bottom: 1.2rem;
-    font-family: ${FONT.TITILLIUM_WEB};
+    font-family: ${FONT.MERRIWEATHER};
     font-weight: 600;
   }
 
   .c-homework-content h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.6;
-    margin-top: 2.5rem;
-    margin-bottom: 1.2rem;
-    font-family: ${FONT.TITILLIUM_WEB};
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: ${FONT.MERRIWEATHER};
     font-weight: 600;
+    background-color: #f7f7f7;
+    padding: 1rem 1.5rem;
+    border-left: 9px solid #de7376;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
   }
 
   .c-homework-content img {

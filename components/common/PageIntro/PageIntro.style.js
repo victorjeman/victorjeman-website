@@ -25,7 +25,7 @@ export default css`
     left: 0;
     top: auto;
     margin: auto;
-    background-color: #fa6866;
+    background-color: #de7376;
   }
 
   .c-page-intro__description {

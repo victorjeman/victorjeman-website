@@ -1,6 +1,6 @@
 // @ts-nocheck
 import * as React from 'react';
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdownWithHtml from 'react-markdown/with-html';
 import Image from 'next/image';
 
 import CodeStyle from '@styles/Code.style';
@@ -24,7 +24,7 @@ const renderers = {
 export const Markdown = ({ content }: Props): JSX.Element => {
   return (
     <React.Fragment>
-      <ReactMarkdown renderers={renderers} children={content} />
+      <ReactMarkdownWithHtml renderers={renderers} children={content} allowDangerousHtml />
 
       <style jsx global>
         {CodeStyle}
