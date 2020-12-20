@@ -39,7 +39,9 @@ export default css`
 
   @media ${MEDIA.SMALL_ONLY} {
     .c-landing-power-level__title {
-      font-size: 35px;
+      font-size: 2.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.8rem;
     }
 
     .c-landing-power-level__description {

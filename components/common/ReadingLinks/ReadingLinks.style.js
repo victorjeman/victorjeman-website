@@ -6,6 +6,13 @@ export default css`
   .c-reading-links {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  .c-reading-links__item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   @media ${MEDIA.SMALL_ONLY} {

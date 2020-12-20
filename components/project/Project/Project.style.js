@@ -63,6 +63,7 @@ export default css`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
 
   .c-landing-project__technology {
@@ -73,6 +74,7 @@ export default css`
     background-color: #3f3d56;
     margin: 4px;
     color: #fff;
+    list-style: none;
   }
 
   .c-landing-project__investigate {

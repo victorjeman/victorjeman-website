@@ -28,7 +28,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
               <span className="c-landing-hero__i-love">
                 <Typewriter
                   options={{
-                    strings: ['the web.', 'playing.', 'learning.', 'teaching.'],
+                    strings: ['the web', 'playing', 'learning', 'teaching', 'sleeping...'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -59,8 +59,8 @@ export const LandingHero: React.FC = (): JSX.Element => (
               <strong>ASSIST Software</strong>
             </a>
             , a friendly and caring working place.
-            <br />
-            <br />
+          </p>
+          <p className="c-landing-hero__description c-landing-hero__description--ps">
             <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder ruined it
             for me.
           </p>
