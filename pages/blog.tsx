@@ -15,7 +15,7 @@ import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
   const pageTitle = `Blog`;
-  const pageDescription = `Interesting thoughts that will help you in your development career.`;
+  const pageDescription = `Thoughts and ideas that will help you in your web development career.`;
 
   return (
     <PageLayout title="Blog">

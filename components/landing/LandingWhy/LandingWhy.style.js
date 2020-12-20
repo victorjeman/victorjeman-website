@@ -11,14 +11,12 @@ export default css`
 
   .c-landing-why__title {
     font-family: ${FONT.MERRIWEATHER};
-
     text-align: center;
   }
 
   .c-landing-why__text {
-    font-family: ${FONT.MERRIWEATHER};
+    font-family: ${FONT.WORK_SANS};
     font-weight: 300;
-    line-height: 1.7;
   }
 
   .c-landing-why__icon {
@@ -50,13 +48,16 @@ export default css`
       margin-bottom: 2.5rem;
     }
 
-    .c-landing-why__text {
-      font-size: 1.3rem;
-      line-height: 1.8;
-    }
-
     .c-landing-why__icon {
       width: 130px;
+    }
+  }
+
+  @media ${MEDIA.MEDIUM_UP} {
+    .c-landing-why__text {
+      margin-bottom: 4rem;
+      font-size: 1.5rem;
+      line-height: 1.65;
     }
   }
 
@@ -65,11 +66,6 @@ export default css`
       font-size: 5.5rem;
       margin-top: 1.5rem;
       margin-bottom: 3rem;
-    }
-
-    .c-landing-why__text {
-      font-size: 1.5rem;
-      line-height: 1.7;
     }
 
     .c-landing-why__icon {
