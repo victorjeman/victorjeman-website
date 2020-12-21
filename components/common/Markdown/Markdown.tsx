@@ -1,7 +1,8 @@
 // @ts-nocheck
 import * as React from 'react';
 import ReactMarkdownWithHtml from 'react-markdown/with-html';
-import Image from 'next/image';
+
+import { Image } from '@components/common/Image/Image';
 
 import CodeStyle from '@styles/Code.style';
 
@@ -17,10 +18,11 @@ const renderers = {
       const alt = info[1];
       const width = info[2];
       const height = info[3];
-      return <Image src={src} alt={alt} width={width} height={height} />;
+      return <Image path="quiz" index={src} alt={alt} />;
     }
   },
 };
+
 export const Markdown = ({ content }: Props): JSX.Element => {
   return (
     <React.Fragment>

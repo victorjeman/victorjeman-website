@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 
 import { ISizeModifier } from '@types';
@@ -9,6 +8,7 @@ import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service'
 import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
+import { Image } from '@components/common/Image/Image';
 
 import style from './LandingHero.style';
 
@@ -40,13 +40,13 @@ export const LandingHero: React.FC = (): JSX.Element => (
           <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-small [ u-show-small-only ]">
             <CardSpecial type={ISizeModifier.medium}>
               <div className="c-landing-hero__illustration">
-                <Image
+                {/* <Image
                   className="c-landing-hero__illustration"
-                  src="/images/me/me1.png"
+                  src="/images/me/me1.jpg"
                   alt="Victor JEMAN"
                   width={512}
                   height={512}
-                />
+                /> */}
               </div>
             </CardSpecial>
           </div>
@@ -81,7 +81,8 @@ export const LandingHero: React.FC = (): JSX.Element => (
         <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-medium-up [ u-show-medium-up ]">
           <CardSpecial type={ISizeModifier.medium}>
             <div className="c-landing-hero__illustration">
-              <Image src="/images/me/me1.png" alt="Victor JEMAN" width={512} height={512} />
+              {/* <Image src="/images/me/me1.jpg" alt="Victor JEMAN" width={512} height={512} /> */}
+              <Image path="me" index={1} alt="Victor JEMAN" />
             </div>
           </CardSpecial>
         </div>

@@ -17,7 +17,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ### Landing page
 
 ```Image
-/images/labs/quiz/quiz1.jpg | Quizzes page | 720 | 300
+1 | Quizzes page | 720 | 300
 ```
 
 - Implement the landing page UI.
@@ -26,7 +26,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ### Admin login page
 
 ```Image
-/images/labs/quiz/quiz2.jpg | Quizzes page | 720 | 300
+2 | Quizzes page | 720 | 300
 ```
 
 - Implement the login page for admins.
@@ -37,7 +37,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ### Admin navigation
 
 ```Image
-/images/labs/quiz/quiz3.jpg | Quizzes page | 650 | 540
+3 | Quizzes page | 650 | 540
 ```
 
 - The logo will still be there.
@@ -46,7 +46,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ### Admin quizzes page
 
 ```Image
-/images/labs/quiz/quiz4.jpg | Quizzes page | 640 | 550
+4 | Quizzes page | 640 | 550
 ```
 
 - If there are no quizzes, display a placeholder quiz that would be a call to action.
