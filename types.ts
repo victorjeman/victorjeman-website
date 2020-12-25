@@ -36,10 +36,11 @@ export interface IProject {
 }
 
 export interface IPostData {
-  title?: string;
-  slug?: string;
-  published?: string;
+  title: string;
+  slug: string;
+  published: string;
   updated?: string;
+  thumbnail: string;
 }
 
 export interface IPost {

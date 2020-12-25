@@ -1,7 +1,10 @@
 import * as React from 'react';
 import readingTime from 'reading-time';
 
-import { IPost } from '@types';
+import { IPost, ISizeModifier } from '@types';
+
+import { Image } from '@components/common/Image/Image';
+import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 
 import style from './PostHero.style';
 
@@ -11,8 +14,14 @@ interface Props {
 
 export const PostHero = ({ post }: Props): JSX.Element => {
   const { content, data } = post;
-  const { published, updated, title } = data;
+  const { published, updated, title, thumbnail } = data;
+  const path = thumbnail.slice(0, thumbnail.length - 1);
+  const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
+
   const reading = readingTime(content).text;
+
+  console.log('path: ', path);
+  console.log('index: ', index);
 
   return (
     <div className="c-post-hero">
@@ -25,6 +34,10 @@ export const PostHero = ({ post }: Props): JSX.Element => {
 
         <p className="c-post-hero__info-item">{reading}</p>
       </div>
+
+      <CardSpecial type={ISizeModifier.medium}>
+        <Image path={path} index={index} alt={title} />
+      </CardSpecial>
 
       <style jsx>{style}</style>
     </div>

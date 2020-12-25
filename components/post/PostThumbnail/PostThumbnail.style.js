@@ -16,12 +16,6 @@ export default css`
     font-family: ${FONT.IBM_PLEX};
   }
 
-  .c-post-thumbnail__thumbnail {
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
-  }
-
   .c-post-thumbnail__title {
     margin-top: 1.3rem;
   }

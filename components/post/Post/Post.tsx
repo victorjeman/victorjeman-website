@@ -21,24 +21,28 @@ export const Post = ({ post }: { post: IPost }): JSX.Element => {
   useWindowSize();
 
   return (
-    <Container type={ISizeModifier.small}>
-      <PostHero post={post} />
+    <div>
+      <Container type={ISizeModifier.large}>
+        <PostHero post={post} />
+      </Container>
 
-      {isMediumDown ? (
-        <ClientOnly>
-          <Socials title={title} shareUrl={shareUrl} />
-        </ClientOnly>
-      ) : (
-        <ClientOnly>
-          <Sticky>
+      <Container type={ISizeModifier.small}>
+        {isMediumDown ? (
+          <ClientOnly>
             <Socials title={title} shareUrl={shareUrl} />
-          </Sticky>
-        </ClientOnly>
-      )}
+          </ClientOnly>
+        ) : (
+          <ClientOnly>
+            <Sticky>
+              <Socials title={title} shareUrl={shareUrl} />
+            </Sticky>
+          </ClientOnly>
+        )}
 
-      <PostContent content={post.content} />
+        <PostContent content={post.content} />
 
-      <style jsx>{style}</style>
-    </Container>
+        <style jsx>{style}</style>
+      </Container>
+    </div>
   );
 };

@@ -34,7 +34,7 @@ export default css`
     display: block;
     position: absolute;
     z-index: 1;
-    background-color: ${COLOR.CARNATION};
+    background-color: ${COLOR.SUNGLO};
     width: 100%;
     height: 100%;
   }

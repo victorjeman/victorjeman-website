@@ -4,6 +4,10 @@ import { FONT } from '@settings/font.settings';
 import { MEDIA } from '@settings/media.settings';
 
 export default css`
+  .c-post-hero {
+    margin-bottom: 4rem;
+  }
+
   .c-post-hero__title {
     font-family: ${FONT.MERRIWEATHER};
     text-align: center;
