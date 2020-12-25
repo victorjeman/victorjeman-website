@@ -17,11 +17,7 @@ export const PostHero = ({ post }: Props): JSX.Element => {
   const { published, updated, title, thumbnail } = data;
   const path = thumbnail.slice(0, thumbnail.length - 1);
   const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
-
   const reading = readingTime(content).text;
-
-  console.log('path: ', path);
-  console.log('index: ', index);
 
   return (
     <div className="c-post-hero">

@@ -44,8 +44,8 @@ export interface IPostData {
 }
 
 export interface IPost {
-  data: IPostData;
   content: string;
+  data: IPostData;
   isEmpty?: boolean;
   excerpt?: string;
 }

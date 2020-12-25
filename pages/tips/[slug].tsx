@@ -35,7 +35,11 @@ export default function PostPage({ post, meta }: Props1): React.ReactNode {
 }
 
 export async function getStaticProps({ params }: Props2): Promise<{ props: Props1 }> {
-  const post = matter(ReadService.readFile({ dataPath: `data/tips/content/${params.slug}.md` }));
+  const post = JSON.parse(
+    JSON.stringify(
+      matter(ReadService.readFile({ dataPath: `data/tips/content/${params.slug}.md` })),
+    ),
+  );
   const meta = ReadService.readFile({ dataPath: `data/tips/meta/${params.slug}.json` });
   delete post.orig;
 
