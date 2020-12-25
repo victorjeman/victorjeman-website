@@ -17,23 +17,31 @@ export default css`
 
   .c-landing-project__label {
     font-family: ${FONT.MERRIWEATHER};
-    border: 3px solid #000;
-    padding: 12px 15px;
     position: relative;
-    background-color: #fff;
     margin-bottom: 15px;
+  }
+
+  .c-landing-project__label-text {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    padding: 12px 15px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid #000;
   }
 
   .c-landing-project__label:after {
     content: '';
     display: block;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     background-color: #de7376;
     width: 100%;
     height: 100%;
-    top: 8px;
-    left: 8px;
+    top: 5px;
+    left: 5px;
   }
 
   .c-landing-project__illustration {
@@ -203,7 +211,7 @@ export default css`
 
   @media ${MEDIA.LARGE_UP} {
     .c-landing-project {
-      padding-bottom: 15%;
+      padding-bottom: 10rem;
     }
   }
 

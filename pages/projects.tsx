@@ -30,7 +30,7 @@ export default function Projects({ projects }: Props): React.ReactNode {
           <Project key={index} {...project} />
         ))}
 
-        <h3 className="c-projects__continue">Continue the exploration</h3>
+        <h3 className="c-projects__continue">Keep exploring</h3>
 
         <ReadingLinks />
       </div>
@@ -38,7 +38,7 @@ export default function Projects({ projects }: Props): React.ReactNode {
       <style jsx>
         {`
           .c-projects {
-            padding-bottom: 6rem;
+            padding-bottom: 6%;
           }
 
           .c-projects__continue {

@@ -1,6 +1,7 @@
 export const webpImages = {
   // landing
-  me1: require('../../public/images/me1.jpg?webp'),
+  me1: require('../../public/images/landing/me1.jpg?webp'),
+  skills1: require('../../public/images/landing/skills1.jpg?webp'),
 
   // labs
   quiz1: require('../../public/images/labs/quiz/quiz1.jpg?webp'),
@@ -11,7 +12,9 @@ export const webpImages = {
 
 export const jpgImages = {
   // landing
-  me1: require('../../public/images/me1.jpg'),
+  me1: require('../../public/images/landing/me1.jpg'),
+  skills1: require('../../public/images/landing/skills1.jpg'),
+
   // labs
   quiz1: require('../../public/images/labs/quiz/quiz1.jpg'),
   quiz2: require('../../public/images/labs/quiz/quiz2.jpg'),

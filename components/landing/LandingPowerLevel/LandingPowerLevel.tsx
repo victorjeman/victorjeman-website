@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Image from 'next/image';
 
 import { ISizeModifier } from '@types';
 
 import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
+import { Image } from '@components/common/Image/Image';
 
 import style from './LandingPowerLevel.style';
 
@@ -19,13 +19,7 @@ export const LandingPowerLevel: React.FC = (): JSX.Element => (
           <h2 className="c-landing-power-level__title [ u-show-medium-up ]">It's over 9000 ... </h2>
 
           <div className="c-landing-power-level__illustration">
-            <Image
-              className="c-landing-hero__illustration"
-              src="/images/random/skills.jpg"
-              alt="Victor's skills"
-              width={1024}
-              height={768}
-            />
+            <Image path="skills" index={1} alt="Victor's power level is over 900" />
           </div>
         </CardSpecial>
 

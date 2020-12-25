@@ -32,9 +32,13 @@ export const Project: React.FC<IProject> = ({
         <div className="c-landing-project__column c-landing-project__column--1">
           <h2 className="c-landing-project__title">{title}</h2>
 
-          <p className="c-landing-project__label">{duration}</p>
+          <p className="c-landing-project__label">
+            <span className="c-landing-project__label-text">{duration}</span>
+          </p>
 
-          <p className="c-landing-project__label">{role}</p>
+          <p className="c-landing-project__label">
+            <span className="c-landing-project__label-text">{duration}</span>
+          </p>
 
           <div className="c-landing-project__illustration-wrapper [ u-show-small-only ]">
             <img className="c-landing-project__illustration" src={illustration} alt={title} />

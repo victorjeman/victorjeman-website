@@ -48,7 +48,7 @@ export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode
 }
 
 export async function getStaticProps(): Promise<{ props: IHomeworks }> {
-  const homeworks = ReadService.readFiles({ dataPath: 'data/homework' });
+  const homeworks = ReadService.readFiles({ dataPath: 'data/homework/content' });
 
   return {
     props: {

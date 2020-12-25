@@ -23,7 +23,7 @@ I want that feeling, that feeling that you have when you help others. The feelin
 In my daily work, I’m a programmer and a team leader. I’m surrounded by excellent programmers and very cool people, which means I have an **infinite source of inspiration**. I will write, call them programming stories, and hopefully, you can learn something from them.
 
 <div style="text-align:center">
-  <a class="c-post-content-anchor" href="/stories" target="_blank" rel="noreferrer">
+  <a class="c-post-content-anchor" href="/blog" target="_blank" rel="noreferrer">
     <span class="c-post-content-anchor__stripe c-post-content-anchor__stripe--1"></span>
     <span class="c-post-content-anchor__text">Stories!</span>
     <span class="c-post-content-anchor__stripe c-post-content-anchor__stripe--2"></span>
