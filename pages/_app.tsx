@@ -18,7 +18,9 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
   };
 
   React.useEffect(() => {
-    TagManager.initialize(tagManagerArgs);
+    if (window && window.location && window.location.hostname != 'localhost') {
+      TagManager.initialize(tagManagerArgs);
+    }
   }, []);
 
   return (

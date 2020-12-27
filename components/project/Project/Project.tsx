@@ -33,7 +33,7 @@ export const Project: React.FC<IProject> = ({
           <h2 className="c-landing-project__title">{title}</h2>
 
           <p className="c-landing-project__label">
-            <span className="c-landing-project__label-text">{duration}</span>
+            <span className="c-landing-project__label-text">{role}</span>
           </p>
 
           <p className="c-landing-project__label">
