@@ -8,7 +8,7 @@ export default css`
   .c-post-thumbnail {
     background: ${COLOR.WHITE};
     border-radius: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     box-shadow: -5px -5px 10px #f7f7f7, 5px 5px 10px #f1f1f1;
     color: ${COLOR.BLACK};
     text-decoration: none;

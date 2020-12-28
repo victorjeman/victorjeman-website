@@ -15,9 +15,17 @@ export default css.global`
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     line-height: 1.8;
-    margin-top: 3em;
+    margin-top: 4rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 2.1rem;
+    line-height: 1.8;
+    margin-top: 3rem;
     margin-bottom: 1.2rem;
     font-weight: 500;
   }
@@ -107,6 +115,11 @@ export default css.global`
   .c-post-content-anchor:hover:after {
     height: calc(100% + 8px);
     width: calc(100% + 8px);
+  }
+
+  .c-post-content img {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
   }
 
   @media ${MEDIA.SMALL_ONLY} {

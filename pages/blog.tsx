@@ -52,7 +52,8 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
           @media ${MEDIA.MEDIUM_UP} {
             .c-posts__container {
               display: flex;
-              justify-content: space-around;
+              flex-wrap: wrap;
+              justify-content: space-between;
             }
           }
         `}

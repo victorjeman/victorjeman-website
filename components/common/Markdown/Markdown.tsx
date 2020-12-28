@@ -14,11 +14,10 @@ const renderers = {
   code: ({ language, value }: { language: string; value: string }) => {
     if (language === 'Image') {
       const info = value.split('|');
-      const src = info[0];
-      const alt = info[1];
-      const width = info[2];
-      const height = info[3];
-      return <Image path="quiz" index={src} alt={alt} />;
+      const path = info[0];
+      const index = info[1];
+      const alt = info[2];
+      return <Image path={path} index={index} alt={alt} />;
     }
   },
 };
