@@ -16,6 +16,7 @@ export const webpImages = {
   blog4: require('../../public/images/blog/blog4.jpg?webp'),
   blog5: require('../../public/images/blog/blog5.jpg?webp'),
   blog6: require('../../public/images/blog/blog6.jpg?webp'),
+  blog7: require('../../public/images/blog/blog7.jpg?webp'),
 };
 
 export const jpgImages = {
@@ -36,4 +37,5 @@ export const jpgImages = {
   blog4: require('../../public/images/blog/blog4.jpg'),
   blog5: require('../../public/images/blog/blog5.jpg'),
   blog6: require('../../public/images/blog/blog6.jpg'),
+  blog7: require('../../public/images/blog/blog7.jpg'),
 };

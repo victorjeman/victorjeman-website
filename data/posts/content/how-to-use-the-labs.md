@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-the-labs
-title: 'How to use my labs'
-thumbnail: 'blog2'
+title: How to use my labs
+thumbnail: blog2
 published: December 27, 2020
 updated:
 ---

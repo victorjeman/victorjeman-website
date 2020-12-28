@@ -1,7 +1,7 @@
 ---
 slug: how-can-i-be-useful
-title: 'Ahoy, you beautiful reader!'
-thumbnail: 'blog1'
+title: Ahoy, you beautiful reader!
+thumbnail: blog1
 published: December 5, 2020
 updated:
 ---
