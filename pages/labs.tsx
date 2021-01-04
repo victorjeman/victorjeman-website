@@ -1,5 +1,6 @@
 import * as React from 'react';
 import matter from 'gray-matter';
+import { NextSeo } from 'next-seo';
 
 import { IHomeworks, ISizeModifier } from '@types';
 
@@ -15,7 +16,12 @@ export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode
   const pageDescription = `Test your might! A interesting way to increase your web development skills.`;
 
   return (
-    <PageLayout title="Labs">
+    <PageLayout>
+      <NextSeo
+        title={'Victor JEMAN | Labs | Improve your Front-End skills'}
+        description={'Test your might! A interesting way to increase your web development skills.'}
+      />
+
       <section className="c-homeworks">
         <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
 

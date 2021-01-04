@@ -1,6 +1,7 @@
 import * as React from 'react';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
+import { NextSeo } from 'next-seo';
 
 import { IPosts, ISizeModifier } from '@types';
 
@@ -18,7 +19,12 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
   const pageDescription = `Thoughts and ideas that will help you in your web development career.`;
 
   return (
-    <PageLayout title="Blog">
+    <PageLayout>
+      <NextSeo
+        title={'Victor JEMAN | Blog | Front-End stories'}
+        description={'Thoughts and ideas that will help you in your web development career.'}
+      />
+
       <section className="c-posts">
         <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
 

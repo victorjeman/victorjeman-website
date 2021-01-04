@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { NextSeo } from 'next-seo';
 import fs from 'fs';
 import path from 'path';
 
@@ -20,7 +21,12 @@ export default function Projects({ projects }: Props): React.ReactNode {
   const pageDescription = `Over the years, I've worked on multiple awesome projects. You can see some of them below, the ones that have touched my heart and soul.`;
 
   return (
-    <PageLayout title={'My projects'}>
+    <PageLayout>
+      <NextSeo
+        title={'Victor JEMAN | Projects | Some of my work'}
+        description={`Over the years, I've worked on multiple awesome projects. You can see some of them below, the ones that have touched my heart and soul.`}
+      />
+
       <div className="c-projects">
         <div className="[ js-first-project ]">{''}</div>
 
