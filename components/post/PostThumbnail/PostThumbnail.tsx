@@ -14,8 +14,6 @@ export const PostThumbnail = ({
   reading,
   type,
 }: IPostThumbnail): JSX.Element => {
-  console.log('thumbnail: ', thumbnail);
-
   const path = thumbnail.slice(0, thumbnail.length - 1);
   const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
 
