@@ -46,12 +46,6 @@ export const PageNavigation: React.FC = () => {
               </CustomLink>
             </li>
 
-            {/* <li className="c-page-navigation__menu-item">
-              <CustomLink href="/tips">
-                <a className="c-page-navigation__menu-link">Tips</a>
-              </CustomLink>
-            </li> */}
-
             <li className="c-page-navigation__menu-item">
               <CustomLink href="/labs">
                 <a className="c-page-navigation__menu-link">Labs</a>
@@ -63,17 +57,12 @@ export const PageNavigation: React.FC = () => {
                 <a className="c-page-navigation__menu-link">Projects</a>
               </CustomLink>
             </li>
-
-            {/* <li className="c-page-navigation__menu-item">
-              <CustomLink href="/testimonials">
-                <a className="c-page-navigation__menu-link">Recommendations</a>
-              </CustomLink>
-            </li> */}
           </ul>
         </div>
       </Container>
 
       <style jsx>{style}</style>
+
       <style jsx global>{`
         @keyframes pulse {
           0% {

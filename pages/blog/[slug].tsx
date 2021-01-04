@@ -27,7 +27,7 @@ interface Props3 {
 
 export default function PostPage({ post, meta }: Props1): React.ReactNode {
   return (
-    <PageLayout title={post.data.title || ''}>
+    <PageLayout>
       <NextSeo openGraph={meta} />
       <Post post={post} />
     </PageLayout>

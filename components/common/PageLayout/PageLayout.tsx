@@ -10,7 +10,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const PageLayout: React.FC<Props> = ({ children, title }: Props): JSX.Element => {
+export const PageLayout: React.FC<Props> = ({ children }: Props): JSX.Element => {
   return (
     <React.Fragment>
       <PageHeader />

@@ -16,9 +16,10 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
   const tagManagerArgs = {
     gtmId: 'GTM-P9QQFBC',
   };
-  const itShouldInitGtm = window && window.location && window.location.hostname != 'localhost';
 
   React.useEffect(() => {
+    const itShouldInitGtm = window && window.location && window.location.hostname != 'localhost';
+
     if (itShouldInitGtm) {
       TagManager.initialize(tagManagerArgs);
     }
