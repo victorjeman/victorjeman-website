@@ -16,14 +16,11 @@ import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function PostsPage({ posts }: IPosts): React.ReactNode {
   const pageTitle = `Blog`;
-  const pageDescription = `Thoughts and ideas that will help you in your web development career.`;
+  const pageDescription = `Ideas that will help you with your web development journey.`;
 
   return (
     <PageLayout>
-      <NextSeo
-        title={'Victor JEMAN | Blog | Front-End Stories'}
-        description={'Thoughts and ideas that will help you in your web development career.'}
-      />
+      <NextSeo title={'Victor JEMAN | Blog | Front-End Stories'} description={pageDescription} />
 
       <section className="c-posts">
         <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />

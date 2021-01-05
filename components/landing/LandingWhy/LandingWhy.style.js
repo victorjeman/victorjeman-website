@@ -39,6 +39,18 @@ export default css`
     background-color: #de7376;
   }
 
+  .c-landing-why__subtitle--main {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family: ${FONT.MERRIWEATHER};
+    text-align: center;
+  }
+
+  .c-landing-why__subtitle--main:after {
+    margin: auto;
+  }
+
   .c-landing-why__text:last-of-type {
     margin-bottom: 5rem;
   }
@@ -77,7 +89,7 @@ export default css`
     .c-landing-why__title {
       font-size: 3.8rem;
       margin-top: 1.5rem;
-      margin-bottom: 5rem;
+      margin-bottom: 2.5rem;
     }
 
     .c-landing-why__text {

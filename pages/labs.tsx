@@ -13,13 +13,13 @@ import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode {
   const pageTitle = `Labs`;
-  const pageDescription = `Test your might! A interesting way to increase your web development skills.`;
+  const pageDescription = `Test your might! A challenging way to improve your web development skills.`;
 
   return (
     <PageLayout>
       <NextSeo
         title={'Victor JEMAN | Labs | Improve Your Front-End Skills'}
-        description={'Test your might! A interesting way to increase your web development skills.'}
+        description={pageDescription}
       />
 
       <section className="c-homeworks">

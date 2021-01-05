@@ -28,32 +28,21 @@ export const LandingPowerLevel: React.FC = (): JSX.Element => (
             At my core, I'm a <strong>front-end developer</strong>. I've started{' '}
             {new Date().getFullYear() - 2012} years ago as a freelancer by stitching together static
             websites, then I got a full time job and started working with all kinds of fancy
-            libraries and frameworks.
-          </p>
-
-          <p className="c-landing-power-level__text">
-            I can't say that I know any of them at the master level, though the ones in the{' '}
-            <strong>clouds</strong> are in my focus at the moment. It so happens that my current
-            project needs me to know them a little bit.
+            libraries and frameworks. I can't say that I know any of them at the master level, but
+            I'm quite flexible at this point and can easily catch on with new things.
           </p>
 
           <p className="c-landing-power-level__text">
             At the moment I could say I’m still working with static websites, though the
-            technologies and the whole process behind them are different and extraordinary. It's
-            interesting though how some things stay classy and powerful through time.
+            technologies and the whole process behind them are different and so extraordinary. It's
+            interesting how some things stay classy and powerful through time.
           </p>
 
           <p className="c-landing-power-level__text">
-            I'm flexible when it comes to technical requirements and not only. I can easily switch
-            my trajectory if the situation requires it, and it's beneficial for the project. I will
-            learn something even if it's not directly required. I will do it anyway if I feel it
-            will help the project.
-          </p>
-
-          <p className="c-landing-power-level__text">
-            For a project, I've even done automated tests with webdriver.io and created a container
-            for those tests after learning the basics in a couple of days. I had to? Not really, but
-            it was nice that I can help.
+            I'm trying to be <strong>open-minded</strong> and optimistic about challenges. For a
+            project, I've even done automated tests with webdriver.io and created a container for
+            those tests after learning the basics in a couple of days. I had to? Not really, but it
+            was nice that I can help.
             <br />
             <br /> <strong>P.S.</strong> Initially, the docker setup was somewhat embarrassing to
             look at, but it's working alright now.

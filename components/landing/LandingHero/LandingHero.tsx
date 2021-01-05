@@ -28,7 +28,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
               <span className="c-landing-hero__i-love">
                 <Typewriter
                   options={{
-                    strings: ['the web', 'playing', 'learning', 'teaching', 'sleeping...'],
+                    strings: ['the web', 'playing', 'learning', 'teaching', 'dreaming'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -46,17 +46,17 @@ export const LandingHero: React.FC = (): JSX.Element => (
           </div>
 
           <p className="c-landing-hero__description">
-            I do a little bit of web development, I'm decent at it, some glue here, some duct tape
-            there, and you have a webpage. I also love sharing my knowledge, I'm not particularly
-            good at it, but it gives me a warm feeling when doing it. At the moment, I'm working at{' '}
+            I love web development. I know my way around it, some glue here, some duct tape her, and
+            you have a web page. I also love sharing my knowledge; I'm not yet particularly good at
+            it, but it brings me joy and I want to pursue this. At the moment, I'm working at{' '}
             <a href="https://assist-software.net/assist-culture" target="_blank" rel="noreferrer">
               <strong>ASSIST Software</strong>
             </a>
             , a friendly and caring working place.
           </p>
           <p className="c-landing-hero__description c-landing-hero__description--ps">
-            <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder ruined it
-            for me.
+            <strong>P.S.</strong> I also love video games, except DOOM, the Marauder ruined it for
+            me.
           </p>
 
           <div className="c-landing-hero__explore">
