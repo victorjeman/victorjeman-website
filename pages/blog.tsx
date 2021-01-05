@@ -21,7 +21,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
   return (
     <PageLayout>
       <NextSeo
-        title={'Victor JEMAN | Blog | Front-End stories'}
+        title={'Victor JEMAN | Blog | Front-End Stories'}
         description={'Thoughts and ideas that will help you in your web development career.'}
       />
 

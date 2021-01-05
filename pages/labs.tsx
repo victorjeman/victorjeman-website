@@ -18,7 +18,7 @@ export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode
   return (
     <PageLayout>
       <NextSeo
-        title={'Victor JEMAN | Labs | Improve your Front-End skills'}
+        title={'Victor JEMAN | Labs | Improve Your Front-End Skills'}
         description={'Test your might! A interesting way to increase your web development skills.'}
       />
 

@@ -95,8 +95,11 @@ export default css`
   }
 
   @media ${MEDIA.MEDIUM_UP} {
+    .c-page-navigation__container {
+      height: 70px;
+    }
     .c-page-navigation__menu-item {
-      margin-left: 1rem;
+      margin-left: 1.3rem;
     }
 
     .c-page-navigation__logo {
