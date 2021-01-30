@@ -17,6 +17,7 @@
     "react-gtm-module": "^2.0.11",
     "react-share": "^4.3.1",
     "react-sticky-el": "^2.0.5",
+    "smooth-scroll-anchor": "^1.2.5",
     "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {

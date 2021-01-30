@@ -60,13 +60,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
           </p>
 
           <div className="c-landing-hero__explore">
-            <Explore
-              modifier={ISizeModifier.medium}
-              type="button"
-              handleClick={() => {
-                scrollIntoView({ selector: '.js-landing-projects-intro' });
-              }}
-            >
+            <Explore modifier={ISizeModifier.medium} type="anchor" href="#power-level">
               See my power level
             </Explore>
           </div>

@@ -12,7 +12,7 @@ import style from './LandingPowerLevel.style';
 export const LandingPowerLevel: React.FC = (): JSX.Element => (
   <section className="c-landing-power-level">
     <Container type={ISizeModifier.medium}>
-      <div className="c-landing-power-level__container [ js-landing-projects-intro ]">
+      <div className="c-landing-power-level__container" id="power-level">
         <h2 className="c-landing-power-level__title [ u-show-small-only ]">It's over 9000 ... </h2>
 
         <CardSpecial type={ISizeModifier.large}>
