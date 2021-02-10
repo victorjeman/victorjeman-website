@@ -30,6 +30,13 @@ export const jpgImages = {
   quizer3: require('../../public/images/labs/quiz/quiz3.jpg'),
   quizer4: require('../../public/images/labs/quiz/quiz4.jpg'),
 
+  pomodoro1: require('../../public/images/labs/pomodoro/1.jpg'),
+  pomodoro2: require('../../public/images/labs/pomodoro/2.jpg'),
+  pomodoro3: require('../../public/images/labs/pomodoro/3.jpg'),
+  pomodoro4: require('../../public/images/labs/pomodoro/4.jpg'),
+  pomodoro5: require('../../public/images/labs/pomodoro/5.jpg'),
+  pomodoro6: require('../../public/images/labs/pomodoro/6.jpg'),
+
   // blog
   blog1: require('../../public/images/blog/ahoy1.jpg'),
   blog2: require('../../public/images/blog/blog2.jpg'),

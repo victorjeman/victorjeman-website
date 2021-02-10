@@ -44,8 +44,8 @@ export interface IPostData {
 }
 
 export interface IPost {
-  content: string;
   data: IPostData;
+  content: string;
   isEmpty?: boolean;
   excerpt?: string;
 }
@@ -55,8 +55,11 @@ export interface IPosts {
 }
 
 export interface IHomeworkData {
-  title?: string;
-  slug?: string;
+  title: string;
+  slug: string;
+  published: string;
+  updated?: string;
+  thumbnail: string;
 }
 export interface IHomework {
   data: IHomeworkData;

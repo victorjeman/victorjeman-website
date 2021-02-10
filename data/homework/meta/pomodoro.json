@@ -1,0 +1,20 @@
+{
+  "title": "pomodoro",
+  "description": "A basic Pomodoro app based on the provided Figma design.",
+  "url": "https://www.victorjeman.com/labs/pomodoro",
+  "type": "article",
+  "article": {
+    "publishedTime": "2021-12-05T00:00:00+01:00",
+    "modifiedTime": "2021-12-05T00:00:00+01:00",
+    "authors": ["Victor JEMAN"],
+    "tags": ["pomodoro", "homework"]
+  },
+  "images": [
+    {
+      "url": "https://www.test.ie/images/cover.jpg",
+      "width": 850,
+      "height": 650,
+      "alt": "Pomodoro app"
+    }
+  ]
+}

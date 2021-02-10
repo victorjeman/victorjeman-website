@@ -42,8 +42,7 @@ export default css.global`
 
   .c-homework-content img {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 2rem auto;
   }
 
   .c-homework-content li {
@@ -51,5 +50,9 @@ export default css.global`
     line-height: 1.7;
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .c-homework-content li p {
+    margin-bottom: 0.7rem;
   }
 `;

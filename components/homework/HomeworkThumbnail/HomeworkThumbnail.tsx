@@ -11,19 +11,24 @@ export const HomeworkThumbnail = ({
   title,
   slug,
   summary,
-}: IHomeworkThumbnail): JSX.Element => (
-  <a href={`/labs/${slug}`} className="c-homework-thumbnail">
-    <CardSpecial type={ISizeModifier.small}>
-      <div
-        className="c-homework-thumbnail__thumbnail"
-        style={{ backgroundImage: `url(${thumbnail})` }}
-      ></div>
-    </CardSpecial>
+}: IHomeworkThumbnail): JSX.Element => {
+  const path = thumbnail.slice(0, thumbnail.length - 1);
+  const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
 
-    <h2 className="c-homework-thumbnail__title">{title}</h2>
+  return (
+    <a href={`/labs/${slug}`} className="c-homework-thumbnail">
+      <CardSpecial type={ISizeModifier.small}>
+        <div
+          className="c-homework-thumbnail__thumbnail"
+          style={{ backgroundImage: `url(images/labs/${path}/${index}.jpg)` }}
+        ></div>
+      </CardSpecial>
 
-    <p className="c-homework-thumbnail__summary">{summary}</p>
+      <h2 className="c-homework-thumbnail__title">{title}</h2>
 
-    <style jsx>{style}</style>
-  </a>
-);
+      <p className="c-homework-thumbnail__summary">{summary}</p>
+
+      <style jsx>{style}</style>
+    </a>
+  );
+};

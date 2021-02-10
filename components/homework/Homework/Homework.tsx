@@ -14,7 +14,7 @@ interface Props {
 
 export const Homework = ({ homework }: Props): JSX.Element => (
   <Container type={ISizeModifier.large}>
-    <HomeworkHero data={homework.data} />
+    <HomeworkHero homework={homework} />
 
     <HomeworkContent content={homework.content} />
 
