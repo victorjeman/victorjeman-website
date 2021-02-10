@@ -55,11 +55,14 @@ export interface IPosts {
 }
 
 export interface IHomeworkData {
-  title: string;
-  slug: string;
-  published: string;
+  title?: string;
+  slug?: string;
+  summary?: string;
+  figma?: string;
+  googledoc?: string;
+  published?: string;
   updated?: string;
-  thumbnail: string;
+  thumbnail?: string;
 }
 export interface IHomework {
   data: IHomeworkData;

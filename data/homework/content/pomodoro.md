@@ -2,7 +2,6 @@
 title: Pomodoro app
 slug: pomodoro
 thumbnail: pomodoro6
-level: 3
 summary: A basic Pomodoro app based on the provided Figma design.
 figma: https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1
 googledoc: https://docs.google.com/document/d/1u_esdMWahHureYhwErUqi1mxEgZAdBC1roUBh_Qiuvo/edit?usp=sharing
