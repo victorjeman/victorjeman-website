@@ -24,11 +24,11 @@ The application should be responsive. The main focus of this application is to t
 
 - Your code should be **clean** and easy to understand. For more on how to review the code, see the last section of this document.
 
-- **Don’t** use any external libraries. You can build this app using Angular, Vue.js, React, or something similar, but don’t use extra libraries. For example, don’t use a library for the chart, a routing package, or a CSS framework like Bootstrap. Keep it simple! Make it from scratch.
+* **Don’t** use any external libraries. You can build this app using Angular, Vue.js, React, or something similar, but don’t use extra libraries. For example, don’t use a library for the chart, a routing package, or a CSS framework like Bootstrap. Keep it simple! Make it from scratch.
 
-- Write **unit tests** for your components and your javascript code(services).
+* Write **unit tests** for your components and your javascript code(services).
 
-- Share a GitHub link to the repo.
+* Share a GitHub link to the repo.
 
 ### Implement the main mobile UI
 
