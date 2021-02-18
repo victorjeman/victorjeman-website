@@ -10,6 +10,22 @@ export default css.global`
     font-weight: 400;
   }
 
+  .c-homework-content h2 {
+    font-size: 2.6rem;
+    line-height: 1.8;
+    margin-top: 4rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+  }
+
+  .c-homework-content h3 {
+    font-size: 2.1rem;
+    line-height: 1.8;
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+  }
+
   .c-homework-content p {
     font-size: 1.2rem;
     line-height: 1.85;
@@ -17,27 +33,19 @@ export default css.global`
     font-weight: 300;
   }
 
-  .c-homework-content h2 {
-    font-size: 2.4rem;
-    line-height: 1.8;
+  .c-homework-content blockquote {
+    background-color: #f7f7f7;
+    padding: 1.2rem 1.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-left: 7px solid #de7376;
     margin-top: 2.5rem;
-    margin-bottom: 1.2rem;
-    font-family: ${FONT.MERRIWEATHER};
-    font-weight: 600;
+    margin-bottom: 2.5rem;
+    font-family: ${FONT.TITILLIUM_WEB};
   }
 
-  .c-homework-content h3 {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-family: ${FONT.MERRIWEATHER};
-    font-weight: 600;
-    background-color: #f7f7f7;
-    padding: 1rem 1.5rem;
-    border-left: 9px solid #de7376;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+  .c-homework-content blockquote p:last-child {
+    margin-bottom: 0;
   }
 
   .c-homework-content img {

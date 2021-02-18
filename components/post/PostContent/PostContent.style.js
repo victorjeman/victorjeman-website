@@ -48,17 +48,17 @@ export default css.global`
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     border-left: 7px solid #de7376;
-    margin-top: 2.5rem color;
+    margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     font-family: ${FONT.TITILLIUM_WEB};
   }
 
-  .c-post-content strong {
-    font-weight: 600;
-  }
-
   .c-post-content blockquote p:last-child {
     margin-bottom: 0;
+  }
+
+  .c-post-content strong {
+    font-weight: 600;
   }
 
   .c-post-content-anchor {
