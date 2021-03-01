@@ -1,8 +1,5 @@
 import * as React from 'react';
 
-import { ISizeModifier } from '@types';
-
-import { Container } from '@components/common/Container/Container';
 import { Markdown } from '@components/common/Markdown/Markdown';
 
 import style from './PostContent.style';
@@ -12,14 +9,30 @@ interface Props {
 }
 
 export const PostContent = ({ content }: Props): JSX.Element => {
+  let tableOfContent = '';
+  let postContent = '';
+
+  try {
+    tableOfContent = content
+      .split('<section class="c-table-of-content-section">')[1]
+      .split('<section>')[0];
+
+    postContent = content
+      .split('<section class="c-table-of-content-section">')[1]
+      .split('<section>')[1];
+  } catch (error) {
+    console.log('error: ', error);
+  }
+
   return (
     <section className="c-post-content">
-      <Container type={ISizeModifier.small}>
-        <Markdown content={content} />
-        <style jsx global>
-          {style}
-        </style>
-      </Container>
+      <Markdown content={tableOfContent} />
+
+      <Markdown content={postContent || content} />
+
+      <style jsx global>
+        {style}
+      </style>
     </section>
   );
 };

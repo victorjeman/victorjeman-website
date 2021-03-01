@@ -14,13 +14,16 @@ export const PageLayout: React.FC<Props> = ({ children }: Props): JSX.Element =>
   return (
     <React.Fragment>
       <PageHeader />
+
       <PageNavigation />
 
       <main>{children}</main>
 
       <PageFooter />
 
-      <style jsx>{style}</style>
+      <style jsx global>
+        {style}
+      </style>
     </React.Fragment>
   );
 };

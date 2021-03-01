@@ -8,6 +8,7 @@ export default css`
   .c-landing-hero {
     position: relative;
     z-index: 2; // to make sure the svg doesn't get on top of the content
+    min-height: 100vh;
   }
 
   .c-landing-hero__title {
@@ -40,7 +41,7 @@ export default css`
   }
 
   .c-landing-hero__illustration {
-    display: block;
+    display: flex;
   }
 
   @media ${MEDIA.SMALL_ONLY} {
@@ -49,16 +50,24 @@ export default css`
     }
 
     .c-landing-hero__title {
-      font-size: 26px;
       line-height: 1.5;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 1.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .c-landing-hero__title-line--1 {
+      font-size: 2rem;
+    }
+
+    .c-landing-hero__title-line--3 {
+      margin-top: 15px;
+      font-size: 1.5rem;
     }
 
     .c-landing-hero__description {
       margin-top: 0;
       font-size: 18px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .c-landing-hero__illustration-wrapper {
@@ -67,12 +76,38 @@ export default css`
     }
 
     .c-landing-hero__illustration {
-      margin: 20px auto;
-      width: 80%;
+      margin: 5%;
     }
 
     .c-landing-hero__explore {
       margin-top: 40px;
+    }
+
+    .c-landing-hero__illustration-wrapper {
+      max-width: 620px;
+    }
+  }
+
+  @media ${MEDIA.MEDIUM_ONLY} {
+    .c-landing-hero__info {
+      width: 50%;
+    }
+    .c-landing-hero__illustration-wrapper {
+      width: 45%;
+    }
+
+    .c-landing-hero__title-line--1 {
+      font-size: 3rem;
+    }
+
+    .c-landing-hero__title-line--2 {
+      margin-top: 50px;
+      font-size: 35px;
+    }
+
+    .c-landing-hero__title-line--3 {
+      margin-top: 15px;
+      font-size: 35px;
     }
   }
 
@@ -93,13 +128,21 @@ export default css`
     }
 
     .c-landing-hero__description {
-      margin-top: 15px;
+      margin-top: 2rem;
       font-size: 20px;
       line-height: 1.6;
     }
 
+    .c-landing-hero__description--ps {
+      margin-top: 4rem;
+    }
+
     .c-landing-hero__title-line--2 {
       margin-top: 60px;
+    }
+
+    .c-landing-hero__illustration-wrapper {
+      width: 45%;
     }
 
     .c-landing-hero__illustration {
@@ -109,36 +152,13 @@ export default css`
     }
 
     .c-landing-hero__explore {
-      margin-top: 40px;
-    }
-  }
-
-  @media ${MEDIA.MEDIUM_ONLY} {
-    .c-landing-hero__info {
-      width: 50%;
-    }
-    .c-landing-hero__illustration-wrapper {
-      width: 45%;
-    }
-
-    .c-landing-hero__title-line--1 {
-      font-size: 40px;
-    }
-
-    .c-landing-hero__title-line--2 {
-      margin-top: 50px;
-      font-size: 35px;
-    }
-
-    .c-landing-hero__title-line--3 {
-      margin-top: 15px;
-      font-size: 35px;
+      margin-top: 5rem;
     }
   }
 
   @media ${MEDIA.LARGE_UP} {
     .c-landing-hero__title-line--1 {
-      font-size: 60px;
+      font-size: 3.5rem;
     }
 
     .c-landing-hero__title-line--2 {
@@ -147,8 +167,8 @@ export default css`
     }
 
     .c-landing-hero__title-line--3 {
-      margin-top: 40px;
-      font-size: 35px;
+      margin-top: 2rem;
+      font-size: 2.2rem;
     }
 
     .c-landing-hero__info {
@@ -160,7 +180,7 @@ export default css`
     }
 
     .c-landing-hero__illustration-wrapper {
-      width: 35%;
+      width: 42%;
     }
   }
 `;

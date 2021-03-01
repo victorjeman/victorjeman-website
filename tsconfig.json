@@ -10,6 +10,7 @@
       "@data/*": ["data/*"],
       "@posts": ["data/posts/*"],
       "@images/*": ["public/images/*"],
+      "@hooks/*": ["hooks/*"],
       "@types": ["types"]
     },
     "typeRoots": ["@types", "./node_modules/@types"],
@@ -27,6 +28,10 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./typings-custom/**/*.ts"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./typings-custom/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "./components/common/Markdown/Markdown.tsx",
+    "common/settings/images.settings.js"
+  ]
 }

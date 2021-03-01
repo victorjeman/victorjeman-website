@@ -11,7 +11,9 @@ export default css.global`
     list-style: none;
   }
 
-  *:focus {
+  *:focus,
+  a:active,
+  a:active:focus {
     outline: 3px dotted #175375;
     outline-offset: 3px;
   }

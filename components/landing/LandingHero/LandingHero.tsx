@@ -5,9 +5,10 @@ import { ISizeModifier } from '@types';
 
 import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service';
 
-import { ButtonExplore } from '@components/common/ButtonExplore/ButtonExplore';
+import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
+import { Image } from '@components/common/Image/Image';
 
 import style from './LandingHero.style';
 
@@ -18,7 +19,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
         <div className="c-landing-hero__info">
           <h1 className="c-landing-hero__title">
             <span className="c-landing-hero__title-line c-landing-hero__title-line--1">
-              Salut, I&#39;m
+              Hello, I&#39;m
               <span className="c-landing-hero__title-name">Victor</span>
             </span>
 
@@ -27,7 +28,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
               <span className="c-landing-hero__i-love">
                 <Typewriter
                   options={{
-                    strings: ['the web.', 'playing.', 'learning.', 'teaching.'],
+                    strings: ['the web', 'playing', 'learning', 'teaching', 'dreaming'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -38,47 +39,38 @@ export const LandingHero: React.FC = (): JSX.Element => (
 
           <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-small [ u-show-small-only ]">
             <CardSpecial type={ISizeModifier.medium}>
-              <img
-                className="c-landing-hero__illustration"
-                src="/images/me/me1.png"
-                alt="Victor JEMAN"
-              />
+              <div className="c-landing-hero__illustration">
+                <Image path="me" index={1} alt="Victor JEMAN" />
+              </div>
             </CardSpecial>
           </div>
 
           <p className="c-landing-hero__description">
-            I do a little bit of web development, I'm decent at it, some glue here, some duct tape
-            there, and you have a webpage. I also love sharing my knowledge, I'm not particularly
-            good at it, but it gives me a warm feeling when doing it. At the moment, I'm working at{' '}
+            I love web development. I know my way around it, some glue here, some duct tape her, and
+            you have a web page. I also love sharing my knowledge; I'm not yet particularly good at
+            it, but it brings me joy and I want to pursue this. At the moment, I'm working at{' '}
             <a href="https://assist-software.net/assist-culture" target="_blank" rel="noreferrer">
               <strong>ASSIST Software</strong>
             </a>
             , a friendly and caring working place.
-            <br />
-            <br />
-            <strong>P.S.</strong> Oh, I also love video games, except DOOM, the Marauder ruined it
-            for me.
+          </p>
+          <p className="c-landing-hero__description c-landing-hero__description--ps">
+            <strong>P.S.</strong> I also love video games, except DOOM, the Marauder ruined it for
+            me.
           </p>
 
           <div className="c-landing-hero__explore">
-            <ButtonExplore
-              modifier={ISizeModifier.medium}
-              handleClick={() => {
-                scrollIntoView({ selector: '.js-landing-projects-intro' });
-              }}
-            >
+            <Explore modifier={ISizeModifier.medium} type="anchor" href="#power-level">
               See my power level
-            </ButtonExplore>
+            </Explore>
           </div>
         </div>
 
         <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-medium-up [ u-show-medium-up ]">
           <CardSpecial type={ISizeModifier.medium}>
-            <img
-              className="c-landing-hero__illustration"
-              src="/images/me/me1.png"
-              alt="Victor JEMAN"
-            />
+            <div className="c-landing-hero__illustration">
+              <Image path="me" index={1} alt="Victor JEMAN" />
+            </div>
           </CardSpecial>
         </div>
       </div>

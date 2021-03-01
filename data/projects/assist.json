@@ -10,8 +10,8 @@
   "technologies": ["HTML5", "CSS", "SCSS", "Responsive Design", "JS", "jQuery", "Drupal"],
   "illustration": "/images/project-thumbnails/assist.svg",
   "description": [
-    "This project is not my latest, nor it’s the first, but it’s among the most loved ones. It aged well with time, it’s classy, simple, straight to the point, and it brings back lovely memories. I got to work on the company’s website, I think, because I had more free time then, but I love to believe the company chose specifically me for this vital mission.",
-    "It was fun working on it, I was the only front-end dev on the team, and I had the freedom to experiment with all kinds of weird things and techniques. Around that time, I’ve started using Scss more often, and I was fascinated by it, though with the passing of years, I kind of learned to love the simplicity of CSS, especially for small or medium projects. ",
+    "This project is not my latest, nor it’s the first, but it’s among the most loved ones. It aged well with time, it’s classy, simple, straight to the point, and it brings back lovely <strong>memories</strong>. I got to work on the company’s website, I think, because I had more free time then, but I love to believe the company chose specifically me for this vital <strong>mission</strong>.",
+    "It was <storng>fun</strong> working on it, I was the only front-end dev on the team, and I had the freedom to <strong>experiment</strong> with all kinds of weird things and techniques. Around that time, I’ve started using Scss more often, and I was <strong>fascinated</strong> by it, though with the passing of years, I kind of learned to love the <strong>simplicity</strong> of CSS, especially for small or medium projects. ",
     "I’m proud of this one. Hopefully, I will get the chance to help with the next version to make it even better."
   ]
 }

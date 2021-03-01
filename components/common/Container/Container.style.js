@@ -8,8 +8,7 @@ export default css`
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    position: relative;
   }
 
   .c-container--small {

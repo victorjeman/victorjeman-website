@@ -1,13 +1,13 @@
-module.exports = () => {
-  return {
-    experimental: {
-      jsconfigPaths: true, // enables it for both jsconfig.json and tsconfig.json
-    },
+const withOptimizedImages = require('next-optimized-images');
 
-    webpack: function (config) {
-      config.module.rules.push({ test: /\.md$/, use: 'raw-loader' });
-      config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
-      return config;
-    },
-  };
-};
+module.exports = withOptimizedImages({
+  experimental: {
+    jsconfigPaths: true, // enables it for both jsconfig.json and tsconfig.json
+  },
+
+  webpack: function (config) {
+    config.module.rules.push({ test: /\.md$/, use: 'raw-loader' });
+    config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
+    return config;
+  },
+});

@@ -16,12 +16,30 @@ export default css`
   }
 
   .c-page-navigation__menu-link {
-    padding: 5px 0;
+    padding: 0.5rem 0;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-family: ${FONT.WORK_SANS};
+    font-weight: 500;
     color: ${COLOR.GABLE_GREEN};
+    position: relative;
+  }
+
+  .c-page-navigation__menu-link:after {
+    content: '';
+    height: 3px;
+    background-color: ${COLOR.GUN_POWDER};
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    right: 5px;
+    display: none;
+  }
+
+  .c-page-navigation__menu-link.selected:after,
+  .c-page-navigation__menu-link:hover:after {
+    display: block;
   }
 
   @media ${MEDIA.SMALL_ONLY} {
@@ -32,18 +50,22 @@ export default css`
     }
 
     .c-page-navigation__logo {
-      z-index: 2;
+      z-index: 100;
     }
 
     .c-page-navigation__toggle {
-      z-index: 10;
+      z-index: 101;
+    }
+
+    .c-page-navigation__toggle:hover {
+      cursor: pointer;
     }
 
     .c-page-navigation__menu {
       visibility: hidden;
       pointer-events: none;
       position: fixed;
-      z-index: 9;
+      z-index: 99;
       top: 0;
       right: 0;
       bottom: 0;
@@ -63,17 +85,21 @@ export default css`
     }
 
     .c-page-navigation__menu-item {
-      margin-top: 15px;
-      margin-bottom: 15px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 
     .c-page-navigation__menu-link {
+      font-size: 1.2rem;
     }
   }
 
   @media ${MEDIA.MEDIUM_UP} {
+    .c-page-navigation__container {
+      height: 70px;
+    }
     .c-page-navigation__menu-item {
-      margin-left: 15px;
+      margin-left: 1.3rem;
     }
 
     .c-page-navigation__logo {

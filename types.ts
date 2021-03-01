@@ -22,7 +22,7 @@ export interface IProjectThumbnail {
   href: string;
 }
 
-export interface ILandingProject {
+export interface IProject {
   index: number;
   title: string;
   role: string;
@@ -36,8 +36,11 @@ export interface ILandingProject {
 }
 
 export interface IPostData {
-  title?: string;
-  slug?: string;
+  title: string;
+  slug: string;
+  published: string;
+  updated?: string;
+  thumbnail: string;
 }
 
 export interface IPost {
@@ -54,10 +57,69 @@ export interface IPosts {
 export interface IHomeworkData {
   title?: string;
   slug?: string;
+  summary?: string;
+  figma?: string;
+  googledoc?: string;
+  created?: string;
+  version?: string;
+  updated?: string;
+  thumbnail?: string;
 }
 export interface IHomework {
   data: IHomeworkData;
   content: string;
   isEmpty?: boolean;
   excerpt?: string;
+}
+
+export interface IHomeworks {
+  homeworks: IHomework[];
+}
+
+export interface IMeta {
+  title: string;
+  description: string;
+  url: string;
+  type: string;
+  article: {
+    publishedTime: string;
+    modifiedTime: string;
+    expirationTime: string;
+    section: string;
+    authors: string[];
+    tags: string[];
+  };
+  images: [
+    {
+      url: string;
+      width: number;
+      height: number;
+      alt: string;
+    },
+  ];
+}
+
+export interface IPostThumbnail {
+  thumbnail: string;
+  title: string;
+  slug: string;
+  type: 'blog' | 'tips';
+  reading: { text: string };
+}
+
+export interface IHomeworkThumbnail {
+  thumbnail: string;
+  title: string;
+  slug: string;
+  summary: string;
+}
+
+export interface ISocials {
+  shareUrl: string;
+  title: string;
+}
+
+export interface IPageIntro {
+  pageTitle: string;
+  pageDescription: string;
 }

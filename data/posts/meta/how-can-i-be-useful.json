@@ -1,0 +1,20 @@
+{
+  "title": "How can I be useful",
+  "description": "Welcome to a “hello world” type of post, hate it, love it, do what you feel, do what makes you happy.",
+  "url": "https://victorjeman.com/blog/how-can-i-be-useful",
+  "type": "article",
+  "article": {
+    "publishedTime": "2020-12-05T00:00:00+01:00",
+    "modifiedTime": "2020-12-05T00:00:00+01:00",
+    "authors": ["Victor JEMAN"],
+    "tags": ["hello world"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/ahoy1.jpg",
+      "width": 1110,
+      "height": 660,
+      "alt": "A man writes hello at a keyboard with a cat to the left and a flower to the right"
+    }
+  ]
+}

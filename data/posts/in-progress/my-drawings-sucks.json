@@ -1,0 +1,20 @@
+{
+  "title": "How To Use The Labs",
+  "description": "Labs are my attempt to help people in exploring their web development imagination. Learn more about how to use them effectively.",
+  "url": "https://victorjeman.com/blog/my-drawings-sucks",
+  "type": "article",
+  "article": {
+    "publishedTime": "2020-27-05T00:00:00+01:00",
+    "modifiedTime": "",
+    "authors": ["Victor JEMAN"],
+    "tags": ["move forward"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/blog2.jpg",
+      "width": 1110,
+      "height": 660,
+      "alt": "Rocket launches from a laptop and flies to the moon"
+    }
+  ]
+}

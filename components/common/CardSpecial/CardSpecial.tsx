@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { ISizeModifier } from '@types';
+
 import style from './CardSpecial.style';
 
 interface Props {

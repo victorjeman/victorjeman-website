@@ -4,23 +4,24 @@
   "divider": "divider6",
   "href": "",
   "title": "Everything Between",
-  "role": "Learner",
+  "role": "Energetic learner",
   "duration": "2012 - Present",
   "investigate": false,
   "technologies": [
     "soft skills",
-    "management",
-    "collaboration",
     "listening",
     "understanding",
-    "caring",
+    "collaboration",
     "trying",
-    "hoping"
+    "caring",
+    "management",
+    "trusting",
+    "sleeping"
   ],
-  "illustration": "/images/project-thumbnails/others.jpg",
+  "illustration": "/images/project-thumbnails/energetic-learner.jpg",
   "description": [
-    "I’ve also worked on some smaller projects when the primary task would allow me. I enjoy doing some management work, though I don’t see myself doing this full time. I love coding; it’s too much fun, enabling me to experiment and feel free every day.",
-    "I’ve tried to be a helping colleague and a good friend to those who are willing to accept my quirks.",
-    "I want to believe I'm an optimist, though my thoughts are sometimes killing me because they are so noisy and all over the place. Fortunately, my work solves that to some extent, so overall, I'm quite happy."
+    "I'm <strong>very efficient</strong>, in all kinds of ways.",
+    "I enjoy doing some management work, though I don’t see myself doing this full time. I love coding; it’s too much fun, enabling me to experiment and feel free every day.",
+    "I want to believe I'm an <strong>optimist</strong>, though my thoughts are sometimes killing me because they are so noisy and all over the place. Fortunately, my work solves that to some extent, so overall, I'm <strong>happy</strong>."
   ]
 }

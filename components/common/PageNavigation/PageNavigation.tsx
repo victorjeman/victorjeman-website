@@ -1,10 +1,13 @@
 import * as React from 'react';
+import Sticky from 'react-sticky-el';
 
 const LogoFullSvg = require('../../../public/images/logo/logo-small-3.svg') as string;
 import style from './PageNavigation.style';
 
 import { MenuIcon } from '@components/common/MenuIcon/MenuIcon';
 import { Container } from '@components/common/Container/Container';
+
+import { CustomLink } from '@components/common/CustomLink/CustomLink';
 
 export const PageNavigation: React.FC = () => {
   const [open, setOpen] = React.useState(false);
@@ -18,7 +21,9 @@ export const PageNavigation: React.FC = () => {
       <Container>
         <div className="c-page-navigation__container">
           <div className="c-page-navigation__logo">
-            <LogoFullSvg />
+            <a href="/">
+              <LogoFullSvg />
+            </a>
           </div>
 
           <div className="c-page-navigation__toggle [ u-show-small-only ]" onClick={onClickHandler}>
@@ -31,33 +36,34 @@ export const PageNavigation: React.FC = () => {
             } `}
           >
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/">
-                Hello
-              </a>
+              <CustomLink href="/">
+                <a className="c-page-navigation__menu-link">Hello</a>
+              </CustomLink>
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/testimonials">
-                Kind words
-              </a>
+              <CustomLink href="/blog">
+                <a className="c-page-navigation__menu-link">Blog</a>
+              </CustomLink>
             </li>
 
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/posts">
-                Thoughts
-              </a>
+              <CustomLink href="/labs">
+                <a className="c-page-navigation__menu-link">Labs</a>
+              </CustomLink>
             </li>
-            {/*
+
             <li className="c-page-navigation__menu-item">
-              <a className="c-page-navigation__menu-link" href="/testimonials">
-                V 1.0
-              </a>
-            </li> */}
+              <CustomLink href="/projects">
+                <a className="c-page-navigation__menu-link">Projects</a>
+              </CustomLink>
+            </li>
           </ul>
         </div>
       </Container>
 
       <style jsx>{style}</style>
+
       <style jsx global>{`
         @keyframes pulse {
           0% {
@@ -70,6 +76,12 @@ export const PageNavigation: React.FC = () => {
           100% {
             fill: #ffc25d;
           }
+        }
+
+        .c-page-navigation-sticky .sticky {
+          z-index: 999;
+          position: relative;
+          background-color: #fff;
         }
 
         .c-page-navigation__logo svg path {

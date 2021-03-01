@@ -4,7 +4,7 @@
   "divider": "divider3",
   "href": "",
   "title": "Content IQ",
-  "role": "Full-Stack Front-End Developer / Team Lead",
+  "role": "Technical Team Leader",
   "duration": "Mar 2019 – Present",
   "investigate": false,
   "technologies": [
@@ -20,8 +20,8 @@
   ],
   "illustration": "/images/project-thumbnails/contentiq.svg",
   "description": [
-    "This project is quite big. It’s composed of multiple sub-projects that are working together through a complex REST API. At the moment, 20 people from ASSIST form five different teams(QA, DevOps, and three development teams) that work tirelessly to make this project a success.  These teams are collaborating with people from the US and Israel.",
-    "I have the pleasure of being the team leader for such a sub-project, and I have to tell you that the fun never stops. Sometimes I would gladly renounce such “fun,” but to be honest, I love it most of the time. And you have to love your work if you don’t want to go insane. The project is complex, and it requires constant tight collaboration with different teams, which sometimes is a challenge, but it’s all worth it at the end of the day.",
-    "The project brings me joy and pushes me to overcome my limits. Plus, I interact with fantastic people with different views about life, and I’m learning a lot from them. "
+    "This project is quite <strong>big</strong>. It’s composed of multiple sub-projects that are working together through a complex <strong>REST API</strong>. At the moment, 20 people from ASSIST form five different teams(QA, DevOps, and three development teams) that work tirelessly to make this project a <strong>success</strong>.  These teams are collaborating with people from the US and Israel.",
+    "I have the pleasure of being the <strong>team leader</strong> for such a sub-project, and I have to tell you that the fun never stops. Sometimes I would gladly renounce such “fun,” but to be honest, I <strong>love</strong> it most of the time. And you have to love your work if you don’t want to go insane. The project is complex, and it requires constant tight <strong>collaboration</strong> with different teams, which sometimes is a challenge, but it’s all worth it at the end of the day.",
+    "The project brings me <strong>joy</strong> and pushes me to overcome my limits. Plus, I interact with fantastic people with different views about life, and I’m <strong>learning</strong> a lot from them. "
   ]
 }

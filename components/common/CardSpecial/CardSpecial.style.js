@@ -6,10 +6,13 @@ import { MEDIA } from '@settings/media.settings';
 export default css`
   .c-card-special {
     position: relative;
+    display: flex;
   }
 
   .c-card-special__container {
     position: relative;
+    width: 100%;
+    display: inline-block;
     z-index: 2;
     background-color: #fff;
   }
@@ -31,7 +34,7 @@ export default css`
     display: block;
     position: absolute;
     z-index: 1;
-    background-color: ${COLOR.CARNATION};
+    background-color: ${COLOR.SUNGLO};
     width: 100%;
     height: 100%;
   }
