@@ -19,6 +19,7 @@ export const MEDIA = {
   }px)`,
   MEDIUM_DOWN: `screen and (max-width: ${BREAKPOINTS.MEDIUM}px)`,
   MEDIUM_UP: `screen and (min-width: ${BREAKPOINTS.SMALL + 1}px)`,
+  LARGE_DOWN: `screen and (max-width: ${BREAKPOINTS.LARGE}px)`,
   LARGE_UP: `screen and (min-width: ${BREAKPOINTS.MEDIUM + 1}px)`,
   XLARGE_UP: `screen and (min-width: ${BREAKPOINTS.LARGE + 1}px)`,
 };

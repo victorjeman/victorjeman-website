@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Sticky from 'react-sticky-el';
 
 const LogoFullSvg = require('../../../public/images/logo/logo-small-3.svg') as string;
 import style from './PageNavigation.style';
@@ -75,6 +76,12 @@ export const PageNavigation: React.FC = () => {
           100% {
             fill: #ffc25d;
           }
+        }
+
+        .c-page-navigation-sticky .sticky {
+          z-index: 999;
+          position: relative;
+          background-color: #fff;
         }
 
         .c-page-navigation__logo svg path {

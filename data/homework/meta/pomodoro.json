@@ -4,16 +4,16 @@
   "url": "https://www.victorjeman.com/labs/pomodoro",
   "type": "article",
   "article": {
-    "publishedTime": "2021-12-05T00:00:00+01:00",
-    "modifiedTime": "2021-12-05T00:00:00+01:00",
+    "publishedTime": "2021-01-18T00:00:00+01:00",
+    "modifiedTime": "2021-03-01T00:00:00+01:00",
     "authors": ["Victor JEMAN"],
     "tags": ["pomodoro", "homework"]
   },
   "images": [
     {
-      "url": "https://www.test.ie/images/cover.jpg",
-      "width": 850,
-      "height": 650,
+      "url": "https://www.victorjeman.com/images/labs/pomodoro/pomodoro6.jpg",
+      "width": 1110,
+      "height": 624,
       "alt": "Pomodoro app"
     }
   ]

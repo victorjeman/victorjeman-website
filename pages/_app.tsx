@@ -1,6 +1,5 @@
 import * as React from 'react';
 import TagManager from 'react-gtm-module';
-import dynamic from 'next/dynamic';
 
 import 'modern-css-reset';
 

@@ -9,6 +9,13 @@ export const webpImages = {
   quizer3: require('../../public/images/labs/quiz/quiz3.jpg?webp'),
   quizer4: require('../../public/images/labs/quiz/quiz4.jpg?webp'),
 
+  pomodoro1: require('../../public/images/labs/pomodoro/pomodoro1.jpg?webp'),
+  pomodoro2: require('../../public/images/labs/pomodoro/pomodoro2.jpg?webp'),
+  pomodoro3: require('../../public/images/labs/pomodoro/pomodoro3.jpg?webp'),
+  pomodoro4: require('../../public/images/labs/pomodoro/pomodoro4.jpg?webp'),
+  pomodoro5: require('../../public/images/labs/pomodoro/pomodoro5.jpg?webp'),
+  pomodoro6: require('../../public/images/labs/pomodoro/pomodoro6.jpg?webp'),
+
   // blog
   blog1: require('../../public/images/blog/ahoy1.jpg?webp'),
   blog2: require('../../public/images/blog/blog2.jpg?webp'),
@@ -30,12 +37,12 @@ export const jpgImages = {
   quizer3: require('../../public/images/labs/quiz/quiz3.jpg'),
   quizer4: require('../../public/images/labs/quiz/quiz4.jpg'),
 
-  pomodoro1: require('../../public/images/labs/pomodoro/1.jpg'),
-  pomodoro2: require('../../public/images/labs/pomodoro/2.jpg'),
-  pomodoro3: require('../../public/images/labs/pomodoro/3.jpg'),
-  pomodoro4: require('../../public/images/labs/pomodoro/4.jpg'),
-  pomodoro5: require('../../public/images/labs/pomodoro/5.jpg'),
-  pomodoro6: require('../../public/images/labs/pomodoro/6.jpg'),
+  pomodoro1: require('../../public/images/labs/pomodoro/pomodoro1.jpg'),
+  pomodoro2: require('../../public/images/labs/pomodoro/pomodoro2.jpg'),
+  pomodoro3: require('../../public/images/labs/pomodoro/pomodoro3.jpg'),
+  pomodoro4: require('../../public/images/labs/pomodoro/pomodoro4.jpg'),
+  pomodoro5: require('../../public/images/labs/pomodoro/pomodoro5.jpg'),
+  pomodoro6: require('../../public/images/labs/pomodoro/pomodoro6.jpg'),
 
   // blog
   blog1: require('../../public/images/blog/ahoy1.jpg'),

@@ -4,7 +4,6 @@ import { ISizeModifier, IHomework } from '@types';
 
 import { Container } from '@components/common/Container/Container';
 import { Image } from '@components/common/Image/Image';
-import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 
 import style from './HomeworkHero.style';
 
@@ -14,7 +13,7 @@ interface Props {
 
 export const HomeworkHero = ({ homework }: Props): JSX.Element => {
   const { content, data } = homework;
-  const { published, updated, title, thumbnail } = data;
+  const { created, version, updated, title, thumbnail } = data;
   const path = thumbnail ? thumbnail.slice(0, thumbnail.length - 1) : '';
   const index = thumbnail ? Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length)) : 0;
 
@@ -22,11 +21,16 @@ export const HomeworkHero = ({ homework }: Props): JSX.Element => {
     <section className="c-homework-hero">
       <Container type={ISizeModifier.large}>
         <h1 className="c-homework-hero__title">{data.title}</h1>
+
+        <div className="c-homework-hero__info">
+          <p className="c-homework-hero__info-item">created: {created}</p>
+          {updated && <p className="c-homework-hero__info-item">updated: {updated}</p>}
+          <p className="c-homework-hero__info-item">version: {version}</p>
+        </div>
       </Container>
 
-      <CardSpecial type={ISizeModifier.medium}>
-        <Image path={path} index={index} alt={title || ''} />
-      </CardSpecial>
+      <Image path={path} index={index} alt={title || ''} />
+
       <style jsx>{style}</style>
     </section>
   );

@@ -5,6 +5,39 @@ import { COLOR } from '@settings/color.settings';
 import { MEDIA } from '@settings/media.settings';
 
 export default css.global`
+  .c-table-of-content {
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-top: 7px solid #de7376;
+  }
+
+  h2.c-table-of-content__title {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .c-table-of-content__list {
+    list-style: none;
+    padding: 0 0 0 1.5rem;
+    margin: 0;
+  }
+
+  li.c-table-of-content__item {
+    margin: 0;
+  }
+
+  .c-table-of-content a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    line-height: 1.2;
+  }
+
   h1:after {
     content: '';
     display: block;

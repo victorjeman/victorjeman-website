@@ -12,7 +12,7 @@ export const HomeworkThumbnail = ({
   slug,
   summary,
 }: IHomeworkThumbnail): JSX.Element => {
-  const path = thumbnail.slice(0, thumbnail.length - 1);
+  const folder = thumbnail.slice(0, thumbnail.length - 1);
   const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
 
   return (
@@ -20,7 +20,7 @@ export const HomeworkThumbnail = ({
       <CardSpecial type={ISizeModifier.small}>
         <div
           className="c-homework-thumbnail__thumbnail"
-          style={{ backgroundImage: `url(images/labs/${path}/${index}.jpg)` }}
+          style={{ backgroundImage: `url(images/labs/${folder}/${folder}${index}.jpg)` }}
         ></div>
       </CardSpecial>
 

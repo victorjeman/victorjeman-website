@@ -60,7 +60,8 @@ export interface IHomeworkData {
   summary?: string;
   figma?: string;
   googledoc?: string;
-  published?: string;
+  created?: string;
+  version?: string;
   updated?: string;
   thumbnail?: string;
 }

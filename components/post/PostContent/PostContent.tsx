@@ -9,9 +9,26 @@ interface Props {
 }
 
 export const PostContent = ({ content }: Props): JSX.Element => {
+  let tableOfContent = '';
+  let postContent = '';
+
+  try {
+    tableOfContent = content
+      .split('<section class="c-table-of-content-section">')[1]
+      .split('<section>')[0];
+
+    postContent = content
+      .split('<section class="c-table-of-content-section">')[1]
+      .split('<section>')[1];
+  } catch (error) {
+    console.log('error: ', error);
+  }
+
   return (
     <section className="c-post-content">
-      <Markdown content={content} />
+      <Markdown content={tableOfContent} />
+
+      <Markdown content={postContent || content} />
 
       <style jsx global>
         {style}

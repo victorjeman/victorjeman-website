@@ -1,10 +1,9 @@
 import * as React from 'react';
 import readingTime from 'reading-time';
 
-import { IPost, ISizeModifier } from '@types';
+import { IPost } from '@types';
 
 import { Image } from '@components/common/Image/Image';
-import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 
 import style from './PostHero.style';
 
@@ -31,9 +30,7 @@ export const PostHero = ({ post }: Props): JSX.Element => {
         <p className="c-post-hero__info-item">{reading}</p>
       </div>
 
-      <CardSpecial type={ISizeModifier.medium}>
-        <Image path={path} index={index} alt={title} />
-      </CardSpecial>
+      <Image path={path} index={index} alt={title} />
 
       <style jsx>{style}</style>
     </div>
