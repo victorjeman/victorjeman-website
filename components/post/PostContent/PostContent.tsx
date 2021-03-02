@@ -20,13 +20,11 @@ export const PostContent = ({ content }: Props): JSX.Element => {
     postContent = content
       .split('<section class="c-table-of-content-section">')[1]
       .split('<section>')[1];
-  } catch (error) {
-    console.log('error: ', error);
-  }
+  } catch (error) {}
 
   return (
     <section className="c-post-content">
-      <Markdown content={tableOfContent} />
+      {tableOfContent && <Markdown content={tableOfContent} />}
 
       <Markdown content={postContent || content} />
 

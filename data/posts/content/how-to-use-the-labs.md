@@ -1,7 +1,8 @@
 ---
 slug: how-to-use-the-labs
 title: How to use my labs
-thumbnail: blog2
+thumbnail: postThumb2
+hero: postHero2
 created: December 27, 2020
 published: March 1, 2021
 updated: March 1, 2021

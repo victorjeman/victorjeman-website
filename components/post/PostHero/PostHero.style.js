@@ -3,9 +3,14 @@ import css from 'styled-jsx/css';
 import { FONT } from '@settings/font.settings';
 import { MEDIA } from '@settings/media.settings';
 
-export default css`
+export default css.global`
   .c-post-hero {
     margin-bottom: 4rem;
+  }
+
+  .c-post-hero img {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .c-post-hero__title {
@@ -34,12 +39,26 @@ export default css`
   }
 
   @media ${MEDIA.SMALL_ONLY} {
+    .c-post-hero {
+      margin-bottom: 1rem;
+    }
+
     .c-post-hero__title {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 1.3rem;
+    }
+
+    .c-post-hero__info {
+      margin-bottom: 1rem;
     }
 
     .c-post-hero__info-item {
       display: block;
+    }
+
+    .c-post-hero picture {
+      min-height: 200px;
     }
   }
 

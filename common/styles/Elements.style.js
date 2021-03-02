@@ -11,6 +11,11 @@ export default css.global`
     list-style: none;
   }
 
+  picture,
+  img {
+    width: 100%;
+  }
+
   *:focus,
   a:active,
   a:active:focus {

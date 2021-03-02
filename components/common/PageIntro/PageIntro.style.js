@@ -36,14 +36,15 @@ export default css`
 
   @media ${MEDIA.SMALL_ONLY} {
     .c-page-intro {
-      margin-top: 3rem;
-      margin-bottom: 4rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     .c-page-intro__title {
       font-size: 2rem;
       line-height: 1;
-      margin-bottom: 3rem;
+      margin-top: 0;
+      margin-bottom: 2.5rem;
     }
 
     .c-page-intro__title:after {
