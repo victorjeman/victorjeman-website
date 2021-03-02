@@ -37,6 +37,6 @@ export const Image = ({
       type="image/jpeg"
     />
 
-    <img srcSet={jpgImages[`${path}${Number(index)}l`]} alt={alt} />
+    <img srcSet={jpgImages[`${path}${Number(index)}`]} alt={alt} />
   </picture>
 );
