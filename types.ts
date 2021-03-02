@@ -41,6 +41,7 @@ export interface IPostData {
   published: string;
   updated?: string;
   thumbnail: string;
+  hero: string;
 }
 
 export interface IPost {
