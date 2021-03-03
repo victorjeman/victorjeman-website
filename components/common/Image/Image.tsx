@@ -19,8 +19,6 @@ export const Image = ({
   height?: stirng;
   lazyLoad?: boolean;
 }): JSX.Element => {
-  console.log('here i am: ', lazyLoad);
-
   const picture = (
     <picture>
       <source
