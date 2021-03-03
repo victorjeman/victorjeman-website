@@ -20,7 +20,7 @@ export const PostThumbnail = ({
   return (
     <a href={`/${type}/${slug}`} className="c-post-thumbnail">
       <CardSpecial type={ISizeModifier.small}>
-        <Image path={path} index={index} alt="Victor JEMAN" />
+        <Image path={path} index={index} alt="Victor JEMAN" height="300" width="300" />
       </CardSpecial>
 
       <h2 className="c-post-thumbnail__title">{title}</h2>

@@ -56,12 +56,12 @@ export default css`
     }
 
     .c-landing-hero__title-line--1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
 
     .c-landing-hero__title-line--3 {
       margin-top: 15px;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .c-landing-hero__description {
@@ -71,8 +71,8 @@ export default css`
     }
 
     .c-landing-hero__illustration-wrapper {
-      padding: 10px 30px 40px 30px;
-      margin: 15px auto 0 auto;
+      padding: 0;
+      margin: 1.5rem auto;
     }
 
     .c-landing-hero__illustration {

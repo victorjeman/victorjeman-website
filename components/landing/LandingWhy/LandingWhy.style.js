@@ -57,14 +57,18 @@ export default css`
 
   @media ${MEDIA.SMALL_ONLY} {
     .c-landing-why__title {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       margin-top: 1rem;
       margin-bottom: 2rem;
     }
 
+    .c-landing-why__subtitle {
+      font-size: 1.5rem;
+    }
+
     .c-landing-why__text {
       font-size: 1.2rem;
-      line-height: 1.8;
+      line-height: 1.5;
       margin-bottom: 1.5rem;
     }
 

@@ -11,6 +11,12 @@ export default css`
     background-color: #f3f4f3;
   }
 
+  .c-landing-power-level__explore {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .c-landing-power-level__title {
     font-family: ${FONT.BEBAS_NEUE};
     letter-spacing: 1px;
@@ -83,7 +89,6 @@ export default css`
 
     .c-landing-power-level__explore {
       margin: 60px auto 0 auto;
-      max-width: 300px;
     }
 
     .c-landing-power-level__description {

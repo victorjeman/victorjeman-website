@@ -40,7 +40,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
           <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-small [ u-show-small-only ]">
             <CardSpecial type={ISizeModifier.medium}>
               <div className="c-landing-hero__illustration">
-                <Image path="me" index={1} alt="Victor JEMAN" />
+                <Image path="me" index={1} alt="Victor JEMAN" width="350" height="400" />
               </div>
             </CardSpecial>
           </div>
@@ -69,7 +69,7 @@ export const LandingHero: React.FC = (): JSX.Element => (
         <div className="c-landing-hero__illustration-wrapper c-landing-hero__illustration-wrapper--for-medium-up [ u-show-medium-up ]">
           <CardSpecial type={ISizeModifier.medium}>
             <div className="c-landing-hero__illustration">
-              <Image path="me" index={1} alt="Victor JEMAN" />
+              <Image path="me" index={1} alt="Victor JEMAN" width="500" height="410" />
             </div>
           </CardSpecial>
         </div>

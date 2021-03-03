@@ -3,7 +3,7 @@ import css from 'styled-jsx/css';
 import { FONT } from '@settings/font.settings';
 import { MEDIA } from '@settings/media.settings';
 
-export default css`
+export default css.global`
   .c-homework-hero__title {
     font-family: ${FONT.MERRIWEATHER};
     font-size: 4rem;
@@ -43,6 +43,10 @@ export default css`
 
     .c-homework-hero__info-item {
       display: block;
+    }
+
+    .c-homework-hero img {
+      height: 290px;
     }
   }
 
