@@ -10,14 +10,18 @@ export const Image = ({
   alt,
   width,
   height,
+  lazyLoad,
 }: {
   path: string;
   index: number;
   alt: string;
   width?: string;
   height?: stirng;
-}): JSX.Element => (
-  <LazyLoad>
+  lazyLoad?: boolean;
+}): JSX.Element => {
+  console.log('here i am: ', lazyLoad);
+
+  const picture = (
     <picture>
       <source
         media="(min-width:901px)"
@@ -51,5 +55,7 @@ export const Image = ({
         }
       `}</style>
     </picture>
-  </LazyLoad>
-);
+  );
+
+  return lazyLoad ? <LazyLoad>{picture}</LazyLoad> : picture;
+};
