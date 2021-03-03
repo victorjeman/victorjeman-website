@@ -16,8 +16,14 @@ export default css`
   }
 
   @media ${MEDIA.SMALL_ONLY} {
+    .c-reading-links {
+      max-width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
     .c-reading-links__item {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
   }
 

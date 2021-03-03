@@ -43,6 +43,10 @@ export default css.global`
       margin-bottom: 1rem;
     }
 
+    .c-post-hero img {
+      height: 290px;
+    }
+
     .c-post-hero__title {
       font-size: 1.5rem;
       margin-top: 1rem;
@@ -55,10 +59,6 @@ export default css.global`
 
     .c-post-hero__info-item {
       display: block;
-    }
-
-    .c-post-hero picture {
-      min-height: 200px;
     }
   }
 

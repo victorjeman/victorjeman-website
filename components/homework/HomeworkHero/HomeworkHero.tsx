@@ -29,9 +29,11 @@ export const HomeworkHero = ({ homework }: Props): JSX.Element => {
         </div>
       </Container>
 
-      <Image path={path} index={index} alt={title || ''} />
+      <Image path={path} index={index} alt={title || ''} height="540" />
 
-      <style jsx>{style}</style>
+      <style jsx global>
+        {style}
+      </style>
     </section>
   );
 };

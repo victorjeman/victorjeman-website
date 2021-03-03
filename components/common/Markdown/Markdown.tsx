@@ -17,7 +17,8 @@ const renderers = {
       const path = info[0];
       const index = info[1];
       const alt = info[2];
-      return <Image path={path} index={index} alt={alt} />;
+      const lazyLoad = !!info[3];
+      return <Image path={path} index={index} alt={alt} lazyLoad={lazyLoad} />;
     }
   },
 };

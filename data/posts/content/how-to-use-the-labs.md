@@ -43,7 +43,7 @@ You get a **mission**, and you get to decide how you want to accomplish it. You 
 <h2 id="lab-structure">Lab structure</h2>
 
 ```Image
-blog|3|Lab structure
+blog|3|Lab structure|lazyload
 ```
 
 A lab is structured quite simply. You get an overview of the application that you’re about to build; this is a high-level description that will help you understand the mission.
@@ -51,7 +51,7 @@ A lab is structured quite simply. You get an overview of the application that yo
 <h3 id="requirements">Requirements</h3>
 
 ```Image
-blog|4|Requirements
+blog|4|Requirements|lazyload
 ```
 
 Once you understand the high-level overview, we are diving directly into detailed requirements. I’m splitting the requirements into chunks grouped by **features**. Each of these features has an image that will help you create a connection between requirements and the Figma design. Some of the requirements may also include acceptance criteria. You may think of acceptance criteria as helpers that give you more info to make sure you are going in the right direction.
@@ -61,7 +61,7 @@ The critical thing to remember here is that you can **choose** to add or remove 
 <h3 id="acceptance-criteria">Acceptance Criteria</h3>
 
 ```Image
-blog|5|Acceptance criteria
+blog|5|Acceptance criteria|lazyload
 ```
 
 Acceptance criteria give you some specific **goals** that you need to achieve to consider a requirement completed. If you are working on a login button, you should define some rules that will say, “Hey, you’ve finished the button, you can move on.” Maybe for you, the button is finished when you manage to login into the application. Or, perhaps you are working on a prototype, so the goal is to have only the styling in place. No matter how deep you are going into **details**, acceptance criteria help you define the end line and tell you when to move on.
@@ -74,7 +74,7 @@ It’s ok if, at some point, you discover your previous feature is not entirely 
 <h3 id="tip">Tips</h3>
 
 ```Image
-blog|6|Tips
+blog|6|Tips|lazyload
 ```
 
 Depending on how much experience you have, you may enjoy some tutorials if you want to build your application with a specific framework or library. I’m adding links to various tutorials that may help you make the app. An important note, though, the tutorials I may link to my labs may not be enough if you are a complete beginner. You’ll have to **search** for more materials on a specific subject until you learn it and then get back to the lab to test your new knowledge.

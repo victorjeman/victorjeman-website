@@ -1,8 +1,11 @@
 const withOptimizedImages = require('next-optimized-images');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
-module.exports = withOptimizedImages({
+const config = {
   experimental: {
-    jsconfigPaths: true, // enables it for both jsconfig.json and tsconfig.json
+    jsconfigPaths: true,
   },
 
   webpack: function (config) {
@@ -10,4 +13,6 @@ module.exports = withOptimizedImages({
     config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' });
     return config;
   },
-});
+};
+
+module.exports = withBundleAnalyzer(withOptimizedImages(config));
