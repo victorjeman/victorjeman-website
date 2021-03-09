@@ -15,7 +15,7 @@ interface Props {
 
 export const Homework = ({ homework }: Props): JSX.Element => {
   const title = homework.data.title || '';
-  const shareUrl = `https://victorjeman.com/blog/${homework.data.slug}`;
+  const shareUrl = `https://victorjeman.com/labs/${homework.data.slug}`;
 
   return (
     <React.Fragment>
