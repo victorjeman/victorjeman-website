@@ -80,7 +80,7 @@ Don't let the requirements constrain you but rather let them help you in explori
 pomodoro|1|main mobile UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma
 
@@ -102,7 +102,7 @@ pomodoro|1|main mobile UI
 pomodoro|2|main desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -114,7 +114,7 @@ pomodoro|2|main desktop UI
 pomodoro|3|main desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -132,7 +132,7 @@ pomodoro|3|main desktop UI
 pomodoro|4|about mobile UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -146,7 +146,7 @@ pomodoro|4|about mobile UI
 pomodoro|5|about desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 

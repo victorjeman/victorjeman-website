@@ -30,4 +30,4 @@ const changeFile = ({ path, width }) => {
 };
 
 // changeFile({ path: './public/images/blog/heroes/hero-2.jpg', width: 450 });
-changeInFolder({ directory: './public/images/blog/post-2', width: 450 });
+changeInFolder({ directory: './public/images/labs/booking-app', width: 1200 });

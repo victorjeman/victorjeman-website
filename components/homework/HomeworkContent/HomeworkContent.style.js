@@ -70,7 +70,7 @@ export default css.global`
   }
 
   .c-homework-content li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -79,6 +79,10 @@ export default css.global`
   .c-homework-content li p {
     margin-bottom: 0.6rem;
     line-height: 1.5;
+  }
+
+  .c-homework-content pre {
+    overflow: auto;
   }
 
   .c-table-of-content {
@@ -123,11 +127,11 @@ export default css.global`
 
   @media ${MEDIA.XLARGE_UP} {
     .c-homework-content__left {
-      width: 350px;
+      width: 380px;
     }
 
     .c-homework-content__right {
-      width: calc(100% - 380px);
+      width: calc(100% - 430px);
       margin-left: auto;
     }
 

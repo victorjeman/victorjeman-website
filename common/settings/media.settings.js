@@ -1,8 +1,8 @@
 const BREAKPOINTS = {
   SMALL: 768,
   MEDIUM: 1120,
-  LARGE: 1440,
-  XLARGE: 1680,
+  LARGE: 1200,
+  XLARGE: 1400,
 };
 
 export const MEDIA = {

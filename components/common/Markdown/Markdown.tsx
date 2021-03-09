@@ -20,6 +20,8 @@ const renderers = {
       const lazyLoad = !!info[3];
       return <Image path={path} index={index} alt={alt} lazyLoad={lazyLoad} />;
     }
+
+    return <pre>{value}</pre>;
   },
 };
 

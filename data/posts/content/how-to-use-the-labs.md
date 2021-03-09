@@ -19,7 +19,7 @@ version: 0.9
          <ul class="c-table-of-content__list">
            <li class="c-table-of-content__item"><a href="#requirements">Requirements</a></li>
            <li class="c-table-of-content__item"><a href="#acceptance-criteria">Acceptance Criteria</a></li>
-           <li class="c-table-of-content__item"><a href="#acceptance-criteria">Tips</a></li>
+           <li class="c-table-of-content__item"><a href="#tips">Tips</a></li>
          </ul>  
      </li>
    </ul>
@@ -71,7 +71,7 @@ Acceptance criteria give you some specific **goals** that you need to achieve to
 It is essential to manage your acceptance criteria. If you decide you want to do some extra features, define them very clearly to know when you have finished so that you won’t lose your precious time strolling around.
 It’s ok if, at some point, you discover your previous feature is not entirely ready. You can write additional requirements with additional acceptance criteria to follow up on your new **ideas**. In this way, you control the flow and have a clear picture of the things you are doing. This approach will help you save precious time and will keep you always on the right track.
 
-<h3 id="tip">Tips</h3>
+<h3 id="tips">Tips</h3>
 
 ```Image
 blog|6|Tips|lazyload
