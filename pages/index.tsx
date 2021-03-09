@@ -10,8 +10,8 @@ export default function Home(): React.ReactNode {
   return (
     <PageLayout>
       <NextSeo
-        title={'Victor JEMAN | Front-End Developer'}
-        description={'I do a little bit of web development and I love sharing my thoughts.'}
+        title={'Victor JEMAN | Front-End Enthusiast'}
+        description={'I do a little bit of web development and I love sharing my knowledge.'}
       />
 
       <LandingHero />

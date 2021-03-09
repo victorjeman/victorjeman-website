@@ -26,9 +26,12 @@ interface Props3 {
 }
 
 export default function HomeworkPage({ homework, meta }: Props1): React.ReactNode {
+  const pageTitle = `Victor JEMAN | Labs | ${meta.title}`;
+  const pageDescription = meta.description;
+
   return (
     <PageLayout>
-      <NextSeo openGraph={meta} />
+      <NextSeo openGraph={meta} title={pageTitle} description={pageDescription} />
       <Homework homework={homework} />
     </PageLayout>
   );

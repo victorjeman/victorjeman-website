@@ -9,14 +9,14 @@ import style from './LandingWhy.style';
 
 export const LandingWhy = (): JSX.Element => (
   <section className="c-landing-why">
-    <Container type={ISizeModifier.small}>
+    <Container type={ISizeModifier.medium}>
       <h2 className="c-landing-why__title">What I'm up to?</h2>
 
-      <h3 className="c-landing-why__subtitle c-landing-why__subtitle--main">I want to help you</h3>
+      <h3 className="c-landing-why__subtitle c-landing-why__subtitle--main">I want to help you!</h3>
 
       <p className="c-landing-why__text">
         <strong className="c-landing-why__subtitle">Why?</strong>
-        <br />I believe that everyone deserves a chance to <strong>improve</strong>.
+        <br />I believe that everyone deserves a chance to <strong>grow and improve</strong>.
       </p>
 
       <p className="c-landing-why__text">
@@ -26,8 +26,8 @@ export const LandingWhy = (): JSX.Element => (
 
       <p className="c-landing-why__text">
         <strong className="c-landing-why__subtitle">What?</strong> <br />
-        Articles about web development that will make your brain happy. Homework that will put to
-        the test your <strong>skills</strong>.
+        Articles about web development that will make your brain happy. Homework that will increase
+        <strong> your skills</strong>.
         <br />
         <br />
         Check them out; you'll find something interesting in there.

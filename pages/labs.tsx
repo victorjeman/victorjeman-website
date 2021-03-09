@@ -13,7 +13,7 @@ import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function HomeworkPage({ homeworks }: IHomeworks): React.ReactNode {
   const pageTitle = `Labs`;
-  const pageDescription = `Test your might! A challenging way to improve your web development skills.`;
+  const pageDescription = `Test your might! A challenging way to improve your web development skills. </br></br> Read more about labs <a href="/blog/how-to-use-the-labs">here</a>.`;
 
   return (
     <PageLayout>

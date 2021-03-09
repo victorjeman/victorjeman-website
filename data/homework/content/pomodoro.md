@@ -4,8 +4,8 @@ slug: pomodoro
 thumbnail: pomodoro6
 summary: A basic Pomodoro app based on the provided Figma design.
 figma: https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1
-created: 'January 5, 2021'
-updated: 'March 1, 2021'
+published: 'January 18, 2021'
+updated: ''
 version: '0.6'
 ---
 
@@ -15,19 +15,15 @@ version: '0.6'
     <ul class="c-table-of-content__list">
       <li class="c-table-of-content__item"><a href="#overview">Overview</a></li>
       <li class="c-table-of-content__item"><a href="#tips-tutorials">Tips & Tutorials</a></li>
-      <li class="c-table-of-content__item">
-        <a href="#requirements">Requirements</a>
-          <ul class="c-table-of-content__list">
-            <li class="c-table-of-content__item"><a href="#general-acceptance-criteria">Geral Acceptance Criteria</a></li>
-            <li class="c-table-of-content__item"><a href="#implement-the-main-mobile-UI">Implement the main mobile UI</a></li>
-            <li class="c-table-of-content__item"><a href="#implement-the-main-desktop-UI">Implement the main desktop UI</a></li>
-            <li class="c-table-of-content__item"><a href="#implement-the-theme-switcher">Implement the theme switcher</a></li>
-            <li class="c-table-of-content__item"><a href="#implement-the-about-mobile-UI">Implement the about mobile UI</a></li>
-            <li class="c-table-of-content__item"><a href="#implement-the-about-desktop-UI">Implement the about desktop UI</a></li>
-            <li class="c-table-of-content__item"><a href="#convert-it-to-a-PWA">Convert it to a PWA(progressive web app)</a></li>
-            <li class="c-table-of-content__item"><a href="#make-things-happen-in-real-time">Make things happen in real-time</a></li>
-          </ul>   
-      </li>
+      <li class="c-table-of-content__item"><a href="#requirements">Requirements</a></li>
+      <li class="c-table-of-content__item"><a href="#general-acceptance-criteria">Geral Acceptance Criteria</a></li>
+      <li class="c-table-of-content__item"><a href="#implement-the-main-mobile-UI">Implement the main mobile UI</a></li>
+      <li class="c-table-of-content__item"><a href="#implement-the-main-desktop-UI">Implement the main desktop UI</a></li>
+      <li class="c-table-of-content__item"><a href="#implement-the-theme-switcher">Implement the theme switcher</a></li>
+      <li class="c-table-of-content__item"><a href="#implement-the-about-mobile-UI">Implement the about mobile UI</a></li>
+      <li class="c-table-of-content__item"><a href="#implement-the-about-desktop-UI">Implement the about desktop UI</a></li>
+      <li class="c-table-of-content__item"><a href="#convert-it-to-a-PWA">Convert it to a PWA(progressive web app)</a></li>
+      <li class="c-table-of-content__item"><a href="#make-things-happen-in-real-time">Make things happen in real-time</a></li>
       <li class="c-table-of-content__item"><a href="#help-me-to-help-you">Help me to help you!</a></li>
     </ul> 
   </div>
@@ -35,10 +31,10 @@ version: '0.6'
 
 <h2 id="overview">Overview</h2>
 
+Find the <a href="https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1" target="_blank"  rel="noreferrer">figma design here</a>. You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
+
 Implement a basic Pomodoro timer app based on the provided Figma design.
 The application should be responsive. The main focus of this application is to test your ability to create a responsive design. Theme functionality will test your ability to organize your CSS rules. Date functionality will test your javascript knowledge. The app is small, but there is space for concern separation. You certainly can have more than one giant component.
-
-Use this [figma design](https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1) to implement a pixel-perfect website. You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
 
 <h2 id="tips-tutorials">Tips & Tutorials</h2>
 
@@ -80,7 +76,7 @@ Don't let the requirements constrain you but rather let them help you in explori
 pomodoro|1|main mobile UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma
 
@@ -102,7 +98,7 @@ pomodoro|1|main mobile UI
 pomodoro|2|main desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -114,7 +110,7 @@ pomodoro|2|main desktop UI
 pomodoro|3|main desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -132,7 +128,7 @@ pomodoro|3|main desktop UI
 pomodoro|4|about mobile UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 
@@ -146,7 +142,7 @@ pomodoro|4|about mobile UI
 pomodoro|5|about desktop UI
 ```
 
-**Acceptance Criteria:**
+**Acceptance Criteria**
 
 - Follow the design from Figma.
 

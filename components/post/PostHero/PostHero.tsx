@@ -20,7 +20,9 @@ export const PostHero = ({ post }: Props): JSX.Element => {
 
   return (
     <div className="c-post-hero">
-      <h1 className="c-post-hero__title">{title}</h1>
+      <h1 className="c-post-hero__title" id="title">
+        {title}
+      </h1>
 
       <div className="c-post-hero__info">
         <p className="c-post-hero__info-item">{published}</p>

@@ -8,18 +8,12 @@ export default css`
   .c-homework-thumbnail {
     background: ${COLOR.WHITE};
     border-radius: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     box-shadow: -5px -5px 10px #f7f7f7, 5px 5px 10px #f1f1f1;
     color: ${COLOR.BLACK};
     text-decoration: none;
     display: block;
     font-family: ${FONT.IBM_PLEX};
-  }
-
-  .c-homework-thumbnail__thumbnail {
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
   }
 
   .c-homework-thumbnail__title {

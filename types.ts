@@ -61,7 +61,7 @@ export interface IHomeworkData {
   summary?: string;
   figma?: string;
   googledoc?: string;
-  created?: string;
+  published?: string;
   version?: string;
   updated?: string;
   thumbnail?: string;
@@ -118,6 +118,7 @@ export interface IHomeworkThumbnail {
 export interface ISocials {
   shareUrl: string;
   title: string;
+  sticky?: true;
 }
 
 export interface IPageIntro {

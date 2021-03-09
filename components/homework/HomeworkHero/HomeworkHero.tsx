@@ -12,8 +12,8 @@ interface Props {
 }
 
 export const HomeworkHero = ({ homework }: Props): JSX.Element => {
-  const { content, data } = homework;
-  const { created, version, updated, title, thumbnail } = data;
+  const { data } = homework;
+  const { published, version, updated, title, thumbnail } = data;
   const path = thumbnail ? thumbnail.slice(0, thumbnail.length - 1) : '';
   const index = thumbnail ? Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length)) : 0;
 
@@ -23,7 +23,7 @@ export const HomeworkHero = ({ homework }: Props): JSX.Element => {
         <h1 className="c-homework-hero__title">{data.title}</h1>
 
         <div className="c-homework-hero__info">
-          <p className="c-homework-hero__info-item">created: {created}</p>
+          <p className="c-homework-hero__info-item"> {published}</p>
           {updated && <p className="c-homework-hero__info-item">updated: {updated}</p>}
           <p className="c-homework-hero__info-item">version: {version}</p>
         </div>

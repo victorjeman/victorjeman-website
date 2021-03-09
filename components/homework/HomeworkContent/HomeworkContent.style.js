@@ -70,7 +70,7 @@ export default css.global`
   }
 
   .c-homework-content li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -81,12 +81,16 @@ export default css.global`
     line-height: 1.5;
   }
 
+  .c-homework-content pre {
+    overflow: auto;
+  }
+
   .c-table-of-content {
     width: 100%;
     background-color: #f7f7f7;
     margin-top: 4rem;
     padding: 2rem;
-    border-top: 7px solid #de7376;
+    // border-top: 7px solid #de7376;
   }
 
   h2.c-table-of-content__title {
@@ -123,17 +127,18 @@ export default css.global`
 
   @media ${MEDIA.XLARGE_UP} {
     .c-homework-content__left {
-      width: 350px;
+      width: 380px;
     }
 
     .c-homework-content__right {
-      width: calc(100% - 380px);
+      width: calc(100% - 430px);
       margin-left: auto;
     }
 
+    // TODO Move to a separate component
     .c-table-of-content {
       position: absolute;
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
 
     h2.c-table-of-content__title {
@@ -142,7 +147,7 @@ export default css.global`
     }
 
     .c-table-of-content {
-      padding: 2rem 0.5rem;
+      padding: 2rem 1rem;
     }
 
     .c-table-of-content__item {
