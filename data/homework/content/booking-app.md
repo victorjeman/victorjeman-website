@@ -170,9 +170,10 @@ booking|3|ADMIN Recover Password
 **Acceptance Criteria**
 
 - Create an HTML form that has the following elements:
-- email field
-- password field
-- send button
+
+  - email field
+  - password field
+  - send button
 
 - When the form is submitted, update the relevant information in the database.
 
@@ -208,10 +209,11 @@ As an Admin, I can add my companies to the dashboard.
 **Acceptance Criteria**
 
 - Create an HTML form that has the following company elements:
-- logo
-- name
-- description
-- save button
+
+  - logo
+  - name
+  - description
+  - save button
 
 - Name and description should be required fields.
 
