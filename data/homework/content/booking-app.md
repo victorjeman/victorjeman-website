@@ -3,10 +3,10 @@ title: Booking App
 slug: booking-app
 thumbnail: booking0
 summary: Learn how to build a booking app. You will build both the admin interface and the public user journey.
-figma: https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1
-created: 'March 5, 2021'
-updated: 'March 1, 2021'
-version: '0.6'
+figma: https://www.figma.com/file/Wk6hQtkxrjqDZbNNV6xQeC/Public-Lab-Booking-App?node-id=0%3A1
+published: 'March 5, 2021'
+updated: ''
+version: '0.9'
 ---
 
 <section class="c-table-of-content-section">
@@ -16,21 +16,21 @@ version: '0.6'
      <li class="c-table-of-content__item"><a href="#overview">Overview</a></li>
      <li class="c-table-of-content__item"><a href="#tips-tutorials">Tips & Tutorials</a></li>
      <li class="c-table-of-content__item"><a href="#requirements">Requirements</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-registration">1. ADMIN | Registration</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-login">2. ADMIN | Login</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-recover-password">3. ADMIN | Recover Password</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-registration">1. Admin | Registration</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-login">2. Admin | Login</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-recover-password">3. Admin | Recover Password</a></li>
      <li class="c-table-of-content__item"><a href="#admin-add-company">4. Admin | Add Company</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-view-companies">5. ADMIN | View Companies</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-view-companies">5. Admin | View Companies</a></li>
      <li class="c-table-of-content__item"><a href="#admin-edit-company">6. Admin | Edit Company</a></li>
      <li class="c-table-of-content__item"><a href="#admin-add-service">7. Admin | Add Service</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-view-services">8. ADMIN | View Services</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-view-services">8. Admin | View Services</a></li>
      <li class="c-table-of-content__item"><a href="#admin-edit-service">9. Admin | Edit Service</a></li>
-     <li class="c-table-of-content__item"><a href="#admin-view-bookings">10. ADMIN | View Bookings</a></li>
-     <li class="c-table-of-content__item"><a href="#public-view-companies">11. PUBLIC | View Companies</a></li>
-     <li class="c-table-of-content__item"><a href="#public-view-services">12. PUBLIC | View Services</a></li>
-     <li class="c-table-of-content__item"><a href="#public-client-details">13. PUPLIC | Client Details</a></li>
-     <li class="c-table-of-content__item"><a href="#public-calendar">14. PUPLIC | Calendar</a></li>
-     <li class="c-table-of-content__item"><a href="#public-confirmation">15. PUPLIC | Confirmation</a></li>
+     <li class="c-table-of-content__item"><a href="#admin-view-bookings">10. Admin | View Bookings</a></li>
+     <li class="c-table-of-content__item"><a href="#public-view-companies">11. Public | View Companies</a></li>
+     <li class="c-table-of-content__item"><a href="#public-view-services">12. Public | View Services</a></li>
+     <li class="c-table-of-content__item"><a href="#public-client-details">13. Public | Client Details</a></li>
+     <li class="c-table-of-content__item"><a href="#public-calendar">14. Public | Calendar</a></li>
+     <li class="c-table-of-content__item"><a href="#public-confirmation">15. Public | Confirmation</a></li>
      <li class="c-table-of-content__item"><a href="#help-me-to-help-you">Help me to help you!</a></li>
    </ul>
  </div>
@@ -38,46 +38,53 @@ version: '0.6'
  
  
 <h2 id="overview">Overview</h2>
- 
+
+Find the [figma design here](https://www.figma.com/file/Wk6hQtkxrjqDZbNNV6xQeC/Public-Lab-Booking-App?node-id=0%3A1). You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
+
 Booking App will provide the possibility of booking services for different companies.
- 
+
 To access the Booking App, a user needs to log in using a username and a password. There is an option to register by providing the following info: first name, last name, email, and password. After registration, send a confirmation email. If the user forgets the password, he can reset it. The user will receive an email with a reset password link. In case someone tries to reset a password with an unregistered email address, a message will suggest creating an account.
- 
+
 There are 3 group roles:
+
 - Super Admin (you)
- 
+
 - Admin(people that have one or more companies and will add services for that company)
- 
+
 - User (people that will make bookings)
- 
-An admin can add multiple companies if he’s lucky to have more than one company. Admin can create various services for each company. Each company has a profile that has the following fields: name, description, and logo.  An admin can edit all those fields.
- 
+
+An admin can add multiple companies if he’s lucky to have more than one company. Admin can create various services for each company. Each company has a profile that has the following fields: name, description, and logo. An admin can edit all those fields.
+
 A company can have multiple services. Each service has the following fields: name, description, duration, spaces, price, and availability.
- 
+
 An admin can view all of the bookings for a specific service and company.
- 
+
 A public user is only able to view or book services, with no option to edit them. A general user doesn’t need an account. After completing a booking, the user will receive an email with all the required information.
- 
+
 **Example**
+
 As an Admin, I can add multiple companies.
+
 As an Admin, I can add multiple services to each company.
+
 As a Public User, I can book for the price, the duration, and the availability of a specific service.
- 
- 
+
 For example, if I have a Barber's shop(company), I can add the following services:
-Haircut,
+
+**Haircut**:
+
 - price: 20 RON
 - duration: 60 minutes
 - available: Monday to Friday between 09:00-18:00 each day
- 
-Beard Trim,
+
+**Beard Trim**:
+
 - price: 10 RON
 - duration: 30 minutes
 - available: Monday to Thursday between 09:00-17:00 each day.
- 
+
 Once I have set up the **services** and all the **required details**, I would have a public page where people could **book** these services and receive an **email confirmation**.
- 
- 
+
 <h2 id="requirements">Requirements</h2>
  
 Requirements should help you to structure your work. Maybe you will want to split the work into some smaller tickets in Trello.
@@ -85,10 +92,10 @@ Don't let the requirements constrain you, but rather let them help you in explor
  
 > Use the acceptance criteria to guide your imagination and not to constrain it.
  
-<h3 id="admin-registration">1. ADMIN | Registration</h3>
+<h3 id="admin-registration">1. Admin | Registration</h3>
 
 ```Image
-booking|1|ADMIN Registration
+booking|1|Admin Registration
 ```
 
 **User Stories**
@@ -108,7 +115,7 @@ As an Admin, I will receive an email after registration so that I could confirm 
   - email
   - password
   - “create account” button
-  - Login with google
+  - Login with Google
   - Login with Facebook
   - “I agree” checkbox
 
@@ -126,10 +133,10 @@ As an Admin, I will receive an email after registration so that I could confirm 
 
 - If the user didn’t check the "I agree with terms" checkbox, don’t submit the form and show a message to the user.
 
-<h3 id="admin-login">2. ADMIN | Login</h3>
+<h3 id="admin-login">2. Admin | Login</h3>
  
 ```Image
-booking|2|ADMIN Login
+booking|2|Admin Login
 ```
 
 **User Stories**
@@ -153,10 +160,10 @@ As an Admin, I can recover the password using my email.
 
 - Display a message to suggest the registration process if the user doesn’t exist in the database.
 
-<h3 id="admin-recover-password">3. ADMIN | Recover Password</h3>
+<h3 id="admin-recover-password">3. Admin | Recover Password</h3>
  
 ```Image
-booking|3|ADMIN Recover Password
+booking|3|Admin Recover Password
 ```
 
 **User Stories**
@@ -196,10 +203,10 @@ booking|3|ADMIN Recover Password
 
 - Validate the email input field.
 
-<h3 id="admin-add-company">4. ADMIN | Add Company</h3>
+<h3 id="admin-add-company">4. Admin | Add Company</h3>
  
 ```Image
-booking|4|ADMIN Add Company
+booking|4|Admin Add Company
 ```
 
 **User Stories**
@@ -219,10 +226,10 @@ As an Admin, I can add my companies to the dashboard.
 
 - When we have errors, each input that doesn't have the right information should be outlined and have an error message.
 
-<h3 id="admin-view-companies">5. ADMIN | View Companies</h3>
+<h3 id="admin-view-companies">5. Admin | View Companies</h3>
  
 ```Image
-booking|5|ADMIN View Companies
+booking|5|Admin View Companies
 ```
 
 **User Stories**
@@ -234,10 +241,11 @@ As an Admin, I can see the list of companies that I added.
 - Display all the companies in the table
 
 - Each company should display the following information:
-- logo
-- name
-- description
-- select button
+
+  - logo
+  - name
+  - description
+  - select button
 
 - Each company will have a view button
 
@@ -249,10 +257,10 @@ As an Admin, I can see the list of companies that I added.
 
 - Ask for confirmation before completely deleting a company.
 
-<h3 id="admin-edit-company">6. ADMIN | Edit Company</h3>
+<h3 id="admin-edit-company">6. Admin | Edit Company</h3>
  
 ```Image
-booking|4|ADMIN Edit Company
+booking|4|Admin Edit Company
 ```
 
 **User Stories**
@@ -264,14 +272,15 @@ As an Admin, I can edit a company.
 - Create a dedicated page for each company where the Admin can edit all the fields.
 
 - We should be able to edit the following fields:
-- logo
-- name
-- description
 
-<h3 id="admin-add-service">7. ADMIN | Add Service</h3>
+  - logo
+  - name
+  - description
+
+<h3 id="admin-add-service">7. Admin | Add Service</h3>
  
 ```Image
-booking|7|ADMIN Add Service
+booking|7|Admin Add Service
 ```
 
 **User Stories**
@@ -283,13 +292,14 @@ As an Admin, I can access the Add Service page to configure a service availabili
 **Acceptance Criteria**
 
 - The service form should have the following elements:
-- name
-- description
-- duration
-- spaces
-- price
-- availability
-- add button
+
+  - name
+  - description
+  - duration
+  - spaces
+  - price
+  - availability
+  - add button
 
 - All form fields should be required.
 
@@ -305,10 +315,10 @@ As an Admin, I can access the Add Service page to configure a service availabili
 
 - Set up spaces - how many bookings are available - for example, if I have three people working at the Barber's shop, I can only do three haircuts in 1 hour.
 
-<h3 id="admin-view-services">8. ADMIN | View Services</h3>
+<h3 id="admin-view-services">8. Admin | View Services</h3>
 
 ```Image
-booking|8|ADMIN View Services
+booking|8|Admin View Services
 ```
 
 **User Stories**
@@ -330,6 +340,7 @@ As an Admin, I can view all the services for a specific company.
 - Add a button that would give us the ability to add a new service.
 
 - Each service should have the following information:
+
   - name
   - description
   - availability
@@ -337,10 +348,10 @@ As an Admin, I can view all the services for a specific company.
   - duration
   - price
 
-<h3 id="admin-edit-service">9. ADMIN | Edit Service</h3>
+<h3 id="admin-edit-service">9. Admin | Edit Service</h3>
 
 ```Image
-booking|9|ADMIN Edit Service
+booking|9|Admin Edit Service
 ```
 
 **User Stories**
@@ -353,18 +364,19 @@ As an Admin, I can edit or delete a specific service.
 
 - All the fields should be required.
 
-- We can edit the following fields
-- name
-- description
-- availability
-- spaces
-- duration
-- price
+- We can edit the following fields:
 
-<h3 id="admin-view-bookings">10. ADMIN | View Bookings</h3>
+  - name
+  - description
+  - availability
+  - spaces
+  - duration
+  - price
+
+<h3 id="admin-view-bookings">10. Admin | View Bookings</h3>
 
 ```Image
-booking|10|ADMIN View Bookings
+booking|10|Admin View Bookings
 ```
 
 **User Stories**
@@ -374,11 +386,12 @@ As an Admin, I can access all the bookings made for one of my companies and see 
 **Acceptance Criteria**
 
 - Create a table to display the following client info:
-- name
-- email
-- phone number
-- booking date
-- the client selected
+
+  - name
+  - email
+  - phone number
+  - booking date
+  - the client selected
 
 - We should be able to sort the table entries by service.
 
@@ -386,10 +399,10 @@ As an Admin, I can access all the bookings made for one of my companies and see 
 
 - We should be able to group the rows by date. There should be a button that would group(not sort) the bookings by date.
 
-<h3 id="public-view-companies">11. PUBLIC | View Companies</h3>
+<h3 id="public-view-companies">11. Public | View Companies</h3>
 
 ```Image
-booking|11|PUBLIC View Companies
+booking|11|Public View Companies
 ```
 
 **User Stories**
@@ -401,17 +414,18 @@ As a Public User, I can select a specific company, and I should see the availabl
 
 - Display all the companies
 - Each company should display the following information:
-- logo
-- name
-- description
-- select button
+
+  - logo
+  - name
+  - description
+  - select button
 
 - Add a button that will permit us to select a specific company.
 
-<h3 id="public-view-services">12. PUBLIC | View Services</h3>
+<h3 id="public-view-services">12. Public | View Services</h3>
 
 ```Image
-booking|12|PUBLIC View Services
+booking|12|Public View Services
 ```
 
 **User Stories**
@@ -429,41 +443,22 @@ As a Public User, I can’t edit or remove a specific service.
 - Display all the services for a specific company.
 
 - Each service should have the following information:
-- name
-- description
-- availability
-- spaces
-- duration
-- price
+
+  - name
+  - description
+  - availability
+  - spaces
+  - duration
+  - price
 
 - Add a button that would give us the ability to book a service.
 
 - Display a back button that will display the previous page.
 
-<h3 id="public-client-details">13. PUBLIC | Client Details</h3>
- 
-```Image
-booking|13|PUBLIC Client Details
-```
-
-**User Stories**
-
-As a Public User, I can add my personal information needed for a booking.
-
-**Acceptance Criteria**
-
-- Create an HTML form that has the following client elements:
-- name field
-- phone number field
-- email field
-- next button
-
-- Display a back button that will display the previous page.
-
-<h3 id="public-calendar">14. PUBLIC | Calendar</h3>
+<h3 id="public-calendar">13. Public | Calendar</h3>
 
 ```Image
-booking|14|PUBLIC Calendar
+booking|12|Public Calendar
 ```
 
 **User Stories**
@@ -482,10 +477,31 @@ As a Public User, I can select a specific slot from the available list.
 
 - Display a back button that will display the previous page.
 
-<h3 id="public-confirmation">15. PUBLIC | Confirmation</h3>
+<h3 id="public-client-details">14. Public | Client Details</h3>
+ 
+```Image
+booking|13|Public Client Details
+```
+
+**User Stories**
+
+As a Public User, I can add my personal information needed for a booking.
+
+**Acceptance Criteria**
+
+- Create an HTML form that has the following client elements:
+
+  - name
+  - phone number
+  - email
+  - next button
+
+- Display a back button that will display the previous page.
+
+<h3 id="public-confirmation">15. Public | Confirmation</h3>
 
 ```Image
-booking|15|PUBLIC Confirmation
+booking|15|Public Confirmation
 ```
 
 **User Stories**

@@ -19,18 +19,11 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
   };
 
   React.useEffect(() => {
-    const smoothScrollAnchor = require('smooth-scroll-anchor');
     const itShouldInitGtm = window && window.location && window.location.hostname != 'localhost';
 
     if (itShouldInitGtm) {
       TagManager.initialize(tagManagerArgs);
     }
-
-    smoothScrollAnchor.smoothScrollAnchor({
-      behaviour: 'smooth',
-      block: 'start',
-      offset: 0,
-    });
   }, []);
 
   return (

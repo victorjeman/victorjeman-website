@@ -29,5 +29,5 @@ const changeFile = ({ path, width }) => {
     .toFile(`${path}.s.jpg`);
 };
 
-// changeFile({ path: './public/images/blog/heroes/hero-2.jpg', width: 450 });
-changeInFolder({ directory: './public/images/labs/booking-app', width: 1200 });
+// changeFile({ path: './public/images/labs/booking-app/booking-app-13.jpg', width: 1200 });
+changeInFolder({ directory: './public/images/labs/booking-app', width: 650 });

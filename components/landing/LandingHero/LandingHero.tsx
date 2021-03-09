@@ -3,8 +3,6 @@ import Typewriter from 'typewriter-effect';
 
 import { ISizeModifier } from '@types';
 
-import { scrollIntoView } from '@services/scrollIntoView/scrollIntoView.service';
-
 import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';

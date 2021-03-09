@@ -3,6 +3,7 @@ import css from 'styled-jsx/css';
 export default css.global`
   body {
     font-size: 16px;
+    overflow: scroll;
   }
 
   .c-list {
@@ -21,5 +22,15 @@ export default css.global`
   a:active:focus {
     outline: 3px dotted #175375;
     outline-offset: 3px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 `;

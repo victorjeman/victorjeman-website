@@ -14,9 +14,9 @@ import { ISocials } from '@types';
 
 import style from './Socials.styles';
 
-export const Socials = ({ shareUrl, title }: ISocials): JSX.Element => {
+export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
   return (
-    <div className="c-socials">
+    <div className={`c-socials ${sticky ? 'c-socials--sticky' : ''}`}>
       <div className="c-socials__item">
         <LinkedinShareButton url={shareUrl}>
           <LinkedinIcon size={42} />

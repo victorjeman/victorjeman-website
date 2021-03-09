@@ -4,14 +4,14 @@
   "url": "https://www.victorjeman.com/labs/pomodoro",
   "type": "article",
   "article": {
-    "publishedTime": "2021-03-8T00:00:00+01:00",
+    "publishedTime": "2021-03-05T00:00:00+01:00",
     "modifiedTime": "",
     "authors": ["Victor JEMAN"],
     "tags": ["booking", "homework"]
   },
   "images": [
     {
-      "url": "https://www.victorjeman.com/images/labs/pomodoro/pomodoro6.jpg",
+      "url": "https://www.victorjeman.com/images/labs/booking-app/booking-0.jpg",
       "width": 1110,
       "height": 624,
       "alt": "Booking app"

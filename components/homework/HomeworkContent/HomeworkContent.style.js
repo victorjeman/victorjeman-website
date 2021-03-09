@@ -90,7 +90,7 @@ export default css.global`
     background-color: #f7f7f7;
     margin-top: 4rem;
     padding: 2rem;
-    border-top: 7px solid #de7376;
+    // border-top: 7px solid #de7376;
   }
 
   h2.c-table-of-content__title {
@@ -135,9 +135,10 @@ export default css.global`
       margin-left: auto;
     }
 
+    // TODO Move to a separate component
     .c-table-of-content {
       position: absolute;
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
 
     h2.c-table-of-content__title {
@@ -146,7 +147,7 @@ export default css.global`
     }
 
     .c-table-of-content {
-      padding: 2rem 0.5rem;
+      padding: 2rem 1rem;
     }
 
     .c-table-of-content__item {

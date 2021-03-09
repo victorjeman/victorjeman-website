@@ -26,9 +26,12 @@ interface Props3 {
 }
 
 export default function PostPage({ post, meta }: Props1): React.ReactNode {
+  const pageTitle = `Victor JEMAN | Blog | ${meta.title}`;
+  const pageDescription = meta.description;
+
   return (
     <PageLayout>
-      <NextSeo openGraph={meta} />
+      <NextSeo openGraph={meta} title={pageTitle} description={pageDescription} />
       <Post post={post} />
     </PageLayout>
   );

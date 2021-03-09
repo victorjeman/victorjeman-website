@@ -51,15 +51,15 @@ export const HomeworkContent = ({ content }: Props): JSX.Element => {
           <Markdown content={labContent} />
           <HomeworkFeedback />
         </section>
-
-        <style jsx global>
-          {style}
-        </style>
-
-        <style jsx global>
-          {CodeStyle}
-        </style>
       </Container>
+
+      <style jsx global>
+        {style}
+      </style>
+
+      <style jsx global>
+        {CodeStyle}
+      </style>
     </div>
   );
 };
