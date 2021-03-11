@@ -1,13 +1,13 @@
 {
   "title": "Ahoy, you beautiful reader!",
-  "description": "Welcome to a “hello world” type of post, hate it, love it, do what you feel, do what makes you happy.",
-  "url": "https://victorjeman.com/blog/how-can-i-be-useful",
+  "description": "Welcome to my “hello world” post, hate it, love it, do what you feel, do what makes you happy.",
+  "url": "https://victorjeman.com/blog/ahoy-you-beautiful-reader",
   "type": "article",
   "article": {
     "publishedTime": "2020-12-05T00:00:00+01:00",
     "modifiedTime": "",
     "authors": ["Victor JEMAN"],
-    "tags": ["hello world"]
+    "tags": ["hello world", "front-end", "personal project", "stories", "labs", "homework"]
   },
   "images": [
     {
