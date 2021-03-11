@@ -1,5 +1,5 @@
 ---
-slug: how-can-i-be-useful
+slug: ahoy-you-beautiful-reader
 title: Ahoy, you beautiful reader!
 thumbnail: postThumb1
 hero: postHero1
@@ -19,7 +19,7 @@ updated:
 
 <h2 id="hi-there">Hi there!</h2>
 
-Welcome to a “hello world” type of post, hate it, love it, do what you feel, do what makes you happy.
+Welcome to my “hello world” post, hate it, love it, do what you feel, do what makes you happy.
 
 I’m Jeman, Victor Jeman. I was born in Moldova (practically mother Russia) and raised by Romania’s wolves. I’ve moved to Romania when I was 15; it was a fun process. My superpowers are laziness and **daydreaming**. I’m writing this while drinking a glass of wine called “Castel Huniade,” you should try it.
 

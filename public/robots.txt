@@ -1,8 +1,9 @@
+# *
 User-agent: *
-Crawl-delay: 10
+Allow: /
 
-Disallow: /testimonials
-Disallow: /_next
+# Host
+Host: https://victorjeman.com
 
-#Disallow: /
-
+# Sitemaps
+Sitemap: https://victorjeman.com/sitemap.xml

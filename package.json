@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "postbuild": "next-sitemap",
     "export": "next export",
     "start": "next start"
   },
@@ -44,6 +45,7 @@
     "jest": "^26.6.3",
     "next-optimized-images": "^2.6.2",
     "next-seo": "^4.17.0",
+    "next-sitemap": "^1.5.16",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.1.0",
     "react-jsx-parser": "^1.28.1",
