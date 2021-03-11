@@ -140,6 +140,7 @@ booking|2|Admin Login
 ```
 
 **User Stories**
+
 As an Admin, I can log in to my company dashboard to see my profile.
 
 As an Admin, I can recover the password using my email.
