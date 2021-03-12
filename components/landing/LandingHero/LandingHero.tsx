@@ -44,9 +44,9 @@ export const LandingHero: React.FC = (): JSX.Element => (
           </div>
 
           <p className="c-landing-hero__description">
-            I love web development. I know my way around it, some glue here, some duct tape her, and
-            you have a web page. I also love sharing my knowledge; I'm not yet particularly good at
-            it, but it brings me joy and I want to pursue this. At the moment, I'm working at{' '}
+            I love web development! I know my way around it, some glue here, some duct tape there,
+            and you have a web page. I also love sharing my knowledge; I'm not yet particularly good
+            at it, but it brings me joy, and I want to pursue this. At the moment, I'm working at{' '}
             <a href="https://assist-software.net/assist-culture" target="_blank" rel="noreferrer">
               <strong>ASSIST Software</strong>
             </a>
