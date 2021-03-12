@@ -27,6 +27,11 @@ export default function Home(): React.ReactNode {
           ],
           site_name: 'VictorJeman',
         }}
+        twitter={{
+          handle: '@victorjeman',
+          site: '@victorjeman',
+          cardType: 'summary_large_image',
+        }}
       />
 
       <LandingHero />
