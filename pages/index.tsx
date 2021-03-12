@@ -18,14 +18,14 @@ export default function Home(): React.ReactNode {
           description: 'I do a little bit of web development and I love sharing my knowledge.',
           images: [
             {
-              url: 'https://www.example.ie/og-image-01.jpg',
+              url: 'https://victorjeman.com/images/blog/heroes/hero-1.jpg',
               width: 970,
               height: 634,
               alt:
                 'A man writes hello at a keyboard with a cat to the left and a flower to the right',
             },
           ],
-          site_name: 'SiteName',
+          site_name: 'VictorJeman',
         }}
       />
 
