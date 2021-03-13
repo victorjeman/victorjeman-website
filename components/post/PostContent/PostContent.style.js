@@ -5,39 +5,6 @@ import { COLOR } from '@settings/color.settings';
 import { MEDIA } from '@settings/media.settings';
 
 export default css.global`
-  .c-table-of-content {
-    width: 100%;
-    background-color: #f7f7f7;
-    margin-top: 4rem;
-    padding: 2rem;
-    // border-top: 7px solid #de7376;
-  }
-
-  h2.c-table-of-content__title {
-    margin-top: 0;
-    font-size: 2rem;
-  }
-
-  .c-table-of-content__list {
-    list-style: none;
-    padding: 0 0 0 1.5rem;
-    margin: 0;
-  }
-
-  li.c-table-of-content__item {
-    margin: 0;
-  }
-
-  .c-table-of-content a {
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    line-height: 1.2;
-  }
-
   h1:after {
     content: '';
     display: block;
@@ -49,17 +16,17 @@ export default css.global`
 
   h2 {
     font-size: 2.6rem;
-    line-height: 1.8;
+    line-height: 1.3;
     margin-top: 4rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
     font-weight: 500;
   }
 
   h3 {
     font-size: 2.1rem;
-    line-height: 1.8;
+    line-height: 1.3;
     margin-top: 3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
     font-weight: 500;
   }
 
@@ -91,7 +58,7 @@ export default css.global`
   }
 
   .c-post-content strong {
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .c-post-content-anchor {
@@ -155,6 +122,48 @@ export default css.global`
     margin-bottom: 2rem;
   }
 
+  .c-post-content__right {
+    padding: 1rem;
+  }
+
+  .c-post-content li {
+    line-height: 1.5;
+    margin-bottom: 0.9rem;
+  }
+
+  .c-table-of-content {
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 4rem;
+    padding: 2rem;
+    // border-top: 7px solid #de7376;
+  }
+
+  h2.c-table-of-content__title {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .c-table-of-content__list {
+    list-style: none;
+    padding: 0 0 0 1.5rem;
+    margin: 0;
+  }
+
+  li.c-table-of-content__item {
+    margin: 0;
+  }
+
+  .c-table-of-content a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    line-height: 1.2;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
     .c-post-content {
       font-size: 1.1rem;
@@ -179,7 +188,7 @@ export default css.global`
 
     .c-post-content blockquote p {
       font-size: 1.3rem;
-      line-height: 1.3;
+      line-height: 1.4;
     }
   }
 
