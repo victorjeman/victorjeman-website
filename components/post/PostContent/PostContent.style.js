@@ -159,8 +159,6 @@ export default css.global`
     .c-post-content {
       font-size: 1.1rem;
       line-height: 1.75;
-      padding-right: 1rem;
-      padding-left: 1rem;
     }
 
     .c-post-content blockquote {
@@ -182,6 +180,16 @@ export default css.global`
     .c-post-content blockquote p {
       font-size: 1.3rem;
       line-height: 1.3;
+    }
+  }
+
+  @media ${MEDIA.LARGE_DOWN} {
+    .c-post-content {
+      max-width: 720px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 1rem;
+      padding-left: 1rem;
     }
   }
 
