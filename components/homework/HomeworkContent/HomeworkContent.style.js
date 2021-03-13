@@ -120,8 +120,8 @@ export default css.global`
       max-width: 750px;
       margin-right: auto;
       margin-left: auto;
-      padding-right: 15px;
-      padding-left: 15px;
+      padding-right: 1rem;
+      padding-left: 1rem;
     }
   }
 

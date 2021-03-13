@@ -159,6 +159,8 @@ export default css.global`
     .c-post-content {
       font-size: 1.1rem;
       line-height: 1.75;
+      padding-right: 1rem;
+      padding-left: 1rem;
     }
 
     .c-post-content blockquote {
