@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const LinkedInIcon = require('../../../public/images/icons/linkedin.svg');
+const LinkedInIcon = require('../../../public/images/icons/linkedIn.svg');
 const FacebookIcon = require('../../../public/images/icons/facebook.svg');
 const TwitterIcon = require('../../../public/images/icons/twitter.svg');
 const InstagramIcon = require('../../../public/images/icons/instagram.svg');
