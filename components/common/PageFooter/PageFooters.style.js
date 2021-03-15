@@ -3,7 +3,7 @@ import css from 'styled-jsx/css';
 import { MEDIA } from '@settings/media.settings';
 import { FONT } from '@settings/font.settings';
 
-export default css`
+export default css.global`
   .c-page-footer {
     text-align: center;
     border-top: 1px solid #d9d9d9;
@@ -27,16 +27,19 @@ export default css`
   }
 
   .c-page-footer__icon {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
     display: inline-block;
   }
+
+  .c-page-footer__icon svg {
+    width: 35px;
+    height: 35px;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
-  }
-
-  @media ${MEDIA.MEIUM_ONLY} {
-  }
-
-  @media ${MEDIA.LARGE_UP} {
+    .c-page-footer__container {
+      flex-direction: column;
+    }
   }
 `;
