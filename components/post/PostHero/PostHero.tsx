@@ -32,7 +32,7 @@ export const PostHero = ({ post }: Props): JSX.Element => {
         <p className="c-post-hero__info-item">{reading}</p>
       </div>
 
-      <Image path={path} index={index} alt={title} height="540" />
+      <Image path={path} index={index} alt={title} height="600" />
 
       <style jsx global>
         {style}

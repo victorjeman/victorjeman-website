@@ -3,7 +3,7 @@ slug: ahoy-you-beautiful-reader
 title: Ahoy, you beautiful reader!
 thumbnail: postThumb1
 hero: postHero1
-published: December 5, 2020
+published: March 10, 2021
 updated:
 ---
 

@@ -25,7 +25,7 @@ export const LandingPowerLevel: React.FC = (): JSX.Element => (
 
         <div className="c-landing-power-level__description">
           <p className="c-landing-power-level__text">
-            At my core, I'm a <strong>front-end developer</strong>. I've started{' '}
+            At my core, I'm a <strong>front-end developer</strong>. I started{' '}
             {new Date().getFullYear() - 2012} years ago as a freelancer by stitching together static
             websites, then I got a full time job and started working with all kinds of fancy
             libraries and frameworks. I can't say that I know any of them at the master level, but

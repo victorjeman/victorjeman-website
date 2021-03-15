@@ -16,7 +16,9 @@ const changeInFolder = ({ directory, width }) => {
 };
 
 /**
- * width: 450 - mobile
+ * width: 1200 - desktop
+ * width: 1000 - inpost images
+ * width: 650 - mobile
  * width: 970 - hero
  * width: 480 - thumbnail
  */
@@ -29,5 +31,5 @@ const changeFile = ({ path, width }) => {
     .toFile(`${path}.s.jpg`);
 };
 
-// changeFile({ path: './public/images/labs/booking-app/booking-app-13.jpg', width: 1200 });
-changeInFolder({ directory: './public/images/labs/booking-app', width: 650 });
+// changeFile({ path: './public/images/blog/post-3/img-2.jpg', width: 650 });
+changeInFolder({ directory: './public/images/blog/post-3', width: 650 });

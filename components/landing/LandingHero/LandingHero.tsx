@@ -7,6 +7,7 @@ import { Explore } from '@components/common/Explore/Explore';
 import { CardSpecial } from '@components/common/CardSpecial/CardSpecial';
 import { Container } from '@components/common/Container/Container';
 import { Image } from '@components/common/Image/Image';
+import { MySocials } from '@components/common/MySocials/MySocials';
 
 import style from './LandingHero.style';
 
@@ -56,6 +57,10 @@ export const LandingHero: React.FC = (): JSX.Element => (
             <strong>P.S.</strong> I also love video games, except DOOM, the Marauder ruined it for
             me.
           </p>
+
+          <br />
+
+          <MySocials />
 
           <div className="c-landing-hero__explore">
             <Explore modifier={ISizeModifier.medium} type="anchor" href="#power-level">

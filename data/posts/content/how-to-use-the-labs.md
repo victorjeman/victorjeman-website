@@ -3,7 +3,7 @@ slug: how-to-use-the-labs
 title: How to use my labs
 thumbnail: postThumb2
 hero: postHero2
-published: March 1, 2021
+published: March 10, 2021
 updated:
 version: 0.9
 ---

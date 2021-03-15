@@ -8,8 +8,7 @@
       "@styles/*": ["common/styles/*"],
       "@components/*": ["components/*"],
       "@data/*": ["data/*"],
-      "@posts": ["data/posts/*"],
-      "@images/*": ["public/images/*"],
+      "@posts/*": ["data/posts/*"],
       "@hooks/*": ["hooks/*"],
       "@types": ["types"]
     },
