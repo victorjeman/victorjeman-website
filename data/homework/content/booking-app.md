@@ -39,7 +39,7 @@ version: '0.9'
  
 <h2 id="overview">Overview</h2>
 
-Find the <a href="https://www.figma.com/file/Wk6hQtkxrjqDZbNNV6xQeC/Public-Lab-Booking-App?node-id=0%3A1" target="_blank" rel="noreferrer">figma design here</a>. You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
+Find the <a href="https://www.figma.com/file/Wk6hQtkxrjqDZbNNV6xQeC/Public-Lab-Booking-App?node-id=0%3A1" target="_blank"  rel="noreferrer">figma design here</a>. You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
 
 Booking App will provide the possibility of booking services for different companies.
 

@@ -3,7 +3,7 @@ slug: how-to-use-the-labs
 title: How to use my labs
 thumbnail: postThumb2
 hero: postHero2
-published: March 1, 2021
+published: March 10, 2021
 updated:
 version: 0.9
 ---
@@ -42,7 +42,7 @@ The labs are for organized people; if you are not one, don’t worry, I’ll hav
  
 You get a **mission**, and you get to decide how you want to accomplish it. You choose your frameworks and libraries, or maybe you want just to implement a static prototype that puts your CSS skills to the test. You decide what you want to do and how to do it.
  
-> You get a mission, and you get to decide how you want to accomplish it
+> You get a mission, and you get to decide how you want to accomplish it.
  
 <h2 id="lab-structure">Lab structure</h2>
  

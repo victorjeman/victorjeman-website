@@ -117,11 +117,11 @@ export default css.global`
 
   @media ${MEDIA.LARGE_DOWN} {
     .c-homework-content {
-      max-width: 750px;
+      max-width: 720px;
       margin-right: auto;
       margin-left: auto;
-      padding-right: 15px;
-      padding-left: 15px;
+      padding-right: 1rem;
+      padding-left: 1rem;
     }
   }
 

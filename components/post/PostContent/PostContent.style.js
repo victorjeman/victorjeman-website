@@ -122,10 +122,6 @@ export default css.global`
     margin-bottom: 2rem;
   }
 
-  .c-post-content__right {
-    padding: 1rem;
-  }
-
   .c-post-content li {
     line-height: 1.5;
     margin-bottom: 0.9rem;
@@ -171,11 +167,21 @@ export default css.global`
     }
 
     .c-post-content blockquote {
-      padding: 1em 1.2rem;
+      padding: 1rem 0.8rem;
     }
 
     .c-post-content blockquote p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.3;
+    }
+
+    h2 {
+      font-size: 1.7rem;
+      line-height: 1.2;
+    }
+
+    h3 {
+      font-size: 1.5rem;
       line-height: 1.2;
     }
   }
@@ -189,6 +195,16 @@ export default css.global`
     .c-post-content blockquote p {
       font-size: 1.3rem;
       line-height: 1.4;
+    }
+  }
+
+  @media ${MEDIA.LARGE_DOWN} {
+    .c-post-content {
+      max-width: 720px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 1rem;
+      padding-left: 1rem;
     }
   }
 
