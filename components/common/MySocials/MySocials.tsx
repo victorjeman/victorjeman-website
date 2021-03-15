@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-const LinkedInIcon = require('../../../public/images/icons/linkedin.svg') as string;
-const FacebookIcon = require('../../../public/images/icons/facebook.svg') as string;
-const TwitterIcon = require('../../../public/images/icons/twitter.svg') as string;
-const InstagramIcon = require('../../../public/images/icons/instagram.svg') as string;
-const PinterestIcon = require('../../../public/images/icons/pinterest.svg') as string;
+const LinkedInIcon = require('../../../public/images/icons/linkedin.svg');
+const FacebookIcon = require('../../../public/images/icons/facebook.svg');
+const TwitterIcon = require('../../../public/images/icons/twitter.svg');
+const InstagramIcon = require('../../../public/images/icons/instagram.svg');
+const PinterestIcon = require('../../../public/images/icons/pinterest.svg');
 
 import style from './MySocials.style';
 
