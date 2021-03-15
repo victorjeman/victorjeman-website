@@ -7,6 +7,27 @@ published: March 15, 2021
 updated:
 ---
 
+<section class="c-table-of-content-section">
+ <div class="c-table-of-content">
+   <h2 class="c-table-of-content__title">Table of content</h2>
+   <ul class="c-table-of-content__list">
+     <li class="c-table-of-content__item"><a href="#i-want-to-feel-special-and-so-do-you">I want to feel special, and so do you</a></li>
+     <li class="c-table-of-content__item"><a href="#where-is-my-energy-lost">Where is my energy lost?</a></li>
+     <li class="c-table-of-content__item"><a href="#a-little-shunshine-does-wonder">A little sunshine does wonder</a></li>
+     <li class="c-table-of-content__item"><a href="#find-out-the-truth-about-how-you-spend-your-time">Find out the truth about how you spend your time</a></li>
+     <li class="c-table-of-content__item">
+      <a href="#what-to-do">What to do, what to do?</a> 
+      <ul class="c-table-of-content__list">
+        <li class="c-table-of-content__item"><a href="#get-some-confidence">Step 1. Get some confidence, read some books</a></li>
+        <li class="c-table-of-content__item"><a href="#get-serious-about-the-problem">Step 2. Get serious about the problem</a></li>
+        <li class="c-table-of-content__item"><a href="#step-away-for-a-moment">Step 3. Step away for a moment, disconnect</a></li>
+      </ul>
+     </li>
+     <li class="c-table-of-content__item"><a href="#last-thoughts">Last thoughts</a></li>
+   </ul>
+ </div>
+<section>
+
 **TL; DR;**</br>
 
 - Live your life in such a way so that you will continuously grow as a person.
@@ -28,7 +49,7 @@ I joined the party five years ago when the only thing you had to do was a 4-page
 
 Long story short, my idea won. I would say I had more dumb luck than some merit. Still, I accepted the prize; it was some kind of fancy phone that broke after three months, so I had to buy a new one anyway; I still won nonetheless.
 
-I wanted to feel even more unique, so I’ve written a small <a href="https://www.linkedin.com/pulse/do-you-feel-flow-victor-jeman/" target="_blank" rel="noreferrer">LinkedIn post</a> to share my enormous achievement. Because I suck at hard work, half of my post was a quote from a movie I love; the other half was some text with a diagram telling something about a feeling of flow that everyone should have when they are embarking on a new journey. I made some promises in there that I would do this and that and that I would **turn the world upside down**.
+I wanted to feel even more unique, so I wrote a small <a href="https://www.linkedin.com/pulse/do-you-feel-flow-victor-jeman/" target="_blank" rel="noreferrer">LinkedIn post</a> to share my enormous achievement. Because I suck at hard work, half of my post was a quote from a movie I love; the other half was some text with a diagram telling something about a feeling of flow that everyone should have when they are embarking on a new journey. I made some promises in there that I would do this and that and that I would **turn the world upside down**.
 
 <h2 id="where-is-my-energy-lost">Where is my energy lost?</h2>
 
@@ -64,9 +85,9 @@ This time around, though, I got a little taste of what it means to have energy, 
 
 I’ve been a team leader for a couple of years, and although it’s satisfying, depending on the project, it can be a stupidly busy job. It’s not that I’m the best or the smartest, but boy, I’m the one that is being tagged the most when there is a question. I’ve started to see some patterns; I had days and days where I wouldn’t have the time to code a single line of code. I was thinking, **what the hell I did today**, and I couldn’t fill the gap for 3-4 hours. I know I’m not wasting time with social media because I didn’t even have some accounts until recently with this website. I have a single 3-hour long chill song on youtube that is always on repeat, so where the fuck did my time go?
 
-> Where the fuck is our time lost?
+> Where the fuck is my time lost?
 
-<h2 id=”find-out-the-truth-about-how-you-spend-your-time”>Find out the truth about how you spend your time</h2>
+<h2 id="find-out-the-truth-about-how-you-spend-your-time">Find out the truth about how you spend your time</h2>
 
 ```Image
 sellYourKnowledge|4|Find out the truth about how you spend your time
@@ -93,9 +114,9 @@ I know!
 
 I need to remove most of the useless tasks that drain my energy and focus instead on things that will bring long-term value to my client, the company where I’m working, and, surprise, surprise, value to myself.
 
-> Remove the useless and focus on things that will bring long-term value to you.
+> Remove the useless and focus on things that will bring you long-term value.
 
-<h3 id=”get-some-confidence”> Step 1. Get some confidence, read some books</h3>
+<h3 id="get-some-confidence">Step 1. Get some confidence, read some books</h3>
 
 ```Image
 sellYourKnowledge|6|Get some confidence, read some books
@@ -135,7 +156,7 @@ I will get back with new forces and a better plan to preserve my energy and keep
 
 > Sell your knowledge and experience, not your time.
 
-<h2 id=”last-thoughts”>Last thoughts</h2>
+<h2 id="last-thoughts">Last thoughts</h2>
 
 I hope this article will help you in some way. We are all full of doubts and fears. I think we all have a great list of excuses, no matter the subject. We should figure out our problems and try to fix them with the knowledge we have. Don’t just wait to have more time one of these days; no one will give you the time. It’s your responsibility to manage it. Find ways to **preserve your energy**, and don’t strive to be busier. You do not impress anyone with how many things you have to do, even if you may consider yourself quite important.
 
