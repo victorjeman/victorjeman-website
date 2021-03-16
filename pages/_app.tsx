@@ -19,9 +19,17 @@ const App: React.FC<Props> = ({ Component, pageProps }: Props) => {
   };
 
   React.useEffect(() => {
-    const itShouldInitGtm = window && window.location && window.location.hostname != 'localhost';
+    try {
+      const itShouldInitGtm =
+        window &&
+        window.location &&
+        (window.location.hostname != 'localhost' || !window.location.hostname.includes('vercel'));
 
-    if (itShouldInitGtm) {
+      if (itShouldInitGtm) {
+        TagManager.initialize(tagManagerArgs);
+      }
+    } catch (error) {
+      console.log('error: ', error);
       TagManager.initialize(tagManagerArgs);
     }
   }, []);

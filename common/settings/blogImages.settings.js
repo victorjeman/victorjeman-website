@@ -24,6 +24,9 @@ export const BLOG_WEBP = {
   sellYourKnowledge7s: require('../../public/images/blog/post-3/img-7.s.jpg?webp'),
   sellYourKnowledge8: require('../../public/images/blog/post-3/img-8.jpg?webp'),
   sellYourKnowledge8s: require('../../public/images/blog/post-3/img-8.s.jpg?webp'),
+
+  article_4_1: require('../../public/images/blog/post-4/img-1.jpg?webp'),
+  article_4_1s: require('../../public/images/blog/post-4/img-1.s.jpg?webp'),
 };
 
 export const BLOG_JPG = {
@@ -52,4 +55,7 @@ export const BLOG_JPG = {
   sellYourKnowledge7s: require('../../public/images/blog/post-3/img-7.s.jpg'),
   sellYourKnowledge8: require('../../public/images/blog/post-3/img-8.jpg'),
   sellYourKnowledge8s: require('../../public/images/blog/post-3/img-8.s.jpg'),
+
+  article_4_1: require('../../public/images/blog/post-4/img-1.jpg'),
+  article_4_1s: require('../../public/images/blog/post-4/img-1.s.jpg'),
 };
