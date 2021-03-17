@@ -67,7 +67,7 @@ export const PageNavigation: React.FC = () => {
       <style jsx global>{`
         @keyframes pulse {
           0% {
-            fill: #000;
+            fill: #3f3d56;
           }
           50% {
             fill: #de7376;
@@ -76,6 +76,10 @@ export const PageNavigation: React.FC = () => {
           100% {
             fill: #ffc25d;
           }
+        }
+
+        .c-page-navigation__logo svg path {
+          fill: #de7376;
         }
 
         .c-page-navigation-sticky .sticky {
