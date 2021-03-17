@@ -3,7 +3,8 @@ slug: sell-your-knowledge-and-experience-not-your-time
 title: Sell your knowledge and experience, not your time
 thumbnail: postThumb3
 hero: postHero3
-published: March 15, 2021
+publishedTime: '2021-03-15T00:00:00+01:00'
+modifiedTime: ''
 updated:
 ---
 

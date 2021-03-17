@@ -4,9 +4,10 @@ slug: pomodoro
 thumbnail: pomodoro6
 summary: A basic Pomodoro app based on the provided Figma design.
 figma: https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1
-published: 'January 18, 2021'
-updated: ''
-version: '0.6'
+trello: https://trello.com/b/xaLlrrBQ/victor-jeman-pomodoro-lab/victorjeman1/recommend
+publishedTime: '2021-03-10T00:00:00+02:00'
+modifiedTime: '2021-03-17T00:00:00+02:00'
+version: '0.7'
 ---
 
 <section class="c-table-of-content-section">
@@ -31,7 +32,13 @@ version: '0.6'
 
 <h2 id="overview">Overview</h2>
 
-Find the <a href="https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1" target="_blank"  rel="noreferrer">figma design here</a>. You can see there the detailed information about the design(fonts, dimensions, colors, etc.)
+**Assets**
+
+- <a href="https://www.figma.com/file/vq7NsQaX2OzbNFyjIyos7j/Public-Lab-%7C-pomodoro?node-id=0%3A1" target="_blank"  rel="noreferrer">Figma design</a>
+
+- <a href="https://trello.com/b/xaLlrrBQ/victor-jeman-pomodoro-lab/victorjeman1/recommend" target="_blank"  rel="noreferrer">Trello template</a>
+
+**Description**
 
 Implement a basic Pomodoro timer app based on the provided Figma design.
 The application should be responsive. The main focus of this application is to test your ability to create a responsive design. Theme functionality will test your ability to organize your CSS rules. Date functionality will test your javascript knowledge. The app is small, but there is space for concern separation. You certainly can have more than one giant component.

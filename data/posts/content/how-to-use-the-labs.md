@@ -3,9 +3,8 @@ slug: how-to-use-the-labs
 title: How to use my labs
 thumbnail: postThumb2
 hero: postHero2
-published: March 10, 2021
-updated:
-version: 0.9
+publishedTime: '2021-03-10T00:00:00+01:00'
+modifiedTime: ''
 ---
 
 <section class="c-table-of-content-section">

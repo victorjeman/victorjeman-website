@@ -19,7 +19,7 @@ export const Homework = ({ homework }: Props): JSX.Element => {
 
   return (
     <React.Fragment>
-      <Container type={ISizeModifier.large}>
+      <Container type={ISizeModifier.xlarge} padding="0">
         <HomeworkHero homework={homework} />
 
         <Socials title={title} shareUrl={shareUrl} />

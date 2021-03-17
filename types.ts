@@ -38,8 +38,8 @@ export interface IProject {
 export interface IPostData {
   title: string;
   slug: string;
-  published: string;
-  updated?: string;
+  publishedTime: string;
+  modifiedTime?: string;
   thumbnail: string;
   hero: string;
 }
@@ -61,9 +61,9 @@ export interface IHomeworkData {
   summary?: string;
   figma?: string;
   googledoc?: string;
-  published?: string;
+  publishedTime?: string;
   version?: string;
-  updated?: string;
+  modifiedTime?: string;
   thumbnail?: string;
 }
 export interface IHomework {

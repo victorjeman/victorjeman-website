@@ -2,7 +2,7 @@ import * as React from 'react';
 import readingTime from 'reading-time';
 
 import { IPost } from '@types';
-
+import { UtilService } from '@services/Util/Util';
 import { Image } from '@components/common/Image/Image';
 
 import style from './PostHero.style';
@@ -13,7 +13,7 @@ interface Props {
 
 export const PostHero = ({ post }: Props): JSX.Element => {
   const { content, data } = post;
-  const { published, updated, title, hero } = data;
+  const { publishedTime, modifiedTime, title, hero } = data;
   const path = hero.slice(0, hero.length - 1);
   const index = Number(hero.slice(hero.length - 1, hero.length));
   const reading = readingTime(content).text;
@@ -25,9 +25,15 @@ export const PostHero = ({ post }: Props): JSX.Element => {
       </h1>
 
       <div className="c-post-hero__info">
-        <p className="c-post-hero__info-item">{published}</p>
+        <p className="c-post-hero__info-item">
+          {UtilService.getFormattedDate({ dateStr: publishedTime })}
+        </p>
 
-        {updated && <p className="c-post-hero__info-item">(updated: {updated})</p>}
+        {modifiedTime && (
+          <p className="c-post-hero__info-item">
+            updated: {UtilService.getFormattedDate({ dateStr: modifiedTime })}
+          </p>
+        )}
 
         <p className="c-post-hero__info-item">{reading}</p>
       </div>
