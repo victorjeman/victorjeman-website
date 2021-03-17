@@ -78,10 +78,6 @@ export const PageNavigation: React.FC = () => {
           }
         }
 
-        .c-page-navigation__logo svg path {
-          fill: #de7376;
-        }
-
         .c-page-navigation-sticky .sticky {
           z-index: 999;
           position: relative;
@@ -89,6 +85,7 @@ export const PageNavigation: React.FC = () => {
         }
 
         .c-page-navigation__logo svg path {
+          fill: #de7376;
           animation: pulse 3s ease infinite alternate;
         }
       `}</style>
