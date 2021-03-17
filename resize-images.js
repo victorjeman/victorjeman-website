@@ -32,4 +32,4 @@ const changeFile = ({ path, width }) => {
 };
 
 // changeFile({ path: './public/images/blog/post-3/img-2.jpg', width: 650 });
-changeInFolder({ directory: './public/images/blog/post-3', width: 650 });
+changeInFolder({ directory: './public/images/labs/pomodoro', width: 650 });

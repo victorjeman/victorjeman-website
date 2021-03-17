@@ -1,8 +1,7 @@
 import * as React from 'react';
 
-import { ISizeModifier, IHomework } from '@types';
-
-import { Container } from '@components/common/Container/Container';
+import { IHomework } from '@types';
+import { UtilService } from '@services/Util/Util';
 import { Image } from '@components/common/Image/Image';
 
 import style from './HomeworkHero.style';
@@ -13,21 +12,25 @@ interface Props {
 
 export const HomeworkHero = ({ homework }: Props): JSX.Element => {
   const { data } = homework;
-  const { published, version, updated, title, thumbnail } = data;
+  const { publishedTime = '', modifiedTime = '', version, title, thumbnail } = data;
   const path = thumbnail ? thumbnail.slice(0, thumbnail.length - 1) : '';
   const index = thumbnail ? Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length)) : 0;
 
   return (
     <section className="c-homework-hero">
-      <Container type={ISizeModifier.large}>
-        <h1 className="c-homework-hero__title">{data.title}</h1>
+      <h1 className="c-homework-hero__title">{data.title}</h1>
 
-        <div className="c-homework-hero__info">
-          <p className="c-homework-hero__info-item"> {published}</p>
-          {updated && <p className="c-homework-hero__info-item">updated: {updated}</p>}
-          <p className="c-homework-hero__info-item">version: {version}</p>
-        </div>
-      </Container>
+      <div className="c-homework-hero__info">
+        <p className="c-homework-hero__info-item">
+          {UtilService.getFormattedDate({ dateStr: publishedTime })}
+        </p>
+        {modifiedTime && (
+          <p className="c-homework-hero__info-item">
+            updated: {UtilService.getFormattedDate({ dateStr: modifiedTime })}
+          </p>
+        )}
+        <p className="c-homework-hero__info-item">version: {version}</p>
+      </div>
 
       <Image path={path} index={index} alt={title || ''} height="540" />
 

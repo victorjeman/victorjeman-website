@@ -69,6 +69,10 @@ export default css.global`
     margin: 2rem auto;
   }
 
+  .c-homework-content ul {
+    margin-bottom: 1.5rem;
+  }
+
   .c-homework-content li {
     font-size: 1.2rem;
     line-height: 1.7;
@@ -100,6 +104,7 @@ export default css.global`
   .c-table-of-content__list {
     list-style: none;
     padding: 0 0 0 1.5rem;
+    margin-bottom: 0 !important;
   }
 
   li.c-table-of-content__item {
