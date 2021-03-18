@@ -8,12 +8,9 @@ import {
   FacebookIcon,
   TwitterIcon,
   WhatsappIcon,
-  FacebookShareCount,
 } from 'react-share';
 
 import { ISocials } from '@types';
-
-import { ClientOnly } from '@components/common/ClientOnly/ClientOnly';
 
 import style from './Socials.styles';
 
@@ -39,17 +36,15 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
       </div>
 
       <div className="c-socials__item">
-        <ClientOnly>
-          <div
-            className="fb-like"
-            data-href={shareUrl}
-            data-width=""
-            data-layout="box_count"
-            data-action="like"
-            data-size="small"
-            data-share="true"
-          ></div>
-        </ClientOnly>
+        <div
+          className="fb-like"
+          data-href={shareUrl}
+          data-width=""
+          data-layout="box_count"
+          data-action="like"
+          data-size="small"
+          data-share="true"
+        ></div>
       </div>
 
       <style jsx>{style}</style>
