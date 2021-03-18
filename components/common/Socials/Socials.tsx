@@ -44,7 +44,7 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
           data-action="like"
           data-size="small"
           data-share="true"
-          style={{ minWidth: '62px' }}
+          style={{ minWidth: '62px', minHeight: '72px' }}
         ></div>
       </div>
 
