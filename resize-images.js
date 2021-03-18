@@ -31,5 +31,5 @@ const changeFile = ({ path, width }) => {
     .toFile(`${path}.s.jpg`);
 };
 
-changeFile({ path: './public/images/labs/pomodoro/pomodoro6.jpg', width: 1000 });
+changeFile({ path: './public/images/random/faq.png', width: 500 });
 // changeInFolder({ directory: './public/images/labs/pomodoro', width: 650 });

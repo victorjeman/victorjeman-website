@@ -4,9 +4,7 @@ import readingTime from 'reading-time';
 import { NextSeo } from 'next-seo';
 
 import { IPosts, ISizeModifier } from '@types';
-
 import { MEDIA } from '@settings/media.settings';
-
 import { ReadService } from '@services/Read/Read.service';
 
 import { Container } from '@components/common/Container/Container';

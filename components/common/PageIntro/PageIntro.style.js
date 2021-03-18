@@ -58,8 +58,8 @@ export default css`
 
   @media ${MEDIA.MEDIUM_UP} {
     .c-page-intro {
-      margin-top: 4rem;
-      margin-bottom: 4rem;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
     }
 
     .c-page-intro__title {
