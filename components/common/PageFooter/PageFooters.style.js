@@ -22,7 +22,7 @@ export default css.global`
   }
 
   .c-page-footer__author {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #2d3e8e;
   }
 
@@ -37,9 +37,30 @@ export default css.global`
     height: 35px;
   }
 
+  .c-page-footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .c-page-footer__list-item {
+    margin-right: 1.2rem;
+  }
+
+  .c-page-footer__link {
+    color: #2d3e8e;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
     .c-page-footer__container {
       flex-direction: column;
+    }
+
+    .c-page-footer__list {
+      text-align: center;
+      margin-bottom: 1rem;
+      justify-content: center;
     }
   }
 `;

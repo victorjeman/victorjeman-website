@@ -12,10 +12,12 @@ export const PageIntro: React.FC<IPageIntro> = ({ pageTitle, pageDescription }: 
       <Container type={ISizeModifier.medium}>
         <h1 className="c-page-intro__title">{pageTitle}</h1>
 
-        <p
-          className="c-page-intro__description"
-          dangerouslySetInnerHTML={{ __html: pageDescription }}
-        />
+        {pageDescription && (
+          <p
+            className="c-page-intro__description"
+            dangerouslySetInnerHTML={{ __html: pageDescription }}
+          />
+        )}
       </Container>
       <style jsx>{style}</style>
     </section>

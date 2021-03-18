@@ -1,7 +1,5 @@
 import css from 'styled-jsx/css';
 
-import { MEDIA } from '@settings/media.settings';
-
 export default css`
   .c-socials {
     display: flex;

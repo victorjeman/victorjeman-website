@@ -9,7 +9,20 @@ export const PageFooter = (): JSX.Element => (
   <footer className="c-page-footer">
     <Container>
       <div className="c-page-footer__container">
-        <p className="c-page-footer__author">© VictorJeman 2021. ALL RIGHTS RESERVED.</p>
+        <div>
+          <p className="c-page-footer__author">© VictorJeman 2021. All rights reserved.</p>
+          <ul className="c-page-footer__list">
+            <li className="c-page-footer__list-item">
+              <a className="c-page-footer__link" href="/terms">
+                terms and conditions
+              </a>
+            </li>
+            <li>
+              <a href="/privacy">privacy policy</a>
+            </li>
+          </ul>
+        </div>
+
         <MySocials />
       </div>
     </Container>
