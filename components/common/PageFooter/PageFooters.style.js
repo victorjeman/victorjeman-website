@@ -7,9 +7,10 @@ export default css.global`
   .c-page-footer {
     text-align: center;
     border-top: 1px solid #d9d9d9;
-    padding: 15px;
     font-family: ${FONT.WORK_SANS};
     font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     position: absolute;
     bottom: 0;
     left: 0;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { NextSeo } from 'next-seo';
 
-import { IHomeworks, ISizeModifier } from '@types';
+import { ISizeModifier } from '@types';
 import { FONT } from '@settings/font.settings';
 
 import { Container } from '@components/common/Container/Container';
