@@ -25,6 +25,7 @@ export default function FAQPage(): React.ReactNode {
             className="c-faq__image"
             src="/images/random/faq.jpg"
             alt="A cat that thinks about web development."
+            height="339"
           />
 
           <h2>What is the purpose of this website?</h2>
