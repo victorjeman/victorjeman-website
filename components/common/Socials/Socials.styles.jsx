@@ -13,6 +13,12 @@ export default css`
   .c-socials__item {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .c-socials__item:last-of-type {
+    min-width: 180px;
   }
 
   .c-socials--sticky {
