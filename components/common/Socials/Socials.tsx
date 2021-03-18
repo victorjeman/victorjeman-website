@@ -1,11 +1,10 @@
+// @ts-nocheck
 import * as React from 'react';
 import {
   LinkedinShareButton,
-  FacebookShareButton,
   TwitterShareButton,
   WhatsappShareButton,
   LinkedinIcon,
-  FacebookIcon,
   TwitterIcon,
   WhatsappIcon,
 } from 'react-share';
