@@ -48,7 +48,7 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
         <div className="c-socials__item">
           <div
             className="fb-like"
-            data-Href="https://victorjeman.com/blog/how-to-use-the-labs"
+            data-href={shareUrl}
             data-width=""
             data-layout="standard"
             data-action="like"
