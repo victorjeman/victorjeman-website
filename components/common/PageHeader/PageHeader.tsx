@@ -24,7 +24,15 @@ export const PageHeader = (): JSX.Element => {
         rel="stylesheet"
       />
 
-      <script async src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+      <div id="fb-root"></div>
+
+      <script
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=436744724067170&autoLogAppEvents=1"
+        nonce="Oy4RV0xi"
+      ></script>
     </Head>
   );
 };

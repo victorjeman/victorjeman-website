@@ -8,11 +8,12 @@ import {
   FacebookIcon,
   TwitterIcon,
   WhatsappIcon,
+  FacebookShareCount,
 } from 'react-share';
 
 import { ISocials } from '@types';
 
-import { ApplauseButton } from '@components/common/ApplauseButton/ApplauseButton';
+import { ClientOnly } from '@components/common/ClientOnly/ClientOnly';
 
 import style from './Socials.styles';
 
@@ -43,7 +44,19 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
         </WhatsappShareButton>
       </div>
 
-      <ApplauseButton />
+      <ClientOnly>
+        <div className="c-socials__item">
+          <div
+            className="fb-like"
+            data-href={shareUrl}
+            data-width=""
+            data-layout="standard"
+            data-action="like"
+            data-size="small"
+            data-share="true"
+          ></div>
+        </div>
+      </ClientOnly>
 
       <style jsx>{style}</style>
     </div>
