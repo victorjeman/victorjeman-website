@@ -123,5 +123,5 @@ export interface ISocials {
 
 export interface IPageIntro {
   pageTitle: string;
-  pageDescription: string;
+  pageDescription?: string;
 }

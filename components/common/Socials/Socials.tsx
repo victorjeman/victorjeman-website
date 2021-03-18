@@ -12,6 +12,8 @@ import {
 
 import { ISocials } from '@types';
 
+import { ApplauseButton } from '@components/common/ApplauseButton/ApplauseButton';
+
 import style from './Socials.styles';
 
 export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
@@ -40,6 +42,9 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
           <WhatsappIcon size={42} />
         </WhatsappShareButton>
       </div>
+
+      <ApplauseButton />
+
       <style jsx>{style}</style>
     </div>
   );

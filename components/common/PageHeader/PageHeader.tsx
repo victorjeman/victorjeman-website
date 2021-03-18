@@ -12,17 +12,19 @@ export const PageHeader = (): JSX.Element => {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
       <link rel="manifest" href="/favicon/site.webmanifest" />
+
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="msapplication-TileColor" content="#A03232" />
       <meta name="theme-color" content="#A03232" />
+      <meta charSet="UTF-8" />
+      <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport" />
 
       <link
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Titillium+Web:wght@600&family=Merriweather:ital@0;1&display=swap"
         rel="stylesheet"
       />
 
-      <meta charSet="UTF-8" />
-      <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport" />
+      <script async src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
     </Head>
   );
 };
