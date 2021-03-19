@@ -5,6 +5,7 @@ thumbnail: postThumb2
 hero: postHero2
 publishedTime: '2021-03-10T00:00:00+01:00'
 modifiedTime: ''
+index: 2
 ---
 
 <section class="c-table-of-content-section">

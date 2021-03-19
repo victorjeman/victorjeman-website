@@ -25,21 +25,23 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
 
         <Container type={ISizeModifier.xlarge}>
           <div className="c-posts__container">
-            {posts.map((post, index) => {
-              const { title, slug, thumbnail } = matter(post).data;
-              const reading = readingTime(matter(post).content);
+            {posts
+              .sort((a, b) => Number(matter(a).data.index) - Number(matter(b).data.index))
+              .map((post, index) => {
+                const { title, slug, thumbnail } = matter(post).data;
+                const reading = readingTime(matter(post).content);
 
-              return (
-                <PostThumbnail
-                  key={`post-${index}`}
-                  thumbnail={thumbnail}
-                  title={title}
-                  slug={slug}
-                  type="blog"
-                  reading={reading}
-                />
-              );
-            })}
+                return (
+                  <PostThumbnail
+                    key={`post-${index}`}
+                    thumbnail={thumbnail}
+                    title={title}
+                    slug={slug}
+                    type="blog"
+                    reading={reading}
+                  />
+                );
+              })}
           </div>
         </Container>
       </section>
