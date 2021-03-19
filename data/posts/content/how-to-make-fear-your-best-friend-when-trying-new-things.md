@@ -20,7 +20,7 @@ index: 4
       <ul class="c-table-of-content__list">
         <li class="c-table-of-content__item"><a href="#section-4">Step 2.1 | Tell a friend or mentor about it.</a></li>
         <li class="c-table-of-content__item"><a href="#section-5">Step 2.2 | Do practical exercises that will get you used to your fear</a></li>
-        <li class="c-table-of-content__item"><a href="#section-6">Step 2.3 | The fear is here to stay</a></li>
+        <li class="c-table-of-content__item"><a href="#section-6">Step 2.3 | Understand that the fear is here to stay</a></li>
       </ul>
      </li>
      <li class="c-table-of-content__item"><a href="#section-7">Step 3 | Close your eyes and do it anyway</a></li>
@@ -132,7 +132,7 @@ Sometimes that is bad, yes, but a lot of the time, that’s a blessing. No one c
 
 **Get over yourself!** Do what you want without worrying too much about what others will think.
 
-<h2 id="section-6">Step 2.3 | The fear is here to stay</h2>
+<h2 id="section-6">Step 2.3 | Understand that the fear is here to stay</h2>
 
 ```Image
 blog4_|5|People around the globe being scared
