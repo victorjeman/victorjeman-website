@@ -127,6 +127,11 @@ export default css.global`
     margin-bottom: 0.9rem;
   }
 
+  .c-post-content iframe {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
   .c-table-of-content {
     width: 100%;
     background-color: #f7f7f7;

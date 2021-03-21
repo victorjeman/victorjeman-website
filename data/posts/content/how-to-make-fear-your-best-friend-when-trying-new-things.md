@@ -1,9 +1,9 @@
 ---
 slug: how-to-make-fear-your-best-friend-when-trying-new-things
-title: How to make fear your best friend, when trying new things
+title: How to make fear your best friend when trying new things
 thumbnail: postThumb4
 hero: postHero4
-publishedTime: '2021-03-20T00:00:00+01:00'
+publishedTime: '2021-03-21T00:00:00+01:00'
 modifiedTime: ''
 updated:
 index: 4
@@ -18,7 +18,7 @@ index: 4
      <li class="c-table-of-content__item">
       <a href="#section-3">Step 2 | Divide and conquer</a> 
       <ul class="c-table-of-content__list">
-        <li class="c-table-of-content__item"><a href="#section-4">Step 2.1 | Tell a friend or mentor about it.</a></li>
+        <li class="c-table-of-content__item"><a href="#section-4">Step 2.1 | Tell a friend or mentor about it</a></li>
         <li class="c-table-of-content__item"><a href="#section-5">Step 2.2 | Do practical exercises that will get you used to your fear</a></li>
         <li class="c-table-of-content__item"><a href="#section-6">Step 2.3 | Understand that the fear is here to stay</a></li>
       </ul>
@@ -32,11 +32,13 @@ index: 4
 **TL; DR;**</br>
 
 - Understand your fear. Be honest, don’t bullshit yourself. No one is listening; you can be real for a moment.
-- Divide and conquer. Don’t try to fix it all at once. Chop at it, little bit little.
+- Divide and conquer. Don’t try to fix it all at once. Chop at it, little by little.
 - Tell a friend or a mentor about it.
 - Implement practical exercises that will get you used to your fear.
 - It’s not just you; everyone is scared; they could be a little better than you at hiding it, that’s all.
 - Once you’ve trained a little, do the thing that scares you, do it and fail. The sooner you fail, the sooner you’ll learn something and do it again much better.
+
+<iframe width="720" height="390" src="https://www.youtube.com/embed/l5ry69u15qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2 id="section-1">The fear is real, so must be you</h2>
 
@@ -66,7 +68,7 @@ I believe the first step you need to take to conquer your fear is to understand 
 - I don’t have a good camera and mic.
 - I don’t have enough time; I need to relax a little after six.
 - My voice is squeaky.
-- My English not that good. I have a funny accent.
+- My English is not that good. I have a funny accent.
 - There are so many tutorials on the internet; why would I want to add more?
 
 Great points. I have only one thing to say; that's crap!
@@ -98,7 +100,7 @@ Once you understand the fear, what can you do about it? To conquer your fear, yo
 
 Let’s see how you could split the fear into chunks.
 
-<h2 id="section-4">Step 2.1 | Tell a friend or mentor about it.</h2>
+<h2 id="section-4">Step 2.1 | Tell a friend or mentor about it</h2>
 
 ```Image
 blog4_|3|Friend holding hands
@@ -120,7 +122,7 @@ So, tell a couple of trusted friends how you feel, not to get something in retur
 blog4_|4|A man is doing pull-ups
 ```
 
-I’m afraid my voice sounds funny, so I’m recording myself daily for 2 minutes. Then I’m listening to myself for 5 minutes. I’m trying to train my brain to like my other voice, which is not going through my bones, but I hear through headphones. **Youk, I sound like a drunken duck!**
+I’m afraid my voice sounds funny, so I’m recording myself daily for 5-10 minutes. Then I’m listening to myself to understand what I could improve. I’m trying to train my brain to like my other voice, which is not going through my bones, but I hear through headphones. **Youk, I sound like a drunken duck!**
 
 In regards to the “Head of...” It’s just a freaking title, you know, remove it from all the platforms if it bothers you so much. Yes, I should have a lot of experience, but what if I don’t have as much as I thought. I’m trying my best to grow; that counts for something. I’m not hiding behind my past achievements, not that I have any. I’m exposing myself to the elements. I’m here so that people could point fingers at me. So what if someone will laugh, so what?
 
