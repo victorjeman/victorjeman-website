@@ -127,16 +127,21 @@ export default css.global`
     margin-bottom: 0.9rem;
   }
 
+  .c-post-content iframe {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
   .c-table-of-content {
     width: 100%;
     background-color: #f7f7f7;
     margin-top: 4rem;
     padding: 2rem;
-    // border-top: 7px solid #de7376;
   }
 
   h2.c-table-of-content__title {
     margin-top: 0;
+    margin-bottom: 1rem;
     font-size: 2rem;
   }
 
@@ -148,6 +153,16 @@ export default css.global`
 
   li.c-table-of-content__item {
     margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  li.c-table-of-content__item a {
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .c-table-of-content ul ul {
+    margin-top: 0.6rem;
   }
 
   .c-table-of-content a {

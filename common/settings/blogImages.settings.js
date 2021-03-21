@@ -24,6 +24,21 @@ export const BLOG_WEBP = {
   sellYourKnowledge7s: require('../../public/images/blog/post-3/img-7.s.jpg?webp'),
   sellYourKnowledge8: require('../../public/images/blog/post-3/img-8.jpg?webp'),
   sellYourKnowledge8s: require('../../public/images/blog/post-3/img-8.s.jpg?webp'),
+
+  blog4_1: require('../../public/images/blog/post-4/img-1.jpg?webp'),
+  blog4_1s: require('../../public/images/blog/post-4/img-1.s.jpg?webp'),
+  blog4_2: require('../../public/images/blog/post-4/img-2.jpg?webp'),
+  blog4_2s: require('../../public/images/blog/post-4/img-2.s.jpg?webp'),
+  blog4_3: require('../../public/images/blog/post-4/img-3.jpg?webp'),
+  blog4_3s: require('../../public/images/blog/post-4/img-3.s.jpg?webp'),
+  blog4_4: require('../../public/images/blog/post-4/img-4.jpg?webp'),
+  blog4_5s: require('../../public/images/blog/post-4/img-4.s.jpg?webp'),
+  blog4_5: require('../../public/images/blog/post-4/img-5.jpg?webp'),
+  blog4_5s: require('../../public/images/blog/post-4/img-5.s.jpg?webp'),
+  blog4_6: require('../../public/images/blog/post-4/img-6.jpg?webp'),
+  blog4_6s: require('../../public/images/blog/post-4/img-6.s.jpg?webp'),
+  blog4_7: require('../../public/images/blog/post-4/img-7.jpg?webp'),
+  blog4_7s: require('../../public/images/blog/post-4/img-7.s.jpg?webp'),
 };
 
 export const BLOG_JPG = {
@@ -52,4 +67,19 @@ export const BLOG_JPG = {
   sellYourKnowledge7s: require('../../public/images/blog/post-3/img-7.s.jpg'),
   sellYourKnowledge8: require('../../public/images/blog/post-3/img-8.jpg'),
   sellYourKnowledge8s: require('../../public/images/blog/post-3/img-8.s.jpg'),
+
+  blog4_1: require('../../public/images/blog/post-4/img-1.jpg'),
+  blog4_1s: require('../../public/images/blog/post-4/img-1.s.jpg'),
+  blog4_2: require('../../public/images/blog/post-4/img-2.jpg'),
+  blog4_2s: require('../../public/images/blog/post-4/img-2.s.jpg'),
+  blog4_3: require('../../public/images/blog/post-4/img-3.jpg'),
+  blog4_3s: require('../../public/images/blog/post-4/img-3.s.jpg'),
+  blog4_4: require('../../public/images/blog/post-4/img-4.jpg'),
+  blog4_5s: require('../../public/images/blog/post-4/img-4.s.jpg'),
+  blog4_5: require('../../public/images/blog/post-4/img-5.jpg'),
+  blog4_5s: require('../../public/images/blog/post-4/img-5.s.jpg'),
+  blog4_6: require('../../public/images/blog/post-4/img-6.jpg'),
+  blog4_6s: require('../../public/images/blog/post-4/img-6.s.jpg'),
+  blog4_7: require('../../public/images/blog/post-4/img-7.jpg'),
+  blog4_7s: require('../../public/images/blog/post-4/img-7.s.jpg'),
 };

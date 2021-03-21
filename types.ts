@@ -49,6 +49,7 @@ export interface IPost {
   content: string;
   isEmpty?: boolean;
   excerpt?: string;
+  index: number;
 }
 
 export interface IPosts {
