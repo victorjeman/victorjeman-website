@@ -148,7 +148,7 @@ I realized that there is no point in waiting until I’ll get rid of all my fear
 
 > Accept it, live with it, deal with it!
 
-<h2 id="section-7">Step 3 | Close your eyes and do it anyway.</h2>
+<h2 id="section-7">Step 3 | Close your eyes and do it anyway</h2>
 
 ```Image
 blog4_|6|Just do it
