@@ -73,12 +73,33 @@ export default function FAQPage(): React.ReactNode {
           <h2>What’s the best way to contact you?</h2>
 
           <p>
-            If you have a homework idea or just want to say hello. Send me a message on{' '}
+            If you have a <a href="/labs">homework</a> idea or just want to say hello, send me a
+            message
+            <br />
+            on{' '}
             <a href="https://www.linkedin.com/in/victorjeman" target="_blank" rel="noreferrer">
               LinkedIn
+            </a>{' '}
+            or{' '}
+            <a href="https://www.facebook.com/victor.jeman.9/" target="_blank" rel="noreferrer">
+              Facebook
             </a>
             .
           </p>
+
+          <h2>Are you doing the drawings on paper?</h2>
+
+          <p>
+            Yes, it's a strangely relaxing activity, but time-consuming, so I'm not trying to color
+            them entirely. I'm collaborating with an illustrator and will have the digital variants
+            by the end of the year.
+          </p>
+
+          <img
+            className="c-faq__drawings"
+            src="/images/random/drawings.jpg"
+            alt="A cat that thinks about web development."
+          />
 
           <h2>Can I contribute?</h2>
 
@@ -132,6 +153,12 @@ export default function FAQPage(): React.ReactNode {
           .c-faq p {
             margin-bottom: 1.3rem;
             line-height: 1.6;
+          }
+
+          .c-faq__drawings {
+            max-width: 550px;
+            margin-right: auto;
+            margin-left: auto;
           }
 
           @media ${MEDIA.SMALL_ONLY} {
