@@ -41,9 +41,9 @@ From my experience, there are two approaches that most of us are taking. Let's e
 
 <h2 id="section-2">Approach 1 | Implement the desktop design first and mobile later</h2>
 
-Because we have a desktop design, why not start with it and then worry later about the mobile. I’ve done that; I still do when I’m prototyping something. My brain wants me to go with the desktop design; it has more staff and looks fancier, so why not.
+Because you have a desktop design, why not start with it and then worry later about the mobile. I’ve done that; I still do when I’m prototyping something. My brain wants me to go with the desktop design; it has more staff and looks fancier, so why not.
 
-Let’s say we style the container for our items the following way.
+Let’s say you style the container for the items the following way.
 
 ```css
 /* 1. desktop */
@@ -57,7 +57,7 @@ Let’s say we style the container for our items the following way.
 }
 ```
 
-We think the items should stay on top of each other on mobile, so we override the display property. We also add more padding; why not.
+You think the items should stay on top of each other on mobile, so you override the display property. You also add more padding; why not.
 
 ```css
 /* 2. mobile */
@@ -107,7 +107,7 @@ You may do something like this.
 
 This approach is slightly better than the first one because you have to add only some additional rules without overriding the old ones when you start small to big. Still, you’ll have to override some of them at some point.
 
-What if you have another element that has different styling on desktop than on mobile, and we can't just add new properties, and need to override the old ones again.
+What if you have another element with different styling on desktop than on mobile, and you can't just add new properties; you still need to override the old ones.
 
 ```css
 /* 1. mobile */
@@ -197,8 +197,8 @@ Check them out!
 
 <h2 id="section-5">Lasts thoughts</h2>
 
-Of course, there are times when we have to override something to which we don’t have direct access.
-Maybe we added a fancy UI kit that is doing 50% of what we need, and the rest needs to be adjusted.
+Of course, there are times when we have to override something to which you don’t have direct access.
+Maybe you added a fancy UI kit that is doing 50% of what you need, and the rest needs to be adjusted.
 Maybe you are in a rush, and the project manager just wants you to fix the styling for that freaking button.
 What you gonna do, there is no point in ”wasting a day” 🤯 .
 
