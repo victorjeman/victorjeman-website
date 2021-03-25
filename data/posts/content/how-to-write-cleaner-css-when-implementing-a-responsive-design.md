@@ -197,7 +197,7 @@ Check them out!
 
 <h2 id="section-5">Lasts thoughts</h2>
 
-Of course, there are times when we have to override something to which you don’t have direct access.
+Of course, there are times when you have to override something to which you don’t have direct access.
 Maybe you added a fancy UI kit that is doing 50% of what you need, and the rest needs to be adjusted.
 Maybe you are in a rush, and the project manager just wants you to fix the styling for that freaking button.
 What you gonna do, there is no point in ”wasting a day” 🤯 .
