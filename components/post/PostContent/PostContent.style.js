@@ -14,22 +14,6 @@ export default css.global`
     background-color: #de7376;
   }
 
-  h2 {
-    font-size: 2.6rem;
-    line-height: 1.3;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-  }
-
-  h3 {
-    font-size: 2.1rem;
-    line-height: 1.3;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-  }
-
   .c-post-content {
     margin-top: 30px;
     color: rgba(41, 41, 41, 1);
@@ -37,9 +21,24 @@ export default css.global`
     font-weight: 300;
   }
 
+  h2 {
+    margin-bottom: 1.9rem;
+    font-weight: 500;
+  }
+
+  h2:first-of-type {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
   .c-post-content p {
-    margin-bottom: 2rem;
-    font-size: 1em;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .c-post-content blockquote {
@@ -158,7 +157,7 @@ export default css.global`
 
   li.c-table-of-content__item a {
     margin: 0;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   .c-table-of-content ul ul {
@@ -193,6 +192,7 @@ export default css.global`
     h2 {
       font-size: 1.7rem;
       line-height: 1.2;
+      margin-top: 2.5rem;
     }
 
     h3 {
@@ -205,6 +205,17 @@ export default css.global`
     .c-post-content {
       font-size: 1.2rem;
       line-height: 1.85;
+    }
+
+    h2 {
+      font-size: 2.6rem;
+      line-height: 1.3;
+      margin-top: 3rem;
+    }
+
+    h3 {
+      font-size: 2.1rem;
+      line-height: 1.3;
     }
 
     .c-post-content blockquote p {
@@ -236,7 +247,7 @@ export default css.global`
     // TODO Move to a separate component
     .c-table-of-content {
       position: absolute;
-      margin-top: 1rem;
+      margin-top: 0.6rem;
     }
 
     h2.c-table-of-content__title {
