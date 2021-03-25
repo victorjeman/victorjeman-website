@@ -204,7 +204,7 @@ What you gonna do, there is no point in ”wasting a day” 🤯 .
 
 Still, we should strive to make our CSS as straightforward as possible when we have a chance. One way is to encapsulate our CSS blocks in particular media queries when implementing a responsive design. This approach won’t solve all our problems, but it will make it easier to debug a big project’s style.
 
-I’ve been using this approach for personal projects for a long time. It’s easier for me to keep things clean in small personal projects; can't say the same about all the projects that I've done 😀.
+I’ve been using this approach for personal projects for a long time. It’s easier for me to keep things clean in small private projects. I can't say the same about all the other projects where I was involved 😀.
 
 Two years ago, I read <a href="https://www.smashingmagazine.com/2018/12/generic-css-mobile-first/" target="_blank" rel="noreferrer">this article</a>, which made me more confident that this approach is worth using.
 
