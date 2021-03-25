@@ -197,12 +197,12 @@ Check them out!
 
 <h2 id="section-5">Lasts thoughts</h2>
 
-Of course, there are times when you have to override something to which you don’t have direct access.
-Maybe you added a fancy UI kit that is doing 50% of what you need, and the rest needs to be adjusted.
-Maybe you are in a rush, and the project manager just wants you to fix the styling for that freaking button.
+Of course, there are times when we have to override something to which we don’t have direct access.
+Maybe we added a fancy UI kit that is doing 50% of what we need, and the rest needs to be adjusted.
+Maybe we are in a rush, and the project manager just wants us to fix the styling for that freaking button.
 What you gonna do, there is no point in ”wasting a day” 🤯 .
 
-Still, we should strive to make our CSS as straightforward as possible when we have a chance. One way is to encapsulate your CSS blocks in particular media queries when implementing a responsive design. This approach won’t solve all your problems, but it will make it easier to debug a big project’s style.
+Still, we should strive to make our CSS as straightforward as possible when we have a chance. One way is to encapsulate our CSS blocks in particular media queries when implementing a responsive design. This approach won’t solve all our problems, but it will make it easier to debug a big project’s style.
 
 I’ve been using this approach for personal projects for a long time. It’s easier for me to keep things clean in small personal projects; can't say the same about all the projects that I've done 😀.
 
