@@ -191,7 +191,7 @@ blog5_|4|
 
 Talk is cheap, so I’ve created a <a href="https://codesandbox.io/s/spring-moon-gfpmt?file=/index.html" target="_blank" rel="noreferrer">CodeSandbox</a> and <a href="https://github.com/victorjeman/clean-responsive-css-example" target="_blank" rel="noreferrer">GitHub</a> project where you have the complete example with different CSS files exploring all three approaches.
 
-Check them out.
+Check them out!
 
 **P.S.** There is a small mistake in the **clean-responsive.css** file, an overriding CSS declaration. See if you can spot it.
 
