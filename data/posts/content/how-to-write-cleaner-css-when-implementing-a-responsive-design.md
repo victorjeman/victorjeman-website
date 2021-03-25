@@ -15,8 +15,9 @@ index: 5
   <ul class="c-table-of-content__list">
     <li class="c-table-of-content__item"><a href="#section-1">Introduction</a></li>
     <li class="c-table-of-content__item"><a href="#section-2">Approach 1 | Implement the desktop design first and mobile later</a></li>
-    <li class="c-table-of-content__item"><a href="#section-2">Approach 2 | Implement the mobile design first and desktop later</a></li>
-    <li class="c-table-of-content__item"><a href="#section-2">Solution | Merge both attempts in one great approach</a></li>
+    <li class="c-table-of-content__item"><a href="#section-3">Approach 2 | Implement the mobile design first and desktop later</a></li>
+    <li class="c-table-of-content__item"><a href="#section-4">Solution | Merge both attempts in one great approach</a></li>
+    <li class="c-table-of-content__item"><a href="#section-5">Lasts thoughts</a></li>
   </ul>
 </div>
 <section>
@@ -106,7 +107,7 @@ You may do something like this.
 
 This approach is slightly better than the first one because you have to add only some additional rules without overriding the old ones when you start small to big. Still, you’ll have to override some of them at some point.
 
-What if you have another element that has different styling on desktop than on mobile, and we can't just add new properties, but we need to override the old ones again.
+What if you have another element that has different styling on desktop than on mobile, and we can't just add new properties, and need to override the old ones again.
 
 ```css
 /* 1. mobile */
@@ -138,6 +139,8 @@ What if I would tell you that there is a better way.
 
 <h2 id="section-4">Merge both approaches in one great solution</h2>
 
+Write cleaner CSS and avoid seeing it crossed out by encapsulating it in different media queries when implementing a responsive design.
+
 ```css
 /* 1. general */
 .c-container {
@@ -145,10 +148,19 @@ What if I would tell you that there is a better way.
   margin: 0 auto;
 }
 
+.c-thumbnail__title {
+  font-weight: 500;
+}
+
 /* 2. mobile */
 @media screen and (max-width: 749px) {
   .container {
     padding: 1rem;
+  }
+
+  .c-thumbnail__title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -158,6 +170,11 @@ What if I would tell you that there is a better way.
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+  }
+
+  .c-thumbnail__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
   }
 }
 ```
@@ -172,27 +189,25 @@ blog5_|3|
 blog5_|4|
 ```
 
-Write cleaner CSS and avoid seeing it crossed out by encapsulating it in different media queries when implementing a responsive design.
-
 Talk is cheap, so I’ve created a <a href="https://codesandbox.io/s/spring-moon-gfpmt?file=/index.html" target="_blank" rel="noreferrer">CodeSandbox</a> and <a href="https://github.com/victorjeman/clean-responsive-css-example" target="_blank" rel="noreferrer">GitHub</a> project where you have the complete example with different CSS files exploring all three approaches.
 
 Check them out.
 
 **P.S.** There is a small mistake in the **clean-responsive.css** file, an overriding CSS declaration. See if you can spot it.
 
-<h2 id="#section-5">Lasts thoughts</h2>
+<h2 id="section-5">Lasts thoughts</h2>
 
 Of course, there are times when we have to override something to which we don’t have direct access.
 Maybe we added a fancy UI kit that is doing 50% of what we need, and the rest needs to be adjusted.
 Maybe you are in a rush, and the project manager just wants you to fix the styling for that freaking button.
 What you gonna do, there is no point in ”wasting a day” 🤯 .
 
-Still, we should strive to make our CSS as straightforward as possible when we have a chance. One way is to encapsulate your CSS blocks in particular media queries when implementing a responsive design. This approach won’t solve all your problems, but it will make it easier to debug big projects’ style.
+Still, we should strive to make our CSS as straightforward as possible when we have a chance. One way is to encapsulate your CSS blocks in particular media queries when implementing a responsive design. This approach won’t solve all your problems, but it will make it easier to debug a big project’s style.
 
-See this <a href="https://developer.chrome.com/docs/devtools/css/overrides/" target="_blank" rel="noreferrer">short tutorial</a> from Chrome Developers if you want to learn more about overriding CSS declarations.
+I’ve been using this approach for personal projects for a long time. It’s easier for me to keep things clean in small personal projects; can't say the same about all the projects that I've done 😀.
 
-I’ve been using this approach for personal projects for a long time. It’s easier for me to keep things clean in projects where only I work 😀. Two years ago, I also read <a href="https://www.smashingmagazine.com/2018/12/generic-css-mobile-first/" target="_blank" rel="noreferrer">this article</a>, which made me even more confident that this approach is worth using.
+Two years ago, I read <a href="https://www.smashingmagazine.com/2018/12/generic-css-mobile-first/" target="_blank" rel="noreferrer">this article</a>, which made me more confident that this approach is worth using.
 
-**Final P.S.** It will be awkward if you start inspecting this website and will see a bunch of overriding rules. Hopefully, there are no grave mistakes.
+See also this <a href="https://developer.chrome.com/docs/devtools/css/overrides/" target="_blank" rel="noreferrer">short tutorial</a> from Chrome Developers if you want to learn more about overriding CSS declarations.
 
 **Have a great day!**
