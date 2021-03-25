@@ -3,7 +3,7 @@ slug: how-to-write-cleaner-css-when-implementing-a-responsive-design
 title: How to write cleaner CSS when implementing a responsive design
 thumbnail: postThumb5
 hero: postHero5
-publishedTime: '2021-03-23T00:00:00+01:00'
+publishedTime: '2021-03-25T00:00:00+01:00'
 modifiedTime: ''
 updated:
 index: 5

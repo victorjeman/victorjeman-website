@@ -1,10 +1,10 @@
 {
-  "title": "How to make fear your best friend when trying new things",
-  "description": "One way of writing cleaner CSS is to encapsulate specific CSS blocks in particular media queries when implementing a responsive design. In this way, we can avoid most of the overriding CSS declarations.",
+  "title": "How to write cleaner CSS when implementing a responsive design",
+  "description": "Write cleaner CSS and avoid seeing it crossed out by encapsulating it in different media queries when implementing a responsive design.",
   "url": "how-to-write-cleaner-css-when-implementing-a-responsive-design",
   "type": "article",
   "article": {
-    "publishedTime": "2021-03-24T00:00:00+01:00",
+    "publishedTime": "2021-03-25T00:00:00+01:00",
     "modifiedTime": "",
     "authors": ["Victor JEMAN"],
     "tags": ["CSS", "CSS tips", "responsive design", "front-end", "front-end tips"]
@@ -14,7 +14,7 @@
       "url": "https://victorjeman.com/images/blog/heroes/hero-5.jpg",
       "width": 970,
       "height": 634,
-      "alt": ""
+      "alt": "doodle"
     }
   ]
 }
