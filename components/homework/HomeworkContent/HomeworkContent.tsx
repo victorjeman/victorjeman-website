@@ -12,7 +12,6 @@ import { ClientOnly } from '@components/common/ClientOnly/ClientOnly';
 import { HomeworkFeedback } from '@components/homework/HomeworkFeedback/HomeworkFeedback';
 
 import style from './HomeworkContent.style';
-import CodeStyle from '@styles/Code.style';
 
 interface Props {
   content: string;
@@ -55,10 +54,6 @@ export const HomeworkContent = ({ content }: Props): JSX.Element => {
 
       <style jsx global>
         {style}
-      </style>
-
-      <style jsx global>
-        {CodeStyle}
       </style>
     </div>
   );

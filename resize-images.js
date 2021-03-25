@@ -17,10 +17,12 @@ const changeInFolder = ({ directory, width }) => {
 
 /**
  * width: 1200 - desktop
- * width: 720 - inpost images
- * width: 650 - mobile
- * width: 970 - hero
- * width: 480 - thumbnail
+ * width: 1000 - inpost images
+ * width: 700 - inpost mobile
+ * width: 1200 - hero
+ * width: 750 - hero small
+ * width: 650 - thumbnail desktop
+ * width: 480 - thumbnail moible
  */
 const changeFile = ({ path, width }) => {
   sharp(path)
@@ -31,5 +33,5 @@ const changeFile = ({ path, width }) => {
     .toFile(`${path}.s.jpg`);
 };
 
-changeFile({ path: './public/images/blog/post-4/img-7.jpg', width: 650 });
-// changeInFolder({ directory: './public/images/blog/post-4', width: 650 });
+// changeFile({ path: './public/images/blog/thumbnails/thumbnail-4.jpg', width: 480 });
+changeInFolder({ directory: './public/images/blog/edit', width: 480 });

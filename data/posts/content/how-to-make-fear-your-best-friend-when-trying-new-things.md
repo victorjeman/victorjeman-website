@@ -4,7 +4,7 @@ title: How to make fear your best friend when trying new things
 thumbnail: postThumb4
 hero: postHero4
 publishedTime: '2021-03-21T00:00:00+01:00'
-modifiedTime: ''
+modifiedTime: '2021-03-25T00:00:00+01:00'
 updated:
 index: 4
 ---

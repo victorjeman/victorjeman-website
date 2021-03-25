@@ -1,10 +1,10 @@
 // @ts-nocheck
 import * as React from 'react';
 import ReactMarkdownWithHtml from 'react-markdown/with-html';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { solarizedLight } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 
 import { Image } from '@components/common/Image/Image';
-
-import CodeStyle from '@styles/Code.style';
 
 interface Props {
   content: string;
@@ -21,7 +21,7 @@ const renderers = {
       return <Image path={path} index={index} alt={alt} lazyLoad={lazyLoad} />;
     }
 
-    return <pre>{value}</pre>;
+    return <SyntaxHighlighter style={solarizedLight} language={language} children={value} />;
   },
 };
 
@@ -30,9 +30,14 @@ export const Markdown = ({ content }: Props): JSX.Element => {
     <React.Fragment>
       <ReactMarkdownWithHtml renderers={renderers} children={content} allowDangerousHtml />
 
-      <style jsx global>
-        {CodeStyle}
-      </style>
+      <style jsx global>{`
+        pre {
+          line-height: 1.45 !important;
+          font-size: 14px;
+          margin-top: 0;
+          margin-bottom: 1.5rem;
+        }
+      `}</style>
     </React.Fragment>
   );
 };

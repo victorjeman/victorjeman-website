@@ -143,7 +143,7 @@ export default css.global`
     // TODO Move to a separate component
     .c-table-of-content {
       position: absolute;
-      margin-top: 1rem;
+      margin-top: 0.6rem;
     }
 
     h2.c-table-of-content__title {

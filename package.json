@@ -51,6 +51,7 @@
     "pretty-quick": "^3.1.0",
     "react-jsx-parser": "^1.28.1",
     "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3",
     "reading-time": "^1.2.1",
     "responsive-loader": "2.0.0",
     "sass": "^1.28.0",

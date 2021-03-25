@@ -1,0 +1,20 @@
+{
+  "title": "How to write cleaner CSS when implementing a responsive design",
+  "description": "Write cleaner CSS and avoid seeing it crossed out by encapsulating it in different media queries when implementing a responsive design.",
+  "url": "how-to-write-cleaner-css-when-implementing-a-responsive-design",
+  "type": "article",
+  "article": {
+    "publishedTime": "2021-03-25T00:00:00+01:00",
+    "modifiedTime": "",
+    "authors": ["Victor JEMAN"],
+    "tags": ["CSS", "CSS tips", "responsive design", "front-end", "front-end tips"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/heroes/hero-5.jpg",
+      "width": 970,
+      "height": 634,
+      "alt": "doodle"
+    }
+  ]
+}
