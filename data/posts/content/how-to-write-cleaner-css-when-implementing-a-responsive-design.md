@@ -4,7 +4,7 @@ title: How to write cleaner CSS when implementing a responsive design
 thumbnail: postThumb5
 hero: postHero5
 publishedTime: '2021-03-25T00:00:00+01:00'
-modifiedTime: ''
+modifiedTime: '2021-03-27T00:00:00+01:00'
 updated:
 index: 5
 ---
@@ -29,7 +29,7 @@ Write cleaner CSS and avoid seeing it crossed out by encapsulating it in differe
 
 Are you a front-end developer, and does the following scenario sounds familiar?
 
-You start a project, and the universe was kind to you; there is a design. The design is only for desktop, though. There wasn’t enough time or money to create the mobile one.
+You start a project, and the universe was kind to you; there is a design! The design is only for desktop, though. There wasn’t enough time or money to create the mobile one. Still, you are excited and ready to start the work!
 
 Let’s say you need to implement the following design.
 
@@ -187,6 +187,46 @@ blog5_|3|
 
 ```Image
 blog5_|4|
+```
+
+I chose to use only two breakpoints to more accessible showcase the problem, but in an actual project, we may need more. I also avoid referring to my breakpoints as _mobile_, _tablet_, _desktop_, or _tv_(😁).
+
+I prefer using sizes like **xsmall**, **small**, **medium**, **large**, **xlarge**, etc.
+With this tiny note in mind, we may have the following breakpoints.
+
+```css
+/* general */
+.c-great-day {
+  font-size: 1.1rem;
+}
+
+/* xsmall */
+@media screen and (max-width: 499px) {
+  .c-great-day {
+    color: #ff0181;
+  }
+}
+
+/* small */
+@media screen and (min-width: 500px) and (max-width: 749px) {
+  .c-great-day {
+    color: #ffbe00;
+  }
+}
+
+/* medium */
+@media screen and (min-width: 750px) and (max-width: 1149px) {
+  .c-great-day {
+    color: #ff3243;
+  }
+}
+
+/* large */
+@media screen and (min-width: 1150px) and (max-width: 1449px) {
+  .c-great-day {
+    color: #324aff;
+  }
+}
 ```
 
 Talk is cheap, so I’ve created a <a href="https://codesandbox.io/s/spring-moon-gfpmt?file=/index.html" target="_blank" rel="noreferrer">CodeSandbox</a> and <a href="https://github.com/victorjeman/clean-responsive-css-example" target="_blank" rel="noreferrer">GitHub</a> project where you have the complete example with different CSS files exploring all three approaches.
