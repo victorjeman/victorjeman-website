@@ -106,6 +106,7 @@ export interface IPostThumbnail {
   thumbnail: string;
   title: string;
   slug: string;
+  category: string;
   type: 'blog' | 'tips';
   reading: { text: string };
 }
