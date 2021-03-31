@@ -9,7 +9,8 @@ category: 'news'
 index: 6
 ---
 
-I want to become **a** great **mentor**, not for one or two but **for thousands of people**.
+Would you like to help kids learning how to code?
+I know I would love to become **a** great **mentor**, not for one or two but **for thousands of people**.
 I know, it’s kind of a big deal.
 
 <img class="c-giphy" src="https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif" />
@@ -33,11 +34,9 @@ I just had the first lesson yesterday with five kids trying to learn to program 
 
 The fantastic thing for me is all the soft skills I can polish collaborating with kids. I can’t wait for the next lesson. I'm sure that I will learn a lot from this experience!
 
-> If you are a developer or an IT student from Romania and are interested in being a mentor for kids, check out this website <a href="" target="_blank" rel="noreferrer">www.carteadaliei.ro</a>.
+If you are a developer or an IT student from Romania and are interested in being a mentor for kids, checkout the following Facebook event
 
-There will be an online Facebook event explaining more things about what **Code Hero** means.
-
-> <a href="https://www.facebook.com/events/472601307223654" target="_blank" rel="noreferrer">Office Hour - Code Hero</a> | Monday, 5 april 2021 at 18:00 UTC +03
+> <a href="https://www.facebook.com/events/472601307223654" target="_blank" rel="noreferrer">Office Hour - Code Hero</a>
 
 **Lesson for me**: Don’t worry about making videos on youtube that will help thousands of people. See first if I can help a child to learn something new. Slowly but surely!
 
