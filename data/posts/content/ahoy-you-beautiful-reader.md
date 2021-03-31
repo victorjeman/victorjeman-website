@@ -5,6 +5,7 @@ thumbnail: postThumb1
 hero: postHero1
 publishedTime: '2021-03-10T00:00:00+01:00'
 modifiedTime: ''
+category: 'stories'
 index: 1
 ---
 

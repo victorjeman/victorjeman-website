@@ -38,6 +38,7 @@ export interface IProject {
 export interface IPostData {
   title: string;
   slug: string;
+  category: string;
   publishedTime: string;
   modifiedTime?: string;
   thumbnail: string;
@@ -105,6 +106,7 @@ export interface IPostThumbnail {
   thumbnail: string;
   title: string;
   slug: string;
+  category: string;
   type: 'blog' | 'tips';
   reading: { text: string };
 }

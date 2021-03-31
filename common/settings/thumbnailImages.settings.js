@@ -9,6 +9,8 @@ export const THUMBNAILS_WEBP = {
   postThumb4s: require('../../public/images/blog/thumbnails/thumbnail-4.s.jpg?webp'),
   postThumb5: require('../../public/images/blog/thumbnails/thumbnail-5.jpg?webp'),
   postThumb5s: require('../../public/images/blog/thumbnails/thumbnail-5.s.jpg?webp'),
+  postThumb6: require('../../public/images/blog/thumbnails/thumbnail-6.jpg?webp'),
+  postThumb6s: require('../../public/images/blog/thumbnails/thumbnail-6.s.jpg?webp'),
 };
 
 export const THUMBNAILS_JPG = {
@@ -22,4 +24,6 @@ export const THUMBNAILS_JPG = {
   postThumb4s: require('../../public/images/blog/thumbnails/thumbnail-4.s.jpg'),
   postThumb5: require('../../public/images/blog/thumbnails/thumbnail-5.jpg'),
   postThumb5s: require('../../public/images/blog/thumbnails/thumbnail-5.s.jpg'),
+  postThumb6: require('../../public/images/blog/thumbnails/thumbnail-6.jpg'),
+  postThumb6s: require('../../public/images/blog/thumbnails/thumbnail-6.s.jpg'),
 };

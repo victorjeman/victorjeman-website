@@ -28,7 +28,7 @@ export const Post = ({ post }: { post: IPost }): JSX.Element => {
         <Socials title={title} shareUrl={shareUrl} />
       </Container>
 
-      <PostContent content={post.content} />
+      <PostContent content={post.content} category={post.data.category} />
 
       <Socials title={title} shareUrl={shareUrl} />
 

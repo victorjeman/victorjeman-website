@@ -1,0 +1,20 @@
+{
+  "title": "Start small and grow slowly",
+  "description": "When the goal is ambitious, it’s easy to get lost in all the imperfections that surround us. Don't overthink it. Start small and grow slowly.",
+  "url": "start-small-and-grow-slowly",
+  "type": "article",
+  "article": {
+    "publishedTime": "2021-03-31T00:00:00+01:00",
+    "modifiedTime": "",
+    "authors": ["Victor JEMAN"],
+    "tags": ["life", "news"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/heroes/hero-6.jpg",
+      "width": 970,
+      "height": 634,
+      "alt": "doodle"
+    }
+  ]
+}

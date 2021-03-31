@@ -20,6 +20,11 @@ export default css`
     margin-top: 1.3rem;
   }
 
+  .c-post-thumbnail__category {
+    color: #de7376;
+    font-weight: 500;
+  }
+
   .c-post-thumbnail__reading {
     margin-top: 0.5rem;
   }
