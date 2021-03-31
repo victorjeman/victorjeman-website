@@ -5,7 +5,7 @@ thumbnail: postThumb3
 hero: postHero3
 publishedTime: '2021-03-15T00:00:00+01:00'
 modifiedTime: ''
-updated:
+category: 'stories'
 index: 3
 ---
 

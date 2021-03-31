@@ -14,9 +14,10 @@ import style from './PostContent.style';
 
 interface Props {
   content: string;
+  category: string;
 }
 
-export const PostContent = ({ content }: Props): JSX.Element => {
+export const PostContent = ({ content, category }: Props): JSX.Element => {
   const isXLargeUp = useMediaQuery(MEDIA.XLARGE_UP);
   useWindowSize();
   let tableOfContent = '';
@@ -49,7 +50,7 @@ export const PostContent = ({ content }: Props): JSX.Element => {
           )}
         </aside>
 
-        <section className="c-post-content__right">
+        <section className={`c-post-content__right c-post-content__right--${category}`}>
           <Markdown content={postContent || content} />
         </section>
       </Container>

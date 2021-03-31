@@ -13,6 +13,7 @@ export const PostThumbnail = ({
   slug,
   reading,
   type,
+  category,
 }: IPostThumbnail): JSX.Element => {
   const path = thumbnail.slice(0, thumbnail.length - 1);
   const index = Number(thumbnail.slice(thumbnail.length - 1, thumbnail.length));
@@ -24,7 +25,10 @@ export const PostThumbnail = ({
       </CardSpecial>
 
       <h2 className="c-post-thumbnail__title">{title}</h2>
-      <p className="c-post-thumbnail__reading">{reading.text}</p>
+
+      <p className="c-post-thumbnail__reading">
+        <span className="c-post-thumbnail__category">#{category}</span> / {reading.text}
+      </p>
 
       <style jsx>{style}</style>
     </a>

@@ -13,7 +13,7 @@ interface Props {
 
 export const PostHero = ({ post }: Props): JSX.Element => {
   const { content, data } = post;
-  const { publishedTime, modifiedTime, title, hero } = data;
+  const { publishedTime, modifiedTime, title, hero, category } = data;
   const path = hero.slice(0, hero.length - 1);
   const index = Number(hero.slice(hero.length - 1, hero.length));
   const reading = readingTime(content).text;
@@ -36,6 +36,8 @@ export const PostHero = ({ post }: Props): JSX.Element => {
         )}
 
         <p className="c-post-hero__info-item">{reading}</p>
+
+        <p className="c-post-hero__info-item">{category}</p>
       </div>
 
       <Image path={path} index={index} alt={title} height="600" />

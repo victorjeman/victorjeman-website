@@ -38,6 +38,7 @@ export interface IProject {
 export interface IPostData {
   title: string;
   slug: string;
+  category: string;
   publishedTime: string;
   modifiedTime?: string;
   thumbnail: string;

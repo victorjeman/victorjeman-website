@@ -174,6 +174,12 @@ export default css.global`
     line-height: 1.2;
   }
 
+  .c-giphy {
+    display: block;
+    max-width: 400px;
+    margin: 1rem auto;
+  }
+
   @media ${MEDIA.SMALL_ONLY} {
     .c-post-content {
       font-size: 1.1rem;
@@ -241,7 +247,12 @@ export default css.global`
 
     .c-post-content__right {
       width: calc(100% - 430px);
+
       margin-left: auto;
+    }
+
+    .c-post-content__right--news {
+      margin-right: auto;
     }
 
     // TODO Move to a separate component
