@@ -33,7 +33,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
       <section className="c-posts">
         <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
 
-        <Container type={ISizeModifier.xsmall}>
+        <Container type={ISizeModifier.small}>
           <ul className="c-categories">
             {categories.map((category, index) => (
               <li className="c-categories__item" key={index}>
