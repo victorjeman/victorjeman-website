@@ -1,0 +1,20 @@
+{
+  "title": "How to fix Jest did not exit one second after the test run",
+  "description": "Jest did not exit one second after the test run? Nothing seems to work and you are not sure what process is still running? Use globalTeardown in combination with process.exit(0).",
+  "url": "fix-for-jest-did-not-exit-one-second-after-the-test-run",
+  "type": "article",
+  "article": {
+    "publishedTime": "2021-04-02T00:00:00+01:00",
+    "modifiedTime": "",
+    "authors": ["Victor JEMAN"],
+    "tags": ["jest", "js", "unit tests"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/heroes/hero-7.jpg",
+      "width": 970,
+      "height": 630,
+      "alt": "doodle"
+    }
+  ]
+}

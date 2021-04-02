@@ -11,6 +11,8 @@ export const HEROES_WEBP = {
   postHero5s: require('../../public/images/blog/heroes/hero-5.s.jpg?webp'),
   postHero6: require('../../public/images/blog/heroes/hero-6.jpg?webp'),
   postHero6s: require('../../public/images/blog/heroes/hero-6.s.jpg?webp'),
+  postHero7: require('../../public/images/blog/heroes/hero-7.jpg?webp'),
+  postHero7s: require('../../public/images/blog/heroes/hero-7.s.jpg?webp'),
 };
 
 export const HEROES_JPG = {
@@ -26,4 +28,6 @@ export const HEROES_JPG = {
   postHero5s: require('../../public/images/blog/heroes/hero-5.s.jpg'),
   postHero6: require('../../public/images/blog/heroes/hero-6.jpg'),
   postHero6s: require('../../public/images/blog/heroes/hero-6.s.jpg'),
+  postHero7: require('../../public/images/blog/heroes/hero-7.jpg'),
+  postHero7s: require('../../public/images/blog/heroes/hero-7.s.jpg'),
 };

@@ -23,6 +23,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
     { name: 'stories', status: 0 },
     { name: 'news', status: 0 },
     { name: 'css', status: 0 },
+    { name: 'tips', status: 0 },
   ]);
 
   return (
