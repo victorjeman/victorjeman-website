@@ -76,3 +76,5 @@ blog7_|2|Code
 <img class="c-giphy" src="https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif" />
 
 **Have a great day!**
+
+**Note:** The gifs are from <a href="https://giphy.com" target="_blank" rel="noreferrer">giphy.com</a>

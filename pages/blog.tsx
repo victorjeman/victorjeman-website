@@ -33,7 +33,7 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
       <section className="c-posts">
         <PageIntro pageTitle={pageTitle} pageDescription={pageDescription} />
 
-        <Container type={ISizeModifier.xlarge}>
+        <Container type={ISizeModifier.xsmall}>
           <ul className="c-categories">
             {categories.map((category, index) => (
               <li className="c-categories__item" key={index}>
@@ -55,42 +55,48 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
               </li>
             ))}
           </ul>
-
-          <div className="c-posts__container">
-            {posts
-              .sort((a, b) => Number(matter(a).data.index) - Number(matter(b).data.index))
-              .filter((post) => {
-                if (filter === 'all') {
-                  return true;
-                } else {
-                  const { category } = matter(post).data;
-                  return category === filter;
-                }
-              })
-              .map((post, index) => {
-                const { title, slug, thumbnail, category } = matter(post).data;
-                const reading = readingTime(matter(post).content);
-
-                return (
-                  <PostThumbnail
-                    key={`post-${index}`}
-                    thumbnail={thumbnail}
-                    category={category}
-                    title={title}
-                    slug={slug}
-                    type="blog"
-                    reading={reading}
-                  />
-                );
-              })}
-          </div>
         </Container>
+
+        <div className="c-posts__container">
+          {posts
+            .sort((a, b) => Number(matter(a).data.index) - Number(matter(b).data.index))
+            .filter((post) => {
+              if (filter === 'all') {
+                return true;
+              } else {
+                const { category } = matter(post).data;
+                return category === filter;
+              }
+            })
+            .map((post, index) => {
+              const { title, slug, thumbnail, category } = matter(post).data;
+              const reading = readingTime(matter(post).content);
+
+              return (
+                <PostThumbnail
+                  key={`post-${index}`}
+                  thumbnail={thumbnail}
+                  category={category}
+                  title={title}
+                  slug={slug}
+                  type="blog"
+                  reading={reading}
+                />
+              );
+            })}
+        </div>
       </section>
 
       <style jsx>
         {`
           .c-posts {
             padding-bottom: 2rem;
+          }
+
+          .c-posts__container {
+            max-width: 1300px;
+            margin-right: auto;
+            margin-left: auto;
           }
 
           .c-categories {

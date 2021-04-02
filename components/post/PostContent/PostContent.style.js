@@ -251,7 +251,8 @@ export default css.global`
       margin-left: auto;
     }
 
-    .c-post-content__right--news {
+    .c-post-content__right--news,
+    .c-post-content__right--tips {
       margin-right: auto;
     }
 
