@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { DiscussionEmbed } from 'disqus-react';
 
 import { ISizeModifier, IPost } from '@types';
 import { useWindowSize } from '@hooks/useWindowSize';
@@ -12,18 +13,26 @@ import { Socials } from '@components/common/Socials/Socials';
 import style from './Post.style';
 
 export const Post = ({ post }: { post: IPost }): JSX.Element => {
-  const title = post.data.title || '';
-  const shareUrl = `https://victorjeman.com/blog/${post.data.slug}`;
+  const { title, slug } = post.data;
+  const shareUrl = `https://victorjeman.com/blog/${slug}`;
   useWindowSize();
 
   React.useEffect(() => {
-    UtilService.initDisqus();
+    // UtilService.initDisqus();
   }, []);
 
   return (
     <React.Fragment>
       <Container type={ISizeModifier.small}>
-        <div id="disqus_thread"></div>
+        <DiscussionEmbed
+          shortname="victorjeman"
+          config={{
+            url: shareUrl,
+            identifier: slug,
+            title: title,
+            language: 'zh_TW', //e.g. for Traditional Chinese (Taiwan)
+          }}
+        />
       </Container>
 
       <Container type={ISizeModifier.large}>

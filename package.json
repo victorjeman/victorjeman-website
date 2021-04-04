@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
     "add": "^2.0.6",
+    "disqus-react": "^1.0.11",
     "modern-css-reset": "^1.1.1",
     "next": "10.0.1",
     "react": "17.0.1",
