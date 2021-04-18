@@ -153,25 +153,8 @@ export default function BlogPage({ posts }: IPosts): React.ReactNode {
   );
 }
 
-const getCategories = async () => {
-  const API = process.env.API;
-  const authorization = process.env.AUTORIZATION;
-
-  try {
-    return await axios.get(`${API}/categories`, {
-      headers: {
-        Authorization: `Bearer ${authorization}`,
-      },
-    });
-  } catch (error) {
-    // console.log('error: ', error);
-  }
-};
-
 export async function getStaticProps(): Promise<{ props: IPosts }> {
   const posts = ReadService.readFiles({ dataPath: 'data/posts/content' });
-  const categories = await getCategories();
-  console.log('categories: ', categories);
 
   return {
     props: {
