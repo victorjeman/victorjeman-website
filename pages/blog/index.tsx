@@ -2,6 +2,7 @@ import * as React from 'react';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
 import { NextSeo } from 'next-seo';
+import axios from 'axios';
 
 import { IPosts, ISizeModifier } from '@types';
 import { MEDIA } from '@settings/media.settings';
@@ -13,7 +14,7 @@ import { PageLayout } from '@components/common/PageLayout/PageLayout';
 import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
 import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
-export default function PostsPage({ posts }: IPosts): React.ReactNode {
+export default function BlogPage({ posts }: IPosts): React.ReactNode {
   const pageTitle = `Blog`;
   const pageDescription = `Ideas that will help you with your web development journey and not only.`;
 
@@ -144,7 +145,6 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
             .c-posts__container {
               display: flex;
               flex-wrap: wrap;
-              justify-content: space-between;
             }
           }
         `}
@@ -153,8 +153,25 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
   );
 }
 
+const getCategories = async () => {
+  const API = process.env.API;
+  const authorization = process.env.AUTORIZATION;
+
+  try {
+    return await axios.get(`${API}/categories`, {
+      headers: {
+        Authorization: `Bearer ${authorization}`,
+      },
+    });
+  } catch (error) {
+    // console.log('error: ', error);
+  }
+};
+
 export async function getStaticProps(): Promise<{ props: IPosts }> {
   const posts = ReadService.readFiles({ dataPath: 'data/posts/content' });
+  const categories = await getCategories();
+  console.log('categories: ', categories);
 
   return {
     props: {

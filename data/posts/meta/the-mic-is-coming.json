@@ -1,0 +1,20 @@
+{
+  "title": "Mi-am luat microfon, sper sa fie ok",
+  "description": "Mai conteaza uneori si instrumentele folosite asa ca mi-am luat un microfon.",
+  "url": "the-mic-is-coming",
+  "type": "article",
+  "article": {
+    "publishedTime": "2021-04-18T00:00:00+01:00",
+    "modifiedTime": "",
+    "authors": ["Victor JEMAN"],
+    "tags": ["life", "news"]
+  },
+  "images": [
+    {
+      "url": "https://victorjeman.com/images/blog/heroes/hero-8.jpg",
+      "width": 970,
+      "height": 634,
+      "alt": "doodle"
+    }
+  ]
+}
