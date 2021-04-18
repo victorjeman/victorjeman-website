@@ -13,7 +13,7 @@ import { PageLayout } from '@components/common/PageLayout/PageLayout';
 import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
 import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
-export default function PostsPage({ posts }: IPosts): React.ReactNode {
+export default function BlogPage({ posts }: IPosts): React.ReactNode {
   const pageTitle = `Blog`;
   const pageDescription = `Ideas that will help you with your web development journey and not only.`;
 
@@ -144,7 +144,6 @@ export default function PostsPage({ posts }: IPosts): React.ReactNode {
             .c-posts__container {
               display: flex;
               flex-wrap: wrap;
-              justify-content: space-between;
             }
           }
         `}

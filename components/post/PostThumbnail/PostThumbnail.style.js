@@ -37,6 +37,9 @@ export default css.global`
   @media ${MEDIA.SMALL_ONLY} {
     .c-post-thumbnail {
       padding: 1rem;
+      max-width: 95%;
+      margin-right: auto;
+      margin-left: auto;
     }
 
     .c-post-thumbnail img {
@@ -61,9 +64,16 @@ export default css.global`
     }
   }
 
+  @media ${MEDIA.MEDIUM_UP} {
+    .c-post-thumbnail {
+      margin-right: 1%;
+      margin-left: 1%;
+    }
+  }
+
   @media ${MEDIA.LARGE_UP} {
     .c-post-thumbnail {
-      width: 32%;
+      width: 31%;
       padding: 1rem;
     }
 
