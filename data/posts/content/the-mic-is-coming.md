@@ -13,16 +13,20 @@ index: 8
 
 Hai noroc!
 
-Am facut un video <a href="https://www.youtube.com/watch?v=CqrFAnOBC1M" target="_blank" rel="noreferrer">video</a> fain, mega fain as spune. Audio e putin cam caca, dar asa in general e destul de misto :).
+Am facut un <a href="https://www.youtube.com/watch?v=CqrFAnOBC1M" target="_blank" rel="noreferrer">video</a> fain, mega fain as spune. Audio e putin cam caca, dar asa in general e destul de ok :).
 
-Mi-am dat seama ca am nevoie de un microfon decent ca sa nu ma fac de ras asa ca mi-am facut comanda de un microfon smecher. Nu stiu daca o sa ma ajute sa par mai destept, dar o sa va ajute sa ma auziti mai bine.
+Mi-am dat seama ca am nevoie de un microfon decent ca sa nu ma fac de ras. Mi-am facut comanda de ceva smecher. Nu stiu daca o sa ma ajute sa par mai destept, dar o sa va ajute sa ma auziti mai bine.
 
 Astept sa ajunga!
 
 Nu am noutati, asa ca scriu si eu ca sa nu tac.
 
-In rest sunt bine. Stiu ca nu-ti pasa, dar e ok.
+In rest sunt bine. Asta asa, da-ti pasa.
 
 Ai grija de tine!
+
+```Image
+blog8_|1|
+```
 
 **Note:** The gifs are from <a href="https://giphy.com" target="_blank" rel="noreferrer">giphy.com</a>

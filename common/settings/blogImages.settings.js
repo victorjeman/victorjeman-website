@@ -61,6 +61,9 @@ export const BLOG_WEBP = {
   blog7_1s: require('../../public/images/blog/post-7/img-1.s.jpg?webp'),
   blog7_2: require('../../public/images/blog/post-7/img-2.jpg?webp'),
   blog7_2s: require('../../public/images/blog/post-7/img-2.s.jpg?webp'),
+
+  blog8_1: require('../../public/images/blog/post-8/img-1.jpg?webp'),
+  blog8_1s: require('../../public/images/blog/post-8/img-1.s.jpg?webp'),
 };
 
 export const BLOG_JPG = {
@@ -126,4 +129,7 @@ export const BLOG_JPG = {
   blog7_1s: require('../../public/images/blog/post-7/img-1.s.jpg'),
   blog7_2: require('../../public/images/blog/post-7/img-2.jpg'),
   blog7_2s: require('../../public/images/blog/post-7/img-2.s.jpg'),
+
+  blog8_1: require('../../public/images/blog/post-8/img-1.jpg'),
+  blog8_1s: require('../../public/images/blog/post-8/img-1.s.jpg'),
 };
