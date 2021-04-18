@@ -15,7 +15,7 @@ Hai noroc!
 
 Am facut un <a href="https://www.youtube.com/watch?v=CqrFAnOBC1M" target="_blank" rel="noreferrer">video</a> fain, mega fain as spune. Audio e putin cam caca, dar asa in general e destul de ok :).
 
-Mi-am dat seama ca am nevoie de un microfon decent ca sa nu ma fac de ras. Mi-am facut comanda de ceva smecher. Nu stiu daca o sa ma ajute sa par mai destept, dar o sa va ajute sa ma auziti mai bine.
+Mi-am dat seama ca am nevoie de un microfon decent ca sa nu ma fac de ras. Mi-am facut comanda de ceva smecher. Nu stiu daca o sa ma ajute sa par mai destept, dar o sa te ajute sa ma auzi mai bine.
 
 Astept sa ajunga!
 
