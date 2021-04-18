@@ -21,7 +21,7 @@ Astept sa ajunga!
 
 Nu am noutati, asa ca scriu si eu ca sa nu tac.
 
-In rest sunt bine. Asta asa, da-ti pasa.
+In rest sunt bine. Asta asa, daca-ti pasa.
 
 Ai grija de tine!
 
