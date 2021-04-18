@@ -2,7 +2,6 @@ import * as React from 'react';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
 import { NextSeo } from 'next-seo';
-import axios from 'axios';
 
 import { IPosts, ISizeModifier } from '@types';
 import { MEDIA } from '@settings/media.settings';
