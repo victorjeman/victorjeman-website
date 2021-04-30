@@ -24,7 +24,7 @@ export default function FAQPage(): React.ReactNode {
           <iframe
             className="c-hackerrank__intro"
             height="394"
-            src="https://www.youtube.com/embed/PnAnmGcWyu8"
+            src="https://www.youtube.com/embed/pGvM--i-Zi4"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,7 +35,7 @@ export default function FAQPage(): React.ReactNode {
             <article className="c-hackerrank__video">
               <iframe
                 height="250"
-                src="https://www.youtube.com/embed/fyLevQThYXU"
+                src="https://www.youtube.com/embed/yCj0ZUtQgy0"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
