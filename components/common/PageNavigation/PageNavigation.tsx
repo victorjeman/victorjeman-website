@@ -60,6 +60,12 @@ export const PageNavigation: React.FC = () => {
             </li>
 
             <li className="c-page-navigation__menu-item">
+              <CustomLink href="/hackerrank">
+                <a className="c-page-navigation__menu-link">HackerRank</a>
+              </CustomLink>
+            </li>
+
+            <li className="c-page-navigation__menu-item">
               <CustomLink href="/faq">
                 <a className="c-page-navigation__menu-link">FAQ</a>
               </CustomLink>

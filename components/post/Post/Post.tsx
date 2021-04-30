@@ -25,8 +25,6 @@ export const Post = ({ post }: { post: IPost }): JSX.Element => {
 
       <PostContent content={post.content} category={post.data.category} />
 
-      <Socials title={title} shareUrl={shareUrl} />
-
       <style jsx>{style}</style>
     </React.Fragment>
   );
