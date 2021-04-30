@@ -17,27 +17,14 @@ import style from './Socials.styles';
 export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
   React.useEffect(() => {
     try {
-      window.fbAsyncInit = function () {
-        FB.init({
-          appId: '436744724067170',
-          status: true,
-          cookie: true,
-          xfbml: true,
-          oauth: true,
-        });
-      };
-      (function (d) {
-        var js,
-          id = 'facebook-jssdk';
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement('script');
+      ((d, s, id) => {
+        const fjs = d.getElementsByTagName(s)[d.getElementsByTagName(s).length - 1];
+        if (d.getElementById(id)) return;
+        const js = d.createElement(s);
         js.id = id;
-        js.async = true;
-        js.src = '//connect.facebook.net/en_US/all.js';
-        d.getElementsByTagName('head')[0].appendChild(js);
-      })(document);
+        js.src = `//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=436744724067170`;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
     } catch (error) {
       console.log('error: ', error);
     }
@@ -73,6 +60,8 @@ export const Socials = ({ shareUrl, title, sticky }: ISocials): JSX.Element => {
             data-action="like"
             data-size="large"
             data-share="true"
+            data-show-faces="true"
+            data-colorscheme="light"
           ></div>
         </ClientOnly>
       </div>
