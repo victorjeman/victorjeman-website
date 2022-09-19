@@ -3,6 +3,7 @@ export enum ISizeModifier {
   medium = 'medium',
   large = 'large',
   xlarge = 'xlarge',
+  xxlarge = 'xxlarge',
 }
 
 export interface ITestimonial {
