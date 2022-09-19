@@ -26,4 +26,8 @@ export default css`
   .c-container--xlarge {
     max-width: 1150px;
   }
+
+  .c-container--xxlarge {
+    max-width: 1300px;
+  }
 `;
