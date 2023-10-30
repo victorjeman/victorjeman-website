@@ -14,7 +14,7 @@ import { PostThumbnail } from '@components/post/PostThumbnail/PostThumbnail';
 import { PageIntro } from '@components/common/PageIntro/PageIntro';
 
 export default function BlogPage({ posts }: IPosts): React.ReactNode {
-  const pageTitle = `Blog`;
+  const pageTitle = `My Little Digital Garden`;
   const pageDescription = `Ideas that will help you with your web development journey and not only.`;
 
   const [filter, setFilter] = React.useState('all');

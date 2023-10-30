@@ -43,7 +43,7 @@ export const PageNavigation: React.FC = () => {
 
             <li className="c-page-navigation__menu-item">
               <CustomLink href="/blog">
-                <a className="c-page-navigation__menu-link">Blog</a>
+                <a className="c-page-navigation__menu-link">Digital Garden</a>
               </CustomLink>
             </li>
 
@@ -55,19 +55,7 @@ export const PageNavigation: React.FC = () => {
 
             <li className="c-page-navigation__menu-item">
               <CustomLink href="/projects">
-                <a className="c-page-navigation__menu-link">Projects</a>
-              </CustomLink>
-            </li>
-
-            <li className="c-page-navigation__menu-item">
-              <CustomLink href="/hackerrank">
-                <a className="c-page-navigation__menu-link">HackerRank</a>
-              </CustomLink>
-            </li>
-
-            <li className="c-page-navigation__menu-item">
-              <CustomLink href="/faq">
-                <a className="c-page-navigation__menu-link">FAQ</a>
+                <a className="c-page-navigation__menu-link">Client work</a>
               </CustomLink>
             </li>
           </ul>
