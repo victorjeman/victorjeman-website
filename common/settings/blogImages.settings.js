@@ -64,6 +64,25 @@ export const BLOG_WEBP = {
 
   blog8_1: require('../../public/images/blog/post-8/img-1.jpg?webp'),
   blog8_1s: require('../../public/images/blog/post-8/img-1.s.jpg?webp'),
+
+  blog9_1: require('../../public/images/blog/post-9/img-1.jpg?webp'),
+  blog9_1s: require('../../public/images/blog/post-9/img-1.s.jpg?webp'),
+  blog9_2: require('../../public/images/blog/post-9/img-2.jpg?webp'),
+  blog9_2s: require('../../public/images/blog/post-9/img-2.s.jpg?webp'),
+  blog9_3: require('../../public/images/blog/post-9/img-3.jpg?webp'),
+  blog9_3s: require('../../public/images/blog/post-9/img-3.s.jpg?webp'),
+  blog9_4: require('../../public/images/blog/post-9/img-4.jpg?webp'),
+  blog9_4s: require('../../public/images/blog/post-9/img-4.s.jpg?webp'),
+  blog9_5: require('../../public/images/blog/post-9/img-5.jpg?webp'),
+  blog9_5s: require('../../public/images/blog/post-9/img-5.s.jpg?webp'),
+  blog9_6: require('../../public/images/blog/post-9/img-6.jpg?webp'),
+  blog9_6s: require('../../public/images/blog/post-9/img-6.s.jpg?webp'),
+  blog9_7: require('../../public/images/blog/post-9/img-7.jpg?webp'),
+  blog9_7s: require('../../public/images/blog/post-9/img-7.s.jpg?webp'),
+  blog9_8: require('../../public/images/blog/post-9/img-8.jpg?webp'),
+  blog9_8s: require('../../public/images/blog/post-9/img-8.s.jpg?webp'),
+  blog9_9: require('../../public/images/blog/post-9/img-9.jpg?webp'),
+  blog9_9s: require('../../public/images/blog/post-9/img-9.s.jpg?webp'),
 };
 
 export const BLOG_JPG = {
@@ -132,4 +151,23 @@ export const BLOG_JPG = {
 
   blog8_1: require('../../public/images/blog/post-8/img-1.jpg'),
   blog8_1s: require('../../public/images/blog/post-8/img-1.s.jpg'),
+
+  blog9_1: require('../../public/images/blog/post-9/img-1.jpg'),
+  blog9_1s: require('../../public/images/blog/post-9/img-1.s.jpg'),
+  blog9_2: require('../../public/images/blog/post-9/img-2.jpg'),
+  blog9_2s: require('../../public/images/blog/post-9/img-2.s.jpg'),
+  blog9_3: require('../../public/images/blog/post-9/img-3.jpg'),
+  blog9_3s: require('../../public/images/blog/post-9/img-3.s.jpg'),
+  blog9_4: require('../../public/images/blog/post-9/img-4.jpg'),
+  blog9_4s: require('../../public/images/blog/post-9/img-4.s.jpg'),
+  blog9_5: require('../../public/images/blog/post-9/img-5.jpg'),
+  blog9_5s: require('../../public/images/blog/post-9/img-5.s.jpg'),
+  blog9_6: require('../../public/images/blog/post-9/img-6.jpg'),
+  blog9_6s: require('../../public/images/blog/post-9/img-6.s.jpg'),
+  blog9_7: require('../../public/images/blog/post-9/img-7.jpg'),
+  blog9_7s: require('../../public/images/blog/post-9/img-7.s.jpg'),
+  blog9_8: require('../../public/images/blog/post-9/img-8.jpg'),
+  blog9_8s: require('../../public/images/blog/post-9/img-8.s.jpg'),
+  blog9_9: require('../../public/images/blog/post-9/img-9.jpg'),
+  blog9_9s: require('../../public/images/blog/post-9/img-9.s.jpg'),
 };

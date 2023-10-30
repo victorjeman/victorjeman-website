@@ -11,7 +11,7 @@ const changeInFolder = ({ directory, width }) => {
         width,
         fit: 'cover',
       })
-      .toFile(`${directory}/${fileName}.s.jpg`);
+      .toFile(`${directory}/${fileName}.jpg`);
   });
 };
 
@@ -33,5 +33,5 @@ const changeFile = ({ path, width }) => {
     .toFile(`${path}.s.jpg`);
 };
 
-// changeFile({ path: './public/images/blog/thumbnails/thumbnail-4.jpg', width: 480 });
-changeInFolder({ directory: './public/images/blog/edit', width: 700 });
+changeFile({ path: './public/images/blog/edit/hero-9.png', width: 480 });
+// changeInFolder({ directory: './public/images/blog/edit', width: 700 });

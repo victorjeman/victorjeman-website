@@ -24,7 +24,7 @@ export default css`
   }
 
   .c-container--xlarge {
-    max-width: 1150px;
+    max-width: 1200px;
   }
 
   .c-container--xxlarge {
